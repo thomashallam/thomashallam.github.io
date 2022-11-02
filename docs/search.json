@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tom’s blog",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 30, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,17 +7,38 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tom’s blog",
+    "section": "",
+    "text": "Weeknotes - 2 November 2022\n\n\n\n\n\n\n\nweeknotes\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2022\n\n\nTom Hallam\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWeeknotes - 26 October 2022\n\n\n\n\n\n\n\nweeknotes\n\n\n\n\n\n\n\n\n\n\n\nOct 26, 2022\n\n\nTom Hallam\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nThomas Hallam\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2022-10-24-welcome/index.html",
+    "href": "posts/2022-10-24-welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Moving my blog\n\nThis is the first post in my new Quarto blog. Welcome!\nI’ve decided to close down my previous projects due to several things: ongoing hack attempts, increasing hosting costs, reduced time to manage servers. Using Wordpress for 10 years I’ve learn so much about websites/cloud/apps/dev/data/security, however for my blog i’ve decided the needs are quite simple so using Quarto is a good way to go.\nI’ll gradually be migrating some of the content over from my old blog and Medium. This will continue to be a space where I share how things are going for me, at work and outside\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/2022-10-26-weeknotes/index.html",
+    "href": "posts/2022-10-26-weeknotes/index.html",
+    "title": "Weeknotes - 26 October 2022",
+    "section": "",
+    "text": "What’s going on Tom\n\n\nWe’ve been working hard to increase awareness of the User Centre-Desing Maturity Model, Self-Review Workshops, and Community of Practice. Things were abit slow over the summer months, but gradually things really started to take off. A few larger teams are super keen and booked in lots of workshops, and rightly so some of our teams are skeptical “what another 3 hour workshop?” It does take a while to build up trust and explain the benefits. It’s not for our UCD leaders and workshop faciliators to push it, the tool is a self-review process and the evidence can be heard from the great feedback from teams who have taken part about the positive changes it has made\nThe ‘Reseaarch Panels Best Practice’ workstream is starting to deliver some outcomes. We’ve designed new way of communicating and recruiting healthcare staff and “professional users”. A pilot has been completed with over 50 staff signing up for the new panel. We’re next working on a comms plan to roll out the service for all our researchers shortly!\nAnti-Racism Allies training - this training (run by HEE) got me reflecting quite deeply on my own personal history and where I grew up. There were some really nice people on the course. Note all the course attendees were white managers from the NHS and our cohort will meet up during 6-month programme. I’m hopeful that I can learn more about myself, gain some wider perspectives, and understand how I can be a better ally in the future.\n\n\nChallenges and puzzles this week\n\n\nTaking on way too much. Our UCD-Ops team is really small, there are so many teams that need help and the problems are often very complex. I really really (really really) enjoy helping people and it gives a great boost when we hear positive feedback from colleagues after helping them, we just want to help more. However, I realise that by helping people all the time it can be a burden on myself, and the team. We’ve talked about pushing back more and what can we do to ensure everyone gets a fair amount of help and they become self-sufficient. We’re looking at ways our team can better signpost help to reduce the number of repeated request.\n\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/2022-11-02-weeknotes/index.html",
+    "href": "posts/2022-11-02-weeknotes/index.html",
+    "title": "Weeknotes - 2 November 2022",
+    "section": "",
+    "text": "What’s going on Tom\n\n\nThe Leeds UX Lab. Everything is in place to launch this venue for our colleagues to use very soon. It has been a real long road, with so many hurdles to overcome; it was quite an emotional time when we received our training and supplier handover last week. This week I visited again to test out everything we learnt, I plugged in all the equipment and clicked the ‘Start’, ‘Record’ and ‘Go Live’ buttons on the controls. Everything worked as anticipated such a relief!\nBehind the scenes we’ve been ‘doing the hard work’ on our Knowledge Management/Documentation/Policies to support our teams and colleagues during the merger. These resources will help ensure things aren’t lost in transmission but also supports scalability as the organisations align. We’re always looking to collaborate and if teams have resources they can happily feed them into our documentation process.\nMeeting a key supplier. We’ve been working together remotely for many years, so it was great to finally meet the supplier for a brief chat in Leeds and share more about the context in which we work and opportunities to improve the relationship between our researchers and support teams.\n\n\nChallenges and puzzles this week\n\n\nI was super busy over half-term with family and work. I’ve booked 3 days off to repair my mental health and tidy up some things. I’ve personally been through some difficult times during the past few years; I’m not sure I have the mental capacity to go deep thinking at this time. It is so much pressure just to be a good adult role model for 2 kids every day, and run a tight ship; my own needs are to relax, enjoy life and learn how to build trust in people again.\nCoping with a recent loss in the family.\n\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/archive/post-with-code/index.html",
+    "href": "posts/archive/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]
