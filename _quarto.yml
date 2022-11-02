@@ -3,7 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "blog"
+  title: "Tom's blog"
+  site-url: https://thomashallam.github.io/
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-EMB22EEKPF"
+    storage: none
+    anonymize-ip: true
   navbar:
     right:
       - about.qmd

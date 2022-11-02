@@ -1,5 +1,5 @@
 ---
-title: "Tom"
+title: "About"
 image: profile.jpg
 about:
   template: jolla
@@ -17,3 +17,5 @@ about:
 ---
 
 About this blog
+
+Test
