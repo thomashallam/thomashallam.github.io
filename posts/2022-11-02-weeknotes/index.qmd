@@ -23,4 +23,3 @@ It has been a real long road, with so many hurdles to overcome; it was quite an 
 
 ![](nils-nedel-ONpGBpns3cs-unsplash.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
