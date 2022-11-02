@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "UX, reflections, learnings and weeknotes"
 listing:
   contents: posts
   sort: "date desc"
