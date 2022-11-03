@@ -11,6 +11,8 @@ website:
     palette: dark
   google-analytics:
     tracking-id: "G-EMB22EEKPF"
+    storage: cookies
+    anonymize-ip: false
   navbar:
     right:
       - about.qmd
