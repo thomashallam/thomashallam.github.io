@@ -1,11 +1,16 @@
 [
   {
+    "listing": "/archive.html",
+    "items": [
+      "/posts-archive/post-with-code/test.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2022-11-02-weeknotes/index.html",
       "/posts/2022-10-26-weeknotes/index.html",
-      "/posts/2022-10-24-welcome/index.html",
-      "/posts/archive/post-with-code/index.html"
+      "/posts/2022-10-24-welcome/index.html"
     ]
   }
 ]

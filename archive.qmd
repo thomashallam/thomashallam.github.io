@@ -1,7 +1,7 @@
 ---
-title: "UX, reflections, learnings and weeknotes"
+title: "Archive"
 listing:
-  contents: posts/**/*.qmd
+  contents: posts-archive/**/*.qmd
   sort: "date desc"
   type: default
   categories: true
@@ -11,5 +11,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-
-[Blog archive](/archive.qmd)
+[Recent posts](/index.qmd)

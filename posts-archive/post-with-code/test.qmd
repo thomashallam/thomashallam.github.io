@@ -6,10 +6,10 @@ format:
 author: "Harlow Malloc"
 date: "2022-01-01"
 categories: [news, code, analysis]
-image: "image.jpg"
+image: "thumbnail.jpg"
 jupyter: python3
+freeze: true
 ---
-
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.
 
@@ -30,3 +30,5 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
+
+![](thumbnail.jpg)

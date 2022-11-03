@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thomashallam.github.io/about.html</loc>
-    <lastmod>2022-11-03T00:03:41.710Z</lastmod>
+    <lastmod>2022-11-03T16:00:22.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/archive.html</loc>
+    <lastmod>2022-11-03T16:00:25.228Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/index.html</loc>
-    <lastmod>2022-11-03T00:03:38.831Z</lastmod>
+    <lastmod>2022-11-03T16:00:26.580Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-10-24-welcome/index.html</loc>
-    <lastmod>2022-11-02T23:59:54.041Z</lastmod>
+    <lastmod>2022-11-03T16:00:26.930Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-10-26-weeknotes/index.html</loc>
-    <lastmod>2022-11-02T23:59:54.404Z</lastmod>
+    <lastmod>2022-11-03T16:00:27.315Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-11-02-weeknotes/index.html</loc>
-    <lastmod>2022-11-02T23:59:54.789Z</lastmod>
+    <lastmod>2022-11-03T16:00:27.662Z</lastmod>
   </url>
   <url>
-    <loc>https://thomashallam.github.io/posts/archive/post-with-code/index.html</loc>
-    <lastmod>2022-11-02T23:59:56.194Z</lastmod>
+    <loc>https://thomashallam.github.io/posts-archive/post-with-code/test.html</loc>
+    <lastmod>2022-11-03T16:00:29.155Z</lastmod>
   </url>
 </urlset>
