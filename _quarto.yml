@@ -6,8 +6,8 @@ website:
   title: "Tom's blog"
   site-url: https://thomashallam.github.io/
   cookie-consent:
-    type: express
-    style: headline
+    type: implied
+    style: simple
     palette: dark
   google-analytics:
     tracking-id: "G-EMB22EEKPF"
