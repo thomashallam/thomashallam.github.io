@@ -1,5 +1,5 @@
 ---
-title: "Usability esting when choice is constrained"
+title: "Usability testing when choice is constrained"
 format:
   html:
     code-fold: true

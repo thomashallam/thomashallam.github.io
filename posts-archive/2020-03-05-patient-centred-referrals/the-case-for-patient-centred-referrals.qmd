@@ -5,7 +5,7 @@ format:
     code-fold: true
 author: "Thomas Hallam"
 date: "2020-03-05"
-categories: [user needs, user-research, patient, referrals, discovery]
+categories: [user needs, user-research, patients, referrals, discovery]
 image: "1_n6gOZoOpKqgAxExWgVPmrQ.png"
 ---
 

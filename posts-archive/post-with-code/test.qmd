@@ -4,7 +4,7 @@ format:
   html:
     code-fold: true
 author: "Harlow Malloc"
-date: "2022-01-01"
+date: "2001-01-01"
 categories: [news, code, analysis]
 image: "thumbnail.jpg"
 jupyter: python3
