@@ -11,4 +11,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-[Recent posts](/index.qmd)
+[More recent posts](/index.qmd)

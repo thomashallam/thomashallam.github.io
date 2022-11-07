@@ -1,7 +1,6 @@
 ---
 title: "Hello"
 image: profile.jpg
-format: html
 about:
   template: jolla
   links:
@@ -30,7 +29,17 @@ I really really enjoy working in UX. Over the past 15 years I have been very luc
 
 Having my own blog really helped me learn about UX, research tools and provided space to test new things; before recommending them as an approach for 'the real projects' at work. 
 
-I am really open and honest in all aspects of my work. Here is some the anonymous feedback I have received from colleagues in the few years:
+
+
+##
+
+## Continuous improvement
+
+I am very grateful for time people have spent giving me feedback whether it was colleagues or project stakeholders. It does help a lot with keeping focussed and finding areas for improvement!!
+
+Send anonymous feedback to Tom: <https://bit.ly/Tom360>
+
+Here is sample of the feedback I received from colleagues in the past few years:
 
 •	“Very passionate, great at organising things and providing insights to the team quickly”
 
@@ -53,10 +62,3 @@ I am really open and honest in all aspects of my work. Here is some the anonymou
 •	“Commitment to UCD ways of working, persistence in solving problems and finding insights, ability to take very complex information and understand it quickly, ability to get the most from tools such as Qualtrics. Tom’s deep subject knowledge and facility with tech is a significant asset to any team.”
 
 •	“Large amounts of detailed information Identification of issues”
-
-I am very grateful for time people have spent giving feedback whether it was colleagues or project stakeholders.
-
-It does help a lot with keeping focussed and finding areas for personal improvement!!
-
-Send anonymous feedback to Tom:
-https://bit.ly/Tom360 

@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thomashallam.github.io/about.html</loc>
-    <lastmod>2022-11-03T16:00:22.831Z</lastmod>
+    <lastmod>2022-11-07T21:54:31.452Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/archive.html</loc>
-    <lastmod>2022-11-03T16:00:25.228Z</lastmod>
+    <lastmod>2022-11-07T21:54:37.838Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/index.html</loc>
-    <lastmod>2022-11-03T16:00:26.580Z</lastmod>
+    <lastmod>2022-11-07T21:54:39.453Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-10-24-welcome/index.html</loc>
-    <lastmod>2022-11-03T16:00:26.930Z</lastmod>
+    <lastmod>2022-11-07T21:54:39.943Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-10-26-weeknotes/index.html</loc>
-    <lastmod>2022-11-03T16:00:27.315Z</lastmod>
+    <lastmod>2022-11-07T21:54:40.438Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-11-02-weeknotes/index.html</loc>
-    <lastmod>2022-11-03T16:00:27.662Z</lastmod>
+    <lastmod>2022-11-07T21:54:40.950Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts-archive/2017-09-11-pondering-private-beta/pondering-private-beta.html</loc>
+    <lastmod>2022-11-07T21:54:42.868Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts-archive/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html</loc>
+    <lastmod>2022-11-07T21:54:44.453Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/post-with-code/test.html</loc>
-    <lastmod>2022-11-03T16:00:29.155Z</lastmod>
+    <lastmod>2022-11-07T21:54:46.105Z</lastmod>
   </url>
 </urlset>
