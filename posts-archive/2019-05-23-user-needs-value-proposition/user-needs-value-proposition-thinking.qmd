@@ -1,0 +1,78 @@
+---
+title: "User Needs vs. Value Proposition thinking"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2019-05-23"
+categories: [user needs, user-research, user experience, product management]
+image: "1_b2jJLKkBFIi7k78MNZb7IA.jpeg"
+---
+
+![](1_b2jJLKkBFIi7k78MNZb7IA.jpeg)
+
+
+I’ve seen teams design lovely journeys and content but not understanding what is the core thing they do that adds value for their users.
+
+**In UX the focus is often to understand users and their needs, obviously that is important but, this is different from having a strong value proposition.**
+
+Solutions are typically created to meet a need identified in Discovery, usability testing an Alpha will tell us if it is usable. Somewhere in the middle of Discovery and Alpha often things get lost and stuff gets released without initially exploring if the team are creating a strong value proposition.
+
+Can this new thing be described succinctly in a way that is appealing and effectively communicates why people should use the new product / service / feature. If it can’t be explained, it won’t get used (or sold).
+
+To help unpick this issue, some useful research questions spring to mind.
+
+DIFFERENTIATION
+
+* Why would you use this thing over the 10+ other things that perform similar functions?
+
+MASTERY
+
+* What is the 1 best thing about this product?
+* What does it do that you can’t do with anything else?
+
+FIRST IMPRESSION
+
+* What 3 words come to mind after initially seeing the service or brand?
+* Who do you think would create a thing like this? (i.e. white-label testing)
+
+EXPERIENCE DELIGHT
+
+* How did you feel while going through the journey?
+
+RECALL & VIRAL EFFECTS
+
+* How would you describe the thing to a friend?
+* What would you type in search to find this thing?
+
+CONVERSION & RETENTION
+
+* Would you swap your current one for this one?
+* Would you come back to the service tomorrow? Why?
+
+RESOURCEFULNESS & PRODUCTIVITY
+
+* What would you do with the money/time you saved by using this product?
+
+
+From working previously with start-ups, entrepreneurs and blue chip clients for several years to evaluate markets, test concepts, optimise and promote their services I realised the products & teams that survived, grew, or got funding typically had similar traits:
+
+> ### a strong value proposition, product market fit, a sense of purpose, and a compelling story.
+
+In commercial spaces this type of information is typically communicated through landing pages. We know these are robustly built using keyword discovery and conversion testing.
+
+In the public sector transaction space most service landing pages are instructional with a big “Start now” button. Value proposition and descriptive information is rarely considered appropriate.
+
+In a pure transactional space where there is no alternative, e.g. license renewal, people just want to find a task and get it done then that’s fine
+
+In sectors such as the NHS where many platforms and services (central, regional, local, etc) are vying for the same users, then value proposition becomes really important.
+
+Why would a hospital use this supplier over the other supplier? Is it worth using the centralised systems that are good but not perfect vs. spending millions on custom builds? Why would a patient use a health app when there are 10,000 other health apps?
+
+In the start-up world if there is an unclear need or weak value proposition, this usually equates to none-startup, or launch followed by graduate-decline, or outright failure.
+
+In my opinion, gentrification of digital services is a risky double-edged-sword. While making things consistent can reduce time to build a thing and increase the success rates for tasks, it could slow down product adoption.
+
+I’m surprised when it comes to service landing pages that the commercially-savvy Product Managers and the communications leads aren’t pushing for value-focused messaging and targeted advertising (over generic national campaigns) as these are shown to improve the experience, improve adoption rates, aid retention and likelihood to recommend.
+
+There are many great things happening in the public sector digital space, but we’re still playing catch-up in terms of understanding how best to communicate the value and drive adoption for various services and platforms we create.

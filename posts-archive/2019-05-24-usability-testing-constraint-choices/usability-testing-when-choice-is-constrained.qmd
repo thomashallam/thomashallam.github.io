@@ -1,0 +1,53 @@
+---
+title: "Usability esting when choice is constrained"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2019-05-24"
+categories: [user-research, usability testing, referrals]
+image: "1_i384H_6SMsFYMMH4aPrZfw.jpeg"
+---
+
+![Image: [Frank V](https://unsplash.com/photos/U3sOwViXhkY){.external target="_blank"}](1_i384H_6SMsFYMMH4aPrZfw.jpeg)
+
+> “I’ve been told not to click that button.”
+
+> “I know how I would do [the task], but we’ve been told that the other team will do that bit.”
+
+> “We don’t use that [feature] because there was some exercise that happened with swimlanes.”
+
+>“Our cheat sheet says to avoid those buttons.”
+
+>“The policy is never to process that type [of referral].”
+
+The are comments heard recently while testing a new version of NHS e-Referral Service professional case working application.
+
+It seems every GP surgery and hospital trust there has been local initiatives to decide how to workaround the system for their own needs.
+
+**This all makes for a really interesting conundrum when considering design and when it comes to usability testing those changes.**
+
+Are we testing the effectiveness of the feature?Are we testing the consequences of the change on existing formalised usage policies.
+
+How can we improve usability for our users of a system when there is an absence of freedom regarding which buttons and actions they feel they perform?
+
+Inevitably we need to get to the root cause we must dig into the why.
+
+* Who told you not to use it? 
+* Why did they tell you not to use it? 
+* What happens if you do use it?
+
+Some hospitals already invested in [automated processing tools](https://www.computerweekly.com/news/252450152/NHS-trust-uses-automation-and-virtual-workers-to-speed-up-referrals){.external target="_blank"} and [“virtual workers”](https://www.computerworld.com/article/3427899/how-an-nhs-trust-adopted--virtual-workers--to-process-gp-referrals.html){.external target="_blank"} to speed up processing referrals.
+
+Occasionally feedback we receive on design enhancements can be negative due to rework required in terms of local policy implementation or reprogramming in-house automation tools.
+
+The user interface can’t manage all variations of local implementation. With the redesign work happening this year we need to find solutions that work for the majority use cases (i.e. [Red Routes](https://www.userfocus.co.uk/articles/redroutes.html){.external target="_blank"}), not break all the designs to continue supporting local initiatives and workarounds.
+
+All interesting challenges to be working on; how do you measure success when you aren’t just testing ease of use, you’re testing against variations in local and national policy, business process, automation process and general reluctance to change.
+
+To have any chance of making things better, and to improve the overall experience, ultimately the service needs to reduce the number workarounds in place.
+
+
+### *TL;DR*
+
+>### "Not all users are going to be happy with all the changes all the time."
