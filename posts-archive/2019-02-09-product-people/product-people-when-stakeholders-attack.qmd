@@ -1,0 +1,145 @@
+---
+title: "Product People - When stakeholders attack!"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2019-02-09"
+categories: [user-research, user-centred design, product management, stakeholders]
+image: "1_7TlzAXCWmXs-1kyG1u32rA.jpeg"
+---
+
+![Great Logo: When Stakeholders Attack!](1_7TlzAXCWmXs-1kyG1u32rA.jpeg)
+
+
+
+### Why did I go?
+
+As a User Researcher working in the NHS, it seems every project I have been involved in over 4 years has had ample stakeholders (internal and external) lobbying to influence the direction whether that is during planning, discovery research, design or delivery stages.
+
+Everyone seems to hold an opinion, on everything — all the time, opinion-based-judgement seems to disrupt the evidence-based process of identifying the right problem to solve and finding the best solution.
+
+These experiences lead me to snap-up a ticket to the first Product People Midlands event. I was really impressed and excited to see an interesting event like this happening outside of London.
+
+### What was this event about?
+
+Aptly named ‘When stakeholders attack’ the meet-up set off with friendly words from the host Si Manby ([ManbySi](https://twitter.com/ManbySi){.external target="_blank"})and the event didn’t disappoint following that.
+
+This was a great no-holds-barred think-out-loud debate about the major challenges facing many Product Managers and Product Teams across departments.
+
+The presenters focused on re-occurring problem areas and each brought a key quotes to start their talk and discussion:
+
+Kaz Hufton ([@Kaz_H_666](https://twitter.com/Kaz_H_666){.external target="_blank"})
+
+![](1_moaYTdTSwnWFrO6s14BOig.png)
+![](1_BVNCXhFocaJ7OGKYOd0ebA.png)
+
+
+
+
+
+The talk focused on evidence of a fundamental misunderstanding of what “discovery” means,
+
+“every time I do a project I have to explain what a discovery is, and why we are doing it, to the same people. Like 68 times.”
+
+“It took me a year to realise what we were doing was based on a ‘Solution Definition’ and ‘Project Initiation’ documents that was written by one person and was based solely on their assumptions. The discovery stage was merely the first stage clearly marked out on their waterfall chart.”
+
+Alice Cudmore ([@alice_cudmore](https://twitter.com/alice_cudmore){.external target="_blank"})
+
+![](1_xBZkRvKU1-IZKWR3k6gcrQ.png)
+
+*A great quote — probably the most over-used phrase I’ve heard.*
+
+* To counter this question, there are suggestions around asking “why do you need to know”. Inevitably this would unpack a whole host of internal problems around fixation on timelines and milestone tracking, money, internal politics, resourcing problems, scope creep, and yes, more money.
+
+> **“Somehow there is no realisation when someone leaves you can’t just drop-ship in a new person with identical skills and experience; that the delivery of stuff is going to slow down.”**
+> Lauren Tombs ([@TombsLauren](https://twitter.com/TombsLauren){.external target="_blank"})
+
+![](1_Uh5qOAeOrqfkYMzCWMnBOg.png)
+
+The talk focused on product owners experiences of actually being empowered to decide things, but this constrained by excessive stakeholder requirements at the expense of user needs, usability, deliver-ability, and perhaps even common sense.
+
+Some great examples and it seems some projects have really tried every different stakeholder engagement approach to getting around this barrier,
+
+One thought from from the floor… “If stakeholders want to block a project they will, can anything be done?”
+
+### What else was discussed?
+
+The session was 50%-masterclass, 50%-peer-therapy.
+
+Those attending added some quality case studies too from their vast years of product experience too.
+
+The discussions touched on many broader problems within departments,
+
+* Bureaucratic internal approvals and support (e.g. procurement) processes,
+* Lack of trust and empowerment in teams,
+* Documents for the sake of documents, even when it is never read,
+* Lack of vision and intent from senior management,
+* Lessons not being learned time and again.
+
+### So who else attended?
+
+Well you may or may not know them, but if you work with them you have probably heard them. They are often noisey, nosey, confrontational perhaps, contrarians yes, asking lots of awkward questions yes, blunt yes, rude — perhaps? Still can’t find them.. Look for a person not wearing a blue or grey suit. Possibly a T-shirt.
+
+> # Challengers to say the least. Yes, these are the Product People — an emerging force of thinkers, doers, realists, persuaders who have are massively passionate about what they do and have a full grasp of their users, the business and technology.
+
+Those Product Managers, Product Leads, Senior Product Owners are seemingly doing a lot of hard work to put whimsically-flimsey ideas through their paces and deliver stuff of actual end-user value and quality for organisations.
+
+One experienced manager was asked how they should decide who internally would a suitable for that role,
+
+“Look at your department and pick the people who are asking the most awkward questions.”
+
+Another speaker noted “Problems were occurring on several projects as the previous Product Manager was saying yes to everyone’s requests without thinking.”
+
+“If you’re not saying No and upsetting someone most weeks you’re probably not doing it right.”
+
+Product managers seem to be routinely confused with project managers, delivery managers, and service owner roles. Bizarrely, as pointed out, these Product Managers are set objectives and assessed on delivering value, however this often flies in direct conflict with colleagues whose objectives are set to deliver specific features.
+
+Some debate occurred around a perception that the role of GDS as a “referee of quality” and “stick to wave” it’s is not functioning as well as it previously as a central function, with formal assessments. People just ignore the User needs bit and skip into design, the Product managers are being asked whats the minimum they could do to pass the assessment.
+
+Also, questions surrounded the role “Service Manager” while that started with a good intention, it could have become diluted and confused to the point it is almost meaningless.
+
+### What was the event like?
+
+Well the story unfolded fast, but not like the David and Goliath where a simple slingshot brings a giant to it’s knee.
+
+No this was something else, much akin to the Resistance vs. the First Order in the Star Wars Last Jedi. The unyielding, unmerciful, crushing, gripping nature of the order on the product community working across departments was pretty clear.
+
+![](1_LpNMjjNrqEpoRwHccptiFw.gif)
+
+However, from the resistance side it wasn’t all poke-fun at Mr Blobby and the order, as that’s easily done. The discussions were tempered with empathy with the group considering the other side of the coin too… interesting questions were raised like:
+
+“What might be motivating stakeholders and organisations to put in place these constraints?”,
+
+“Why are they risk averse?”, “Why do they oppose change?”,
+
+“Can transformation really be complete if they (..read the staff..) oppose all change?”,
+
+“Why would people who benefit from hierarchy for 20 years or more want to empower their teams?”.
+
+
+### My thoughts following the event
+
+The strange thing to me, in this story about products an delivery life-cycles, ironically and sadly the ‘product community’ are cast as the pantomime villains.
+
+The collective insight, expertise and experience at the meet was shocking… shocking in the sense that such a group who clearly have huge talent and can add so much value to organisations have had to suffer so many battle scars and have so many ridiculous tales to tell. Why do organisations not learn from past mistakes?
+
+What with it being 2019, I’m not sure whether it was reassuring or concerning to learn these problems exist and seem consistent across departments.
+
+The answers during the discussion were considered, and the situation seems vastly complex, so it’s not surprising that any transformation across departments is hard to start and even harder to make stick.
+
+One point felt clear. Between the old and new ways of doing things, it seems like stalemate. On both sides now and this results in ignoring or ridiculing, rather than trying to find any solution.
+
+Lack of user-centered and product-focus, probably means that many times things are being built based on assumptions; opportunities are likely to be missed too and delivery is not always going to succeed.
+
+My question to readers would be ‘Should Product Management and following user-centered design still be considered a movement, or is that seen as best practice, and — in essence — the new norm?’
+
+### TL;DR
+
+The Product People community is growing and maturing. Be aware, boo is coming to a goose near you.
+
+This was a great event in the Midlands, even when the group skimmed the stone across the top of the lake, rather than just focusing on the topic ‘When Stakeholders Attack’ there was really interesting, thoughtful discussion and banter.
+
+Would I go to the next Product People midlands event? 5 stars yes for sure. There are so many important topics to explore that I only hope there are more events like this (outside London).
+
+Well that’s my take out anyway :)

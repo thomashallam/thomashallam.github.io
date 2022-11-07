@@ -1,0 +1,29 @@
+---
+title: "Little Things Matter"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2017-09-22"
+categories: [beta, user-research, referrals, patients]
+image: "annie-spratt-4cNNenEn54c-unsplash.jpg"
+jupyter: python3
+freeze: true
+---
+
+![Image: [Annie Spratt](https://unsplash.com/photos/4cNNenEn54c){.external target="_blank"}](annie-spratt-4cNNenEn54c-unsplash.jpg)
+
+
+# Little things matter
+
+Today we found out that a simple change the team made to a patient letter will possibly save the NHS about £500k per year!
+
+A benefit like this really helps the team to focus on:
+
+* Quick wins
+* Validating change
+* Incremental improvements
+* Aligning with a long-term vision
+
+
+All important stuff!
