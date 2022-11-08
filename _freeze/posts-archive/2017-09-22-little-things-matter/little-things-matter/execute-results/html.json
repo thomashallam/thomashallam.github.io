@@ -1,7 +1,7 @@
 {
-  "hash": "e74ec1920912c75fde6c4cb23eb31442",
+  "hash": "95e71b32f9bef3f55354acf14f1c3657",
   "result": {
-    "markdown": "---\ntitle: Little Things Matter\nformat:\n  html:\n    code-fold: true\nauthor: Thomas Hallam\ndate: '2017-09-22'\ncategories:\n  - beta\n  - user-research\n  - referrals\n  - patients\nimage: annie-spratt-4cNNenEn54c-unsplash.jpg\nfreeze: true\n---\n\n![Image: [Annie Spratt](https://unsplash.com/photos/4cNNenEn54c){.external target=\"_blank\"}](annie-spratt-4cNNenEn54c-unsplash.jpg)\n\n\n# Little things matter\n\nToday we found out that a simple change the team made to a patient letter will possibly save the NHS about £500k per year!\n\nA benefit like this really helps the team to focus on:\n\n* Quick wins\n* Validating change\n* Incremental improvements\n* Aligning with a long-term vision\n\n\nAll important stuff!\n\n",
+    "markdown": "---\ntitle: Little Things Matter\nformat:\n  html:\n    code-fold: true\nauthor: Thomas Hallam\ndate: '2017-09-22'\ncategories:\n  - beta\n  - user-research\n  - referrals\n  - patients\n  - content design\n  - interaction designging\nimage: annie-spratt-4cNNenEn54c-unsplash.jpg\nfreeze: true\n---\n\n![Image: [Annie Spratt](https://unsplash.com/photos/4cNNenEn54c){.external target=\"_blank\"}](annie-spratt-4cNNenEn54c-unsplash.jpg)\n\n\n# Little things matter\n\nToday we found out that a simple change the team made to a patient letter will possibly save the NHS about £500k per year!\n\nA benefit like this really helps the team to focus on:\n\n* Quick wins\n* Validating change\n* Incremental improvements\n* Aligning with a long-term vision\n\n\nAll important stuff!\n\n",
     "supporting": [
       "little-things-matter_files"
     ],

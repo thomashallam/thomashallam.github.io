@@ -19,10 +19,10 @@ image: "thomas-park-KYEeuGUkZ54-unsplash.jpg"
 
 Just some wild things that were said today...
 
-In user-centred design, speaking to your users through an ongoing conversation is key to success! Whether this is discovery interviews, service design, or testing content and solutions - it is almost always impossible to make the right decisions without user research.
+In user-centred design, speaking to your users through an ongoing conversation is key to success! Whether this is through discovery interviews, co-creation & service design activities, or usability testing content and solutions; it is almost always impossible to make the right decisions without user research.
 
 At a practical level, user researcher can't answer every question, nor should they. There is a need to work with product leaders to createa a product strategy or roadmap to solve user problem. Even then, this strategy should not be taken as gospel, user research should support working through much of the finer details.
 
-The correct answer to these quotes above are:
+The correct (ironic) answer to these above quotes are:
 
-The time when your really don't need User Research is after the solution has been launched unsuccessfully and the project has to be closed down!
+Ok,the time when your really don't need User Research is after the solution has been launched unsuccessfully and the project has to be closed down!

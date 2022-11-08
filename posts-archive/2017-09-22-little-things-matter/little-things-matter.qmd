@@ -5,7 +5,7 @@ format:
     code-fold: true
 author: "Thomas Hallam"
 date: "2017-09-22"
-categories: [beta, user-research, referrals, patients]
+categories: [beta, user-research, referrals, patients, content design, interaction designging ]
 image: "annie-spratt-4cNNenEn54c-unsplash.jpg"
 jupyter: python3
 freeze: true

@@ -5,14 +5,14 @@ format:
     code-fold: true
 author: "Thomas Hallam"
 date: "2020-03-10"
-categories: [user-research, usability testing, referrals]
+categories: [user-research, usability testing, referrals, stakeholders, user-centred design]
 image: "radek-skrzypczak-WlB8TsI_th0-unsplash.jpg"
 ---
 
 ![Image: [Radek Skrzypczak](https://unsplash.com/photos/WlB8TsI_th0){.external target="_blank"}](radek-skrzypczak-WlB8TsI_th0-unsplash.jpg)
 
 
-Selling your wares; working in an organisation with low user centred design maturity and teams where no one knows what you do, how you can fit into the processes, how can you add value to programme work 
+**Selling your wares** - working in an organisation with low user-centred design maturity and teams where no one knows what you do, how you can fit into the processes, how can you add value to programme work 
 
 **Recruiting users...** Nightmare! Hard to find! Lack of budget!
 
