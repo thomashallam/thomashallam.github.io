@@ -1,0 +1,31 @@
+---
+title: "Letting go!"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2017-10-12"
+categories: [change management, lean, planning]
+image: "pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg"
+---
+
+![Image: [Pablo Heimplatz](https://unsplash.com/photos/4cNNenEn54c){.external target="_blank"}](pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg)
+
+
+> ### Letting "Lean" into your life is challenging!
+
+Releasing control.
+
+Embracing uncertainty. 
+
+Striving to be less rehearsed.
+
+Compomises, mucking in together.
+
+Working for quicker value.
+
+Willingness to fail, and restart.
+
+Demanding we pivot.
+
+Succeeding in spite of.

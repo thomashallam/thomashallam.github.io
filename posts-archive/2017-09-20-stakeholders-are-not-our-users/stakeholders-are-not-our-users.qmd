@@ -1,0 +1,37 @@
+---
+title: "Stakeholders are not our users"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2017-09-20"
+categories: [stakeholders, user-research, referrals, patients]
+image: "christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg"
+jupyter: python3
+freeze: true
+---
+
+![](stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)
+  ![Image: [Christina](https://unsplash.com/photos/34GZCgaVksk){.external target="_blank"}](christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg)
+
+
+# Some thoughts on stakeholder engagement for research teams
+
+Stakeholders are great. But they are not our users.
+
+This week I attended the NHS Electronic Referrals Advisory Board, which feeds in to the NHS elective care programme boards. The representatives on the board are senior, middle-class, quite intellectual, experienced, and champions of health systems and electronic referral.
+
+Everyone at the board meeting was united around some common themes/goals: 
+* reduce NHS wastage, 
+* create better experiences for patients, 
+* reduce burdens on GPs, 
+* provide better connectivity, 
+* better data sharing
+
+Debate was lively (but not destructive), there were many requests for development were these were dampened by their past experience, expectations of the NHS reality operating with lots of constraints.
+
+I learnt a lot about the many local issues facing trusts, the implementation challenges, workarounds (lots of workarounds)!
+
+It was interesting to hear that in the past stakeholders had requested things, and when it is was finally delivered, the organistions who requested it were "not ready" to use the feature and it sat on the shelves for months or years. 
+
+During a time with lots of pressures on NHS teams to deliver, it got me thinking how can we gather evidence from end-users (alongside stakeholder input) to identify smaller improvements that bring benefits much sooner!

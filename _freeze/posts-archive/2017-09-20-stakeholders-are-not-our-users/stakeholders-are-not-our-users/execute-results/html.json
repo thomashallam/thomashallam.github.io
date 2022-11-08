@@ -1,0 +1,11 @@
+{
+  "hash": "f4cac1d3faf9c914e139ec2eebb0349b",
+  "result": {
+    "markdown": "---\ntitle: Stakeholders are not our users\nformat:\n  html:\n    code-fold: true\nauthor: Thomas Hallam\ndate: '2017-09-20'\ncategories:\n  - stakeholders\n  - user-research\n  - referrals\n  - patients\nimage: christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg\nfreeze: true\n---\n\n![](stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)\n  ![Image: [Christina](https://unsplash.com/photos/34GZCgaVksk){.external target=\"_blank\"}](christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg)\n\n\n# Some thoughts on stakeholder engagement for research teams\n\nStakeholders are great. But they are not our users.\n\nThis week I attended the NHS Electronic Referrals Advisory Board, which feeds in to the NHS elective care programme boards. The representatives on the board are senior, middle-class, quite intellectual, experienced, and champions of health systems and electronic referral.\n\nEveryone at the board meeting was united around some common themes/goals: \n* reduce NHS wastage, \n* create better experiences for patients, \n* reduce burdens on GPs, \n* provide better connectivity, \n* better data sharing\n\nDebate was lively (but not destructive), there were many requests for development were these were dampened by their past experience, expectations of the NHS reality operating with lots of constraints.\n\nI learnt a lot about the many local issues facing trusts, the implementation challenges, workarounds (lots of workarounds)!\n\nIt was interesting to hear that in the past stakeholders had requested things, and when it is was finally delivered, the organistions who requested it were \"not ready\" to use the feature and it sat on the shelves for months or years. \n\nDuring a time with lots of pressures on NHS teams to deliver, it got me thinking how can we gather evidence from end-users (alongside stakeholder input) to identify smaller improvements that bring benefits much sooner!\n\n",
+    "supporting": [
+      "stakeholders-are-not-our-users_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

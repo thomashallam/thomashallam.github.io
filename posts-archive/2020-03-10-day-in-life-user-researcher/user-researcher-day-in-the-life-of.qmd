@@ -1,0 +1,41 @@
+---
+title: "User research day in the life"
+format:
+  html:
+    code-fold: true
+author: "Thomas Hallam"
+date: "2020-03-10"
+categories: [user-research, usability testing, referrals]
+image: "radek-skrzypczak-WlB8TsI_th0-unsplash.jpg"
+---
+
+![Image: [Radek Skrzypczak](https://unsplash.com/photos/WlB8TsI_th0){.external target="_blank"}](radek-skrzypczak-WlB8TsI_th0-unsplash.jpg)
+
+
+Selling your wares; working in an organisation with low user centred design maturity and teams where no one knows what you do, how you can fit into the processes, how can you add value to programme work 
+
+**Recruiting users...** Nightmare! Hard to find! Lack of budget!
+
+**Site visits** – Travelling to them, intensive, loads of data, drinking from the fire hose!
+
+**Difficult interviews** – vicarious trauma - mental health challenges
+
+**Cognitive workload** – stress of needing to be impartial and balanced all the time
+
+**Analysis** – intensive, team sport, loads of data, seeing the wood for the trees
+
+**Wearing many UCD hats** – research/product/service/coach/project manager:staffing 
+
+**Difficult stakeholders, managers and sponsors** – 3 types
+
+1. Those lobbying for their opinions to be incorporated at every stage
+2. Those impossible to engage, distant, uninterested
+3. Those *Questioning everything* – with disbelief or trying to justify out the pain points 
+
+**Challenging stakeholders** who remain committed to  pre-conceived ideas, even as the evidence unfolds
+
+### TL;DR
+
+In what other field (apart from legal) does every statement, suggestion or idea come under such scrutiny??
+
+Sorry for the rant this was a hectic/difficult day/week!
