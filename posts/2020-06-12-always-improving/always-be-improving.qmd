@@ -1,0 +1,105 @@
+---
+title: "Always Improving"
+format:
+  html
+author: "Tom Hallam"
+date: "2020-06-12"
+categories: [CI, Culture, Data, Leadership, Reporting, Ways of Working]
+---
+
+> ### This post is about delivering user research insights within a fast-moving, continually changing, service environment
+
+Stakeholders on any critical programme are typically very busy, some key decision makers will only have time to attend a ‘kick off’ meeting and ‘debrief meeting/Show and Tell’.
+
+Over this summer, our team conducted hundreds of user interviews, across dozens of rounds of research, with people who had requested a coronavirus test.
+ 
+The research team were very proud to be working on such an important project and delivering great insights at pace, however as the weeks past by, and more evidence was gather about the challenges that users were experiencing, I realised we had a problem.
+
+In our internal Retro the team discussed why the discovery and usability testing reports were starting to pile but we were unsure why key recommendations were not being actioned. I decided to lead to an internal discovery, to understand where our data was (or wasn’t) going, and how we could improve the user research process to make the findings more impactful.
+
+![Findings from 20 internal interviews with colleagues](continuous-improvement-discovery.png)
+
+I arranged 20-minute telephone interviews with internal colleagues and stakeholders: researchers, content managers, clinical leads, product managers, service designers, interaction designers, policy people, information analysts, accessibility leads, programme managers, operations and assurance leads.
+
+The goal was to understand their own needs for insight and to unpick the challenges the reserach team were facing; it was also an important opportunity to build trust with colleagues by inviting them to be a participant in our research process.
+
+**Here is our internal research exploration discussion guide:**
+
+> *What is your role…? and what do you do?*
+
+> *What “decisions” are you involved with?*
+
+> *Do you produce data or consume data? or both?*
+
+> *What insights and data do you have access to?*
+
+> *Where does the data come from? i.e. Who provides it?*
+
+> *What is working well?*
+
+> *How Relevant, Robust, Timely is the data?*
+
+> *Which bits of data are hardest to access/ find?*
+
+> *What happens with the data you get?*
+
+> *How does data inform decision making?*
+
+> *How is feedback prioritised? (if at all)*
+
+> *Are improvements being made following feedback?*
+
+> *Overall, how easy or difficult is it to find good feedback / insights / data?*
+
+> *What would you most like to see improved?*
+
+
+As with all our discoveries, the anonymised findings had been documented in Miro and further analysis/affinity sorting was conducted to identify the core problems.
+
+
+**Some of the findings from the continuous improvement discovery included:**
+
+  •	Product and stakeholders already access loads of data and insight, many of these sources the research were not aware of,
+
+  •	Colleagues have limited time to spend listening to the feedback, finding time to observe primary research is almost impossible,
+
+  •	Some times our insight hasn’t been seen as robust enough by stakeholders,
+
+  •	It was unclear who should take responsibility for the findings and actioning improvements!
+
+
+**This lead to myself and the team implementing a number of improvements over the following weeks:**
+
+•	Introduce regular, but short, Show and Tells; ideally 15~ minutes presenting and 10-15 minute questions;
+
+•	Arrange follow-up workshops to key agree actions and move these forward,
+
+•	I started creating a repository of findings, so colleagues could see at a glance what is up with the service,
+
+•	Present a 5-minute research update each week at the ‘All staff Stand Up’, to increase awareness of the work,
+
+•	Look to triangulate data (e.g. with analytics) and to start comparing findings over multiple rounds of research,
+
+•	Where there is time, include short video clips in the Show and Tells, to increase the time colleagues have hearing from users.
+
+
+**Whose research is it anyway?**
+
+I personally learned to appreciate that were many more decisions were being made within the policy, service and product space than the research team were told about – other teams were using other data insight sources much more than we were aware of! Understanding the process helped us to improve how we shared insights too.
+
+Another discovery was that as researchers we should not feel need to continually chase-up resolutions to every problem and recommendation presented at the Show and Tell.
+Many of the team’s research recommendations were valid and important to users, however unless these were complete Show-Stoppers to a committed delivery/policy the recommendations would simply have to wait till things calmed down a bit.
+
+**Playing a long game**: as researchers we provide insights that can lead to a few quick wins, but gathering and presenting robust evidence will inevitably help shape service and product managers thinking, programmes slowly move to being more user-centred over time.
+
+Understanding these internal decision making processes and role boundaries really helped reduce both the burden and stress for reserachers and to improve our focus in future research studies!
+
+
+### TL;DR
+
+When everyone is “very busy” conducting research for a product or service team, it’s too easy to forget the importance of considering how findings will be documented and shared. 
+
+Taking time to reflect on the needs of colleagues and stakeholders who will be consuming the data, and how recommendations get actioned, is very important part of continuous improvement
+
+Tom, NHS Digital – Test and Trace
+
