@@ -3,7 +3,7 @@ title: "Interacting with design"
 format:
   html
 author: "Tom Hallam"
-date: "2020-12-06"
+date: "2020-11-06"
 categories: [Culture Change, Capability, Interaction Design, Service Deisgn, Usability, Leadership]
 ---
 

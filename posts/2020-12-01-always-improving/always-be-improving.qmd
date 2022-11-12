@@ -3,7 +3,7 @@ title: "Always Improving"
 format:
   html
 author: "Tom Hallam"
-date: "2020-06-12"
+date: "2020-12-01"
 categories: [CI, Culture, Data, Leadership, Reporting, Ways of Working]
 ---
 

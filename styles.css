@@ -1,1 +1,25 @@
 /* css styles */
+
+.quarto-title-banner {
+    margin-bottom: 1em;
+    color: rgba(0, 0, 0, 0.959);
+    background: hsl(42, 50%, 76%);
+}
+
+.navbar-dark {
+    background-color: #423f3f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+a {
+    color: #314996;
+    text-decoration: underline;
+    -webkit-text-decoration: underline;
+    -moz-text-decoration: underline;
+    -ms-text-decoration: underline;
+    -o-text-decoration: underline;
+}
