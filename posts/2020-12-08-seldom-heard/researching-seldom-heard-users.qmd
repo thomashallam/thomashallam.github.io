@@ -1,0 +1,98 @@
+---
+title: "Research with seldom-heard user groups"
+format:
+  html
+author: "Tom Hallam"
+date: "2020-12-08"
+categories: [Seldom-heard, Inclusivity, Gender, Discovery, Covid Testing]
+---
+
+> ### This post is about a recent project I conducted with the LGBTQI+ community around 'Asking about Gender'
+
+* Before reading ahead, please be aware some people may find some of this content upsetting.
+
+* To skip this post please [click here](/) to return to the homepage
+
+---
+
+When I was asked to look into the Testing needs of transgender users, and to understand how they would feel about some new designs, I was initially very apprehensive.
+
+Transgender participants are not a user group that I have specifically recruited or interviewed before. I was concerned if the usual research approaches would be suitable. What if I said the "wrong thing" and upset a participant - it might make a contentious situation even worse.
+
+Then I realised, as a User Researcher, some times ignorance is bliss. Like a passport to speak to anyone - but we still need to do that with respect.
+
+The project was a great opportunity lead from the front - learn more about an seldom-heard and diverse user group, and to share learnings with a wide team. With that in mind I looked ahead positively, acknowledging a risk that we may say the wrong thing or ask the wrong question, but doing the research was key to understanding and progressing the service to a better place.
+
+### Research context and planning
+
+Always best to follow good practices, but here are some additional considerations that needed to be made to ensure the study reached it's goal:
+
+* **More secondary research was conducted**. For example, reviewing previous rounds and exploring voices on social media); we anticipated from this that the service feedback would likely be fairly bad,
+* It was also known that the research could be **emotionally challenging for the participants and moderator**; I briefed note takers around the sensitivity of the subject,
+* We **anticipated drop outs**; users were likely to be worried before talking with an organisation they felt had not treated them well. A **personalised reminder** email or quick call ahead of the sessions, would be an ideal approach.
+Fortunately, I **overbooked** as several participants dropped out last minute.
+* As these were remote interviews, we ensured the **moderator's camera was on all the time**; this was so that the participant could see who they are talking with, and that we were actively listening to personal and challenging feedback,
+* **Consent to record** - I asked for written and verbal consent. With the option for participants to have their video deleted afterwards. Ideally we would also offer to share a copy of the video with the participant too - they may need to view the journey with their family/friends/support group,
+* **Start slowly** - I knew it would be important to establish trust early in the interview and then cover more difficult topics towards the end of the interview,
+* I provided even **more opt-outs** for participants than usual
+- "if there is anything you would prefer not to talk about please let us know."
+- "if we ask a question you are uncomfortable with we are happy to skip that."
+- "If you feel you need to take a break - absolutely that is fine."
+- "Any questions? just ask"
+- "Are you ok to go on..?"
+* **Respecting privacy is always important** I asked for permission before asking anything particularly sensitive follow-up questions (e.g. "do you mind if we ask about your gender?")
+* **Empathise with their challenges, but don't lead responses**
+e.g. "hm... I guess.. in that difficult situation.. I imagine... your feelings might have been...... [pause... wait... listen]"
+This was probably the biggest challenge with doing this type of research remotely, you need to keep talking and reassuring participant that you are still there and also visibly and actively listening.
+* **Anonymise evidence** - To protect users' identity, participant numbers were randomised in the report, all faces were blurred in sharing the findings. We deleted the original recordings as quickly as feasible
+
+[To add later - Image of Testing screen / Quotes from research]
+
+---
+
+**Immediately after the research - 21/11**
+
+Being briefly in someone else's shoes is a mysterious thing.
+Remote researchers may rarely come across precious moments like this.
+It took several weeks, for the impact of this research to fully sink in.
+For several days immediately after conducting these interviews, I felt fully unproductive and distracted whenever asked to join other meetings and having to context switch.
+
+I was keen to complete the research and analysis, knowing if it takes to long, the strong connection between participant and moderator fades away.
+What I heard was so impactful to me, I didn't want to let this message just pass by, or to lose focus on the goal of sharing valuable insight about the vulnerable group (who by this time we knew they felt they were badly discriminated against - i.e. denied access to Tests).
+
+Their story needed to be shared, loud and clearly.
+
+Realising the possible significance of this work, it quickly turned into fears.
+The pressure of delivering the insight, truthfully, in a way that respects users' privacy and gender identity, but brings the full raw emotional view from the participants to share their individual needs.
+
+I spent several days (and late nights) immersed among data for the important analysis; watching the clips over-and-over to fully understand the issues, how best the message could be shared broadly.
+
+In the end, I was unable to find a way to describe the findings that would do justice to the emotion of what had been said. I then decided to anonymise all the key video clips for the team and played these back at an extended Show and Tell.
+
+Over 80 colleagues attended and the output was received with great appreciation from the Reserach, Design, EDI Team (Equality, Diversity and Inclusion) team and LGBT community.
+
+What people were unaware I was in bed feeling sick and deeply upset about the study findings; how would I feel to continue working on a service that has caused this distress for thousands of people during a national health crisis? Staying on the pitch to make sure the research had an impact, rather than walking away with anguish, was my way of keeping the momentum going towards a change and to hopefully make the service just a bit better.
+
+***A few weeks later - 6/12***
+
+It is still a difficult project for me to think about. Like many other emotinally-charged projects i've worked on in the past decade, I don't think I'll be able to forget this one either. Knowing the signs of emotional burden, third-party (vicarious) trauma, and knowing when and how to seek support from colleagues or professionals makes it feel safer to do these studies.
+
+For researchers, knowing that services accidentally (or deliberately) discriminate against user groups is important. It still happens today - even in 2020. Inclusion and accessibility are both principles and legal commitments, but in reality most public services aren't fully equitable or inclusive.
+
+It can't be underestimated how upsetting it is for the people to go through experiences like that, where a service with just few words written on a page, can makes a person feel so insignificant to make them feel in their own words "like they don't even exist".
+
+Speaking to vulnerable user groups and carrying these heavy burdens is perhaps why many research and design teams stick to researching the 'middle of the road'. Public sector teams need to learn much more vulnerable user groups, key insight is often found at the edges.
+
+There is a real risk, that without more diverse participation in research studies, that teams are acidentally designing for “middle class, digitally savvy, well-educated, vehicle owners, mostly white, with lots of spare time.” However, the audience who really need testing is skewed towards under-representative communities who are being hardest hit by the virus.
+
+I appreciate the main challenge "Asking about Gender with trans communities" hasn't actually been fixed (as yet - Dec 2020), but my research has helped stimulate conversations and collaborations towards finding a solution to the long-standing-root-cause problems (i.e. that GP record's are not inclusive, it's difficult match users to a GP record).
+
+In the short term these findings have improved understanding of a seldom-heard community, and raised the quality bar in the Testing and Vaccination services to ensure we they are 'more inclusive' with design and hopefully, with time, the service can be 'fully inclusive'.
+
+### TL;DR
+
+Researching sensitive topics with hard to reach users is critical for understanding what happens 'around the edges' of a service.
+
+It is a heavy burden for all involved, so aim to do it just once and deliver the research with a profound impact.
+
+As UCD practictioners we need to hear the raw words and emotion to understand complex user needs; fixing these issues is difficult but not only does it make the service more inclusive, but it builds trust and respect across all user groups.

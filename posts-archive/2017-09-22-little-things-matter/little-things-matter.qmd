@@ -7,8 +7,6 @@ author: "Thomas Hallam"
 date: "2017-09-22"
 categories: [beta, user-research, referrals, patients, content design, interaction design ]
 image: "annie-spratt-4cNNenEn54c-unsplash.jpg"
-jupyter: python3
-freeze: true
 ---
 
 ![Image: [Annie Spratt](https://unsplash.com/photos/4cNNenEn54c){.external target="_blank"}](annie-spratt-4cNNenEn54c-unsplash.jpg)
