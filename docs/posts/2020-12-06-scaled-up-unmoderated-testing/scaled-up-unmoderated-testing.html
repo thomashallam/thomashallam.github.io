@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tom Hallam">
+<meta name="dcterms.date" content="2020-12-06">
+
+<title>Tom’s blog - Scaled Up Unmoderated Testing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EMB22EEKPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EMB22EEKPF', { 'anonymize_ip': false});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Tom’s blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">Hello</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../readinglists.html">
+ <span class="menu-text">Great reads</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thomashallam"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/thomashallam"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Scaled Up Unmoderated Testing</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Analytics</div>
+                <div class="quarto-category">Tools</div>
+                <div class="quarto-category">Usability</div>
+                <div class="quarto-category">Covid Testing</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tom Hallam </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 6, 2020</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<blockquote class="blockquote">
+<h3 id="this-post-highlights-a-few-workarounds-that-can-deliver-good-results-for-projects-doing-adhoc-unmoderated-testing-on-your-html-prototypes" class="anchored">This post highlights a few workarounds that can deliver good results for projects doing “adhoc” unmoderated testing on your html prototypes</h3>
+</blockquote>
+<p>The journey had so many screens to test, that even with 90-minute interviews we struggled to get robust consistent feedback over multiple rounds of testing This post is about how I created an unmoderated usability testing platform at the Test and Trace service.</p>
+<p>Designers and product people may just need data to make a few quick decisions. Does this page work better? Does the form work? How can it be optimised? Do people follow on-page instructions? Critically these designs, and decisions, should be validated with users before putting them live.</p>
+<p>However when you are working at pace, to some stakeholders and researchers the moderated testing approach can feel like a luxury, even a barrier to delivery. Also moderated testing approaches, and manual analysis of stickies, tends to fall over as soon as any need to split usability findings by different user groups.</p>
+<p>In one recent Test and Trace project, the end-to-end journey had over 100 pages. We already tested it for 90-minutes over multiple rounds with 4-6 users.</p>
+<p>I appreciate all the evidence and arguments around ‘5 users is enough’ to identify the most critical issues (and all the counter arguments against that too). However, in our experience on this project 5-users (multiple rounds) was still not enough to gather consistent insights as the journey was very long/complex journey that jumps between service channels. We also had some inconsistencies from adjusting focus each Sprint to include new service features/content that needed testing, and differences in opinion among the diverse demographics of users who participated too.</p>
+<section id="workaround-methods-to-scale-up" class="level3">
+<h3 class="anchored" data-anchor-id="workaround-methods-to-scale-up">Workaround Methods to Scale-Up</h3>
+<p>I knew we needed to scale-up the research approach, so that we could rapidly and robustly test any element of the service and provide same day insights. Acquring a commercial off the shelf (COTS) unmoderated tool can cost tens/hundreds of thousands, we would need to scope the requirement, find the budget, seek internal approvals, go to market; basically it would take multiple months to procure a tool (if it could be done at all). An alternative solution was required urgently as the finding were needed immediately.</p>
+<p>Using GitHub and VSCode I deployed a few changes to the same GOV.uk html prototype kit that our interaction designers were using. I designed a research scenario similar to the one we typically use for a moderated interview, adding this as a new “Start page” within the prototype. Users were invited to provide ‘dummy information’ into the forms.</p>
+<p>I then embedded GTM (Google Tag Manager) and from here deployed a number of other conversion optimisation tools such as Google Analytics, Google Optimize (for AB Testing), Inspectlet and HotJar (for on-page feedback, session recording, heatmaps), and Qualtrics (for an exit survey).</p>
+<p>The main technical challenge beyond installing these tools, was to deploy Cookies and Triggers correctly within GTM to ensure only users who arrived as part of a specific research usability testing activity, who had consented to be tracked, we observed through the journey.*</p>
+<p>This was because the prototype was already being shared widely with stakeholders, and so it was important to keep research data separate for analysis purposes.</p>
+</section>
+<section id="testing-at-scale" class="level3">
+<h3 class="anchored" data-anchor-id="testing-at-scale">Testing at scale</h3>
+<p>[Insert anonymised video clip of user session here]</p>
+<p>By following an unmoderated testing approach, through using our own user panels we were able to test with approximately 1 hundred users each round.</p>
+<p>This would produce 8 to 10 hours of session replays, which could be reviewed at 2x or 4x speed. As no analytics was available in the live service, we gathered baseline data such as:</p>
+<ul>
+<li>number of pages visited per user,</li>
+<li>conversion funnels and drop outs,</li>
+<li>keyboard entry data for forms,</li>
+<li>heatmaps / click analysis,</li>
+<li>time on task for the journey,</li>
+<li>how many participants perform a ‘U turn’,</li>
+<li>satisfaction metrics,</li>
+<li>ease-of-use metrics,</li>
+<li>contextual feedback about all pages in the journey.</li>
+</ul>
+<p>Overall this new data helped to validate and prioritise many of the findings we had seen in the moderated testing.</p>
+<p>Conclusively, the digital journey is has been demonstrated to be far too long relative to the task of getting a coronavirus test. The consequence is that many users only skim-read the guidance, then abandon later due to usability other issues.</p>
+<p>Being asked ‘just one more question’ with ‘no end in sight’ and ‘no guarantee of a test’, is not supportive for users with symptoms of a potentially dangerous virus where anxiety and stress is already very high. The product people and stakeholders fed back they had more confidence in our teams’ work now they could see the whole journey had been tested with a whole lot more users.</p>
+</section>
+<section id="tldr" class="level3">
+<h3 class="anchored" data-anchor-id="tldr">TL;DR</h3>
+<p>The most impactful UX teams are taking a blended approach to different usability methods - combining qualitative, quantitative, analytics and also survey data.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+  </div>
+</footer>
+
+
+
+</body></html>

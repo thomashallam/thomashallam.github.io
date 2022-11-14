@@ -1,5 +1,5 @@
 ---
-title: "Welcome To My Blog"
+title: "Welcome to my (new) Blog"
 author: "Thomas Hallam"
 date: "2022-10-24"
 categories: [news]

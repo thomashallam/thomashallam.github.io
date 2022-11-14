@@ -7,7 +7,6 @@ author: "Thomas Hallam"
 date: "2017-09-12"
 categories: [beta, user-research, planning]
 image: "stephen-dawson-qwtCeJ5cLYs-unsplash.jpg"
-jupyter: python3
 freeze: true
 ---
 

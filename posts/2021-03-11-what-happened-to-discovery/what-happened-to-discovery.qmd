@@ -1,0 +1,115 @@
+---
+title: "Whatever happened to healthcare discovery?"
+format:
+  html
+author: "Tom Hallam"
+date: "2021-03-11"
+categories: [Digital, Discovery, Healthcare]
+---
+
+### Some backstory...
+
+After graduating with an International Business degree from a great uni I had high ambitions. However it was 2009 and the global financial crisis had just hit everything, most grad schemes had closed for applications.
+
+There was also a general election 2010 and the government department where I completed my industrial work placement was closed down as part of the spending review – all the people I worked with were made redundant or let go. Many good people were looking for work it was a tough time to be a graduate.
+
+Anyway, after months being unemployed doing the job-centre-thing and contacting many employers every single day, eventually I got lucky landing my first job out of uni as a temp research worker at the niche kids research and games design agency Dubit.
+
+Over 4 years, I learnt the ropes took on more challenging projects and was very fortunate to work with big media brands such as Channel 4, Sky, EDF Energy and Random House publishing (and many others just to name a few).
+
+What was most fortunate about this job, was not the clients, but the research team who at the time (around 2010) were really top of the user-insight game. They strongly believed that using mixed-methods, co-creation/user-centred design and working in close collaborations with their clients was the best way to deliver successful products and services to market. Although it was only a small team, it was a very exciting the time.
+
+
+### How do we discover?
+
+One particular project I gladly remember was conducting twenty in-home immersive interviews to study children’s mobile gaming habits, lifestyles and entertainment interests for a media company.
+
+The client was exploring a “new app” in the fast-growing kids games segment at the time. Of course the client didn’t want to be named in case any competition found out about the research/app. From the start all the app designs and research stimulus contained a funky project codename. Their app wasn’t production ready at all, only a proof of concept (very basic with some embedded free games like Tetris / minesweeper).
+
+I travelled all over the country to moderate these two-hour sessions in family homes – after some introductions with parents and talking through the project brief, we’d do a few warm-up activities before letting their kids loose on the ‘new app’. After 20-minutes only this new app had spoken for itself – kids had got bored quickly and wanted to return to their own iPads.
+
+I’d then let the session flow into discovery and explore the plethora of 2D/3D immersive freemium games that were available at the time. Unsurprisingly most parents were not bothered by content guidelines so six years old kids could easily be playing games aged 10+. As long as the kids weren’t buying things in the App store and their parents could take a break, everyone was happy.
+
+While doing these in-home discovery/testing sessions, it was important to be ready with lots of backup activities for when the “app testing” ended.
+
+  E.g. a “Day in the life of challenge”… or an Argos catalogue moodboard. Can you group together all the toys and games they have into new/used, or talk about which characters you like/dislike, or what things do you want for Christmas? what games are kids at school playing? etc… with the consent from parents we may view kids online history or YouTube playlists, to see what they are routinely searching for (and so what brands they see most often).
+
+When we played back the “app testing” research to the client team it was clear this app would have performed pretty badly in it’s current form. This led to more intrigue around what we had learnt during the discovery, our evidence prompted a rethink for the client’s product design.
+
+Further co-creation work with real end users was conducted at the in-house games development studio; eventually some new ideas became a real thing that required proper usability testing… and so circling back around insight from this throw-away-app gave rise to a much more successful product that is still available today (almost 10 years later)!
+
+### What about discovery in the health sector?
+
+I’ve worked as a User Researcher in the healthcare sector for six years now. Many teams often talk about their discovery and profound understanding user needs, indeed it is a requirement for GDS and NHS.uk Service Standards.
+
+From the many hundreds of research projects and thousands of interviews that I have seen, or been part of, real discovery research rarely happens, in my view.
+
+Here are some issues that are routinely observed:
+
+**1.** It’s usually not for the want of trying by User Researchers, but there broadly is no culture of discovery. Programme management don’t acknowledge a need to understand users context, lifestyle, values, motivations, needs. Usually programme management are mandating digital teams deliver a thing committed by ‘VIP stakeholder / HIPPO’
+
+**2.** Also very few teams are working on research and solving “real problems” around a root cause. All the time is spent understanding and unpicking the consequences of previous projects, so it is almost impossible to get a new and proper greenfield discovery off the ground
+
+**3.** Everyone we work with is a patient, so everyone becomes “an expert user advocate”; there is an assumption that teams know users but often they are over confident and think that no discovery is required
+
+**4.** The same teams have usually been in place many years; collectively they assume they have user knowledge, a shared expertise, that means discovery is also not required
+
+**5.** When discovery happens, it is timeboxed to a few short weeks. Discovery at worst it is a 15-minute warm-up activity before showing some screenshots. This happens a lot
+
+**6.** Discovery scope is often limited to digital interactions only. Often discoveries are narrowed to a product channel/theme that is a focus of a new feature (e.g. can we discover what communication channel people want to receive alert messages on?)
+
+**7.** If real discovery is happening, which I don’t believe it is, sharing of this information more widely is not happening
+
+**8.** Discovery teams often get closed down if they don’t also come up with ‘a solution’
+
+
+### Making health discovery a bit better
+
+To change the outcomes, we need to change the process and inputs.
+
+Really good discovery should be ongoing ethnography, both tactical (e.g. thematic) and more strategic (e.g. longitudinal or lifestyle)
+
+We need to be more honest about this, so when we are asked ‘who are our users’ and ‘what are their needs’.
+
+If a proper discovery has not been completed in the last 18 months, the best answers too give are:
+
+> **A** "We don’t yet know as we’ve not done much discovery work recently"
+
+> **A\*** "We have documents needs and/or personas, 
+          but these are based only historical discovery evidence, 
+          subject matter expertise, and/or assumptions that may be wrong"
+
+
+Ideally teams would complete discovery, and continue to learning about users needs throughout service and product lifecycle.
+
+While discussing a new urgent requirement, and whether discovery is needed it can be a difficult conversation. But it’s important to persist and champion this need to give the project and service users the best opportunity for a successful outcome.
+
+Have you ever heard a Product Owner or Delivery manager say any of these phrases? If so then your user researcher/s have certainly done a great job in embedding a culture of research and discovery within the team.
+
+
+**AAA\*\***
+
+> "We are not our users" <p><br>
+  "We are aware of our internal unconscious bias, cultural norms, that make us different to our users"<p><br>
+  "We listen to users, but don’t judge users"<p><br>
+  "We have empathy, not sympathy"<p><br>
+  "We care about our users and we want them to have a great experience"<p><br>
+  "We want our users to achieve their goal efficiently"<p><br>
+  "We’ve actually meet end users, a good cross-section"<p><br>
+  "We spoke to the people who have abandoned/rejected using our service"<p><br>
+  "We spent a decent amount of time in their environment"<p><br>
+  "We observed them without interfering with their day"<p><br>
+  "We understand their context, in a way that is broader than our service model"<p><br>
+  "We enjoy talking about their pain points and underlying needs"<p><br>
+  "We understand that their needs change from time-to-time"<p><br>
+  "We learn about our users behaviour through qualitative and quantitative data"<p><br>
+  "We regularly co-design with our end users"<p><br>
+
+
+### **TL;DR**
+
+Working in a digital multidisciplinary team it is almost impossible to get a “real discovery” off the ground. It’s not just a commitment and funding issue, but a lack of understanding.
+
+We need more programme directors who understand what a real discovery looks like and can smells fake discoveries a mile off.
+
+Product teams need to get closer to users, immerse themselves, among insights about the lifestyles of end users to identify real user needs and root cause problems.
