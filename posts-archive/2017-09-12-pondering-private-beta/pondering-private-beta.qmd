@@ -10,8 +10,7 @@ image: "stephen-dawson-qwtCeJ5cLYs-unsplash.jpg"
 freeze: true
 ---
 
-![](stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)
-  ![Image: [Stephen Dawson](https://unsplash.com/photos/qwtCeJ5cLYs){.external target="_blank"}](stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)
+![Image: [Stephen Dawson](https://unsplash.com/photos/qwtCeJ5cLYs){.external target="_blank"}](stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)
 
 # Ponderings on Private Beta
 
