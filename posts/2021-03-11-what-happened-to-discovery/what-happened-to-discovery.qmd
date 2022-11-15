@@ -5,6 +5,7 @@ format:
 author: "Tom Hallam"
 date: "2021-03-11"
 categories: [Digital, Discovery, Healthcare]
+image: "image.png"
 ---
 
 ### Some backstory...
@@ -104,6 +105,8 @@ Have you ever heard a Product Owner or Delivery manager say any of these phrases
   "We understand that their needs change from time-to-time"<p><br>
   "We learn about our users behaviour through qualitative and quantitative data"<p><br>
   "We regularly co-design with our end users"<p><br>
+
+![](image.png)
 
 
 ### **TL;DR**
