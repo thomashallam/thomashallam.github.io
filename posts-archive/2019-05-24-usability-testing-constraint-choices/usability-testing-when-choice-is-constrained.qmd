@@ -3,9 +3,9 @@ title: "Usability testing when choice is constrained"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2019-05-24"
-categories: [user-research, usability testing, referrals]
+categories: [User Research, Usability Testing, Referrals]
 image: "1_i384H_6SMsFYMMH4aPrZfw.jpeg"
 ---
 

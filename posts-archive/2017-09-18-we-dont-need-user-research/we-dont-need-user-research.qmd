@@ -3,9 +3,9 @@ title: "We don't need user research"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2017-09-18"
-categories: [product management, user-research, planning, service design]
+categories: [Product Management, User Research, Planning, Service Design]
 image: "thomas-park-KYEeuGUkZ54-unsplash.jpg"
 ---
 

@@ -3,9 +3,9 @@ title: "What is a Pre-Discovery?"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2017-09-11"
-categories: [discovery, user-research, planning]
+categories: [Discovery, User Research, Planning,]
 image: "daniel-lerman-fr3YLb9UHSQ-unsplash.jpg"
 ---
 

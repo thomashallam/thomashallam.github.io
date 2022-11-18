@@ -3,9 +3,9 @@ title: "Letting go!"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2017-10-12"
-categories: [change management, lean, planning]
+categories: [Change Management, Lean, Planning]
 image: "pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg"
 ---
 

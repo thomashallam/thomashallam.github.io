@@ -3,9 +3,9 @@ title: "User research day in the life"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2020-03-10"
-categories: [user-research, usability testing, referrals, stakeholders, user-centred design]
+categories: [User Research, Usability Testing, Referrals, Stakeholders, User-Centred Design]
 image: "radek-skrzypczak-WlB8TsI_th0-unsplash.jpg"
 ---
 

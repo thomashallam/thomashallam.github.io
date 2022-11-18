@@ -3,9 +3,9 @@ title: "Stakeholders are not our users"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2017-09-20"
-categories: [stakeholders, user-research, referrals, patients]
+categories: [Stakeholders, User Research, Referrals, Patients] 
 image: "christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg"
 ---
 

@@ -3,9 +3,9 @@ title: "Product People - When stakeholders attack!"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2019-02-09"
-categories: [user-research, user-centred design, product management, stakeholders]
+categories: [User Research, User-Centred Design, Product Management, Stakeholders]
 image: "1_7TlzAXCWmXs-1kyG1u32rA.jpeg"
 ---
 

@@ -3,9 +3,9 @@ title: "User Needs vs. Value Proposition thinking"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2019-05-23"
-categories: [user needs, user-research, user experience, product management]
+categories: [User Needs, User Research, User Experience, Product Management]
 image: "1_b2jJLKkBFIi7k78MNZb7IA.jpeg"
 ---
 

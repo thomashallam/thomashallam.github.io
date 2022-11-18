@@ -1,5 +1,5 @@
 ---
-title: "UX, reflections, learnings and weeknotes"
+title: "UR, UCD, UX: learning and reflections"
 listing:
   contents: posts/**/*.qmd
   sort: "date desc"

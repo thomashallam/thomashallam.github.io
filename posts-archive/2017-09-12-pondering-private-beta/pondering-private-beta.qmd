@@ -3,9 +3,9 @@ title: "Ponderings on Private Beta"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2017-09-12"
-categories: [beta, user-research, planning]
+categories: [Beta, User Research, Planning]
 image: "stephen-dawson-qwtCeJ5cLYs-unsplash.jpg"
 freeze: true
 ---

@@ -3,9 +3,9 @@ title: "Little Things Matter"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2017-09-22"
-categories: [beta, user-research, referrals, patients, content design, interaction design ]
+categories: [Beta, User Research, Referrals, Patients, Content Design, Interaction Design]
 image: "annie-spratt-4cNNenEn54c-unsplash.jpg"
 ---
 

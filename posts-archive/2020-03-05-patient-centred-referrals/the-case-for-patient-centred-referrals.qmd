@@ -3,9 +3,9 @@ title: "The case for patient-centred bookings and referrals"
 format:
   html:
     code-fold: true
-author: "Thomas Hallam"
+author: "Tom Hallam"
 date: "2020-03-05"
-categories: [user needs, user-research, patients, referrals, discovery]
+categories: [User Needs, User Research, Patients, Referrals, Discovery, User Experience]
 image: "1_n6gOZoOpKqgAxExWgVPmrQ.png"
 ---
 
