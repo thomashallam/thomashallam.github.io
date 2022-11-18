@@ -29,6 +29,7 @@ This role and the projects have been *much* more complex than I expected!
 * Finding some greenfields to work in: starting projects from scratch, defining the goals and timelines
 * Working with the team and UR Leadership community to shape and prioritise our roadmap
 * The focus is on quality and outcomes rather speed/quantity
+* Interesting player/coach mix - leading discovery and alphas vs. UCD Maturity coaching 
 * The support and guidance available from colleagues in the team, as well as new training opportunities
 * Found time to contiune to support DHSC as an UR Service Assessor
 * Working on technically complex projects, and working with lots of teams and stakeholders
