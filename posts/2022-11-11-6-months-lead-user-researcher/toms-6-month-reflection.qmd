@@ -39,15 +39,10 @@ This role and the projects have been *much* more complex than I expected!
 **Challenges:**
 
 * Coordinating change across disporate groups and teams can take a lot of time. E.g. to understand their needs and taking them on a journey: reflection, alignment, action planning, delivery, etc. It can easily take 3-6 months before change and positive outcomes happen on these workstreams.
-
 * So many project - taking on too much....... stemming the tide of requests. Needing to practice better prioritisation and saying no to more requests! Finding ways to automate things!
-
 * Choosing which battles to fight has never been more important, defining clear roles and responsibilities (e.g. local UR leads should do this bit, or the central team will do that)
-
 * Being dropped into a politically complex NHS programme '100-day discharge challenge'. Due to delays in starting the work there was no time for actual discovery. Saved the project by running a complex follow-up survey with Qualtrics for 150 Trusts/CCIOs. It worked out well for the project but was very stressful, and it didn't provide much benefit for the Central UCD Team or UR community 
-
 * Feeling a bit disconnected from frontline... turning this around to believe (and demonstrate) how what we do in the Central UCD Team for the professions and organisational strategy has a direct impact on patient care. "Better capability, better delivery, better outcomes"
-
 * Going from having a large team of contractors to manage, into having no direct reports. I.e. there are no 'juniors URs or URs to delegated directly to' - everything must be done through leadership, influencing, pursuasion of the community and colleagues!
 
 
@@ -204,9 +199,9 @@ After some gnarly technical problems, which we needed to engage the Qualtrics XM
 
 Assuming the private beta goes well we'll advertise the panel more widely and launch it properly for all the researchers later this year. I wrote a blog post about this work, but gave in when comms told me they already had 15 teams lined up to write a post.
 
-Unfortunately the work on a 'Citizen Panel for Health' which would bring together the many citizen contact lists that have grown across teams. 
+Regarding the work on a 'Citizen Panel for Health', which would bring together the many citizen contact lists that have grown across teams, unfortunately this has had to be paused due to re-prioritisation of the backlog.
 
-This has had to be paused due to re-prioritisation of the backlog; however UKHSA Insights team are doing some interesting work in that space so we are waiting to see how that goes over the next few months as well before starting on what would we be a very similar project.
+There is some interesting work still happening in this space with the UKHSA Insights team and we are waiting to see how their project goes over the next few months before starting on what would we be a very similar project.
 
 
 ---
