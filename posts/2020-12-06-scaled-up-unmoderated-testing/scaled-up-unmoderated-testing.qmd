@@ -5,6 +5,7 @@ format:
 author: "Tom Hallam"
 date: "2020-12-06"
 categories: [Analytics, Tools, Usability, Covid Testing]
+image: "mohamed-boumaiza-JuUK7Er9nR4-unsplash.jpg"
 ---
 
 > ### This post highlights a few workarounds that can deliver good results for projects doing "adhoc" unmoderated testing on your html prototypes
@@ -19,6 +20,11 @@ However when you are working at pace, to some stakeholders and researchers the m
 In one recent Test and Trace project, the end-to-end journey had over 100 pages. We already tested it for 90-minutes over multiple rounds with 4-6 users.
 
 I appreciate all the evidence and arguments around '5 users is enough' to identify the most critical issues (and all the counter arguments against that too). However, in our experience on this project 5-users (multiple rounds) was still not enough to gather consistent insights as the journey was very long/complex journey that jumps between service channels. We also had some inconsistencies from adjusting focus each Sprint to include new service features/content that needed testing, and differences in opinion among the diverse demographics of users who participated too.
+
+
+
+![Image: [Mohamed](https://unsplash.com/photos/JuUK7Er9nR4){.external target="_blank"}](mohamed-boumaiza-JuUK7Er9nR4-unsplash.jpg)
+
 
 ### Workaround Methods to Scale-Up
 

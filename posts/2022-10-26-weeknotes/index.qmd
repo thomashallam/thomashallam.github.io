@@ -2,7 +2,7 @@
 title: "Weeknotes - 26 October 2022"
 author: "Tom Hallam"
 date: "2022-10-26"
-categories: [weeknotes]
+categories: [Weeknotes, UCD Maturity, Allyship, Research Panels]
 ---
 
 <h3>Some positive news</h3>
