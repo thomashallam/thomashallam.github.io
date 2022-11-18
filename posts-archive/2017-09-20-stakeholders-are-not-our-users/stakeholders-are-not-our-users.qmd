@@ -9,8 +9,7 @@ categories: [stakeholders, user-research, referrals, patients]
 image: "christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg"
 ---
 
-![](stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)
-  ![Image: [Christina](https://unsplash.com/photos/34GZCgaVksk){.external target="_blank"}](christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg)
+![Image: [Christina](https://unsplash.com/photos/34GZCgaVksk){.external target="_blank"}](christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg)
 
 
 # Some thoughts on stakeholder engagement for research teams

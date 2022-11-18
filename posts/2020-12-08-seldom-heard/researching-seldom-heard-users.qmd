@@ -5,6 +5,7 @@ format:
 author: "Tom Hallam"
 date: "2020-12-08"
 categories: [Seldom-heard, Inclusivity, Gender, Discovery, Covid Testing]
+image: "jayden-yoon-zk-OGWTZqz3wiI-unsplash.jpg"
 ---
 
 > ### This post is about a recent project I conducted with the LGBTQI+ community around 'Asking about Gender'
@@ -12,8 +13,6 @@ categories: [Seldom-heard, Inclusivity, Gender, Discovery, Covid Testing]
 * Before reading ahead, please be aware some people may find some of this content upsetting.
 
 * To skip this post please [click here](/) to return to the homepage
-
----
 
 When I was asked to look into the Testing needs of transgender users, and to understand how they would feel about some new designs, I was initially very apprehensive.
 
@@ -63,6 +62,7 @@ What I heard was so impactful to me, I didn't want to let this message just pass
 Their story needed to be shared, loud and clearly.
 
 Realising the possible significance of this work, it quickly turned into fears.
+
 The pressure of delivering the insight, truthfully, in a way that respects users' privacy and gender identity, but brings the full raw emotional view from the participants to share their individual needs.
 
 I spent several days (and late nights) immersed among data for the important analysis; watching the clips over-and-over to fully understand the issues, how best the message could be shared broadly.
@@ -74,6 +74,8 @@ Over 80 colleagues attended and the output was received with great appreciation 
 What people were unaware I was in bed feeling sick and deeply upset about the study findings; how would I feel to continue working on a service that has caused this distress for thousands of people during a national health crisis? Staying on the pitch to make sure the research had an impact, rather than walking away with anguish, was my way of keeping the momentum going towards a change and to hopefully make the service just a bit better.
 
 ***A few weeks later - 6/12***
+
+![Taking time to reflect. [Image: Jayden Yoon ZK](https://unsplash.com/photos/OGWTZqz3wiI){.external target="_blank"}](jayden-yoon-zk-OGWTZqz3wiI-unsplash.jpg)
 
 It is still a difficult project for me to think about. Like many other emotinally-charged projects i've worked on in the past decade, I don't think I'll be able to forget this one either. Knowing the signs of emotional burden, third-party (vicarious) trauma, and knowing when and how to seek support from colleagues or professionals makes it feel safer to do these studies.
 

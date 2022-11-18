@@ -2,7 +2,7 @@
 title: "Weeknotes - 2 November 2022"
 author: "Tom Hallam"
 date: "2022-11-02"
-categories: [weeknotes]
+categories: [Weeknotes, Research Lab, Research Panels]
 ---
 
 <h3>Some positive news</h3>
