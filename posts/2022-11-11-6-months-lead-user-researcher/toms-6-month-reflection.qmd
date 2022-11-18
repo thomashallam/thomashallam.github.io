@@ -7,7 +7,7 @@ image: "jungwoo-hong-cYUMaCqMYvI-unsplash.jpg"
 ---
 
 
-**TL;DR** This post is about my reflections 6-months into the new UCD-Lead / Lead User Researcher role 
+**TL;DR** This post covers my reflections 6-months into the new UCD-Lead / Lead User Researcher role 
 
 I love continuous development...  I really hate formal reviews! However it has been a hectic time so reflecting on the challenges and my progress over the last 6 months is hopefully helpful, not least to unpick some challenges and things I might do differently going forward too.
 
@@ -23,7 +23,7 @@ This role and the projects have been *much* more complex than I expected!
 
 **Positives:**
 
-* It was a considerable change for me - after 12 years work on 'frontline research', to move into a more strategic role which is about capability development
+* It was a considerable change for me - after 12 years work on 'frontline research', to move into a more strategic role focussed on capability development
 * I've learnt loads about how things work from an 'organisational perspective', rather than 'what happens from the delivery teams perspective'
 * The Central UCD Teams are really brilliant, great personalities, brilliant experience and have diverse perspectives
 * Finding some greenfields to work in: starting projects from scratch, defining the goals and timelines

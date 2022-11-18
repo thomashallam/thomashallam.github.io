@@ -14,6 +14,7 @@ Even more brilliant was meeting Simon Bolton (CEO) who cut the ribbon, and Helen
 It was good chance to pause and reflect with colleagues who have been involved in this long journey for three years building the UR lab during the pandemic.
 
 All the technology stood up:
+
 * people had fun playing with the PTZ cameras,
 * we streamed the event for colleagues with MS Teams, 
 * we tested running private web streams from both lab rooms,
