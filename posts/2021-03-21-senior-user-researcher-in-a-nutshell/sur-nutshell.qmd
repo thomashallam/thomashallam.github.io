@@ -84,3 +84,27 @@ Importantly I need colleagues to remind me "not to worry about the details" as w
 If you are interested in learning more about what Senior User Researchers do I'm always happy to share more insight about this challenging and rewarding role. Please [reach out on Twitter](https://www.twitter.com/thomashallam)!
 
 Tom :)
+
+
+
+<br>
+---
+
+### If you would like more posts about this topic let me know below!
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

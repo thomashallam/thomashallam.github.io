@@ -116,3 +116,28 @@ Working in a digital multidisciplinary team it is almost impossible to get a “
 We need more programme directors who understand what a real discovery looks like and can smells fake discoveries a mile off.
 
 Product teams need to get closer to users, immerse themselves, among insights about the lifestyles of end users to identify real user needs and root cause problems.
+
+
+
+
+<br>
+---
+
+### How is your discovery going? share your challenges below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

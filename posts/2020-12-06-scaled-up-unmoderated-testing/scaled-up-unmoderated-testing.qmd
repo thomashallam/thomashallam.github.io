@@ -66,3 +66,28 @@ Being asked 'just one more question' with 'no end in sight' and 'no guarantee of
 ### TL;DR
 
 The most impactful UX teams are taking a blended approach to different usability methods - combining qualitative, quantitative, analytics and also survey data. 
+
+
+
+
+<br>
+---
+
+### If you would like more help with unmoderated testing, let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

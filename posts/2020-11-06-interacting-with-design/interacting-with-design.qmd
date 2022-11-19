@@ -68,3 +68,27 @@ The resource has been great for user researchers, designers, product, clinical a
 
 ![The e2e journey map I started was kept up-to-date by the UX team for 2 years!](e2e-journeys-map.png)
 
+
+
+
+<br>
+---
+
+### Have you had to take on my than one role? or push for change? let us know in the chat below :)
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
