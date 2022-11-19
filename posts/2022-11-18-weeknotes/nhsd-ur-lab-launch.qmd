@@ -64,3 +64,27 @@ I know certaintly from running in-house labs during my the first five years of m
 Previously I would have happily jumped on any train, travelled anywhere in the country, but after 2.5 years at home, everywhere else seems so blooming far away! 
 
 I am really looking foward to the trip, meeting colleagues in our London teams for a big workshop, but just not these long train rides! Any suggestions for entertainment on the way is appreciated!
+
+As always, any thoughts massively appreciated! :)
+
+Tom
+
+
+<br>
+---
+
+### Continue this discussion on GitHub
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

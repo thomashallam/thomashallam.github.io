@@ -4,6 +4,7 @@ author: "Tom Hallam"
 date: "2022-11-11"
 categories: [CI, UCD Maturity, Knowledge Management, Surveys, Research Lab]
 image: "jungwoo-hong-cYUMaCqMYvI-unsplash.jpg"
+type: html
 ---
 
 
@@ -184,6 +185,8 @@ This project is a long-haul and as a team we're chipping away at guidance and do
 It has also been great hearing positive feedback from UR colleagues and external Re-Ops colleagues about how impressed they are with the guidance and onboarding materials available for NHS Digital UCD colleagues.
 
 
+
+
 --- 
 
 ### **Panel Management strategy** 
@@ -221,3 +224,23 @@ There is some interesting work still happening in this space with the UKHSA Insi
 * Take a good break over New Year
 
 
+
+
+<br>
+---
+
+### Continue this discussion on GitHub
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
