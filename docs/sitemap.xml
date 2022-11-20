@@ -2,110 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thomashallam.github.io/about.html</loc>
-    <lastmod>2022-11-19T12:23:31.409Z</lastmod>
+    <lastmod>2022-11-20T12:23:43.645Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/archive.html</loc>
-    <lastmod>2022-11-19T12:23:33.293Z</lastmod>
+    <lastmod>2022-11-20T12:23:45.454Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/index.html</loc>
-    <lastmod>2022-11-20T12:15:37.081Z</lastmod>
+    <lastmod>2022-11-20T12:23:47.422Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2020-11-06-interacting-with-design/interacting-with-design.html</loc>
-    <lastmod>2022-11-19T12:23:35.870Z</lastmod>
+    <lastmod>2022-11-20T12:23:47.866Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2020-12-01-always-improving/always-be-improving.html</loc>
-    <lastmod>2022-11-19T12:23:36.515Z</lastmod>
+    <lastmod>2022-11-20T12:23:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2020-12-06-scaled-up-unmoderated-testing/scaled-up-unmoderated-testing.html</loc>
-    <lastmod>2022-11-19T12:23:37.120Z</lastmod>
+    <lastmod>2022-11-20T12:23:48.826Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2020-12-08-seldom-heard/researching-seldom-heard-users.html</loc>
-    <lastmod>2022-11-19T12:23:37.946Z</lastmod>
+    <lastmod>2022-11-20T12:23:49.371Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2021-03-11-what-happened-to-discovery/what-happened-to-discovery.html</loc>
-    <lastmod>2022-11-19T12:23:38.638Z</lastmod>
+    <lastmod>2022-11-20T12:23:49.902Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html</loc>
-    <lastmod>2022-11-19T12:23:39.290Z</lastmod>
+    <lastmod>2022-11-20T12:23:50.382Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2021-04-24-discovery-sprint/discovery-sprint.html</loc>
-    <lastmod>2022-11-19T12:23:39.928Z</lastmod>
+    <lastmod>2022-11-20T12:23:50.808Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2021-05-03/getting-started-with-analytics.html</loc>
+    <lastmod>2022-11-20T12:23:51.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2021-09-26/wheres-tom-at.html</loc>
+    <lastmod>2022-11-20T12:23:51.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2021-10-27/2021-10-27-month-notes.html</loc>
+    <lastmod>2022-11-20T12:23:52.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-02-28/sur-to-lur-crossing-the-chasm.html</loc>
+    <lastmod>2022-11-20T12:23:52.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-03-17/hiring-user-researchers-for-healthcare.html</loc>
+    <lastmod>2022-11-20T12:23:52.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-05-08/covid-testing-end-of-era.html</loc>
+    <lastmod>2022-11-20T12:23:53.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-06-05/new-team-new-role-new-priorities.html</loc>
+    <lastmod>2022-11-20T12:23:53.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-06-29/solo-parenting-dad.html</loc>
+    <lastmod>2022-11-20T12:23:54.193Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-07-04/being-retraumatised.html</loc>
+    <lastmod>2022-11-20T12:23:54.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-07-07/user-research-away-day.html</loc>
+    <lastmod>2022-11-20T12:23:54.991Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomashallam.github.io/posts/2022-07-08/nhse-nhsd-nhsx-hee-merger.html</loc>
+    <lastmod>2022-11-20T12:23:55.412Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-10-24-welcome-new-blog/new-blog.html</loc>
-    <lastmod>2022-11-19T12:23:40.397Z</lastmod>
+    <lastmod>2022-11-20T12:23:55.790Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-10-26-weeknotes/22-10-26-weeknotes.html</loc>
-    <lastmod>2022-11-19T12:23:40.839Z</lastmod>
+    <lastmod>2022-11-20T12:23:56.249Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-11-02-weeknotes/2022-11-02-weeknotes.html</loc>
-    <lastmod>2022-11-19T12:23:41.272Z</lastmod>
+    <lastmod>2022-11-20T12:23:56.663Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-11-11-6-months-lead-user-researcher/toms-6-month-reflection.html</loc>
-    <lastmod>2022-11-19T12:23:41.870Z</lastmod>
+    <lastmod>2022-11-20T12:23:57.162Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts/2022-11-18-weeknotes/nhsd-ur-lab-launch.html</loc>
-    <lastmod>2022-11-19T12:23:42.343Z</lastmod>
+    <lastmod>2022-11-20T12:23:57.660Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html</loc>
-    <lastmod>2022-11-19T12:23:42.966Z</lastmod>
+    <lastmod>2022-11-20T12:23:58.134Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2017-09-12-pondering-private-beta/pondering-private-beta.html</loc>
-    <lastmod>2022-11-19T12:23:43.487Z</lastmod>
+    <lastmod>2022-11-20T12:23:58.569Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html</loc>
-    <lastmod>2022-11-19T12:23:43.963Z</lastmod>
+    <lastmod>2022-11-20T12:23:58.911Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html</loc>
-    <lastmod>2022-11-19T12:23:44.356Z</lastmod>
+    <lastmod>2022-11-20T12:23:59.261Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2017-09-22-little-things-matter/little-things-matter.html</loc>
-    <lastmod>2022-11-19T12:23:44.721Z</lastmod>
+    <lastmod>2022-11-20T12:23:59.616Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2017-10-12-letting-go/letting-go-going-lean.html</loc>
-    <lastmod>2022-11-19T12:23:45.082Z</lastmod>
+    <lastmod>2022-11-20T12:23:59.959Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2019-02-09-product-people/product-people-when-stakeholders-attack.html</loc>
-    <lastmod>2022-11-19T12:23:45.561Z</lastmod>
+    <lastmod>2022-11-20T12:24:00.396Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html</loc>
-    <lastmod>2022-11-19T12:23:45.954Z</lastmod>
+    <lastmod>2022-11-20T12:24:00.769Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html</loc>
-    <lastmod>2022-11-19T12:23:46.355Z</lastmod>
+    <lastmod>2022-11-20T12:24:01.158Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html</loc>
-    <lastmod>2022-11-19T12:23:46.819Z</lastmod>
+    <lastmod>2022-11-20T12:24:01.578Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/posts-archive/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html</loc>
-    <lastmod>2022-11-19T12:23:47.198Z</lastmod>
+    <lastmod>2022-11-20T12:24:01.926Z</lastmod>
   </url>
   <url>
     <loc>https://thomashallam.github.io/readinglists.html</loc>
-    <lastmod>2022-11-19T12:23:47.646Z</lastmod>
+    <lastmod>2022-11-20T12:24:02.250Z</lastmod>
   </url>
 </urlset>
