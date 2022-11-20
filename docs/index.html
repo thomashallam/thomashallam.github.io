@@ -73,7 +73,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -106,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
   "consent_type":"implied",
-  "palette":"dark",
+  "palette":"light",
   "language":"en",
   "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
   "notice_banner_reject_button_hide":false,
@@ -143,8 +144,8 @@ cookieconsent.run({
  <span class="menu-text">Hello</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./readinglists.html">
- <span class="menu-text">Great reads</span></a>
+    <a class="nav-link" href="./data-sci/datasci.html">
+ <span class="menu-text">Data stuff</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/thomashallam"><i class="bi bi-github" role="img">
@@ -189,14 +190,13 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="Allyship">Allyship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytics">Analytics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="CI">CI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Capability">Capability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Change Management">Change Management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Covid Testing">Covid Testing <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Culture">Culture <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Culture Change">Culture Change <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Digital">Digital <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Discovery">Discovery <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Gender">Gender <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Healthcare">Healthcare <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Hiring">Hiring <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Inclusivity">Inclusivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interaction Design">Interaction Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Knowledge Management">Knowledge Management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Leadership">Leadership <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Month notes">Month notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="News">News <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Personal">Personal <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Lab">Research Lab <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Research Operations">Research Operations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Panels">Research Panels <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Seldom-heard">Seldom-heard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Service Deisgn">Service Deisgn <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sprint">Sprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Surveys">Surveys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tools">Tools <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCD">UCD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCD Maturity">UCD Maturity <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Usability">Usability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="User Reseach">User Reseach <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Research">User Research <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Ways of Working">Ways of Working <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Weeknotes">Weeknotes <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(33)</span></div><div class="category" data-category="Allyship">Allyship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytics">Analytics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Beta">Beta <span class="quarto-category-count">(2)</span></div><div class="category" data-category="CI">CI <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Capability">Capability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Community">Community <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Content Design">Content Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Covid Testing">Covid Testing <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Culture">Culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Culture Change">Culture Change <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Digital">Digital <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Discovery">Discovery <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Gender">Gender <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Healthcare">Healthcare <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Hiring">Hiring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Inclusivity">Inclusivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interaction Design">Interaction Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Knowledge Management">Knowledge Management <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Leadership">Leadership <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Month notes">Month notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Patients">Patients <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Personal">Personal <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Planning">Planning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Product Management">Product Management <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Referrals">Referrals <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Lab">Research Lab <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Research Operations">Research Operations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Panel">Research Panel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Panels">Research Panels <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Seldom-heard">Seldom-heard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Service Design">Service Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Sprint">Sprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Stakeholders">Stakeholders <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Surveys">Surveys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tools">Tools <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UCD">UCD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCD Maturity">UCD Maturity <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Usability">Usability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Usability Testing">Usability Testing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Experience">User Experience <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Needs">User Needs <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Research">User Research <span class="quarto-category-count">(17)</span></div><div class="category" data-category="User-Centred Design">User-Centred Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ways of Working">Ways of Working <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Weeknotes">Weeknotes <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Wellbeing">Wellbeing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<p><a href="./archive.html">Blog archive</a></p>
 
 
 
@@ -376,7 +376,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Weeknotes,News" data-listing-date-sort="1666566000000" data-listing-file-modified-sort="1668946534725" data-listing-reading-time-sort="1.265">
+<div class="quarto-post image-right" data-index="4" data-categories="Weeknotes,Personal" data-listing-date-sort="1666566000000" data-listing-file-modified-sort="1668947177451" data-listing-reading-time-sort="1.265">
 <div class="thumbnail">
 <p><a href="./posts/2022-10-24-welcome-new-blog/new-blog.html"> <img src="./posts/2022-10-24-welcome-new-blog/thumbnail.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -393,8 +393,8 @@ Welcome to my (new) Blog
 <div class="listing-category" onclick="window.quartoListingCategory('Weeknotes'); return false;">
 Weeknotes
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('News'); return false;">
-News
+<div class="listing-category" onclick="window.quartoListingCategory('Personal'); return false;">
+Personal
 </div>
 </div>
 <a href="./posts/2022-10-24-welcome-new-blog/new-blog.html">
@@ -414,61 +414,12 @@ Thomas Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="User Reseach,Change Management,Culture" data-listing-date-sort="1657234800000" data-listing-file-modified-sort="1668946737460" data-listing-reading-time-sort="1.105">
+<div class="quarto-post image-right" data-index="5" data-categories="User Research,Community,Research Panel" data-listing-date-sort="1657148400000" data-listing-file-modified-sort="1668961030341" data-listing-reading-time-sort="2.32">
 <div class="thumbnail">
-<a href="./posts/2022-07-08/nhse-nhsd-nhsx-hee-merger.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-07-08/nhse-nhsd-nhsx-hee-merger.html"></a></p>
+<p><a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html"> <img src="./posts/2022-07-07-ur-away-day/henny-kasa-LaCTAUJ2wug-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-07-08/nhse-nhsd-nhsx-hee-merger.html">
-<h3 class="no-anchor listing-title">
-NHSE/D/X/HEE Merger announced
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('User Reseach'); return false;">
-User Reseach
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Change Management'); return false;">
-Change Management
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Culture'); return false;">
-Culture
-</div>
-</div>
-<a href="./posts/2022-07-08/nhse-nhsd-nhsx-hee-merger.html">
-<div class="listing-description">
-The announcement was not unexpected (to me) due to earlier announcements about public sector departmental cuts in May &amp; June.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2022-07-08/nhse-nhsd-nhsx-hee-merger.html">
-<div class="listing-date">
-Jul 8, 2022
-</div>
-<div class="listing-author">
-Tom Hallam
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="User Reseach" data-listing-date-sort="1657148400000" data-listing-file-modified-sort="1668946737459" data-listing-reading-time-sort="1.725">
-<div class="thumbnail">
-<a href="./posts/2022-07-07/user-research-away-day.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-07-07/user-research-away-day.html"></a></p>
-</div>
-<div class="body">
-<a href="./posts/2022-07-07/user-research-away-day.html">
+<a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html">
 <h3 class="no-anchor listing-title">
 User research away day
 </h3>
@@ -477,18 +428,24 @@ User research away day
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('User Reseach'); return false;">
-User Reseach
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Community'); return false;">
+Community
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Research Panel'); return false;">
+Research Panel
 </div>
 </div>
-<a href="./posts/2022-07-07/user-research-away-day.html">
+<a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html">
 <div class="listing-description">
 Today we saw some brilliant facilitation by the hosts Jordan and Michelle. A difficult tech set up…
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-07-07/user-research-away-day.html">
+<a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html">
 <div class="listing-date">
 Jul 7, 2022
 </div>
@@ -498,16 +455,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Personal" data-listing-date-sort="1656889200000" data-listing-file-modified-sort="1668946737458" data-listing-reading-time-sort="2.8">
+<div class="quarto-post image-right" data-index="6" data-categories="Personal" data-listing-date-sort="1656889200000" data-listing-file-modified-sort="1668960886031" data-listing-reading-time-sort="3.385">
 <div class="thumbnail">
-<a href="./posts/2022-07-04/being-retraumatised.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-07-04/being-retraumatised.html"></a></p>
+<p><a href="./posts/2022-07-04-retraumatised/being-retraumatised.html"> <img src="./posts/2022-07-04-retraumatised/rene-bohmer-kGQSE4rUakg-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-07-04/being-retraumatised.html">
+<a href="./posts/2022-07-04-retraumatised/being-retraumatised.html">
 <h3 class="no-anchor listing-title">
 Help dealing with being retraumatised
 </h3>
@@ -520,14 +473,14 @@ Help dealing with being retraumatised
 Personal
 </div>
 </div>
-<a href="./posts/2022-07-04/being-retraumatised.html">
+<a href="./posts/2022-07-04-retraumatised/being-retraumatised.html">
 <div class="listing-description">
-Trigger warning: note this article includes content the might be a mental health trigger. Click here to return to the front page.
+<strong>Trigger warning: note this article includes content the might be a mental health trigger. Click here to return to the front page.</strong>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-07-04/being-retraumatised.html">
+<a href="./posts/2022-07-04-retraumatised/being-retraumatised.html">
 <div class="listing-date">
 Jul 4, 2022
 </div>
@@ -537,13 +490,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Personal" data-listing-date-sort="1656457200000" data-listing-file-modified-sort="1668946737458" data-listing-reading-time-sort="2.325">
+<div class="quarto-post image-right" data-index="7" data-categories="Personal" data-listing-date-sort="1656457200000" data-listing-file-modified-sort="1668960350006" data-listing-reading-time-sort="2.92">
 <div class="thumbnail">
-<a href="./posts/2022-06-29/solo-parenting-dad.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-06-29/solo-parenting-dad.html"></a></p>
+<p><a href="./posts/2022-06-29/solo-parenting-dad.html"> <img src="./posts/2022-06-29/depositphotos_361583192-stock-photo-tired-father-his-two-kids.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-06-29/solo-parenting-dad.html">
@@ -561,7 +510,7 @@ Personal
 </div>
 <a href="./posts/2022-06-29/solo-parenting-dad.html">
 <div class="listing-description">
-I wrote a longer post about coparenting/being a single/solo dad and my personal journey through getting divorce. I deleted that and wrote these concise thoughts instead.
+<strong>TL;DR</strong>
 </div>
 </a>
 </div>
@@ -576,12 +525,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="User Research,Research Operations,UCD" data-listing-date-sort="1654383600000" data-listing-file-modified-sort="1668946737457" data-listing-reading-time-sort="1.52">
+<div class="quarto-post image-right" data-index="8" data-categories="User Research,Research Operations,UCD Maturity,Knowledge Management,UCD" data-listing-date-sort="1654383600000" data-listing-file-modified-sort="1668961329763" data-listing-reading-time-sort="2.115">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-05/new-team-new-role-new-priorities.html"> <img src="./posts/2022-06-05/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html"> <img src="./posts/2022-06-05-new-role/randy-tarampi-U2eUlPEKIgU-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-05/new-team-new-role-new-priorities.html">
+<a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html">
 <h3 class="no-anchor listing-title">
 New team, new role, new priorities
 </h3>
@@ -596,18 +545,24 @@ User Research
 <div class="listing-category" onclick="window.quartoListingCategory('Research Operations'); return false;">
 Research Operations
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('UCD Maturity'); return false;">
+UCD Maturity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Knowledge Management'); return false;">
+Knowledge Management
+</div>
 <div class="listing-category" onclick="window.quartoListingCategory('UCD'); return false;">
 UCD
 </div>
 </div>
-<a href="./posts/2022-06-05/new-team-new-role-new-priorities.html">
+<a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html">
 <div class="listing-description">
 I’m very excited to have joined the Central User-Centred Design team at NHS Digital, working with Rochelle, Tero, Eva and the Central Re-Ops team.
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-05/new-team-new-role-new-priorities.html">
+<a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html">
 <div class="listing-date">
 Jun 5, 2022
 </div>
@@ -617,12 +572,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Hiring,User Research" data-listing-date-sort="1651964400000" data-listing-file-modified-sort="1668946737457" data-listing-reading-time-sort="3.275">
+<div class="quarto-post image-right" data-index="9" data-categories="User Research,Covid Testing,Healthcare,Stakeholders" data-listing-date-sort="1651964400000" data-listing-file-modified-sort="1668961442656" data-listing-reading-time-sort="3.875">
 <div class="thumbnail">
-<p><a href="./posts/2022-05-08/covid-testing-end-of-era.html"> <img src="./posts/2022-05-08/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html"> <img src="./posts/2022-05-08-end-of-era/annie-spratt-PXZEg4hnyVw-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-05-08/covid-testing-end-of-era.html">
+<a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html">
 <h3 class="no-anchor listing-title">
 Last week on Covid Testing
 </h3>
@@ -631,21 +586,27 @@ Last week on Covid Testing
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Hiring'); return false;">
-Hiring
-</div>
 <div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
 User Research
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Covid Testing'); return false;">
+Covid Testing
 </div>
-<a href="./posts/2022-05-08/covid-testing-end-of-era.html">
+<div class="listing-category" onclick="window.quartoListingCategory('Healthcare'); return false;">
+Healthcare
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Stakeholders'); return false;">
+Stakeholders
+</div>
+</div>
+<a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html">
 <div class="listing-description">
-This week is my last week on Covid Testing programme after 2 years 3 months (since March 2020)!
+<strong>This week is my last week on Covid Testing programme after 2 years 3 months (since March 2020)!</strong>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-05-08/covid-testing-end-of-era.html">
+<a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html">
 <div class="listing-date">
 May 8, 2022
 </div>
@@ -655,12 +616,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Hiring,User Research" data-listing-date-sort="1647475200000" data-listing-file-modified-sort="1668946737456" data-listing-reading-time-sort="0.98">
+<div class="quarto-post image-right" data-index="10" data-categories="Hiring,User Research,Healthcare" data-listing-date-sort="1647475200000" data-listing-file-modified-sort="1668959067387" data-listing-reading-time-sort="1.675">
 <div class="thumbnail">
-<p><a href="./posts/2022-03-17/hiring-user-researchers-for-healthcare.html"> <img src="./posts/2022-03-17/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html"> <img src="./posts/2022-03-17-hiring-researchers/eric-prouzet-B3UFXwcVbc4-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-03-17/hiring-user-researchers-for-healthcare.html">
+<a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html">
 <h3 class="no-anchor listing-title">
 Hiring user researchers for healthcare
 </h3>
@@ -675,15 +636,18 @@ Hiring
 <div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
 User Research
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Healthcare'); return false;">
+Healthcare
 </div>
-<a href="./posts/2022-03-17/hiring-user-researchers-for-healthcare.html">
+</div>
+<a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html">
 <div class="listing-description">
-Research in healthcare / gov can be quite dangerous if not done properly; findings that are harmful to users/citizens, traumatic experiences…
+Research in healthcare or govevernment can be quite dangerous if not done properly:
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-03-17/hiring-user-researchers-for-healthcare.html">
+<a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html">
 <div class="listing-date">
 Mar 17, 2022
 </div>
@@ -693,12 +657,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Month notes,Personal" data-listing-date-sort="1646006400000" data-listing-file-modified-sort="1668946737456" data-listing-reading-time-sort="11.05">
+<div class="quarto-post image-right" data-index="11" data-categories="Month notes,Personal" data-listing-date-sort="1646006400000" data-listing-file-modified-sort="1668959540806" data-listing-reading-time-sort="11.71">
 <div class="thumbnail">
-<p><a href="./posts/2022-02-28/sur-to-lur-crossing-the-chasm.html"> <img src="./posts/2022-02-28/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html"> <img src="./posts/2022-02-28-sur-lur/tim-johnson-ywIZ8ZYxzWU-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-02-28/sur-to-lur-crossing-the-chasm.html">
+<a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html">
 <h3 class="no-anchor listing-title">
 Crossing the chasm between SUR and LUR level
 </h3>
@@ -714,14 +678,14 @@ Month notes
 Personal
 </div>
 </div>
-<a href="./posts/2022-02-28/sur-to-lur-crossing-the-chasm.html">
+<a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html">
 <div class="listing-description">
- This is a post about my recent experience working as a Senior User Researcher on Covid Testing, and as an interim-role taking on some new Lead User Research responsibilities.
+This is a post about my recent experience working as a Senior User Researcher on Covid Testing, and as an interim-role taking on some new Lead User Research responsibilities.
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-02-28/sur-to-lur-crossing-the-chasm.html">
+<a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html">
 <div class="listing-date">
 Feb 28, 2022
 </div>
@@ -731,12 +695,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Month notes,Personal" data-listing-date-sort="1635289200000" data-listing-file-modified-sort="1668946737455" data-listing-reading-time-sort="10.21">
+<div class="quarto-post image-right" data-index="12" data-categories="Month notes,Personal,Covid Testing,Healthcare,Wellbeing" data-listing-date-sort="1635289200000" data-listing-file-modified-sort="1668964171911" data-listing-reading-time-sort="10.87">
 <div class="thumbnail">
-<p><a href="./posts/2021-10-27/2021-10-27-month-notes.html"> <img src="./posts/2021-10-27/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html"> <img src="./posts/2021-10-27-month-notes/cop_115544106.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-10-27/2021-10-27-month-notes.html">
+<a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html">
 <h3 class="no-anchor listing-title">
 Month notes 27 October
 </h3>
@@ -751,15 +715,24 @@ Month notes
 <div class="listing-category" onclick="window.quartoListingCategory('Personal'); return false;">
 Personal
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Covid Testing'); return false;">
+Covid Testing
 </div>
-<a href="./posts/2021-10-27/2021-10-27-month-notes.html">
+<div class="listing-category" onclick="window.quartoListingCategory('Healthcare'); return false;">
+Healthcare
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wellbeing'); return false;">
+Wellbeing
+</div>
+</div>
+<a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html">
 <div class="listing-description">
- A rollercoaster fortnight COP26 starts very soon, yes there will be testing. Over the past 3 weeks our team have been…
+COP26 starts very soon, yes there will be testing. Over the past 3 weeks our team have been collaborating on and testing various digital service…
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-10-27/2021-10-27-month-notes.html">
+<a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html">
 <div class="listing-date">
 Oct 27, 2021
 </div>
@@ -769,12 +742,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="Month notes,Personal" data-listing-date-sort="1632610800000" data-listing-file-modified-sort="1668946854049" data-listing-reading-time-sort="6.415">
+<div class="quarto-post image-right" data-index="13" data-categories="Month notes,Personal,Covid Testing,Healthcare" data-listing-date-sort="1632610800000" data-listing-file-modified-sort="1668963198825" data-listing-reading-time-sort="6.995">
 <div class="thumbnail">
-<p><a href="./posts/2021-09-26/wheres-tom-at.html"> <img src="./posts/2021-09-26/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html"> <img src="./posts/2021-09-26-wheres-tom/fusion-medical-animation-npjP0dCtoxo-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-09-26/wheres-tom-at.html">
+<a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html">
 <h3 class="no-anchor listing-title">
 Where’s Tom at?
 </h3>
@@ -789,15 +762,21 @@ Month notes
 <div class="listing-category" onclick="window.quartoListingCategory('Personal'); return false;">
 Personal
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Covid Testing'); return false;">
+Covid Testing
 </div>
-<a href="./posts/2021-09-26/wheres-tom-at.html">
+<div class="listing-category" onclick="window.quartoListingCategory('Healthcare'); return false;">
+Healthcare
+</div>
+</div>
+<a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html">
 <div class="listing-description">
 So I have been a bit ill the last 3 weeks: first it was a terrible eye infection (lasting 5 days, requiring 3 different eye solutions!), then followed by a…
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-09-26/wheres-tom-at.html">
+<a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html">
 <div class="listing-date">
 Sep 26, 2021
 </div>
@@ -807,12 +786,12 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="User Research,Analytics,Usability,Covid Testing" data-listing-date-sort="1619996400000" data-listing-file-modified-sort="1668946737454" data-listing-reading-time-sort="0.57">
+<div class="quarto-post image-right" data-index="14" data-categories="User Research,Analytics,Usability,Covid Testing,Tools" data-listing-date-sort="1619996400000" data-listing-file-modified-sort="1668963771894" data-listing-reading-time-sort="1.27">
 <div class="thumbnail">
-<p><a href="./posts/2021-05-03/getting-started-with-analytics.html"> <img src="./posts/2021-05-03/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html"> <img src="./posts/2021-05-03-getting-started-analytics/analyticswp.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-05-03/getting-started-with-analytics.html">
+<a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html">
 <h3 class="no-anchor listing-title">
 Getting started with analytics
 </h3>
@@ -833,15 +812,18 @@ Usability
 <div class="listing-category" onclick="window.quartoListingCategory('Covid Testing'); return false;">
 Covid Testing
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tools'); return false;">
+Tools
 </div>
-<a href="./posts/2021-05-03/getting-started-with-analytics.html">
+</div>
+<a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html">
 <div class="listing-description">
-I remember sitting in a product backlog meeting with developers who…
+“you can’t have analytics now because it takes too long to install”
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-05-03/getting-started-with-analytics.html">
+<a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html">
 <div class="listing-date">
 May 3, 2021
 </div>
@@ -851,7 +833,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="User Research,Discovery,Sprint,Covid Testing" data-listing-date-sort="1619218800000" data-listing-file-modified-sort="1668946534724" data-listing-reading-time-sort="6.13">
+<div class="quarto-post image-right" data-index="15" data-categories="User Research,Discovery,Sprint,Covid Testing" data-listing-date-sort="1619218800000" data-listing-file-modified-sort="1668946534724" data-listing-reading-time-sort="6.13">
 <div class="thumbnail">
 <p><a href="./posts/2021-04-24-discovery-sprint/discovery-sprint.html"> <img src="./posts/2021-04-24-discovery-sprint/userjourney.png" class="thumnail-image"> </a></p>
 </div>
@@ -895,7 +877,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Healthcare,Leadership,User Research" data-listing-date-sort="1616284800000" data-listing-file-modified-sort="1668946534723" data-listing-reading-time-sort="3.885">
+<div class="quarto-post image-right" data-index="16" data-categories="Healthcare,Leadership,User Research" data-listing-date-sort="1616284800000" data-listing-file-modified-sort="1668946534723" data-listing-reading-time-sort="3.885">
 <div class="thumbnail">
 <p><a href="./posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html"> <img src="./posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-census.png" class="thumnail-image"> </a></p>
 </div>
@@ -936,7 +918,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="Digital,Discovery,Healthcare" data-listing-date-sort="1615420800000" data-listing-file-modified-sort="1668946534722" data-listing-reading-time-sort="7.93">
+<div class="quarto-post image-right" data-index="17" data-categories="Digital,Discovery,Healthcare" data-listing-date-sort="1615420800000" data-listing-file-modified-sort="1668946534722" data-listing-reading-time-sort="7.93">
 <div class="thumbnail">
 <p><a href="./posts/2021-03-11-what-happened-to-discovery/what-happened-to-discovery.html"> <img src="./posts/2021-03-11-what-happened-to-discovery/image.png" class="thumnail-image"> </a></p>
 </div>
@@ -977,7 +959,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Seldom-heard,Inclusivity,Gender,Discovery,Covid Testing" data-listing-date-sort="1607385600000" data-listing-file-modified-sort="1668946534721" data-listing-reading-time-sort="7.85">
+<div class="quarto-post image-right" data-index="18" data-categories="Seldom-heard,Inclusivity,Gender,Discovery,Covid Testing" data-listing-date-sort="1607385600000" data-listing-file-modified-sort="1668946534721" data-listing-reading-time-sort="7.85">
 <div class="thumbnail">
 <p><a href="./posts/2020-12-08-seldom-heard/researching-seldom-heard-users.html"> <img src="./posts/2020-12-08-seldom-heard/jayden-yoon-zk-OGWTZqz3wiI-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -1024,7 +1006,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Analytics,Tools,Usability,Covid Testing" data-listing-date-sort="1607212800000" data-listing-file-modified-sort="1668946534720" data-listing-reading-time-sort="4.555">
+<div class="quarto-post image-right" data-index="19" data-categories="Analytics,Tools,Usability,Covid Testing" data-listing-date-sort="1607212800000" data-listing-file-modified-sort="1668946534720" data-listing-reading-time-sort="4.555">
 <div class="thumbnail">
 <p><a href="./posts/2020-12-06-scaled-up-unmoderated-testing/scaled-up-unmoderated-testing.html"> <img src="./posts/2020-12-06-scaled-up-unmoderated-testing/mohamed-boumaiza-JuUK7Er9nR4-unsplash.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -1068,7 +1050,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="CI,Culture,Data,Leadership,Reporting,Ways of Working,Covid Testing" data-listing-date-sort="1606780800000" data-listing-file-modified-sort="1668946534719" data-listing-reading-time-sort="4.775">
+<div class="quarto-post image-right" data-index="20" data-categories="CI,Culture,Data,Leadership,Reporting,Ways of Working,Covid Testing" data-listing-date-sort="1606780800000" data-listing-file-modified-sort="1668946534719" data-listing-reading-time-sort="4.775">
 <div class="thumbnail">
 <p><a href="./posts/2020-12-01-always-improving/always-be-improving.html"> <img src="./posts/2020-12-01-always-improving/continuous-improvement-discovery.png" class="thumnail-image"> </a></p>
 </div>
@@ -1121,7 +1103,7 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Culture Change,Capability,Interaction Design,Service Deisgn,Usability,Leadership,Covid Testing" data-listing-date-sort="1604620800000" data-listing-file-modified-sort="1668946534718" data-listing-reading-time-sort="4.055">
+<div class="quarto-post image-right" data-index="21" data-categories="Culture Change,Capability,Interaction Design,Service Design,Usability,Leadership,Covid Testing" data-listing-date-sort="1604620800000" data-listing-file-modified-sort="1668963445080" data-listing-reading-time-sort="4.055">
 <div class="thumbnail">
 <p><a href="./posts/2020-11-06-interacting-with-design/interacting-with-design.html"> <img src="./posts/2020-11-06-interacting-with-design/e2e-journeys-map.png" class="thumnail-image"> </a></p>
 </div>
@@ -1144,8 +1126,8 @@ Capability
 <div class="listing-category" onclick="window.quartoListingCategory('Interaction Design'); return false;">
 Interaction Design
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Service Deisgn'); return false;">
-Service Deisgn
+<div class="listing-category" onclick="window.quartoListingCategory('Service Design'); return false;">
+Service Design
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('Usability'); return false;">
 Usability
@@ -1174,10 +1156,500 @@ Tom Hallam
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="22" data-categories="User Research,Usability Testing,Referrals,Stakeholders,User-Centred Design" data-listing-date-sort="1583798400000" data-listing-file-modified-sort="1668946534717" data-listing-reading-time-sort="0.87">
+<div class="thumbnail">
+<p><a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html"> <img src="./posts/2020-03-10-day-in-life-user-researcher/radek-skrzypczak-WlB8TsI_th0-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html">
+<h3 class="no-anchor listing-title">
+User research day in the life
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Usability Testing'); return false;">
+Usability Testing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Referrals'); return false;">
+Referrals
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Stakeholders'); return false;">
+Stakeholders
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User-Centred Design'); return false;">
+User-Centred Design
+</div>
+</div>
+<a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html">
+<div class="listing-description">
+<strong>Selling your wares</strong> - working in an…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html">
+<div class="listing-date">
+Mar 10, 2020
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="User Needs,User Research,Patients,Referrals,Discovery,User Experience" data-listing-date-sort="1583366400000" data-listing-file-modified-sort="1668946534716" data-listing-reading-time-sort="5.715">
+<div class="thumbnail">
+<p><a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html"> <img src="./posts/2020-03-05-patient-centred-referrals/1_n6gOZoOpKqgAxExWgVPmrQ.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html">
+<h3 class="no-anchor listing-title">
+The case for patient-centred bookings and referrals
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Needs'); return false;">
+User Needs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Patients'); return false;">
+Patients
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Referrals'); return false;">
+Referrals
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Discovery'); return false;">
+Discovery
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Experience'); return false;">
+User Experience
+</div>
+</div>
+<a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html">
+<div class="listing-description">
+Hi I’m Tom — i’ve been working at NHS Digital as a User Researcher on the NHS referrals transformation project since 2015.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html">
+<div class="listing-date">
+Mar 5, 2020
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="User Research,Usability Testing,Referrals" data-listing-date-sort="1558652400000" data-listing-file-modified-sort="1668946534715" data-listing-reading-time-sort="1.83">
+<div class="thumbnail">
+<p><a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html"> <img src="./posts/2019-05-24-usability-testing-constraint-choices/1_i384H_6SMsFYMMH4aPrZfw.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html">
+<h3 class="no-anchor listing-title">
+Usability testing when choice is constrained
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Usability Testing'); return false;">
+Usability Testing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Referrals'); return false;">
+Referrals
+</div>
+</div>
+<a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html">
+<div class="listing-description">
+“I’ve been told not to click that button.”
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html">
+<div class="listing-date">
+May 24, 2019
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="User Needs,User Research,User Experience,Product Management" data-listing-date-sort="1558566000000" data-listing-file-modified-sort="1668946534714" data-listing-reading-time-sort="3.085">
+<div class="thumbnail">
+<p><a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html"> <img data-src="./posts/2019-05-23-user-needs-value-proposition/1_b2jJLKkBFIi7k78MNZb7IA.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html">
+<h3 class="no-anchor listing-title">
+User Needs vs.&nbsp;Value Proposition thinking
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Needs'); return false;">
+User Needs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Experience'); return false;">
+User Experience
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Product Management'); return false;">
+Product Management
+</div>
+</div>
+<a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html">
+<div class="listing-description">
+I’ve seen teams design lovely journeys and content but not understanding what is the core thing they do that adds value for their users.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html">
+<div class="listing-date">
+May 23, 2019
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="User Research,User-Centred Design,Product Management,Stakeholders" data-listing-date-sort="1549670400000" data-listing-file-modified-sort="1668946534712" data-listing-reading-time-sort="6.595">
+<div class="thumbnail">
+<p><a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html"> <img data-src="./posts/2019-02-09-product-people/1_7TlzAXCWmXs-1kyG1u32rA.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html">
+<h3 class="no-anchor listing-title">
+Product People - When stakeholders attack!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User-Centred Design'); return false;">
+User-Centred Design
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Product Management'); return false;">
+Product Management
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Stakeholders'); return false;">
+Stakeholders
+</div>
+</div>
+<a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html">
+<div class="listing-description">
+As a User Researcher working in the NHS, it seems every project I have been involved in…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html">
+<div class="listing-date">
+Feb 9, 2019
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="27" data-categories="Culture Change,CI,Planning" data-listing-date-sort="1507762800000" data-listing-file-modified-sort="1668963672785" data-listing-reading-time-sort="0.165">
+<div class="thumbnail">
+<p><a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html"> <img data-src="./posts/2017-10-12-letting-go/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html">
+<h3 class="no-anchor listing-title">
+Letting go!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Culture Change'); return false;">
+Culture Change
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CI'); return false;">
+CI
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Planning'); return false;">
+Planning
+</div>
+</div>
+<a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html">
+<div class="listing-description">
+Releasing control.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html">
+<div class="listing-date">
+Oct 12, 2017
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="28" data-categories="Beta,User Research,Referrals,Patients,Content Design,Interaction Design" data-listing-date-sort="1506034800000" data-listing-file-modified-sort="1668946534710" data-listing-reading-time-sort="0.25">
+<div class="thumbnail">
+<p><a href="./posts/2017-09-22-little-things-matter/little-things-matter.html"> <img data-src="./posts/2017-09-22-little-things-matter/annie-spratt-4cNNenEn54c-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-09-22-little-things-matter/little-things-matter.html">
+<h3 class="no-anchor listing-title">
+Little Things Matter
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Beta'); return false;">
+Beta
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Referrals'); return false;">
+Referrals
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Patients'); return false;">
+Patients
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Content Design'); return false;">
+Content Design
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Interaction Design'); return false;">
+Interaction Design
+</div>
+</div>
+<a href="./posts/2017-09-22-little-things-matter/little-things-matter.html">
+<div class="listing-description">
+Today we found out that a simple change the team made to a patient letter will possibly save the NHS about £500k per year!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-09-22-little-things-matter/little-things-matter.html">
+<div class="listing-date">
+Sep 22, 2017
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="29" data-categories="Stakeholders,User Research,Referrals,Patients" data-listing-date-sort="1505862000000" data-listing-file-modified-sort="1668946534710" data-listing-reading-time-sort="1.015">
+<div class="thumbnail">
+<p><a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html"> <img data-src="./posts/2017-09-20-stakeholders-are-not-our-users/christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html">
+<h3 class="no-anchor listing-title">
+Stakeholders are not our users
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Stakeholders'); return false;">
+Stakeholders
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Referrals'); return false;">
+Referrals
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Patients'); return false;">
+Patients
+</div>
+</div>
+<a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html">
+<div class="listing-description">
+Stakeholders are great. But they are not our users.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html">
+<div class="listing-date">
+Sep 20, 2017
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="30" data-categories="Product Management,User Research,Planning,Service Design" data-listing-date-sort="1505689200000" data-listing-file-modified-sort="1668946534709" data-listing-reading-time-sort="0.825">
+<div class="thumbnail">
+<p><a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html"> <img data-src="./posts/2017-09-18-we-dont-need-user-research/thomas-park-KYEeuGUkZ54-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html">
+<h3 class="no-anchor listing-title">
+We don’t need user research
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Product Management'); return false;">
+Product Management
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Planning'); return false;">
+Planning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Service Design'); return false;">
+Service Design
+</div>
+</div>
+<a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html">
+<div class="listing-description">
+Just some wild things that were said today…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html">
+<div class="listing-date">
+Sep 18, 2017
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="31" data-categories="Beta,User Research,Planning" data-listing-date-sort="1505170800000" data-listing-file-modified-sort="1668946534708" data-listing-reading-time-sort="5.93">
+<div class="thumbnail">
+<p><a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html"> <img data-src="./posts/2017-09-12-pondering-private-beta/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html">
+<h3 class="no-anchor listing-title">
+Ponderings on Private Beta
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Beta'); return false;">
+Beta
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Planning'); return false;">
+Planning
+</div>
+</div>
+<a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html">
+<div class="listing-description">
+Hi all, I’ve been asked my by PO to put out a request about what a good private…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html">
+<div class="listing-date">
+Sep 12, 2017
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="32" data-categories="Discovery,User Research,Planning" data-listing-date-sort="1505084400000" data-listing-file-modified-sort="1668963402625" data-listing-reading-time-sort="3.605">
+<div class="thumbnail">
+<p><a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html"> <img data-src="./posts/2017-09-11-what-is-pre-discovery/daniel-lerman-fr3YLb9UHSQ-unsplash.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html">
+<h3 class="no-anchor listing-title">
+What is a Pre-Discovery?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Discovery'); return false;">
+Discovery
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Planning'); return false;">
+Planning
+</div>
+</div>
+<a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html">
+<div class="listing-description">
+Pre-Discovery is helpful for teams working on existing products and services where data can be…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html">
+<div class="listing-date">
+Sep 11, 2017
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

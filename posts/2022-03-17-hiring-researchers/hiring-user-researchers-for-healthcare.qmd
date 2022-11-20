@@ -1,0 +1,61 @@
+---
+title: "Hiring user researchers for healthcare"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-03-17"
+categories: [Hiring, User Research, Healthcare]
+image: "eric-prouzet-B3UFXwcVbc4-unsplash.jpg"
+---
+
+
+
+Research in healthcare or govevernment can be quite dangerous if not done properly:
+
+* findings that are harmful to users/citizens, 
+* traumatic experiences for researchers and their colleagues, 
+* products and services designed inappropriately/not tested properly... 
+
+If you are doing User Research in a healthcare context, you really need to get it right.
+
+As a hiring manager, we need to help the business understand the difference in UR skillsets, what is value of a good or great researcher?
+
+Their is huge demand for UX talent right now.
+
+It is so bad that some teams are willing to hire anyone! The risk of not hiring could mean their programme fails it's Service Assessments and lose funding/be cancelled. 
+
+However, hiring people with an inadequate skill set can make delivery dangerous for users! 
+
+If you are hiring it is important to assess the market before you post adverts. If your team can secure additional an £50-£100 a day for hiring, you might get some great UR staff applying.
+
+For me it's a simple question:
+
+* do you want to hire staff staff who have limited experience, or some skills for the job? taking a risk they have no skills?
+* or do do you want to hire staff with significant experience, all the skills needed (and often more), for a small % more?
+
+It is a simple choice
+
+![We are hiring. Image [Eric](https://unsplash.com/photos/B3UFXwcVbc4){.external target="_blank"}](eric-prouzet-B3UFXwcVbc4-unsplash.jpg)
+
+
+
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

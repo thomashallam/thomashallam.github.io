@@ -1,0 +1,94 @@
+---
+title: "Being a solo dad"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-06-29"
+categories: [Personal]
+image: "depositphotos_361583192-stock-photo-tired-father-his-two-kids.jpg"
+---
+
+###
+
+**TL;DR**
+
+I wrote a long post about coparenting/being a single/solo dad and my personal journey through getting divorce. I deleted that and wrote these concise thoughts instead.
+
+![Image: [Mary](https://depositphotos.com/361583192/stock-photo-tired-father-his-two-kids.html){.external target="_blank"}](depositphotos_361583192-stock-photo-tired-father-his-two-kids.jpg)
+
+### Thoughts about parenting rights
+
+As a society, we need to find better language to describe parenting / families. Not all parents whether single, separated, married, divorced, widowed, in a partnership, or have a new partners etc. are in the same situation.
+
+Every parent has different support networks, childcare commitments, restrictions, flexibility and needs.
+
+It is much better to ask directly what their situation is like, than assume. 
+
+The quiet parents who never mention their family are probably struggling the most.
+
+Many dads get a raw-deal from the courts during separation and divorce proceeding, and in solicitor negotiations. 
+
+Sadly this is because a minority of dads won't see their kids, or won't payany  contributions towards their kids upbringing after divorce.
+
+Obviously it is not the case for majority of dads, but due to a minority, most dads will get the raw deal. 
+
+Child maintenance payments can be a large % of income, you might be restricted access to kids only on certain dates/times of the week, and may receive no child benefit (as not the 'non-resident parent'), along many other issues.
+
+Parenting rights is a controversial and taboo subject, but for the sake of equality and bringing fathers rights into the 21st century, the topic needs more research and debate. 
+
+Personally, I feel courts shouldn't use edge-case behaviours to punish all the dads.
+
+By default, it could be shared custody, equal rights and equal access to their kids for both parents, rather than mothers preferences taking preference.
+
+The mental health, physical well-being and economic burdens the current system puts on divorced dads is significant, overwhelming, traumatic, and, mostly under-documented. 
+
+If you don't believe this, look at the stats:
+
+> "Divorce statistics can be wildly bleak: Ten divorced men commit suicide each day — a rate at least three times higher than that of divorced women."
+
+Sources:
+
+* [fatherly.com/health-science/psychological-effects-divorce-fathers-men-suicide](https://www.fatherly.com/health-science/psychological-effects-divorce-fathers-men-suicide){.external target="_blank"}
+
+* [stowefamilylaw.co.uk/blog/2017/09/09/ending-it-all-divorce-and-suicide/](https://www.stowefamilylaw.co.uk/blog/2017/09/09/ending-it-all-divorce-and-suicide/){.external target="_blank"}
+
+* [hashimashi.com/suicide-after-divorce/](https://hashimashi.com/suicide-after-divorce/){.external target="_blank"}
+
+It's also worth reading about the great work of #fathers4justice, and campaigns around [parental alienation](https://en.wikipedia.org/wiki/Parental_alienation){.external target="_blank"} awareness too.
+
+
+
+### **How's Tom?**
+
+Personally, I'm doing o.k. now several years on after a challenging separation & divorce. It was terrible at times, where I felt very depressed, struggling on many days
+
+To 'survive' the divorce, and now to 'survive' another 12+ more years in this situation before my kids grow up... well that is a really long haul - a life goal? 
+
+It's such a heavy burden to work full time, raise your kids solo, even when you don't see them as often as you may like. 
+
+Working to survive: mortgage and household bills, school and hobby costs, child maintainance, saving for kids future... well there's not much left, right?
+
+If any dads are going through similar, DM on [@thomashallam](twitter.com/thomashallam), lets chat. Take care!
+
+Tom
+
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,0 +1,46 @@
+---
+title: "User research away day"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-07-07"
+categories: [User Research, Community, Research Panel]
+image: "henny-kasa-LaCTAUJ2wug-unsplash.jpg"
+---
+
+Today we saw some brilliant facilitation by the hosts Jordan and Michelle. A difficult tech set up to connect several sites, avoiding inevitable audible feedback loops, lining up lots of speakers to join remotely, facilitating some hybrid digital-physical workshops. Well done!
+
+![Image: [Henny](https://unsplash.com/photos/LaCTAUJ2wug){.external target="_blank"}](henny-kasa-LaCTAUJ2wug-unsplash.jpg)
+
+There were some fascinating talks about programmes of work being delivered by researchers across NHS Digital. Evidence-based and UCD-led approaches that are helping to shape the way teams work, to increase UCD maturity (great work [Lucy](https://twitter.com/LucyWinder){.external target="_blank"})!
+
+I presented an update on **NHS Digital Panel Management Strategy** – I’m not even sure how that went, would be interested to hear feedback. It was really lovely to see colleagues in person after 2 years sitting behind a screen! After years without any face-to-face presentations, I was feeling very anxious and out of my comfort zone at the start. Luckily this went away quickly when hecklers started and I just cracked on.
+
+It would have been nice to introduce new research colleagues at the start, and have a bit more time for networking. However, with [covid hospitalisation levels near peak levels](https://coronavirus.data.gov.uk/details/healthcare){.external target="_blank"} I imagine networking was probably to be discouraged. This event already had been cancelled twice several times due to covid, so I guess a necessary compromise.
+
+A few of the other talks were quite in depth. Training talk on Safeguarding was a bit too close to home at times. For me this would have worked better in person with a small group, and more time to decompress. It felt like an overload of (important) policy guidance and highlights of some potentially difficult or traumatic incidents to watch out for/avoid. I came away feeling pretty upset following my recent dog-bite incident and well as personally feeling quite vulnerable at time as a [solo dad](/posts/2022-06-29/solo-parenting-dad.html) surviving beyond divorce.
+
+Had a lovely lunch break with colleagues [Claudio](https://twitter.com/clauzdifranco){.external target="_blank"} and [Tanja](https://twitter.com/TCW11438679){.external target="_blank"} who continue to inspire me with their motivation to crack on delivering loads of great work, despite their teams going through lots of interesting structure and supplier changes.
+
+Doh - forgot to take pictures of the team or venue. if anyone has any photos do share!
+
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

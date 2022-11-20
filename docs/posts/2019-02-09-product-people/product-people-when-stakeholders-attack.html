@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tom Hallam">
+<meta name="dcterms.date" content="2019-02-09">
+
+<title>Tom’s blog - Product People - When stakeholders attack!</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EMB22EEKPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EMB22EEKPF', { 'anonymize_ip': false});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Tom’s blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">Hello</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../data-sci/datasci.html">
+ <span class="menu-text">Data stuff</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thomashallam"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/thomashallam"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Product People - When stakeholders attack!</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">User Research</div>
+                <div class="quarto-category">User-Centred Design</div>
+                <div class="quarto-category">Product Management</div>
+                <div class="quarto-category">Stakeholders</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tom Hallam </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 9, 2019</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="1_7TlzAXCWmXs-1kyG1u32rA.jpeg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Great Logo: When Stakeholders Attack!</figcaption><p></p>
+</figure>
+</div>
+<section id="why-did-i-go" class="level3">
+<h3 class="anchored" data-anchor-id="why-did-i-go">Why did I go?</h3>
+<p>As a User Researcher working in the NHS, it seems every project I have been involved in over 4 years has had ample stakeholders (internal and external) lobbying to influence the direction whether that is during planning, discovery research, design or delivery stages.</p>
+<p>Everyone seems to hold an opinion, on everything — all the time, opinion-based-judgement seems to disrupt the evidence-based process of identifying the right problem to solve and finding the best solution.</p>
+<p>These experiences lead me to snap-up a ticket to the first Product People Midlands event. I was really impressed and excited to see an interesting event like this happening outside of London.</p>
+</section>
+<section id="what-was-this-event-about" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-this-event-about">What was this event about?</h3>
+<p>Aptly named ‘When stakeholders attack’ the meet-up set off with friendly words from the host Si Manby (<a href="https://twitter.com/ManbySi" class="external" target="_blank">ManbySi</a>)and the event didn’t disappoint following that.</p>
+<p>This was a great no-holds-barred think-out-loud debate about the major challenges facing many Product Managers and Product Teams across departments.</p>
+<p>The presenters focused on re-occurring problem areas and each brought a key quotes to start their talk and discussion:</p>
+<p>Kaz Hufton (<a href="https://twitter.com/Kaz_H_666" class="external" target="_blank"><span class="citation" data-cites="Kaz_H_666">@Kaz_H_666</span></a>)</p>
+<p><img src="1_moaYTdTSwnWFrO6s14BOig.png" class="img-fluid"> <img src="1_BVNCXhFocaJ7OGKYOd0ebA.png" class="img-fluid"></p>
+<p>The talk focused on evidence of a fundamental misunderstanding of what “discovery” means,</p>
+<p>“every time I do a project I have to explain what a discovery is, and why we are doing it, to the same people. Like 68 times.”</p>
+<p>“It took me a year to realise what we were doing was based on a ‘Solution Definition’ and ‘Project Initiation’ documents that was written by one person and was based solely on their assumptions. The discovery stage was merely the first stage clearly marked out on their waterfall chart.”</p>
+<p>Alice Cudmore (<a href="https://twitter.com/alice_cudmore" class="external" target="_blank"><span class="citation" data-cites="alice_cudmore">@alice_cudmore</span></a>)</p>
+<p><img src="1_xBZkRvKU1-IZKWR3k6gcrQ.png" class="img-fluid"></p>
+<p><em>A great quote — probably the most over-used phrase I’ve heard.</em></p>
+<ul>
+<li>To counter this question, there are suggestions around asking “why do you need to know”. Inevitably this would unpack a whole host of internal problems around fixation on timelines and milestone tracking, money, internal politics, resourcing problems, scope creep, and yes, more money.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>“Somehow there is no realisation when someone leaves you can’t just drop-ship in a new person with identical skills and experience; that the delivery of stuff is going to slow down.”</strong> Lauren Tombs (<a href="https://twitter.com/TombsLauren" class="external" target="_blank"><span class="citation" data-cites="TombsLauren">@TombsLauren</span></a>)</p>
+</blockquote>
+<p><img src="1_Uh5qOAeOrqfkYMzCWMnBOg.png" class="img-fluid"></p>
+<p>The talk focused on product owners experiences of actually being empowered to decide things, but this constrained by excessive stakeholder requirements at the expense of user needs, usability, deliver-ability, and perhaps even common sense.</p>
+<p>Some great examples and it seems some projects have really tried every different stakeholder engagement approach to getting around this barrier,</p>
+<p>One thought from from the floor… “If stakeholders want to block a project they will, can anything be done?”</p>
+</section>
+<section id="what-else-was-discussed" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-was-discussed">What else was discussed?</h3>
+<p>The session was 50%-masterclass, 50%-peer-therapy.</p>
+<p>Those attending added some quality case studies too from their vast years of product experience too.</p>
+<p>The discussions touched on many broader problems within departments,</p>
+<ul>
+<li>Bureaucratic internal approvals and support (e.g.&nbsp;procurement) processes,</li>
+<li>Lack of trust and empowerment in teams,</li>
+<li>Documents for the sake of documents, even when it is never read,</li>
+<li>Lack of vision and intent from senior management,</li>
+<li>Lessons not being learned time and again.</li>
+</ul>
+</section>
+<section id="so-who-else-attended" class="level3">
+<h3 class="anchored" data-anchor-id="so-who-else-attended">So who else attended?</h3>
+<p>Well you may or may not know them, but if you work with them you have probably heard them. They are often noisey, nosey, confrontational perhaps, contrarians yes, asking lots of awkward questions yes, blunt yes, rude — perhaps? Still can’t find them.. Look for a person not wearing a blue or grey suit. Possibly a T-shirt.</p>
+<blockquote class="blockquote">
+<h1 id="challengers-to-say-the-least.-yes-these-are-the-product-people-an-emerging-force-of-thinkers-doers-realists-persuaders-who-have-are-massively-passionate-about-what-they-do-and-have-a-full-grasp-of-their-users-the-business-and-technology.">Challengers to say the least. Yes, these are the Product People — an emerging force of thinkers, doers, realists, persuaders who have are massively passionate about what they do and have a full grasp of their users, the business and technology.</h1>
+</blockquote>
+<p>Those Product Managers, Product Leads, Senior Product Owners are seemingly doing a lot of hard work to put whimsically-flimsey ideas through their paces and deliver stuff of actual end-user value and quality for organisations.</p>
+<p>One experienced manager was asked how they should decide who internally would a suitable for that role,</p>
+<p>“Look at your department and pick the people who are asking the most awkward questions.”</p>
+<p>Another speaker noted “Problems were occurring on several projects as the previous Product Manager was saying yes to everyone’s requests without thinking.”</p>
+<p>“If you’re not saying No and upsetting someone most weeks you’re probably not doing it right.”</p>
+<p>Product managers seem to be routinely confused with project managers, delivery managers, and service owner roles. Bizarrely, as pointed out, these Product Managers are set objectives and assessed on delivering value, however this often flies in direct conflict with colleagues whose objectives are set to deliver specific features.</p>
+<p>Some debate occurred around a perception that the role of GDS as a “referee of quality” and “stick to wave” it’s is not functioning as well as it previously as a central function, with formal assessments. People just ignore the User needs bit and skip into design, the Product managers are being asked whats the minimum they could do to pass the assessment.</p>
+<p>Also, questions surrounded the role “Service Manager” while that started with a good intention, it could have become diluted and confused to the point it is almost meaningless.</p>
+</section>
+<section id="what-was-the-event-like" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-the-event-like">What was the event like?</h3>
+<p>Well the story unfolded fast, but not like the David and Goliath where a simple slingshot brings a giant to it’s knee.</p>
+<p>No this was something else, much akin to the Resistance vs.&nbsp;the First Order in the Star Wars Last Jedi. The unyielding, unmerciful, crushing, gripping nature of the order on the product community working across departments was pretty clear.</p>
+<p><img src="1_LpNMjjNrqEpoRwHccptiFw.gif" class="img-fluid"></p>
+<p>However, from the resistance side it wasn’t all poke-fun at Mr Blobby and the order, as that’s easily done. The discussions were tempered with empathy with the group considering the other side of the coin too… interesting questions were raised like:</p>
+<p>“What might be motivating stakeholders and organisations to put in place these constraints?”,</p>
+<p>“Why are they risk averse?”, “Why do they oppose change?”,</p>
+<p>“Can transformation really be complete if they (..read the staff..) oppose all change?”,</p>
+<p>“Why would people who benefit from hierarchy for 20 years or more want to empower their teams?”.</p>
+</section>
+<section id="my-thoughts-following-the-event" class="level3">
+<h3 class="anchored" data-anchor-id="my-thoughts-following-the-event">My thoughts following the event</h3>
+<p>The strange thing to me, in this story about products an delivery life-cycles, ironically and sadly the ‘product community’ are cast as the pantomime villains.</p>
+<p>The collective insight, expertise and experience at the meet was shocking… shocking in the sense that such a group who clearly have huge talent and can add so much value to organisations have had to suffer so many battle scars and have so many ridiculous tales to tell. Why do organisations not learn from past mistakes?</p>
+<p>What with it being 2019, I’m not sure whether it was reassuring or concerning to learn these problems exist and seem consistent across departments.</p>
+<p>The answers during the discussion were considered, and the situation seems vastly complex, so it’s not surprising that any transformation across departments is hard to start and even harder to make stick.</p>
+<p>One point felt clear. Between the old and new ways of doing things, it seems like stalemate. On both sides now and this results in ignoring or ridiculing, rather than trying to find any solution.</p>
+<p>Lack of user-centered and product-focus, probably means that many times things are being built based on assumptions; opportunities are likely to be missed too and delivery is not always going to succeed.</p>
+<p>My question to readers would be ‘Should Product Management and following user-centered design still be considered a movement, or is that seen as best practice, and — in essence — the new norm?’</p>
+</section>
+<section id="tldr" class="level3">
+<h3 class="anchored" data-anchor-id="tldr">TL;DR</h3>
+<p>The Product People community is growing and maturing. Be aware, boo is coming to a goose near you.</p>
+<p>This was a great event in the Midlands, even when the group skimmed the stone across the top of the lake, rather than just focusing on the topic ‘When Stakeholders Attack’ there was really interesting, thoughtful discussion and banter.</p>
+<p>Would I go to the next Product People midlands event? 5 stars yes for sure. There are so many important topics to explore that I only hope there are more events like this (outside London).</p>
+<p>Well that’s my take out anyway :)</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+  </div>
+</footer>
+
+
+
+</body></html>

@@ -1,5 +1,21 @@
 /* css styles */
 
+
+div.quarto-post{
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    gap: 1em;
+}
+
+
+div.quarto-post .metadata{
+    flex-basis: 13%;
+}
+
+div.quarto-post .thumbnail {
+    flex-basis: 39%;
+}
+
 .quarto-title-banner {
     margin-bottom: 1em;
     color: rgba(0, 0, 0, 0.959);

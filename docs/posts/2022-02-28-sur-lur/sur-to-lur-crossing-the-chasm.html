@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tom Hallam">
+<meta name="dcterms.date" content="2022-02-28">
+
+<title>Tom’s blog - Crossing the chasm between SUR and LUR level</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EMB22EEKPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EMB22EEKPF', { 'anonymize_ip': false});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Tom’s blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">Hello</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../data-sci/datasci.html">
+ <span class="menu-text">Data stuff</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thomashallam"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/thomashallam"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Crossing the chasm between SUR and LUR level</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Month notes</div>
+                <div class="quarto-category">Personal</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tom Hallam </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 28, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<blockquote class="blockquote">
+<p>This is a post about my recent experience working as a <a href="../../posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html">Senior User Researcher</a> on Covid Testing, and as an interim-role taking on some new Lead User Research responsibilities.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="tim-johnson-ywIZ8ZYxzWU-unsplash.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Image: <a href="https://unsplash.com/photos/ywIZ8ZYxzWU" class="external" target="_blank">Tim Johnson</a></figcaption><p></p>
+</figure>
+</div>
+<section id="crossing-the-chasm" class="level3">
+<h3 class="anchored" data-anchor-id="crossing-the-chasm">Crossing-the chasm</h3>
+<p>In the last few weeks, I’ve gone from managing a team of six researchers, to broadly overseeing three teams with 15 researchers (all contractors except myself).</p>
+<p>It has been tough so far. The most challenging few weeks of my whole career.</p>
+<p>This post covers some things I did, a few things that are going well and other areas where I hit the brick wall already.</p>
+</section>
+<section id="delivering-a-world-beating-service" class="level3">
+<h3 class="anchored" data-anchor-id="delivering-a-world-beating-service"><strong>Delivering a World-Beating Service</strong></h3>
+<p>It has been nearly two years working on Covid Testing for some staff like myself. The policy and service design has been changing on a very regular basis throughout the pandemic and the research team have supported all elements of Testing product/service lifecycle.</p>
+<p>This means being involved in new project kick offs, assumption mapping, discovery research, service design ideation/reviews, accessibility reviews, testing solutions, monitoring feedback about the live service, resolving emerging issues, and much much more.</p>
+<p>One tricky part of delivering UR for this service is knowing what direction to focus on next. Sometimes we hear about policy changes before they are announced, this really helps as we can start to shape discovery work that is required and pull together insights from previous studies.</p>
+<p>At other times we find out only at the time policy changes are announced; this makes it incredibly hard to plan beyond a few weeks ahead. We’ve found working in Agile with a weekly cadence and a prioritised backlog of projects a flexible approach that doesn’t lock the research team into a fixed roadmap.</p>
+<p>The Test Digital team have delivered 265~ rounds of research and ~1500 interviews. Additionally, many hundreds of adhoc thematic reports, design reviews, survey analysis reports, alongside commissioned projects.</p>
+<p>Every piece of research has been different in scope, whether a change to the journey/service to support new use cases, or new interaction designs/content changes, or broader discovery.</p>
+<p>With so many plates spinning, and new requests all the time and we have to be really selective about what to focus on next!</p>
+</section>
+<section id="empowerment-and-being-the--umbrella" class="level3">
+<h3 class="anchored" data-anchor-id="empowerment-and-being-the--umbrella"><strong>Empowerment and being the -umbrella</strong></h3>
+<p>Every day, many new requests come into the research team. I became acutely aware that the team have already agreed with our stakeholders the highest priority projects to focus is. These are expert contractors, the A-Team, they are brilliant at UR delivery. Anything else that occurs outside the top few projects currently in flight is a big distraction that will reduce the teams overall success.</p>
+<p>I took responsibility on many occasions, to shield this team from problems. Whether it was taking an initial meeting with stakeholders, providing some quick turn-around analysis, attending workshops, service assessments, helping with technical problems, fetching some survey data. I saw it as a core part of this role to keep the team laser-focussed and stop broader distractions. I enjoy helping colleagues so this bit was quietly rewarding, but at times like an endless to-do list, with small-medium-sized problems to solve for colleagues each day.</p>
+<p>The number of meetings and catch-ups however went up exponentially, I found myself triple booked on several occasions and couldn’t attend sessions. The team are always empowered and continue progressing projects without me; I hope joining half way through calls isn’t a problem. The number of adhoc Slack calls between meetings has gone up loads too. On no days in the last week did I have more than a 20-minute break, or time for lunch, never finishing before 6pm.</p>
+<p>I really struggled to get out for a walk or jog, only on a few occasions this happened recently. This is very ironic as I’m part of the Wellbeing Champions team, supporting a wider Wellbeing consultation on the programme, and I should certainly be encouraging colleagues to take more leave and regular breaks!!</p>
+</section>
+<section id="working-with-programme-managers-becoming-a-stakeholder" class="level3">
+<h3 class="anchored" data-anchor-id="working-with-programme-managers-becoming-a-stakeholder"><strong>Working with Programme managers &amp; Becoming a Stakeholder</strong></h3>
+<p>This was another major learning for me was that while operating across three teams, who manage totally different services, there is a considerable “Zooming out” required.</p>
+<p>I was becoming one of our “difficult to reach stakeholders” with an impossible diary, gradually feeling more distant from the user research and unclear what the top problems to solve area. I attended a few sessions as an UR observer but found it really hard not to get distracted, or to steal some time back to answer some emails.</p>
+<p>I’ve also had to adapt my communication style working directly with the programme managers. I feel a bit newb-like in that space, and it may take a while to build up more trust in their management processes and confidence operating at that level. The discussions are much more philosophical and open ended – where are we going? Are we doing ok? I’ve mostly been listening for direction and to get a feel for their approach, but often programme managers don’t have the answers either so ask you for a view.</p>
+<p>I’ve noted here I need to be even more direct about the problem and have some evidence to hand and/or research options ready to fill gaps in insight. It is hard to build up much of a narrative with the team if you are constantly context switching between meetings; there may only be a 5-minute window and one chance to get a key point across with very senior management stakeholders.</p>
+<p>To help with this communication challenge, and to support feeling very Zoomed-out I started working on a new dashboard to help myself and other stakeholders to (very quickly) digest what are the priority issues in play across the services and what are we doing about it. This is still work in progress and I need to find a way that the team can help manage the dashboard alongside their workload. The idea is we could do a regular ‘weather report’ about what are the top issues going on and how we are doing about resolving them.</p>
+</section>
+<section id="hiring" class="level3">
+<h3 class="anchored" data-anchor-id="hiring"><strong>Hiring</strong></h3>
+<p>The most significant part of my time (and for the SURs on the team) so far has been spent reviewing candidate CVs, interviewing researchers, evaluating potential &amp; fit within the team, providing feedback to candidates, and negotiating terms and start dates for new starters.</p>
+<p>We had many CVs, a really bizarre mix of experience and qualification levels. The team already are pretty experienced, so mainly we are looking for practitioners who deliver complex UR projects to a good quality as well as being confident while working with stakeholders.</p>
+<p>These individuals are very hard to find at the moment, UX demand is pushing up day rates to very high-levels. A few hours delay reviewing CVs can result in missing interesting candidates. We do have new joiners on their way, which is really exciting for the team and it will be great to have fresh eyes looking at the challenges.</p>
+</section>
+<section id="onboarding" class="level3">
+<h3 class="anchored" data-anchor-id="onboarding"><strong>Onboarding</strong></h3>
+<p>For all new starters, we need to ensure proper onboarding happens. In the past this has been critical to the successful growth of the team. Onboarding includes introductory sessions with the UR team, wider design and product teams, walk through journeys, providing reading materials/research reports, arranging a buddy, observation sessions, supporting tasks, access to IT systems, sharing whereabouts of documentation, providing technical guidance for tools, invites to team meetings, UR community meetings, and probably many more things too!! I’m actually looking forward to going over this again in the next few weeks, I’ve done it before and it feels like safe ground.</p>
+<p>Retros &amp; Continuous improvement As part of delivering better quality work, quicker access to insights, faster turnaround, we have had to continually refine and improve our own processes. This is typically managed through regular UR team Retros twice a month, as well as project specific Retros/ Reflection sessions.</p>
+<p>Not everyone enjoys retros. If the host is not careful there is risk it ends up being critical of individuals work, which is not the point. Our team are extremely collaborative and constructive and many problems we have experienced have later been resolved in a timely manner after a retro. We are now planning a Retro of Retros, to review our progress on the issues identify over the past 6 retros.</p>
+<p>Our retros result in activities within our research backlog, these are allocated to the Seniors, Re-ops colleagues, and occasionally UR practitioners if they have availability between prioritised projects.</p>
+</section>
+<section id="wellbeing-and-socials" class="level3">
+<h3 class="anchored" data-anchor-id="wellbeing-and-socials"><strong>Wellbeing and Socials</strong></h3>
+<p>As you can imagine the whole team are really tired. Some colleagues have felt ready for change and already decided moved on, it’s really difficult to hear this when they hand notice, but it is very difficult to ask for more as they have personally given up so much for the team already. Yes I’ve cried three times in the last month when colleagues left us.</p>
+<p>I’ve personally considered the same things on many days over the last 18 months - when even is a good time to move team? when do you need a proper break? I was the first joiner to the Covid Testing team and it feels like riding the waves out towards the end would be nice. But when will it end? For citizens and our users, the service may continue on for months, or years, we just don’t really know what is happening with this pandemic.</p>
+<p>Being a key-person on the A-Team service delivering for 60 million people is stressful but exciting for anyone involved. Several colleagues who left have told me how they find the new roles unrewarding and slow, feeling less impactful.</p>
+<p>Others have told me this is the most important and fulfilling job we might ever have, so why would anyone want to step aside from that? It’s a difficult personal choice and I totally respect anyone who works on these services whether for a few months, a year or more.</p>
+</section>
+<section id="performance-management" class="level3">
+<h3 class="anchored" data-anchor-id="performance-management"><strong>Performance management</strong></h3>
+<p>Not everything went well with staff in our team. Several contractors who have been on the project for a while had to be let go.</p>
+<p>Problems had started slowly with a few tasks not being completed, or work to the expected quality, but things gradually started to get worse as time went by.</p>
+<p>I really tried to work through challenges with individuals where possible, having more regular catch-ups, arranging additional technical training, breaking down working into smaller chunks, creating SMART objectives with mutually agreed deliverable dates, and regular reviews against goals.</p>
+<p>Eventually things grew into larger problems and it starts drawing attention from the wider team. Other contractors get a bit frustrated if others are not keeping up and not contributing to the meetings and outputs.</p>
+<p>What I learnt around the performance management is the best approach seemed to be honesty and transparency – i.e.&nbsp;to have early and very open discussions with those involved in a situation like this, whether the individuals, their line managers, HR, the hiring team, supplier/agency. Don’t assume anything, try to understand the whole situation, appreciate challenges individuals are going through, coach where possible, individuals may even want to leave but are staying on for other reasons.</p>
+</section>
+<section id="offboarding" class="level3">
+<h3 class="anchored" data-anchor-id="offboarding"><strong>Offboarding</strong></h3>
+<p>If people are leaving try not to make this a surprise to the team.</p>
+<p>Recent departures in the team fit into three categories:</p>
+<ul>
+<li>The good - staff leaving for new pastures on good terms,</li>
+<li>The ok - staff leaving at short notice on good terms, but without a replacement arranged yet,</li>
+<li>The bad - staff leaving for contractual or performance issues.</li>
+</ul>
+<p>Leaving gifts, Kudoboards, leaving socials is whole new area of specialty that I’ve now learnt about. It takes some effort to organise a proper goodbye for staff who have delivered brilliant stuff over long time periods. Some of our internal and external colleagues who left ages ago I still really miss and we would certainly hire them back any day.</p>
+<p>It is never simple. There was some conflict here as the business have a strong belief contracting staff should deliver the work to expected quality as soon as they have onboarded.</p>
+<p>I found it difficult letting staff go, but it was important for individuals involved to know the outcome, and vital for the wellbeing and performance of the wider team, to move the situation forward.</p>
+<p>I tried to resolve issues and delayed things a week to consider the situation, and provided flexibility during staff notice periods. Personally, I found this process difficult to reconcile against the broader commitments to build a diverse and inclusive workforce, and to provide support and empowerment for colleagues enabling them to grow as well.</p>
+</section>
+<section id="tldr" class="level3">
+<h3 class="anchored" data-anchor-id="tldr">TL;DR</h3>
+<p>In summary, I’ve recently been exposed to, and fully absorbed in, a previously invisible world happening offstage in the UX industry.</p>
+<p>The coal-faces of “human resource management” and “programme leadership teams”, which make up a large part of the Lead User Research role.</p>
+<p>I’ve not decided yet if I liked what I’ve seen, or if this change towards people management is something I would learn to enjoy.</p>
+<p>I imagine this is the same journey footballers go through later becoming a coach and/or team manager. It’s just another rocky road, bit different, and you can continue if it meets your needs.</p>
+<p>There is really is limited guidance/support for SURs progressing towards LUR level, particularly what is needed around managing very complex programmes of research, stakeholders needs, and particularly the likely staffing challenges ahead.</p>
+<p>This is something I hope to share more about in future posts as I learn more myself.</p>
+<p>I have several individuals I see as mentors who I reach out to discuss difficult situations like this. I’m happy for anyone in a similar situation to contact me if they need someone to share ideas with too!</p>
+</section>
+<section id="like-to-know-more-let-me-know-below" class="level3">
+<h3 class="anchored" data-anchor-id="like-to-know-more-let-me-know-below">Like to know more? let me know below</h3>
+<script src="https://giscus.app/client.js" data-repo="thomashallam/thomashallam.github.io" data-repo-id="R_kgDOIW_M2g" data-category="General" data-category-id="DIC_kwDOIW_M2s4CSpZr" data-mapping="url" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+  </div>
+</footer>
+
+
+
+</body></html>

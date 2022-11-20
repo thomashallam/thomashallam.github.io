@@ -1,0 +1,86 @@
+---
+title: "Where's Tom at?"
+format:
+  html
+author: "Tom Hallam"
+date: "2021-09-26"
+categories: [Month notes, Personal, Covid Testing, Healthcare]
+image: "fusion-medical-animation-npjP0dCtoxo-unsplash.jpg"
+---
+
+![Image: [Fusion](https://unsplash.com/photos/npjP0dCtoxo){.external target="_blank"}](fusion-medical-animation-npjP0dCtoxo-unsplash.jpg)
+
+So I have been a bit ill the last 3 weeks: first it was a terrible eye infection (lasting 5 days, requiring 3 different eye solutions!), then followed by a Covid-like/cold-like/flu-like symptoms and needing to isolate for another week, then followed by some minor food poisoning (2 days). Well bad things do happen in 3's so hopefully I'll be able to recover now for a little while. It has been pretty rubbish time, but my brilliant colleagues at work have been supportive throughout.
+
+I took a PCR the first week when some symptoms occurred, then 5 lateral flows mid week, then another PCR the following weekend as symptoms continued. All the tests came back negative so I suspect it is a seasonal flu bug going round.
+
+why no blogging? well, I have not stopped writing however I seemed to lose confidence in a few posts I wrote just at the end when I was about to publish. I don't think they were that terrible, just they need a bit of revisiting/sanitising (content support / peer reviews welcome!!)
+
+**Thinking about the pandemic**
+
+Hearing from a well-known Covid expert on a talk show this week, and reviewing discussions the by healthcare people on social media, it is clear the ongoing debate about symptoms and 'the evidence' will continue hotly for weeks/months to come:
+
+* what even are the symptoms of Covid?
+* which are the most reliable indicators?
+* which symptoms should be the clinical requirements to get a test?
+
+It's a really difficult design challenge as having a vague list of symptoms, or very long list of symptoms could lead to wider confusion, or panic. Also opening the floodgates could lead to unavailability of tests for people who have the main Covid symptoms. The fact tests are mainly free it is obviously quite expensive and there are always going to be pressures to ensure healthcare funding is spent wisely too.
+
+Personally, recently I found testing and isolation quite a disruption. For example, hearing from school they have positive cases and kids off, but they can't tell us any which class or group. They also don't shut bubbles as before so things spread much more quickly. As schools are no longer doing any contact tracing it leaves families and teachers uncertain which class or bubble is impacted, or whether their kids are at any increased risk. Are the bugs coming home Covid? or something else? The frustration was compounded by having to fill in the 3 forms to request 1 box LFDs and 2xPCR home kits, plus 5xforms to register regular LFDs, plus 2xforms to register the PCRs. NHS Login saved me a little hassle, but it was still a lot of effort.
+
+I know it breaks the guidelines to use 2 x LFD tests on the same day, but I hear a lot of people are doing this before going out, or seeing vulnerable people. They then register them as being on alternative days, people know the tests are not very accurate so taking two increases likelihood of getting a right result.
+There have also been about 15-20 emails and the same amount of SMS messages to read. Then a new FlowFlex? LFD kit type to navigate which was fun. As a busy person I didn't read any of the guidance, and I confess I'm pretty much hopelessly overconfident about most things so it went wrong. 2 of my tests resulted in nosebleeds (hopefully not brain damage?) and I found this out on Twitter several days after it happened that it may void the result so I took another test.
+
+More generally, I think a lot about the bigger questions, and are we asking the right questions? e.g. Since so many people are now vaccinated are people still interested in getting tested? How much effort are people will to take to get tests and register tests? What is back to normality - is this the new normal? Or is more normal to come? "You've got to get people onboard with Testing" was a quote we heard last year from a participant.
+
+We see in general public that mask wearing has dropped off almost completely, other public perception / monitoring studies suggest that other types of compliance have dropped too.
+
+Despite the levels of covid being stable for a while, then starting to fall, many health professions are anticipating another difficult winter. Vaccination levels are pretty high (could be better) but people say it will still be a really busy times ahead. It is almost inevitable, but can be very challenging for the teams and staff who have already been working on COVID on the front line of a pandemic response for 18 months. Service teams are dealing with the current policy changes (like international border policy announced last week) and no doubt need to implement many future changes we don't know about yet, or are required over winter and spring period. The NHS is also really struggling to deal with the massive backlogs of non-covid related work and many staff are leaving from burnout.
+
+### **Something positive things I've done recently - YAY**
+
+I've been struggling to feel healthy after nearly 18 months at home, mostly alone. I love going to the running club but had a lack of motivation to meet up while covid cases locally have been quite high.. never break good habits they say. I feel think it's time to get a new some new running shoes and watch, or to face the fear and start heading to the gym again... going for 1 short run this week has been a personal achievement (although I used to do this about 5 times a week running 20 miles or more!)
+
+We're looking to expand our team, and having spent 3 weeks meeting loads of contractors with a range of experience, we have found 3 who are keen to join at an exciting time for the team!!
+
+I've also recently started learning to code again. I previously learnt a fair bit about html/php/css/sql/analytics through blogging, community projects I've been involved in, and front-end design projects at work. I'm now doing a bit of a pivot away from front-end and starting look more into data science programming.
+
+To me it's feels that data science and user research are two massively separate bubbles right now: combining UX data of all types is major area of growth for service and product teams. UX researchers (now and in the future) really need to understand the principles and practicalities of quant data (beyond survey and analytics).
+
+Many of the main languages and tools (R, SQL, Python, etc) have been around a very long time, on previous attempts I found getting set up and then doing anything useful to be really difficult.
+
+It's also a huge and growing field to explore too, math/ CS / DS / ML / DL / AI... to a newbie it can just feel massively overwhelming and very steep learning curve (multiple languages, hundreds of tools/frameworks, modules to consider).
+
+I would really like to do a full masters course (e.g. Msc Data Science) or similar, or even a 12-week online programme, however taking this much time away from work really isn't an option for me right now.
+
+To keep busy and motivated during no doubt another challenging winter I've made a mini-roadmap to get started and looking out for ideas for bitesize projects to think about in my limited spare time.
+
+While it feels like the toolsets and online learning resources are much more accessible and better structured than before. 
+
+I've starting with amazon #1 python book [Python Crash Course](https://www.amazon.co.uk/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_1?dchild=1&keywords=Python+Crash+Course&qid=1632664313&qsid=257-0886912-8412357&sr=8-1&sres=1593279280%2CB08JF5KR55%2CB08JDTNHKD%2C1910523119%2C1593276036%2CB084QLXLC7%2C1914167015%2C1712769944%2C1951791274%2CB08F85QY46%2C1914167066%2C1733042644%2C1695352262%2C139316093X%2C169823208X%2CB085RNT2C8&srpt=ABIS_BOOK){.external target="_blank"} as it has a mix of interesting projects. 
+
+It would be great to hear from other people exploring this field, or to share resources for new starters etc, do get in contact on [Twitter](www.twitter.com/thomashallam){.external target="_blank"}!!! :)
+
+Have a nice day!
+
+Tom
+
+
+### Let me know what you liked below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

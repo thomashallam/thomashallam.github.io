@@ -1,0 +1,59 @@
+---
+title: "Help dealing with being retraumatised"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-07-04"
+categories: [Personal]
+image: "rene-bohmer-kGQSE4rUakg-unsplash.jpg"
+---
+**Trigger warning: note this article includes content the might be a mental health trigger. Click here to return to the front page.**
+
+![Image: [Rene Bohmer](https://unsplash.com/photos/kGQSE4rUakg){.external target="_blank"}](rene-bohmer-kGQSE4rUakg-unsplash.jpg)
+
+It’s been 10 years since I was attacked and bitten by two dogs while out running. 
+
+I can still remember that day, the pains, the hospital, the police, the dogs, their owner. It took a long time to get over what happened, and I quit running for many months after that incident.
+
+Sadly, [something similar happened again last week](https://twitter.com/thomashallam/status/1543195671095906308)}{.external target="_blank"} (trigger warning: graphic image of dog bite). In another unprompted incident, a dog (being walked on a lead) bit me as I went by on the pave, the owner did not acknowledge the incident, and just walked off.
+
+I should have taken a picture of the dog and owner, or followed them to check where they live, but the shock and blood running down the inside of my trousers meant I had other things on my mind. I wasn’t really thinking as normal at that precise moment.
+
+Anyway, suffice to say, despite the walker mentioning the dogs name to be Dexter, none of the other dog walkers in the village have come forward with the owners name, so far. I shared what happened on our local facebook group too, to see if anyone knew anything, and the police are looking into to it. Two neighbours told me they know a local dog with this name but would not reveal the owner.
+
+Parents in the village and at school were rightly concerned; an adult is bitten near the top of the hamstring, could have easily been a child's face.
+
+It not until you have been traumatised and then retraumatised, that you realise how quickly and sharply these anxieties and mental health struggles can return.
+
+Several colleagues have kindly offered support and pointed me towards NHS counselling, I really appreciate this help - I haven't as I have my own coping mechanisms, writing blogs such as this, swimming, and taking time to reflect, helps me to process it all.
+
+After two days in bed recovering from a Tetanus Jab and strong side effects (https://www.nhs.uk/conditions/vaccinations/3-in-1-booster-side-effects/), body aches, muscle pains, swollen glands, joint pains), I’m hopeful the physical wounds will heal up quickly and not scar this time.
+
+As for the mental effects, I’m officially avoiding contact with animals/pets for the next 3 months.
+
+Two things I did notice this week, while seeking care for myself:
+
+that NHS is certainly very busy, extremely. 111 phone lines, access to GP/nurse appointments, 5 hours waits at Urgent walk-in centres, it is clear the NHS is really struggling to cope. ‘We don’t have the staff’ was the nurses response. It does make you wonder, when you work in NHS ICT, whether teams efforts are being directed to ‘transform the things’ in areas seeing the biggest impacts on the ground’
+Covid-restrictions/precautions, within healthcare is certainly patchy. Some GP practices and pharmacies (in rural and suburbs) were encouraging mask wearing and providing hand gel. At an inner-city walk-in centre no masking is required and so none of the hundreds of patients waiting there (for up to 5 hours) were wearing masks.
+My urgent takeout was to remind my kids to stop using their beds as a trampolines! Not injuring themselves is very important, because the hospital is very busy, possibly shut on weekends (I'm also hearing stories of patients with serious breathing difficulty waiting many hours and being turned away too).
+
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,0 +1,67 @@
+---
+title: "Last week on Covid Testing"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-05-08"
+categories: [User Research, Covid Testing, Healthcare, Stakeholders]
+image: "annie-spratt-PXZEg4hnyVw-unsplash.jpg"
+---
+
+![Image: [Anne Spratt](https://unsplash.com/photos/PXZEg4hnyVw){.external target="_blank"}](annie-spratt-PXZEg4hnyVw-unsplash.jpg)
+
+
+### Feels like the end of an era
+
+**This week is my last week on Covid Testing programme after 2 years 3 months (since March 2020)!**
+
+I've had the pleasure of meeting and working with so many brilliant, dedicated, passionate and talented colleagues. It has been the best team ever.
+
+When I first joined the programme, the previous BRAM project I was on was cancelled by Covid. Like many staff from across the Civil Service, I was sent home one afternoon with no certainty of what I would be doing next.
+
+Over the next few days, I was loaned out to a nascent *“health start-up” called Covid Testing*, later to become the biggest "health enterprise" ever created - Test and Trace.
+
+Somehow when the music-stopped I had landed in the right-place-at-the-right-time. With all the chaos going on across the world, including my family being affected by Covid through March, it was a privilege to join a team in a role where I could directly improve things for citizens and users, during the biggest national health emergency for generations.
+
+The first six months were honestly overwhelming, fascinating, exhausting and often traumatising. A very small team worked at pace, under the national burden of pressure to do the right thing, to deliver quickly, the best work we have ever done.
+
+I learnt so much about citizen behaviours, which have often been unpredictable throughout the pandemic. For example, during the first weekend of Key Worker testing, dozens of frightened members of the public rang my work mobile asking for help. The service was spun-up so fast there was no Service Desk and people found my details in the small print of a survey. Everyone was desperate for help.
+
+From our remote working environment, finding out what was happening on the ground was at times very challenging. We had discussions about the ethics of ‘mystery shopping’ tests sites, where the virus was probably present; how could we justify this risk? considered the risk to others, how could we not?
+
+With sheer grit, very long hours, and remote collaboration we got a lot of things done. The team sustained this pace for well over a year and Testing scaled from Zero to an average of 1.2 million tests per day.
+
+After the second wave in 2020, I thought I was done; I never thought I would stay on T&T this long. However, colleagues convinced me it was a great team, and that it might be the most important project we ever work on. I found a renewed motivation to drive-the-team forward and following my professional development goals taking on new responsibilities (as well new hobbies to keep sane!).
+
+T&T was a very complex stakeholder environment, there was always a need to be transparent, evidence-based and to align teams around a shared vision to get things done. I’ve been able to put a broad range of professional skills into practice, scaling UR teams, research-operations, managing larger teams, research ethics, quality management, influencing change, alignment and facilitation between teams, knowledge management, building a resilient team, helping the team manage stress / anxiety / trauma, and much more.
+
+The research team and stakeholders we work with should take a lot of pride from their contributions. There were hundreds of times that research and insights contributed to making a real positive change for citizens. For example, the research contributed towards: helping to increase the inclusion and accessibility of the service, improve usability of physical and digital service channels and Test kits, drive positive health outcomes through rapid diagnosis and isolation, helping to keep Key Workers, the public, and organisations safe through free-testing.
+
+It will likely take me several weeks/months to really decompress and reflect on the broader impact and outcomes from the 300+ rounds of research during this time.
+
+Between 16th May-6th June I'll be taking some time off and transferring teams again, this time to join the Central UCD Team at NHS Digital in the position of Lead User Researcher.
+
+I'm super excited and slightly anxious about starting a new chapter!
+
+Tom
+
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

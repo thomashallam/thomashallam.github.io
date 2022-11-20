@@ -1,0 +1,158 @@
+---
+title: "Crossing the chasm between SUR and LUR level"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-02-28"
+categories: [Month notes, Personal]
+image: "tim-johnson-ywIZ8ZYxzWU-unsplash.jpg"
+---
+
+
+> This is a post about my recent experience working as a [Senior User Researcher](/posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html) on Covid Testing, and as an interim-role taking on some new Lead User Research responsibilities.
+
+
+![Image: [Tim Johnson](https://unsplash.com/photos/ywIZ8ZYxzWU){.external target="_blank"}](tim-johnson-ywIZ8ZYxzWU-unsplash.jpg)
+
+
+### Crossing-the chasm
+
+In the last few weeks, I've gone from managing a team of six researchers, to broadly overseeing three teams with 15 researchers (all contractors except myself).
+
+It has been tough so far. The most challenging few weeks of my whole career.
+
+This post covers some things I did, a few things that are going well and other areas where I hit the brick wall already.
+
+### **Delivering a World-Beating Service**
+
+It has been nearly two years working on Covid Testing for some staff like myself. The policy and service design has been changing on a very regular basis throughout the pandemic and the research team have supported all elements of Testing product/service lifecycle.
+
+This means being involved in new project kick offs, assumption mapping, discovery research, service design ideation/reviews, accessibility reviews, testing solutions, monitoring feedback about the live service, resolving emerging issues, and much much more.
+
+One tricky part of delivering UR for this service is knowing what direction to focus on next. Sometimes we hear about policy changes before they are announced, this really helps as we can start to shape discovery work that is required and pull together insights from previous studies.
+
+At other times we find out only at the time policy changes are announced; this makes it incredibly hard to plan beyond a few weeks ahead. We’ve found working in Agile with a weekly cadence and a prioritised backlog of projects a flexible approach that doesn't lock the research team into a fixed roadmap.
+
+The Test Digital team have delivered 265~ rounds of research and ~1500 interviews. Additionally, many hundreds of adhoc thematic reports, design reviews, survey analysis reports, alongside commissioned projects.
+
+Every piece of research has been different in scope, whether a change to the journey/service to support new use cases, or new interaction designs/content changes, or broader discovery.
+
+With so many plates spinning, and new requests all the time and we have to be really selective about what to focus on next!
+
+### **Empowerment and being the -umbrella**
+
+Every day, many new requests come into the research team. I became acutely aware that the team have already agreed with our stakeholders the highest priority projects to focus is. These are expert contractors, the A-Team, they are brilliant at UR delivery. Anything else that occurs outside the top few projects currently in flight is a big distraction that will reduce the teams overall success.
+
+I took responsibility on many occasions, to shield this team from problems. Whether it was taking an initial meeting with stakeholders, providing some quick turn-around analysis, attending workshops, service assessments, helping with technical problems, fetching some survey data. I saw it as a core part of this role to keep the team laser-focussed and stop broader distractions. I enjoy helping colleagues so this bit was quietly rewarding, but at times like an endless to-do list, with small-medium-sized problems to solve for colleagues each day.
+
+The number of meetings and catch-ups however went up exponentially, I found myself triple booked on several occasions and couldn’t attend sessions. The team are always empowered and continue progressing projects without me; I hope joining half way through calls isn’t a problem. The number of adhoc Slack calls between meetings has gone up loads too. On no days in the last week did I have more than a 20-minute break, or time for lunch, never finishing before 6pm.
+
+I really struggled to get out for a walk or jog, only on a few occasions this happened recently. This is very ironic as I’m part of the Wellbeing Champions team, supporting a wider Wellbeing consultation on the programme, and I should certainly be encouraging colleagues to take more leave and regular breaks!!
+
+### **Working with Programme managers & Becoming a Stakeholder**
+
+This was another major learning for me was that while operating across three teams, who manage totally different services, there is a considerable “Zooming out” required.
+
+I was becoming one of our "difficult to reach stakeholders" with an impossible diary, gradually feeling more distant from the user research and unclear what the top problems to solve area. I attended a few sessions as an UR observer but found it really hard not to get distracted, or to steal some time back to answer some emails.
+
+I’ve also had to adapt my communication style working directly with the programme managers. I feel a bit newb-like in that space, and it may take a while to build up more trust in their management processes and confidence operating at that level. The discussions are much more philosophical and open ended – where are we going? Are we doing ok? I’ve mostly been listening for direction and to get a feel for their approach, but often programme managers don’t have the answers either so ask you for a view.
+
+I’ve noted here I need to be even more direct about the problem and have some evidence to hand and/or research options ready to fill gaps in insight. It is hard to build up much of a narrative with the team if you are constantly context switching between meetings; there may only be a 5-minute window and one chance to get a key point across with very senior management stakeholders.
+
+To help with this communication challenge, and to support feeling very Zoomed-out I started working on a new dashboard to help myself and other stakeholders to (very quickly) digest what are the priority issues in play across the services and what are we doing about it. This is still work in progress and I need to find a way that the team can help manage the dashboard alongside their workload. The idea is we could do a regular ‘weather report’ about what are the top issues going on and how we are doing about resolving them.
+
+### **Hiring**
+
+The most significant part of my time (and for the SURs on the team) so far has been spent reviewing candidate CVs, interviewing researchers, evaluating potential & fit within the team, providing feedback to candidates, and negotiating terms and start dates for new starters.
+
+We had many CVs, a really bizarre mix of experience and qualification levels. The team already are pretty experienced, so mainly we are looking for practitioners who deliver complex UR projects to a good quality as well as being confident while working with stakeholders.
+
+These individuals are very hard to find at the moment, UX demand is pushing up day rates to very high-levels. A few hours delay reviewing CVs can result in missing interesting candidates. We do have new joiners on their way, which is really exciting for the team and it will be great to have fresh eyes looking at the challenges.
+
+### **Onboarding**
+
+For all new starters, we need to ensure proper onboarding happens. In the past this has been critical to the successful growth of the team. Onboarding includes introductory sessions with the UR team, wider design and product teams, walk through journeys, providing reading materials/research reports, arranging a buddy, observation sessions, supporting tasks, access to IT systems, sharing whereabouts of documentation, providing technical guidance for tools, invites to team meetings, UR community meetings, and probably many more things too!! I’m actually looking forward to going over this again in the next few weeks, I've done it before and it feels like safe ground.
+
+Retros & Continuous improvement
+As part of delivering better quality work, quicker access to insights, faster turnaround, we have had to continually refine and improve our own processes. This is typically managed through regular UR team Retros twice a month, as well as project specific Retros/ Reflection sessions.
+
+Not everyone enjoys retros. If the host is not careful there is risk it ends up being critical of individuals work, which is not the point. Our team are extremely collaborative and constructive and many problems we have experienced have later been resolved in a timely manner after a retro. We are now planning a Retro of Retros, to review our progress on the issues identify over the past 6 retros.
+
+Our retros result in activities within our research backlog, these are allocated to the Seniors, Re-ops colleagues, and occasionally UR practitioners if they have availability between prioritised projects.
+
+### **Wellbeing and Socials**
+
+As you can imagine the whole team are really tired. Some colleagues have felt ready for change and already decided moved on, it's really difficult to hear this when they hand notice, but it is very difficult to ask for more as they have personally given up so much for the team already. Yes I’ve cried three times in the last month when colleagues left us.
+
+I've personally considered the same things on many days over the last 18 months - when even is a good time to move team? when do you need a proper break? I was the first joiner to the Covid Testing team and it feels like riding the waves out towards the end would be nice. But when will it end? For citizens and our users, the service may continue on for months, or years, we just don't really know what is happening with this pandemic.
+
+Being a key-person on the A-Team service delivering for 60 million people is stressful but exciting for anyone involved. Several colleagues who left have told me how they find the new roles unrewarding and slow, feeling less impactful.
+
+Others have told me this is the most important and fulfilling job we might ever have, so why would anyone want to step aside from that? It's a difficult personal choice and I totally respect anyone who works on these services whether for a few months, a year or more.
+
+### **Performance management**
+
+Not everything went well with staff in our team. Several contractors who have been on the project for a while had to be let go.
+
+Problems had started slowly with a few tasks not being completed, or work to the expected quality, but things gradually started to get worse as time went by.
+
+I really tried to work through challenges with individuals where possible, having more regular catch-ups, arranging additional technical training, breaking down working into smaller chunks, creating SMART objectives with mutually agreed deliverable dates, and regular reviews against goals.
+
+Eventually things grew into larger problems and it starts drawing attention from the wider team. Other contractors get a bit frustrated if others are not keeping up and not contributing to the meetings and outputs.
+
+What I learnt around the performance management is the best approach seemed to be honesty and transparency – i.e. to have early and very open discussions with those involved in a situation like this, whether the individuals, their line managers, HR, the hiring team, supplier/agency. Don’t assume anything, try to understand the whole situation, appreciate challenges individuals are going through, coach where possible, individuals may even want to leave but are staying on for other reasons.
+
+### **Offboarding**
+
+If people are leaving try not to make this a surprise to the team.
+
+Recent departures in the team fit into three categories:
+
+* The good - staff leaving for new pastures on good terms,
+* The ok - staff leaving at short notice on good terms, but without a replacement arranged yet,
+* The bad - staff leaving for contractual or performance issues.
+
+Leaving gifts, Kudoboards, leaving socials is whole new area of specialty that I’ve now learnt about. It takes some effort to organise a proper goodbye for staff who have delivered brilliant stuff over long time periods. Some of our internal and external colleagues who left ages ago I still really miss and we would certainly hire them back any day.
+
+It is never simple. There was some conflict here as the business have a strong belief contracting staff should deliver the work to expected quality as soon as they have onboarded.
+
+I found it difficult letting staff go, but it was important for individuals involved to know the outcome, and vital for the wellbeing and performance of the wider team, to move the situation forward.
+
+I tried to resolve issues and delayed things a week to consider the situation, and provided flexibility during staff notice periods. Personally, I found this process difficult to reconcile against the broader commitments to build a diverse and inclusive workforce, and to provide support and empowerment for colleagues enabling them to grow as well.
+
+
+### TL;DR
+
+In summary, I’ve recently been exposed to, and fully absorbed in, a previously invisible world happening offstage in the UX industry. 
+
+The coal-faces of “human resource management” and “programme leadership teams”, which make up a large part of the Lead User Research role.
+
+I’ve not decided yet if I liked what I’ve seen, or if this change towards people management is something I would learn to enjoy.
+
+I imagine this is the same journey footballers go through later becoming a coach and/or team manager. It’s just another rocky road, bit different, and you can continue if it meets your needs.
+
+There is really is limited guidance/support for SURs progressing towards LUR level, particularly what is needed around managing very complex programmes of research, stakeholders needs, and particularly the likely staffing challenges ahead.
+
+This is something I hope to share more about in future posts as I learn more myself.
+
+I have several individuals I see as mentors who I reach out to discuss difficult situations like this. I’m happy for anyone in a similar situation to contact me if they need someone to share ideas with too!
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

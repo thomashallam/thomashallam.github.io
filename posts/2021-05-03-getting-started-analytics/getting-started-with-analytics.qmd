@@ -1,0 +1,49 @@
+---
+title: "Getting started with analytics"
+format:
+  html
+author: "Tom Hallam"
+date: "2021-05-03"
+categories: [User Research, Analytics, Usability, Covid Testing, Tools]
+---
+
+![Getting analytics installed on Wordpress in 10 minutes](analyticswp.png)
+
+> "you can't have analytics now because it takes too long to install"
+
+I remember sitting in a product backlog meeting with developers who said just that "you can't have analytics now because it takes too long to install". Our PO didn't know better and went along with what was being said... oh how everyone else laughed at the time!!
+
+[Here is a quick video](https://youtu.be/Id6qfqZ_lms){.external target="_blank"} about how I installed GA and Matomo analytics on my blog; I hope someone finds this helpful!!
+
+Analytics tools should really be provided by default to all digital product teams - how can teams improve their digital customer journey if they have no clue what users are doing while using it?
+
+Google Tag Manager: https://tagmanager.google.com/
+
+Google Analytics: https://analytics.google.com/
+
+Matomo Analytics: https://matomo.org/
+
+(Create a Matomo trial account in advance!)
+
+
+<br>
+---
+
+### Let me know what you liked below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

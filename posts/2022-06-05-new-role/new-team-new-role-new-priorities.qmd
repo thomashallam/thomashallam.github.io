@@ -1,0 +1,58 @@
+---
+title: "New team, new role, new priorities"
+format:
+  html
+author: "Tom Hallam"
+date: "2022-06-05"
+categories: [User Research, Research Operations, UCD Maturity, Knowledge Management, UCD]
+image: "randy-tarampi-U2eUlPEKIgU-unsplash.jpg"
+---
+
+![Image: [Randy Tarampi](https://unsplash.com/photos/U2eUlPEKIgU){.external target="_blank")}](randy-tarampi-U2eUlPEKIgU-unsplash.jpg)
+
+I’m very excited to have joined the Central User-Centred Design team at NHS Digital, working with [Rochelle](https://twitter.com/RochelleLGold){.external target="_blank"}, [Tero](https://twitter.com/teropsv){.external target="_blank"}, [Eva](https://twitter.com/VirtualEva){.external target="_blank"} and the Central Re-Ops team.
+
+It’s a new role for me working as a UCD Lead; the role is all about facilitating change, improving UCD-maturity, sharing UCD knowledge, scaling-up UCD best practice across our NHS teams.
+
+## UCD Maturity
+
+It’s a big responsibility to take on [this important project](https://digital.nhs.uk/blog/design-matters/2021/how-nhs-digital-is-developing-user-centred-design-maturity){.external target="_blank"} launched by Rochelle, and the UCD Maturity community.
+
+Last week we relaunched the UCD Maturity Model & Community of practice, great to see many teams still keen and engaged with this work after nearly 18 months! 
+
+This is the place to be and a great space for colleagues who are interested in organising and facilitating UCD Maturity reviews, as well as coaching and supporting teams beyond their reviews.
+
+This project is also a bit of a can of worms too – so how many teams might need a review, and possibly, quite a lot of follow-up help too.
+
+**How might we provide UCD-maturity reviews, coaching and guidance at scale?**
+
+As the Central UCD Team we want to deliver exemplar quality work, to enable and inspire other teams, rather than commit to speaking to every team right away and rushing through lots of reviews.
+
+Teams are already booking in their reviews for August/September, if your team need UCD-support or would like a UCD Maturity review do reach out to myself about this (before we are fully booked)!
+
+I’ve joined the cross-departmental UCD Maturity working group which looks to be a very useful collaboration space too. 
+
+We’re also collaborating across the Product Directorate and with the [Public Digital team](https://public.digital){.external target="_blank"} on the alignment of Product-Engineering-UCD review strategies.
+
+Other areas of work I’m prioritising for the next 6 months include the Knowledge-Management strategy (Guidance/toolkits, policy) and UCD-Ops strategy (resources, tools, labs, etc).
+
+
+
+### Like to know more? let me know below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -4,7 +4,7 @@ format:
   html
 author: "Tom Hallam"
 date: "2020-11-06"
-categories: [Culture Change, Capability, Interaction Design, Service Deisgn, Usability, Leadership, Covid Testing]
+categories: [Culture Change, Capability, Interaction Design, Service Design, Usability, Leadership, Covid Testing]
 ---
 
 > ### This post is about how I influenced the service and interaction design team on a major programme to adopt new processes

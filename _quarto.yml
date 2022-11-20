@@ -8,7 +8,7 @@ website:
   cookie-consent:
     type: implied
     style: simple
-    palette: dark
+    palette: light
   google-analytics:
     tracking-id: "G-EMB22EEKPF"
     storage: cookies
@@ -16,7 +16,7 @@ website:
   navbar:
     right:
       - about.qmd
-      - readinglists.qmd
+      - data-sci/datasci.qmd
       - icon: github
         href: https://github.com/thomashallam
       - icon: twitter
