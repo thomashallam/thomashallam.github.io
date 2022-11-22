@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Tom's blog"
+  title: "User Research, User-Centred Design, User Experience"
   site-url: https://thomashallam.github.io/
   cookie-consent:
     type: implied
@@ -15,7 +15,9 @@ website:
     anonymize-ip: false
   navbar:
     right:
+      - index.qmd
       - about.qmd
+      - resources/links.qmd
       - data-sci/datasci.qmd
       - icon: github
         href: https://github.com/thomashallam

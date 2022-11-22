@@ -1,5 +1,5 @@
 ---
-title: "UR, UCD, UX: learning and reflections"
+title: "Tom's blog"
 listing:
   contents: /posts/**/*.qmd
   sort: "date desc"
@@ -10,3 +10,6 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+# Weeknotes and reflections
+##  
