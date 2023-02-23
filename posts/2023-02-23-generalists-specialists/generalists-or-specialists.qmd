@@ -1,0 +1,140 @@
+---
+title: "UCD Capability: Hiring Specialists or Generalists?"
+author: "Tom Hallam"
+date: "2023-02-23"
+categories: [Hiring, Capability, User Research, Service Design, Interaction design, Content Design, UCD Maturity, Research Operations]
+image: "randy-fath-ymf4_9Y9S_A-unsplash.jpg"
+---
+
+# Are you building a new product team? 
+
+**This post is about how teams (in the NHS or gov) can mature their User-Centred Design (UCD) capability. It outlines some commons challenges, decisions and risks that should be considered when hiring staff to work in this context.**
+
+
+![To achieve a shared goal, we need a mix of skills! [Image on Unsplash](https://unsplash.com/photos/ymf4_9Y9S_A){.external fig-alt="A drawing of an elephant." target="_blank"}](randy-fath-ymf4_9Y9S_A-unsplash.jpg)
+
+<br>
+
+## UCD in the NHS
+
+The NHSE product strategy aims for all teams to follow User-Centred Design principles and approach (where applicable).
+
+[Understanding customers needs and designing with our users in mind](https://www.gov.uk/government/publications/putting-data-digital-and-tech-at-the-heart-of-transforming-the-nhs/putting-data-digital-and-tech-at-the-heart-of-transforming-the-nhs#mindset-a-patient-and-citizen-centred-approach){.external target="_blank"} is an effective way to deliver great service outcomes. 
+
+It is a great ambition and this approach supports delivering the recommendations from the [Wade-Geary review.](https://www.gov.uk/government/publications/putting-data-digital-and-tech-at-the-heart-of-transforming-the-nhs){.external target="_blank"}
+
+Over the last six months I've hosted the User-Centred Design (UCD) Community of Practice. This has given me the chance to meet many teams and hear from colleagues about the challenges they face. 
+
+[The User-Centred Design Maturity Model](https://digital.nhs.uk/blog/design-matters/2021/how-nhs-digital-is-developing-user-centred-design-maturity){.external target="_blank"} has also been a helpful tool for encouraging refection and debate in teams.
+
+Topics such as team structure, roles, ways of working and collaboration were common. A more sensitive topic than came up several times is do teams have an appropriate mix of staff (specialists and generalists). 
+
+One of the biggest concerns we hear about is when teams are made up of only generalists. Any assurance or spend-review process ([DHSC-DTAB](https://transform.england.nhs.uk/key-tools-and-info/digital-and-technology-assurance/){.external target="_blank"} / [CDDO-GDS Service Standards](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work){.external target="_blank"}) will identify this as a 'Not Met' (i.e. fail), due to the risks it introduces around not understanding user needs and designing inappropriate solutions.
+
+<br>
+
+## What decisions do you need to make about the team structure and roles?
+
+While we want to encourage and enable all teams to adopt UCD approaches and bring in UCD specialists, we have to be aware of team contexts and constraints.
+
+To put forward a balanced view, not every team will need *every* specialist role and there are some trade-offs to decide around acceptable risks. I've tried to summarise these insights below:
+
+<br>
+
+### Reasons for hiring generalists to deliver UCD work
+
+**Typical roles:** UX/UIs, UXDs, BAs, PMs
+
+* Teams without budget for all the roles
+* If you only have enough specialist work for a part-time role 
+* Where the team are not sure what they need - flexible
+* If the project is simple and does not need specialist skills or knowledge
+* Where you can safely outsource the specialist parts of the work
+* Where you have training/resources/tools and can upskill staff on missing skills
+* When quality is less of a concern (e.g. feels it may be quicker to "ship it" due to less handovers)
+* Culture: "It is a team sport, everyone does everything"
+
+**Risks:**
+
+* Conformation bias when combining UR+design roles (marking your own homework)
+* Generalists may not have up to date industry knowledge for all the specialisms
+* Unclear roles and responsibilities - everyone needs to know about everything
+* The team maybe overconfident in their abilities
+* These teams might need more external perspectives / reflection and assurance of the work
+* Higher risk of delivering the wrong thing. Getting it all wrong,  lowering quality, or doing something dangerous
+* Additional clinical risk and reputational damage
+* Takes longer. Productivity stops when things need to be rebuilt again
+
+<br>
+
+### Reasons for hiring specialists to deliver UCD work 
+
+**Typical roles:** User research, Content design, Interaction Design, Service Design, Accessibility and Inclusion, Performance Analysts, Research Operations
+
+* When you need clear separation of roles (e.g. UR / design) to avoid conflict/bias in decision making
+* Where you need subject matter expertise / technical knowledge / years of experience
+* Where the work involved is complex, controversial or a top priority (e.g. new national service)
+* Culture: "It is a team sport. Everyone involved as needed, but specialists lead/oversee the work" 
+* When it is good to have diverse views within a team - encourage debate around issues and priorities
+* When the team are being assured to industry standards (CDDO/DHSC/etc)
+* Where you know the work will be subject to external scrutiny (e.g. get a reputable researcher to lead it)
+* Where you need peer/industry support/engagement or ethical approval to proceed (e.g. within the Community of Practice / Profession Head)
+* Where budget allows - it will lead to better quality and outcomes
+* Some roles may be safer to join in a single role if the skills complement each other (e.g. SD+IXD, Content+IXD, Quant UR+Performance Analytics, Inclusion+Accessibility, BA+PM), 
+
+**Risks:**
+
+* Costs more - maybe less projects can get delivered
+* Bigger team to manage - more interdependencies and moving parts
+* Can take longer to reach higher quality standard. It may delay delivery, though in the long run better service design means less rework
+* What to do if one area of the specialist work dries up - do you have flexible skills 
+* If combining two roles, need to be realistic about how much time spend on each part of role
+
+<br>
+
+### Where can our team learn more? 
+
+**A few recommendations:**
+
+* Ask about joining the NHSE or X-Gov UCD Maturity Community of Practice
+* Arrange a chat with NHSE UCD Team about the UCD Maturity Framework
+* Create a roles and responsibilities matrix for your team.
+  + Consider who is covering different areas such as user research, accessibility, inclusion, content design, etc. How much of the teams time is dedicated to each of these specialist activities? 
+* Join the professional Community of Practices for the specialist areas you need more expertise on
+* Present your research/designs to the professional Community of Practices - seek internal feedback
+* Generalists can learn more about UCD.
+  + There are loads of introductory courses which may be suitable 
+  + e.g. on Pluralsight, Futurelearn, Civil Service Learning, YouTube
+  + It won't make a generalist a specialist over-night, but helps with collaboration and understanding how roles complement each other 
+* Read the [DDAT UCD Job Family]!(https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework){.external target="_blank"}
+  + Includes overview of specialist roles and the work required at each seniority level. (
+  + Review JDs - often there are several pages of technical skills/requirements for each UCD specialist role!
+* Asking how do we hire more specialist staff for our team? Speak to your Profession Heads!
+
+
+As always, any thoughts are massively appreciated! :)
+
+Tom
+
+
+<br>
+---
+
+### Let me know what you thought below or [on Twitter](https://twitter.com/thomashallam){.external target="_blank"}
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
