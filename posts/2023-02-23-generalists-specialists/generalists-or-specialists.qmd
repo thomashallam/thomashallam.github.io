@@ -84,9 +84,9 @@ To put forward a balanced view, not every team will need *every* specialist role
 
 **Risks:**
 
-* Costs more - maybe less projects can get delivered
+* Costs more
 * Bigger team to manage - more interdependencies and moving parts
-* Can take longer to reach higher quality standard. It may delay delivery, though in the long run better service design means less rework
+* Can take longer to reach higher quality standard. It may delay delivery (initially until the team is established), though in the long run better service design means less rework
 * What to do if one area of the specialist work dries up - do you have flexible skills 
 * If combining two roles, need to be realistic about how much time spend on each part of role
 
@@ -106,7 +106,7 @@ To put forward a balanced view, not every team will need *every* specialist role
   + There are loads of introductory courses which may be suitable 
   + e.g. on Pluralsight, Futurelearn, Civil Service Learning, YouTube
   + It won't make a generalist a specialist over-night, but helps with collaboration and understanding how roles complement each other 
-* Read the [DDAT UCD Job Family]!(https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework){.external target="_blank"}
+* Read the [DDAT UCD Job Family](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework){.external target="_blank"}
   + Includes overview of specialist roles and the work required at each seniority level. (
   + Review JDs - often there are several pages of technical skills/requirements for each UCD specialist role!
 * Asking how do we hire more specialist staff for our team? Speak to your Profession Heads!
