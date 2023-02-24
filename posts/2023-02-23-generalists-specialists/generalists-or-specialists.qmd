@@ -2,7 +2,7 @@
 title: "UCD Capability: Hiring Specialists or Generalists?"
 author: "Tom Hallam"
 date: "2023-02-23"
-categories: [Hiring, Capability, User Research, Service Design, Interaction design, Content Design, UCD Maturity, Research Operations]
+categories: [Hiring, Capability, User Research, Service Design, Interaction Design, Content Design, UCD Maturity, Research Operations]
 image: "randy-fath-ymf4_9Y9S_A-unsplash.jpg"
 ---
 
@@ -27,7 +27,7 @@ Over the last six months I've hosted the User-Centred Design (UCD) Community of 
 
 [The User-Centred Design Maturity Model](https://digital.nhs.uk/blog/design-matters/2021/how-nhs-digital-is-developing-user-centred-design-maturity){.external target="_blank"} has also been a helpful tool for encouraging refection and debate in teams.
 
-Topics such as team structure, roles, ways of working and collaboration were common. A more sensitive topic than came up several times is do teams have an appropriate mix of staff (specialists and generalists). 
+Topics such as team structure, roles, ways of working and collaboration were common. A more sensitive topic that came up several times is do teams have an appropriate mix of staff (specialists and generalists). 
 
 One of the biggest concerns we hear about is when teams are made up of only generalists. Any assurance or spend-review process ([DHSC-DTAB](https://transform.england.nhs.uk/key-tools-and-info/digital-and-technology-assurance/){.external target="_blank"} / [CDDO-GDS Service Standards](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work){.external target="_blank"}) will identify this as a 'Not Met' (i.e. fail), due to the risks it introduces around not understanding user needs and designing inappropriate solutions.
 
@@ -43,7 +43,7 @@ To put forward a balanced view, not every team will need *every* specialist role
 
 ### Reasons for hiring generalists to deliver UCD work
 
-**Typical roles:** UX/UIs, UXDs, BAs, PMs
+**Typical roles:** UX Consultants, UX/UI'rs, UX Designers, Business Analysts, Product Managers
 
 * Teams without budget for all the roles
 * If you only have enough specialist work for a part-time role 
