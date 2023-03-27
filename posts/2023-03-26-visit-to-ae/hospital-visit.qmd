@@ -245,7 +245,31 @@ Obviously, these ideas for improving urgent healthcare wouldn't have replaced th
 
 Wile none of these may be good idea, some just might. 
 
-I'm sure some exemplar hospitals will have tried similar ideas before. It is very difficult to test new ideas in hospitals, you cannot just implement ideas an technology without first passing huge amounts of regulatory approval, industrial standards for medical devices and software. Having such a long list of issues like this can take decades, and inevitably this means that very few innovation schemes get funded.
+A&E dept current priorities
+
+Must haves:
+1 Save lives (of the critically unwell)
+2 Treat severe and life-changing injuries: improving survival chance and outcomes 
+3 working within financial and legal constraints (no unlimited budget!)
+
+Should haves:
+4 Staff well-being, physical and mental health 
+5 Treating none life-changing/minor injuries/ailments
+
+Could haves:
+6 Provide support for patient health and well-being, holistic preventative care
+7 Improve inclusion and equity by meeting accessibility legal requirements 
+8 Improve the experience, such as joining up or streamlining care journeys 
+
+
+—- 
+
+Priorities are a real thing.
+No one is going to fund you patient experience improvements unless it directly contributes to achieving higher priorities.
+
+I'm sure some exemplar hospitals will have tried similar ideas before. It is very difficult to test new ideas in hospitals, you cannot just implement ideas an technology without first passing huge amounts of regulatory approval, industrial standards for medical devices and software. 
+
+Having such a long list of issues and ideas things can take decades, and inevitably this means that very few innovation schemes get funded.
 
 </br> 
 
@@ -306,7 +330,7 @@ It real nudge to explore more difficult questions around:
 > "how do we keep our teams motivated to move things forward, when so much uncertainty and chaos in the system?"
 
 * how can we align our teams around high-priority areas of clinical risk?
-* how do we create bigger impact from our projects? 
+* how do we create bigger impact from our research projects? 
 * how do we better represent the communities we serve?
 * how can we help with stablising the health system?
 * how can we share the evidence of unmet user needs and align this with policy? 
