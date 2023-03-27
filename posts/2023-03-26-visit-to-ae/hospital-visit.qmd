@@ -1,0 +1,360 @@
+---
+title: "Visit to A&E"
+author: "Tom Hallam"
+date: "2023-03-27"
+time: "09:00"
+categories: [User Research, Healthcare, Digital, Hospital, Bookings, User Needs, Personal]
+image: "ae.jpg"
+---
+
+## Dramatic end to a crazy busy week
+
+And it was probably all my fault. 
+
+I should have thought about the terrible state of the footpaths in our village, the lack of street lighting, the tree roots, and been more careful. Oh yes and worn a helmet too.
+
+But if you are a busy parent, your focus is elsewhere: your kids needs, a hectic agenda, your work, a million chores, your needs usually are met last.
+
+Keeping busy and ticking off little wins can grow your confidence, but at times it is easy to forget this --- we humans are not indestructable!
+
+A small pothole and 0.26 seconds later falling off my sons scooter at full speed. My evening, my weekend, and my plans for the next few weeks are all out the window.
+
+![Oops: remember to wear a helmet!](FsA5MI4WwAIO2Fz.jpg){.external width="250px"}
+
+
+</br> 
+
+## **"*Healthcare is about people and people make healthcare work*"**
+
+Yes, lots of amazing people.
+
+**Thank you to the school PTA team.** 
+They checked up on my injuries, addressed the initial emergency, found an ice patch, bandages, looked after my kids, calmed my daughter ("I can't look at you daddy, I'm going to be sick"), fetched our bike and scooter from the street, gave us a lift home, checked our neighbour could help until support arrived.
+
+**Massive thank you to my neighbour.** 
+They checked we were all ok before family arrived, entertained my kids, taxied me around Leeds (to both hospitals), waited with me for 6 hours, kept watch on me, grabbed food and chatted into the late hours.
+
+**Thank you to the staff at the Urgent Treatment Centre** who were quick, kind, changed my bandage, and apologetic that they couldn't arrange an x-ray.
+
+Thank you to the **hospital triage nurse** who recalls all our previous conversation, despite having over 30 patients on hand.
+
+Thank you to the **doctors** who take their time to understand your situation, checking for big risks before deciding on the best course.
+
+Thank you to the **radiology staff** who have to patiently put your in awkward positions and deal with dangerous machines all day and night. 
+
+  > "So you work in admin, we are all family in the NHS."
+  
+  A few little words can make such a huge positive different when you are going through a difficult time.
+
+Thank you to the **patients**, for sharing your (humourous) injury stories (so loudly).
+
+Thank you to **friends and family** who sent jokes and health guidance at 1.30am, helping me to keep the smile on my smashed up face. Those who cancelled their Friday night plans, checked up on me, covered childcare, fetched stuff from the supermarket.
+
+Thank you to the **Uber driver** who turned up at A&E at 4.30am and checked I got back into my house ok. Despite my 4.63 rating.
+
+People across healthcare are brilliant. 
+
+People and communities are what make the healthcare system work.
+
+The NHS needs way more people with this innate caring spirit --- just like all those I met on Friday. 
+
+It often seems obvious what is holding back progress in healthcare; I hope change comes soon before more people are seriously injured.
+
+
+
+{{< pagebreak >}}
+
+</br>
+
+## **National digital healthcare - are we out of touch? **
+
+I would love to say it had been a good healthcare experience, but overall it was pretty average, fairly disconnected. A snapshot of the healthcare reality amid my usual never-ending barrage of Teams meetings.
+
+It reminded me that so much of our healthcare system has nothing to do with digital. 
+
+**People are what make healthcare work. There is a human side to everything.**
+
+Along my journey, from what I noticed, the most (useful) digital processes included: 
+
+* Maps and GPS navigation to hospital,
+* patient record lookup & check-in at A&E reception, 
+* hospital patient triage / bed tracking system,
+* integrated local care record shows visit to UTC, 
+* electronic X-ray results.
+
+That was it. None of the hospital staff-facing information was visible to me as a citizen. 
+
+As I sat in the hospital waiting area with an head injury (for over 5 hours), I had no clue what was happening with my care. Was there a plan?
+
+At times high and specific expectations were set by staff: "you need a CT and to see a doctor". 
+
+At other times updates were pretty vague "You are near the top of the pile".
+
+The pain was held back by Codeine, paracetemol, and the fact I didn't need a stretcher. Several patients either arrived on a trolley or collapsed and had to be rushed through on one.
+
+The waiting room is full (as expected). Diverse attendence, all ethnicities. Families, crying kids, drug users, drunk and disorderly, the homeless, foreign speakers, couples, individuals, sad people, happy people, vomitting people, screaming people.
+
+I didn't actually mind waiting, but not knowing what was going on did bother me most.
+
+Some other patients clearly had less patience, e.g. asking what was going on every 30 minutes. Bothering staff more seemed to help people to get seen sooner. 
+
+I didn't want to do this, but after 5 hours of watching who went in next you start to question the British Queuing etiquette.
+
+Lots of people got up and left despite having waited many hours and were not being seen or treated.
+
+In the end, I had to request more pain killers as the first batch wore off. After that request, I was seen within 1 hour.
+
+After my named was called things were pretty fast: seen by a doctor, checked over, x-rayed, checked again, sent home. 
+
+1 day later, I feel pretty ok now apart from the significant bruising and swelling.
+
+A lucky escape!
+
+<details class="spoiler" style="--hidden: url(/posts/2023-03-26-visit-to-ae/phot.jpg)">
+  <summary>Warning: graphic content</summary>
+  <div><img src="phot.jpg" alt="Finally checked the damage after x-ray"/></div>
+</details>
+
+</br> 
+
+{{< pagebreak >}}
+
+## **National digital healthcare - why so many missed opportunities**
+
+These are a few challenges that I came up against. Friday night *may* have been a better with *a bit* more digital?
+
+But then again, maybe none of this is even necessary? Just ideas from LaLaLand. 
+
+**I got treated and got safely home and I am really very grateful for that.**
+
+Obviously, these ideas for improving urgent healthcare wouldn't have replaced the essential human interactions described above. 
+
+* **999** 
+  - I work in the NHS and know they are always super busy!
+  - As a typical parent, I pretended to be fine in front of all the kids and parents (despite a huge golf ball bump and blood streaming everywhere)
+  - I was in denial and had concussion. I didn't perceive that I was badly injured
+  - After 5 or 6 adults told me I needed to go to hospital (including 3 first aiders), I agreed it was the best option and so we set off.
+  - Still there was no way I was ringing  999 or an ambulance for myself after a scooter accident
+
+* **Accurate closing times** for the Urgent Treatment walk-in centre 
+  - advertised on Google as 11pm, but doors closed to patients at 9pm
+
+* Checking **currently available facilities** at UTC
+  - Their website says they deal with severe head injuries, but the reality is they didn't have X-ray or CT scan available
+
+* **Hospital-hospital transfers** - UTC staff say they do not refer to hospital A&E. 
+  * I was unsure if any notes were made or if a referral was created after I left. I assume local NHS providers use the same system, but I maybe wrong.
+
+* **Citizen blue light** 
+  - a&e team can track your phone/car on route to hospital
+  - or an Uber app allows you to book the nearest available ambulance
+
+* **Check A&E waiting times** before you arrive 
+  - is it worth driving extra 20 minutes to another A&E 
+  - e.g. York/Harrogate might be quiet - can you beat a 6 hour wait in Leeds?
+
+* **Live wait times for treatments and severity** 
+  - e.g. x-ray, CT or electronic display 
+  - make it clear how many are waiting in each category: critical, servere, routine
+  - shows how many cases they have by severity
+  - tell you which category you are in
+  - unclear if it is 2 hours or 10 hours
+  - at 1am some patients said they have been waiting since 5pm (8 hours?!)
+
+* **Booking appointments** 
+  - It appears no appointments can be booked between A&E and UTC?
+  - When they knew I was travelling over to LGI/A&E. They could have booked to wait in the x-ray area on arrival, rather than the long wait and being triaged three times. 
+
+* **Check-in on app when in arrivals/waiting area**
+  - Easy as Toolstation and Screwfix
+  - Unclear what the added value of the frontline desk (unless you are lost, or don't have a phone)
+
+* **111/NHS App** 
+  - I had completely forgot about this service. I tried the 111 triage 2 hours after being sat in A&E. 
+  - It says to call 999 for ambulance (ironically). 
+  - I'm not sure how this channel would have much helped here, we had already decided to go to the hospital. 
+  - perhaps guidance for what to bring on a 6/7 hour A&E hospital trip (e.g phone charger, water bottle, warm coat, food, money)
+
+* **Tracking patients** around the hospital waiting areas: 
+  - reduces time wasted for staff walking around asking other staff and patients where people are 
+  - reduce shouting out names and mispronouncing foreign names
+  - know who the people asleep are without waking them up
+  - reduce the fear around going to the toilet and missing your name call
+  - What about allocating seat numbers? using NFC seat tags? 
+  - or Using GPS tracking of your phone / NHS App?
+  - or track patient location on CCTV with machine learning? 
+
+* **Food and drinks** to your seat
+  - Injured people leaving because they are hungry 
+  - All coffee shops were shut, food/drinks trolley arrived once during 6 hours
+  - Can you order Uber Eats or Deliveroo to the waiting room? LOL now you are just being lazy, but I guess many people try this.
+
+* **Free USB charging** within the hospital
+  - situation is you need to know to bring your own plug socket and cable, or bring a charging pack, or pay to borrow a USB charger
+
+* **Better information about medicines**.
+  - After receiving some medicine, no info was provided about dosage or side effects to look out for. 
+  - How long do they last before I need more?
+  - There is no record of receiving acute meds on my patient record
+
+* **Meds check up**
+  * a way to request more medicines, as I had to disrupt the nurse who was checking another patient
+
+* **Pain tracking** 
+  * is it getting better/worse? has the bleeding stopped?
+  * perhaps use 8k cameras and machine learning to observe and monitor patient situation directly
+
+* **Triage outcome summary**
+  * initially told I need a CT scan, by time I see nurse and then doctor downgraded to x-ray check
+  * if I had a memory loss problem after severe head injury this could have been quite difficult to recall
+
+* **Dealing with overcrowding / flow issues**
+  - e.g. someone needs a quick tetanus jab after a dog bite, why waited nearly 6 hours? 
+  - booking them into priority UTC/GP appointment in the morning could free up 2 seats in the busy waiting area
+
+* **A&E visit in your patient record**
+  - Nothing appears on the NHS App medical record; apparently I didn't visit?
+
+* **Waiting on your own could be quite lonely**
+   - I'm sure something here about how could a chat system, or patient profile matching, or patient-generated entertainment highlights channel would be much better than the single small TV hidden in the corner playing a raunchy romcom.
+
+* **Language translation**
+  - A parent speaking an international language collapsed, their kids didn't speak much English
+  - It was unclear if a translator was available. Could digital translation help more?
+
+* **Free Wi-Fi** 
+  - I'm pretty sure it was available.
+  - Though I'm a sceptic and didn't connect because you can't tell know which one is real and secure
+  - No signage saying which hospital network to use
+  - Do cyber security teams identify and remove the rogue networks?
+
+* **Test results**
+  - scans images are saved in the patient record
+  - staff can see them, why not citizens?
+
+* **Discharge notes**
+  - with a head injury I was required to take my own notes
+  - information about medications / recovery / aftercare should be send to your phone
+  - unclear whether it gets sent to the GP as well?
+  
+* **Follow-up Referrals** 
+  - could an automated follow-up with GP / physio be created. Really useful if your condition gets worse. 
+  - e.g. after I got woke at home I noticed my should was really badly bumped. I was unclear if it was x-rayd?
+  - obviously most of the attention was on my face/head injury. have they already checked for a dislocated shoulder or fractured ribs? who knows. Again seeing what had been x-rayd might answer that. 
+
+
+Wile none of these may be good idea, some just might. 
+
+I'm sure some exemplar hospitals will have tried similar ideas before. It is very difficult to test new ideas in hospitals, you cannot just implement ideas an technology without first passing huge amounts of regulatory approval, industrial standards for medical devices and software. Having such a long list of issues like this can take decades, and inevitably this means that very few innovation schemes get funded.
+
+</br> 
+
+
+{{< pagebreak >}}
+
+
+## A real wake up call
+
+Honesty, I don't know what to expect from healthcare these days. 
+
+What I think and know what could be possible, feels like a very *very very* long way off the reality of my lived experience.
+
+I hope, with the passion of my heart, that we can do more with technology to make things safer and improve the experience for patients.
+
+These ideas I see as either needed or useful, they are no where near as technically challenging as healthcare solutions we see in sci-fi movies.
+
+Yet my rational mind feels like possibility for progress slips further away every year. 
+
+All the NHS media talk around "strikes", "managed decline", outsourcing *all of the NHS*. It has been quite depressing and divisive language for a long time now.
+
+Yes we know reduced access to primary care is driving huge demand for secondary care and urgent treatment. Yes we know these services cannot keep up. 
+
+Longer waiting lists, slower treatment, less choice, more restrictions, expensive private care alternatives. More logn covid. More excess deaths.
+
+"Free healthcare services, to all at the point of need." The state of the NHS feels a long way off *the vision*.
+
+The 5-year plan and push for data-driven locally commissioned and integrated services. Has it worked? Or has it been shelved? 
+
+Recent budget announcements suggest more NHS investment, but this budget just about keeps us afloat after inflation.
+
+Better patient safety, experience, improved efficiency and new innovations are desperately needed. but real transformation is super difficult and rarely happens.
+
+Our leaders reflect our society, our society reflects our leaders. 6 Health Ministers in 5 years and 4 Prime Ministers in 4 years. 
+
+The planning environment is very difficult. People are tired and fed up, no surprise we see ongoing industrial action, increasing unrest, falling productivity.
+
+Long-term health planning is pivoting towards election strategy. It feels like we will hit an inflection point soon.
+
+Will a change occur? Will it last more than 1 year?
+
+<br> 
+
+## Will an intelligent silver surfer save the NHS? 
+
+Maybe, maybe not! Everyone is talking about using an AI called BARD or ChatGPT6 to solve our patients needs? 
+
+There is a huge risk that we jump into something we really don't fully understand.
+
+I don't see ai replacing human aspects of the NHS. Perhaps it can support some decision making and enhance care experiences however. ML is a fast-advancing field, that I do enjoy read about in my spare time, but absolutely can be dangerous and an ethical minefield.
+
+Whatever the underlying root causes of the problems, clinical risks continue to rise for the general public.
+
+After eight years working in the NHS, this incident was another big wake up call for me.
+
+It real nudge to explore more difficult questions around:
+
+> "how do we keep our teams motivated to move things forward, when so much uncertainty and chaos in the system?"
+
+* how can we align our teams around high-priority areas of clinical risk?
+* how do we create bigger impact from our projects? 
+* how do we better represent the communities we serve?
+* how can we help with stablising the health system?
+* how can we share the evidence of unmet user needs and align this with policy? 
+* how can we better track progress and the impact of decision making?
+
+In summary, who the heck knows what the future holds for the NHS! Personally, I can't see the current trajectory changing much before the next election. 
+
+Yet things could be different. If patient and staff user needs and lived experience were represented right in the centre of our policy and decision-making. You never know, maybe something positive and amazing could happen for the NHS just yet!
+
+Meanwhile, our user researchers are immersed in the frontline system and policy problems evey day. This type of work can be quite intense, traumatising and frustrating. Because of this we need to plan to look after our colleagues and ourselves now more than ever.
+
+We also need to keep connecting with colleagues from across the whole system, to leverage all the brilliant people, ideas and evidence.
+
+Take care everyone. And if you ride a scooter, please wear a helmet!
+
+Tom
+
+
+</br> 
+
+## **TL;DR**
+
+This post is about my journey to an Urgent Treatment Centre and then 6 hours at A&E. After a dramatic and stupid fall off my sons scooter, and a serious head injury.
+
+What is the benefit and impact of digital in urgent care journeys? Systems are capturing data but often for patients they are left in the lurch.
+
+Are there more opportunities for digital to help transform things? Or are the system resource constraints the main barrier to progress?
+
+It is a complex landscape and being dropped into a serious health situation was a great wake up call.
+
+
+---
+
+## Let me know what you thought below or [on Twitter](https://twitter.com/thomashallam){.external target="_blank"}
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

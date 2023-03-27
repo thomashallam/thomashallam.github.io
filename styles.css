@@ -39,3 +39,14 @@ a {
     -ms-text-decoration: underline;
     -o-text-decoration: underline;
 }
+
+
+
+details.spoiler::after {
+    content: var(--hidden);
+    filter: blur(6px);
+  }
+  
+  details[open]::after {
+    display: none;
+  }
