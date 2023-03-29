@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -118,6 +118,7 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -134,44 +135,46 @@ cookieconsent.run({
     <span class="navbar-title">User Research, User-Centred Design, User Experience</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Tom’s blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">Hello</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources/links.html">
+    <a class="nav-link" href="./resources/links.html" rel="" target="">
  <span class="menu-text">Useful links</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-sci/datasci.html">
+    <a class="nav-link" href="./data-sci/datasci.html" rel="" target="">
  <span class="menu-text">Data stuff</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/thomashallam"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/thomashallam" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/thomashallam"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/thomashallam" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/thomashallam"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -198,7 +201,7 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(34)</span></div><div class="category" data-category="Allyship">Allyship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytics">Analytics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Beta">Beta <span class="quarto-category-count">(2)</span></div><div class="category" data-category="CI">CI <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Capability">Capability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Community">Community <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Content Design">Content Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Covid Testing">Covid Testing <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Culture">Culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Culture Change">Culture Change <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Digital">Digital <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Discovery">Discovery <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Gender">Gender <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Healthcare">Healthcare <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Hiring">Hiring <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Inclusivity">Inclusivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interaction Design">Interaction Design <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Knowledge Management">Knowledge Management <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Leadership">Leadership <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Month notes">Month notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Patients">Patients <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Personal">Personal <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Planning">Planning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Product Management">Product Management <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Referrals">Referrals <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Lab">Research Lab <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Research Operations">Research Operations <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Research Panel">Research Panel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Panels">Research Panels <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Seldom-heard">Seldom-heard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Service Design">Service Design <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Sprint">Sprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Stakeholders">Stakeholders <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Surveys">Surveys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tools">Tools <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UCD">UCD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCD Maturity">UCD Maturity <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Usability">Usability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Usability Testing">Usability Testing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Experience">User Experience <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Needs">User Needs <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Research">User Research <span class="quarto-category-count">(18)</span></div><div class="category" data-category="User-Centred Design">User-Centred Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ways of Working">Ways of Working <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Weeknotes">Weeknotes <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Wellbeing">Wellbeing <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(36)</span></div><div class="category" data-category="Allyship">Allyship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytics">Analytics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Beta">Beta <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Bookings">Bookings <span class="quarto-category-count">(2)</span></div><div class="category" data-category="CI">CI <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Capability">Capability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Community">Community <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Content Design">Content Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Covid Testing">Covid Testing <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Culture">Culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Culture Change">Culture Change <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Digital">Digital <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Discovery">Discovery <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Gender">Gender <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Healthcare">Healthcare <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Hiring">Hiring <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Hospital">Hospital <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Inclusivity">Inclusivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interaction Design">Interaction Design <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Knowledge Management">Knowledge Management <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Leadership">Leadership <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Month notes">Month notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Patients">Patients <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Personal">Personal <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Planning">Planning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Product Management">Product Management <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Referrals">Referrals <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Lab">Research Lab <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Research Operations">Research Operations <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Research Panel">Research Panel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Panels">Research Panels <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Seldom-heard">Seldom-heard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Service Design">Service Design <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Sprint">Sprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Stakeholders">Stakeholders <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Surveys">Surveys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tools">Tools <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UCD">UCD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCD Maturity">UCD Maturity <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Usability">Usability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Usability Testing">Usability Testing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Experience">User Experience <span class="quarto-category-count">(2)</span></div><div class="category" data-category="User Needs">User Needs <span class="quarto-category-count">(4)</span></div><div class="category" data-category="User Research">User Research <span class="quarto-category-count">(20)</span></div><div class="category" data-category="User-Centred Design">User-Centred Design <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ways of Working">Ways of Working <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Weeknotes">Weeknotes <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Wellbeing">Wellbeing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -217,9 +220,115 @@ cookieconsent.run({
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Hiring,Capability,User Research,Service Design,Interaction Design,Content Design,UCD Maturity,Research Operations" data-listing-date-sort="1677110400000" data-listing-file-modified-sort="1677242802605" data-listing-reading-time-sort="5.655">
+<div class="quarto-post image-right" data-index="0" data-categories="User Research,Healthcare,Digital,Hospital,Bookings,User Needs,Personal" data-listing-date-sort="1680303600000" data-listing-file-modified-sort="1680133833135" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2023-02-23-generalists-specialists/generalists-or-specialists.html"> <img src="./posts/2023-02-23-generalists-specialists/randy-fath-ymf4_9Y9S_A-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2023-03-26-visit-to-ae/hospital-visit.html"> <img src="./posts/2023-03-26-visit-to-ae/FsA5MI4WwAIO2Fz.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2023-03-26-visit-to-ae/hospital-visit.html">
+<h3 class="no-anchor listing-title">
+Visit to A&amp;E
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Healthcare'); return false;">
+Healthcare
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Digital'); return false;">
+Digital
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hospital'); return false;">
+Hospital
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Bookings'); return false;">
+Bookings
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Needs'); return false;">
+User Needs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Personal'); return false;">
+Personal
+</div>
+</div>
+<a href="./posts/2023-03-26-visit-to-ae/hospital-visit.html">
+<div class="listing-description">
+And it was probably all my fault.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2023-03-26-visit-to-ae/hospital-visit.html">
+<div class="listing-date">
+Apr 1, 2023
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="User Research,Healthcare,Digital,Hospital,Bookings,User Needs,Personal" data-listing-date-sort="1680130800000" data-listing-file-modified-sort="1680133834109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="thumbnail">
+<p><a href="./posts/2023-03-26-visit-to-ae/hospital-visit-2.html"> <img src="./posts/2023-03-26-visit-to-ae/ae.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2023-03-26-visit-to-ae/hospital-visit-2.html">
+<h3 class="no-anchor listing-title">
+National digital healthcare - are we out of touch?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('User Research'); return false;">
+User Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Healthcare'); return false;">
+Healthcare
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Digital'); return false;">
+Digital
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hospital'); return false;">
+Hospital
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Bookings'); return false;">
+Bookings
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('User Needs'); return false;">
+User Needs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Personal'); return false;">
+Personal
+</div>
+</div>
+<a href="./posts/2023-03-26-visit-to-ae/hospital-visit-2.html">
+<div class="listing-description">
+<strong>People are what make healthcare work. There is a human side to everything.</strong>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2023-03-26-visit-to-ae/hospital-visit-2.html">
+<div class="listing-date">
+Mar 30, 2023
+</div>
+<div class="listing-author">
+Tom Hallam
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Hiring,Capability,User Research,Service Design,Interaction Design,Content Design,UCD Maturity,Research Operations" data-listing-date-sort="1677110400000" data-listing-file-modified-sort="1677242802605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/2023-02-23-generalists-specialists/generalists-or-specialists.html"> <img src="./posts/2023-02-23-generalists-specialists/randy-fath-ymf4_9Y9S_A-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2023-02-23-generalists-specialists/generalists-or-specialists.html">
@@ -273,9 +382,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Weeknotes,Research Lab,UCD Maturity" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1668946534728" data-listing-reading-time-sort="3.285">
+<div class="quarto-post image-right" data-index="3" data-categories="Weeknotes,Research Lab,UCD Maturity" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1668946534728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2022-11-18-weeknotes/nhsd-ur-lab-launch.html"> <img src="./posts/2022-11-18-weeknotes/labopening.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-11-18-weeknotes/nhsd-ur-lab-launch.html"> <img src="posts\2022-11-18-weeknotes\labopening.png" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-11-18-weeknotes/nhsd-ur-lab-launch.html">
@@ -314,9 +423,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="CI,UCD Maturity,Knowledge Management,Surveys,Research Lab" data-listing-date-sort="1668124800000" data-listing-file-modified-sort="1668946534727" data-listing-reading-time-sort="10.11">
+<div class="quarto-post image-right" data-index="4" data-categories="CI,UCD Maturity,Knowledge Management,Surveys,Research Lab" data-listing-date-sort="1668124800000" data-listing-file-modified-sort="1668946534727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
 <div class="thumbnail">
-<p><a href="./posts/2022-11-11-6-months-lead-user-researcher/toms-6-month-reflection.html"> <img src="./posts/2022-11-11-6-months-lead-user-researcher/jungwoo-hong-cYUMaCqMYvI-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-11-11-6-months-lead-user-researcher/toms-6-month-reflection.html"> <img src="./posts/2022-11-11-6-months-lead-user-researcher/jungwoo-hong-cYUMaCqMYvI-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-11-11-6-months-lead-user-researcher/toms-6-month-reflection.html">
@@ -361,9 +470,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Weeknotes,Research Lab,Research Panels" data-listing-date-sort="1667347200000" data-listing-file-modified-sort="1668946534726" data-listing-reading-time-sort="2.1">
+<div class="quarto-post image-right" data-index="5" data-categories="Weeknotes,Research Lab,Research Panels" data-listing-date-sort="1667347200000" data-listing-file-modified-sort="1668946534726" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2022-11-02-weeknotes/2022-11-02-weeknotes.html"> <img src="./posts/2022-11-02-weeknotes/nils-nedel-ONpGBpns3cs-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-11-02-weeknotes/2022-11-02-weeknotes.html"> <img src="posts\2022-11-02-weeknotes\nils-nedel-ONpGBpns3cs-unsplash.jpg" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-11-02-weeknotes/2022-11-02-weeknotes.html">
@@ -402,9 +511,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Weeknotes,UCD Maturity,Allyship,Research Panels" data-listing-date-sort="1666738800000" data-listing-file-modified-sort="1668946534725" data-listing-reading-time-sort="2.555">
+<div class="quarto-post image-right" data-index="6" data-categories="Weeknotes,UCD Maturity,Allyship,Research Panels" data-listing-date-sort="1666738800000" data-listing-file-modified-sort="1668946534725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2022-10-26-weeknotes/22-10-26-weeknotes.html"> <img src="./posts/2022-10-26-weeknotes/lysander-yuen-wk833OrQLJE-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-10-26-weeknotes/22-10-26-weeknotes.html"> <img src="posts\2022-10-26-weeknotes\lysander-yuen-wk833OrQLJE-unsplash.jpg" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-10-26-weeknotes/22-10-26-weeknotes.html">
@@ -446,9 +555,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Weeknotes,Personal" data-listing-date-sort="1666566000000" data-listing-file-modified-sort="1668947177451" data-listing-reading-time-sort="1.265">
+<div class="quarto-post image-right" data-index="7" data-categories="Weeknotes,Personal" data-listing-date-sort="1666566000000" data-listing-file-modified-sort="1668947177451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2022-10-24-welcome-new-blog/new-blog.html"> <img src="./posts/2022-10-24-welcome-new-blog/thumbnail.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-10-24-welcome-new-blog/new-blog.html"> <img src="posts\2022-10-24-welcome-new-blog\thumbnail.jpg" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-10-24-welcome-new-blog/new-blog.html">
@@ -484,9 +593,9 @@ Thomas Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="User Research,Community,Research Panel" data-listing-date-sort="1657148400000" data-listing-file-modified-sort="1668961030341" data-listing-reading-time-sort="2.32">
+<div class="quarto-post image-right" data-index="8" data-categories="User Research,Community,Research Panel" data-listing-date-sort="1657148400000" data-listing-file-modified-sort="1668961030341" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html"> <img src="./posts/2022-07-07-ur-away-day/henny-kasa-LaCTAUJ2wug-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html"> <img src="./posts/2022-07-07-ur-away-day/henny-kasa-LaCTAUJ2wug-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-07-07-ur-away-day/user-research-away-day.html">
@@ -525,9 +634,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Personal" data-listing-date-sort="1656889200000" data-listing-file-modified-sort="1668960886031" data-listing-reading-time-sort="3.385">
+<div class="quarto-post image-right" data-index="9" data-categories="Personal" data-listing-date-sort="1656889200000" data-listing-file-modified-sort="1668960886031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2022-07-04-retraumatised/being-retraumatised.html"> <img src="./posts/2022-07-04-retraumatised/rene-bohmer-kGQSE4rUakg-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-07-04-retraumatised/being-retraumatised.html"> <img src="./posts/2022-07-04-retraumatised/rene-bohmer-kGQSE4rUakg-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-07-04-retraumatised/being-retraumatised.html">
@@ -560,9 +669,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Personal" data-listing-date-sort="1656457200000" data-listing-file-modified-sort="1668960350006" data-listing-reading-time-sort="2.92">
+<div class="quarto-post image-right" data-index="10" data-categories="Personal" data-listing-date-sort="1656457200000" data-listing-file-modified-sort="1668960350006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-29/solo-parenting-dad.html"> <img src="./posts/2022-06-29/depositphotos_361583192-stock-photo-tired-father-his-two-kids.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-29/solo-parenting-dad.html"> <img src="./posts/2022-06-29/depositphotos_361583192-stock-photo-tired-father-his-two-kids.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-06-29/solo-parenting-dad.html">
@@ -595,9 +704,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="User Research,Research Operations,UCD Maturity,Knowledge Management,UCD" data-listing-date-sort="1654383600000" data-listing-file-modified-sort="1668961329763" data-listing-reading-time-sort="2.115">
+<div class="quarto-post image-right" data-index="11" data-categories="User Research,Research Operations,UCD Maturity,Knowledge Management,UCD" data-listing-date-sort="1654383600000" data-listing-file-modified-sort="1668961329763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html"> <img src="./posts/2022-06-05-new-role/randy-tarampi-U2eUlPEKIgU-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html"> <img src="./posts/2022-06-05-new-role/randy-tarampi-U2eUlPEKIgU-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-06-05-new-role/new-team-new-role-new-priorities.html">
@@ -642,9 +751,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="User Research,Covid Testing,Healthcare,Stakeholders" data-listing-date-sort="1651964400000" data-listing-file-modified-sort="1668961442656" data-listing-reading-time-sort="3.875">
+<div class="quarto-post image-right" data-index="12" data-categories="User Research,Covid Testing,Healthcare,Stakeholders" data-listing-date-sort="1651964400000" data-listing-file-modified-sort="1668961442656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html"> <img src="./posts/2022-05-08-end-of-era/annie-spratt-PXZEg4hnyVw-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html"> <img src="./posts/2022-05-08-end-of-era/annie-spratt-PXZEg4hnyVw-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-05-08-end-of-era/covid-testing-end-of-era.html">
@@ -686,9 +795,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Hiring,User Research,Healthcare" data-listing-date-sort="1647475200000" data-listing-file-modified-sort="1668959067387" data-listing-reading-time-sort="1.675">
+<div class="quarto-post image-right" data-index="13" data-categories="Hiring,User Research,Healthcare" data-listing-date-sort="1647475200000" data-listing-file-modified-sort="1668959067387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html"> <img src="./posts/2022-03-17-hiring-researchers/eric-prouzet-B3UFXwcVbc4-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html"> <img src="./posts/2022-03-17-hiring-researchers/eric-prouzet-B3UFXwcVbc4-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-03-17-hiring-researchers/hiring-user-researchers-for-healthcare.html">
@@ -727,9 +836,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Month notes,Personal" data-listing-date-sort="1646006400000" data-listing-file-modified-sort="1668959540806" data-listing-reading-time-sort="11.71">
+<div class="quarto-post image-right" data-index="14" data-categories="Month notes,Personal" data-listing-date-sort="1646006400000" data-listing-file-modified-sort="1668959540806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
 <div class="thumbnail">
-<p><a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html"> <img src="./posts/2022-02-28-sur-lur/tim-johnson-ywIZ8ZYxzWU-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html"> <img src="./posts/2022-02-28-sur-lur/tim-johnson-ywIZ8ZYxzWU-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2022-02-28-sur-lur/sur-to-lur-crossing-the-chasm.html">
@@ -765,9 +874,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Month notes,Personal,Covid Testing,Healthcare,Wellbeing" data-listing-date-sort="1635289200000" data-listing-file-modified-sort="1668964171911" data-listing-reading-time-sort="10.87">
+<div class="quarto-post image-right" data-index="15" data-categories="Month notes,Personal,Covid Testing,Healthcare,Wellbeing" data-listing-date-sort="1635289200000" data-listing-file-modified-sort="1668964171911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
 <div class="thumbnail">
-<p><a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html"> <img src="./posts/2021-10-27-month-notes/cop_115544106.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html"> <img src="posts\2021-10-27-month-notes\cop_115544106.jpg" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2021-10-27-month-notes/2021-10-27-month-notes.html">
@@ -812,9 +921,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="Month notes,Personal,Covid Testing,Healthcare" data-listing-date-sort="1632610800000" data-listing-file-modified-sort="1668963198825" data-listing-reading-time-sort="6.995">
+<div class="quarto-post image-right" data-index="16" data-categories="Month notes,Personal,Covid Testing,Healthcare" data-listing-date-sort="1632610800000" data-listing-file-modified-sort="1668963198825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <div class="thumbnail">
-<p><a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html"> <img src="./posts/2021-09-26-wheres-tom/fusion-medical-animation-npjP0dCtoxo-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html"> <img src="./posts/2021-09-26-wheres-tom/fusion-medical-animation-npjP0dCtoxo-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2021-09-26-wheres-tom/wheres-tom-at.html">
@@ -856,9 +965,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="User Research,Analytics,Usability,Covid Testing,Tools" data-listing-date-sort="1619996400000" data-listing-file-modified-sort="1668963771894" data-listing-reading-time-sort="1.27">
+<div class="quarto-post image-right" data-index="17" data-categories="User Research,Analytics,Usability,Covid Testing,Tools" data-listing-date-sort="1619996400000" data-listing-file-modified-sort="1668963771894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html"> <img src="./posts/2021-05-03-getting-started-analytics/analyticswp.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html"> <img src="posts\2021-05-03-getting-started-analytics\analyticswp.png" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2021-05-03-getting-started-analytics/getting-started-with-analytics.html">
@@ -903,9 +1012,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="User Research,Discovery,Sprint,Covid Testing" data-listing-date-sort="1619218800000" data-listing-file-modified-sort="1668946534724" data-listing-reading-time-sort="6.13">
+<div class="quarto-post image-right" data-index="18" data-categories="User Research,Discovery,Sprint,Covid Testing" data-listing-date-sort="1619218800000" data-listing-file-modified-sort="1668946534724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <div class="thumbnail">
-<p><a href="./posts/2021-04-24-discovery-sprint/discovery-sprint.html"> <img src="./posts/2021-04-24-discovery-sprint/userjourney.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-04-24-discovery-sprint/discovery-sprint.html"> <img src="posts\2021-04-24-discovery-sprint\userjourney.png" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2021-04-24-discovery-sprint/discovery-sprint.html">
@@ -947,9 +1056,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Healthcare,Leadership,User Research" data-listing-date-sort="1616284800000" data-listing-file-modified-sort="1668946534723" data-listing-reading-time-sort="3.885">
+<div class="quarto-post image-right" data-index="19" data-categories="Healthcare,Leadership,User Research" data-listing-date-sort="1616284800000" data-listing-file-modified-sort="1668946534723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html"> <img src="./posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-census.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html"> <img src="posts\2021-03-21-senior-user-researcher-in-a-nutshell\sur-census.png" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2021-03-21-senior-user-researcher-in-a-nutshell/sur-nutshell.html">
@@ -988,9 +1097,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="Digital,Discovery,Healthcare" data-listing-date-sort="1615420800000" data-listing-file-modified-sort="1668946534722" data-listing-reading-time-sort="7.93">
+<div class="quarto-post image-right" data-index="20" data-categories="Digital,Discovery,Healthcare" data-listing-date-sort="1615420800000" data-listing-file-modified-sort="1668946534722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
 <div class="thumbnail">
-<p><a href="./posts/2021-03-11-what-happened-to-discovery/what-happened-to-discovery.html"> <img src="./posts/2021-03-11-what-happened-to-discovery/image.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-03-11-what-happened-to-discovery/what-happened-to-discovery.html"> <img src="./posts/2021-03-11-what-happened-to-discovery/image.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2021-03-11-what-happened-to-discovery/what-happened-to-discovery.html">
@@ -1029,9 +1138,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Seldom-heard,Inclusivity,Gender,Discovery,Covid Testing" data-listing-date-sort="1607385600000" data-listing-file-modified-sort="1668946534721" data-listing-reading-time-sort="7.85">
+<div class="quarto-post image-right" data-index="21" data-categories="Seldom-heard,Inclusivity,Gender,Discovery,Covid Testing" data-listing-date-sort="1607385600000" data-listing-file-modified-sort="1668946534721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
 <div class="thumbnail">
-<p><a href="./posts/2020-12-08-seldom-heard/researching-seldom-heard-users.html"> <img src="./posts/2020-12-08-seldom-heard/jayden-yoon-zk-OGWTZqz3wiI-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-12-08-seldom-heard/researching-seldom-heard-users.html"> <img src="./posts/2020-12-08-seldom-heard/jayden-yoon-zk-OGWTZqz3wiI-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-12-08-seldom-heard/researching-seldom-heard-users.html">
@@ -1076,9 +1185,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Analytics,Tools,Usability,Covid Testing" data-listing-date-sort="1607212800000" data-listing-file-modified-sort="1668946534720" data-listing-reading-time-sort="4.555">
+<div class="quarto-post image-right" data-index="22" data-categories="Analytics,Tools,Usability,Covid Testing" data-listing-date-sort="1607212800000" data-listing-file-modified-sort="1668946534720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/2020-12-06-scaled-up-unmoderated-testing/scaled-up-unmoderated-testing.html"> <img src="./posts/2020-12-06-scaled-up-unmoderated-testing/mohamed-boumaiza-JuUK7Er9nR4-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-12-06-scaled-up-unmoderated-testing/scaled-up-unmoderated-testing.html"> <img src="./posts/2020-12-06-scaled-up-unmoderated-testing/mohamed-boumaiza-JuUK7Er9nR4-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-12-06-scaled-up-unmoderated-testing/scaled-up-unmoderated-testing.html">
@@ -1120,9 +1229,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="CI,Culture,Data,Leadership,Reporting,Ways of Working,Covid Testing" data-listing-date-sort="1606780800000" data-listing-file-modified-sort="1668946534719" data-listing-reading-time-sort="4.775">
+<div class="quarto-post image-right" data-index="23" data-categories="CI,Culture,Data,Leadership,Reporting,Ways of Working,Covid Testing" data-listing-date-sort="1606780800000" data-listing-file-modified-sort="1668946534719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/2020-12-01-always-improving/always-be-improving.html"> <img src="./posts/2020-12-01-always-improving/continuous-improvement-discovery.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-12-01-always-improving/always-be-improving.html"> <img src="posts\2020-12-01-always-improving\continuous-improvement-discovery.png" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-12-01-always-improving/always-be-improving.html">
@@ -1173,9 +1282,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Culture Change,Capability,Interaction Design,Service Design,Usability,Leadership,Covid Testing" data-listing-date-sort="1604620800000" data-listing-file-modified-sort="1668963445080" data-listing-reading-time-sort="4.055">
+<div class="quarto-post image-right" data-index="24" data-categories="Culture Change,Capability,Interaction Design,Service Design,Usability,Leadership,Covid Testing" data-listing-date-sort="1604620800000" data-listing-file-modified-sort="1668963445080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/2020-11-06-interacting-with-design/interacting-with-design.html"> <img src="./posts/2020-11-06-interacting-with-design/e2e-journeys-map.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-11-06-interacting-with-design/interacting-with-design.html"> <img src="posts\2020-11-06-interacting-with-design\e2e-journeys-map.png" /> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-11-06-interacting-with-design/interacting-with-design.html">
@@ -1226,9 +1335,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="User Research,Usability Testing,Referrals,Stakeholders,User-Centred Design" data-listing-date-sort="1583798400000" data-listing-file-modified-sort="1668946534717" data-listing-reading-time-sort="0.87">
+<div class="quarto-post image-right" data-index="25" data-categories="User Research,Usability Testing,Referrals,Stakeholders,User-Centred Design" data-listing-date-sort="1583798400000" data-listing-file-modified-sort="1668946534717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html"> <img src="./posts/2020-03-10-day-in-life-user-researcher/radek-skrzypczak-WlB8TsI_th0-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html"> <img data-src="./posts/2020-03-10-day-in-life-user-researcher/radek-skrzypczak-WlB8TsI_th0-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-03-10-day-in-life-user-researcher/user-researcher-day-in-the-life-of.html">
@@ -1273,9 +1382,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="User Needs,User Research,Patients,Referrals,Discovery,User Experience" data-listing-date-sort="1583366400000" data-listing-file-modified-sort="1668946534716" data-listing-reading-time-sort="5.715">
+<div class="quarto-post image-right" data-index="26" data-categories="User Needs,User Research,Patients,Referrals,Discovery,User Experience" data-listing-date-sort="1583366400000" data-listing-file-modified-sort="1668946534716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html"> <img src="./posts/2020-03-05-patient-centred-referrals/1_n6gOZoOpKqgAxExWgVPmrQ.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html"> <img data-src="./posts/2020-03-05-patient-centred-referrals/1_n6gOZoOpKqgAxExWgVPmrQ.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-03-05-patient-centred-referrals/the-case-for-patient-centred-referrals.html">
@@ -1323,9 +1432,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="User Research,Usability Testing,Referrals" data-listing-date-sort="1558652400000" data-listing-file-modified-sort="1668946534715" data-listing-reading-time-sort="1.83">
+<div class="quarto-post image-right" data-index="27" data-categories="User Research,Usability Testing,Referrals" data-listing-date-sort="1558652400000" data-listing-file-modified-sort="1668946534715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html"> <img data-src="./posts/2019-05-24-usability-testing-constraint-choices/1_i384H_6SMsFYMMH4aPrZfw.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html"> <img data-src="./posts/2019-05-24-usability-testing-constraint-choices/1_i384H_6SMsFYMMH4aPrZfw.jpeg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2019-05-24-usability-testing-constraint-choices/usability-testing-when-choice-is-constrained.html">
@@ -1364,9 +1473,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="User Needs,User Research,User Experience,Product Management" data-listing-date-sort="1558566000000" data-listing-file-modified-sort="1668946534714" data-listing-reading-time-sort="3.085">
+<div class="quarto-post image-right" data-index="28" data-categories="User Needs,User Research,User Experience,Product Management" data-listing-date-sort="1558566000000" data-listing-file-modified-sort="1668946534714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html"> <img data-src="./posts/2019-05-23-user-needs-value-proposition/1_b2jJLKkBFIi7k78MNZb7IA.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html"> <img data-src="./posts/2019-05-23-user-needs-value-proposition/1_b2jJLKkBFIi7k78MNZb7IA.jpeg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2019-05-23-user-needs-value-proposition/user-needs-value-proposition-thinking.html">
@@ -1408,9 +1517,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="User Research,User-Centred Design,Product Management,Stakeholders" data-listing-date-sort="1549670400000" data-listing-file-modified-sort="1668946534712" data-listing-reading-time-sort="6.595">
+<div class="quarto-post image-right" data-index="29" data-categories="User Research,User-Centred Design,Product Management,Stakeholders" data-listing-date-sort="1549670400000" data-listing-file-modified-sort="1668946534712" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <div class="thumbnail">
-<p><a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html"> <img data-src="./posts/2019-02-09-product-people/1_7TlzAXCWmXs-1kyG1u32rA.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html"> <img data-src="./posts/2019-02-09-product-people/1_7TlzAXCWmXs-1kyG1u32rA.jpeg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2019-02-09-product-people/product-people-when-stakeholders-attack.html">
@@ -1452,9 +1561,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="Culture Change,CI,Planning" data-listing-date-sort="1507762800000" data-listing-file-modified-sort="1668963672785" data-listing-reading-time-sort="0.165">
+<div class="quarto-post image-right" data-index="30" data-categories="Culture Change,CI,Planning" data-listing-date-sort="1507762800000" data-listing-file-modified-sort="1668963672785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html"> <img data-src="./posts/2017-10-12-letting-go/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html"> <img data-src="./posts/2017-10-12-letting-go/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2017-10-12-letting-go/letting-go-going-lean.html">
@@ -1493,9 +1602,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="Beta,User Research,Referrals,Patients,Content Design,Interaction Design" data-listing-date-sort="1506034800000" data-listing-file-modified-sort="1668946534710" data-listing-reading-time-sort="0.25">
+<div class="quarto-post image-right" data-index="31" data-categories="Beta,User Research,Referrals,Patients,Content Design,Interaction Design" data-listing-date-sort="1506034800000" data-listing-file-modified-sort="1668946534710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2017-09-22-little-things-matter/little-things-matter.html"> <img data-src="./posts/2017-09-22-little-things-matter/annie-spratt-4cNNenEn54c-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2017-09-22-little-things-matter/little-things-matter.html"> <img data-src="./posts/2017-09-22-little-things-matter/annie-spratt-4cNNenEn54c-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2017-09-22-little-things-matter/little-things-matter.html">
@@ -1543,9 +1652,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="Stakeholders,User Research,Referrals,Patients" data-listing-date-sort="1505862000000" data-listing-file-modified-sort="1668946534710" data-listing-reading-time-sort="1.015">
+<div class="quarto-post image-right" data-index="32" data-categories="Stakeholders,User Research,Referrals,Patients" data-listing-date-sort="1505862000000" data-listing-file-modified-sort="1668946534710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html"> <img data-src="./posts/2017-09-20-stakeholders-are-not-our-users/christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html"> <img data-src="./posts/2017-09-20-stakeholders-are-not-our-users/christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2017-09-20-stakeholders-are-not-our-users/stakeholders-are-not-our-users.html">
@@ -1587,9 +1696,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="Product Management,User Research,Planning,Service Design" data-listing-date-sort="1505689200000" data-listing-file-modified-sort="1668946534709" data-listing-reading-time-sort="0.825">
+<div class="quarto-post image-right" data-index="33" data-categories="Product Management,User Research,Planning,Service Design" data-listing-date-sort="1505689200000" data-listing-file-modified-sort="1668946534709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html"> <img data-src="./posts/2017-09-18-we-dont-need-user-research/thomas-park-KYEeuGUkZ54-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html"> <img data-src="./posts/2017-09-18-we-dont-need-user-research/thomas-park-KYEeuGUkZ54-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html">
@@ -1631,9 +1740,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="Beta,User Research,Planning" data-listing-date-sort="1505170800000" data-listing-file-modified-sort="1668946534708" data-listing-reading-time-sort="5.93">
+<div class="quarto-post image-right" data-index="34" data-categories="Beta,User Research,Planning" data-listing-date-sort="1505170800000" data-listing-file-modified-sort="1668946534708" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html"> <img data-src="./posts/2017-09-12-pondering-private-beta/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html"> <img data-src="./posts/2017-09-12-pondering-private-beta/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2017-09-12-pondering-private-beta/pondering-private-beta.html">
@@ -1672,9 +1781,9 @@ Tom Hallam
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="Discovery,User Research,Planning" data-listing-date-sort="1505084400000" data-listing-file-modified-sort="1668963402625" data-listing-reading-time-sort="3.605">
+<div class="quarto-post image-right" data-index="35" data-categories="Discovery,User Research,Planning" data-listing-date-sort="1505084400000" data-listing-file-modified-sort="1668963402625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html"> <img data-src="./posts/2017-09-11-what-is-pre-discovery/daniel-lerman-fr3YLb9UHSQ-unsplash.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html"> <img data-src="./posts/2017-09-11-what-is-pre-discovery/daniel-lerman-fr3YLb9UHSQ-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html">
@@ -1748,9 +1857,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1815,6 +1938,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1857,7 +2066,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

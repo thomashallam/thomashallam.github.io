@@ -1,0 +1,92 @@
+---
+title: "Visit to A&E"
+author: "Tom Hallam"
+date: "2023-04-01"
+categories: [User Research, Healthcare, Digital, Hospital, Bookings, User Needs, Personal]
+image: "FsA5MI4WwAIO2Fz.jpg"
+---
+
+## Dramatic end to a crazy busy week
+
+And it was probably all my fault. 
+
+I should have thought about the terrible state of the footpaths in our village, the lack of street lighting, the tree roots, and been more careful. Oh yes and worn a helmet too.
+
+But if you are a busy parent, your focus is elsewhere: your kids needs, a hectic agenda, your work, a million chores, your needs usually are met last.
+
+Keeping busy and ticking off little wins can grow your confidence, but at times it is easy to forget this --- we humans are not indestructable!
+
+A small pothole and 0.26 seconds later falling off my sons scooter at full speed. My evening, my weekend, and my plans for the next few weeks are all out the window.
+
+![Oops: remember to wear a helmet!](FsA5MI4WwAIO2Fz.jpg){.external width="250px"}
+
+
+</br> 
+
+## **"*Healthcare is about people and people make healthcare work*"**
+
+Yes, lots of amazing people.
+
+**Thank you to the school PTA team.** 
+They checked up on my injuries, addressed the initial emergency, found an ice patch, bandages, looked after my kids, calmed my daughter ("I can't look at you daddy, I'm going to be sick"), fetched our bike and scooter from the street, gave us a lift home, checked our neighbour could help until support arrived.
+
+**Massive thank you to my neighbour.** 
+They checked we were all ok before family arrived, entertained my kids, taxied me around Leeds (to both hospitals), waited with me for 6 hours, kept watch on me, grabbed food and chatted into the late hours.
+
+**Thank you to the staff at the Urgent Treatment Centre** who were quick, kind, changed my bandage, and apologetic that they couldn't arrange an x-ray.
+
+Thank you to the **hospital triage nurse** who recalls all our previous conversation, despite having over 30 patients on hand.
+
+Thank you to the **doctors** who take their time to understand your situation, checking for big risks before deciding on the best course.
+
+Thank you to the **radiology staff** who have to patiently put your in awkward positions and deal with dangerous machines all day and night. 
+
+  > "So you work in admin, we are all family in the NHS."
+  
+  A few little words can make such a huge positive different when you are going through a difficult time.
+
+Thank you to the **patients**, for sharing your (humourous) injury stories (so loudly).
+
+Thank you to **friends and family** who sent jokes and health guidance at 1.30am, helping me to keep the smile on my smashed up face. Those who cancelled their Friday night plans, checked up on me, covered childcare, fetched stuff from the supermarket.
+
+Thank you to the **Uber driver** who turned up at A&E at 4.30am and checked I got back into my house ok. Despite my 4.63 rating.
+
+People across healthcare are brilliant. 
+
+People and communities are what make the healthcare system work.
+
+The NHS needs way more people with this innate caring spirit --- just like all those I met on Friday. 
+
+It often seems obvious what is holding back progress in healthcare; I hope change comes soon before more people are seriously injured!
+
+I would love to say it had been a good healthcare experience, but overall it was pretty average, fairly disconnected. 
+
+A snapshot of the healthcare reality amid my usual never-ending barrage of Teams meetings.
+
+It reminded me that **so much of our healthcare system has nothing to do with digital.**
+
+### [Continues on part 2...](hospital-visit-2.qmd)
+
+
+</br> 
+
+---
+
+## Let me know what you thought below or [on Twitter](https://twitter.com/thomashallam){.external target="_blank"}
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
