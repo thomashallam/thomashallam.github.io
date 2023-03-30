@@ -171,7 +171,7 @@ Obviously, these ideas for improving urgent healthcare wouldn't have replaced th
   
 * **Follow-up Referrals** 
   - could an automated follow-up with GP / physio be created. Really useful if your condition gets worse. 
-  - e.g. after I got woke at home I noticed my should was really badly bumped. I was unclear if it was x-rayd?
+  - e.g. after I got woke eye socket feels disjointed. I noticed my shoulder was really badly bumped to and it is unclear that was x-rayd?
   - obviously most of the attention was on my face/head injury. have they already checked for a dislocated shoulder or fractured ribs? who knows. Again seeing what had been x-rayd might answer that. 
 
 ---
@@ -198,7 +198,7 @@ And could haves?
 8. Improve the experience, such as joining up or streamlining care journeys 
 
 
-## **Priorities are a the big deal**
+## **Priorities are a big deal**
 
 We often encourage product teams to "improve the experience", but unless this contributes towards achieving some higher priority stakeholders often stop it from happenning!
 
