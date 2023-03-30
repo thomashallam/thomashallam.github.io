@@ -6,7 +6,7 @@ categories: [User Research, Healthcare, Digital, Hospital, Bookings, User Needs,
 image: "ae.jpg"
 ---
 
-**People are what make healthcare work. There is a human role in every good bit of the experience.**
+**People are what make healthcare work. There is a human role in every good bit of the experience **
 
 [Continues from part 1](hospital-visit.qmd)
 
