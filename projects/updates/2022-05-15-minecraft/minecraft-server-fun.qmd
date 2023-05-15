@@ -12,7 +12,7 @@ image: "bedroom-rotating-saw.png"
 ![Your friendly local diy fan](bedroom-rotating-saw.png)
 
 ## Context
-I had a very busy weekend with kids. Climbing, swimming, biking, footballing, bbqing, Minecrafting, tidying, cooking. Exhausting! What's worse I hardly sleeping with so much stress and work and outside work too.
+I had a very busy weekend with my kids. Climbing, swimming, biking, footballing, bbqing, Minecrafting, tidying, gardening, entertaining, cooking. Exhausting! What's worse I hardly sleeping with so much stress and work and outside work too.
 
 Anyhow, my kids are now totally immersed in Minecraft (1.19.4 java edition). Most their friends are too, and they all want to play together.
 
@@ -302,7 +302,7 @@ tail -f /var/log/supervisor/out_minecraft.log
 
 ## Screens
 
-Use Screens manage several processes:
+Use Screens to manage several processes (e.g. chat log, server log, updating settings, updates):
 
 ```
 sudo apt install screen
