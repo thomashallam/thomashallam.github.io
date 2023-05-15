@@ -14,27 +14,6 @@
     "text": "Continuous improvement\nI am very grateful for time people have spent giving me feedback whether it was colleagues or project stakeholders. It does help a lot with keeping focussed and finding areas for improvement!!\nSend anonymous feedback to Tom: https://bit.ly/Tom360\nHere is sample of the feedback I received from colleagues in the past few years:\n• “Very passionate, great at organising things and providing insights to the team quickly”\n• “Tom’s expertise in research and research methodologies have helped shape the programmes future development. Specifically, the redesigning and streamlining of key workflows within the referral journey. Tom’s outputs have included key findings on prototype user research, analysis on user behaviour and traits, as well as investigations into processes and business needs.”\n• “Influences change in the product that benefits the user, gives the users a legitimate voice when discussing the product and the design of it, gathers a lot of insights that are useful for influencing design”\n• “He set up the whole of the antigen testing user research programme by himself in a very short space of time. It is an incredible achievement and it is mostly thanks to him that we are where we are right now.”\n• “Excellent research planning, research execution, research findings analysis and high-quality presentations of research findings”\n• “Significant improvements to research efficiency, highly detailed and thorough research outputs, deep thinking on ways of working.”\n• “Tom consistently remains focused on the users needs. He remains empathetic to their situation and is vital in bringing perspective to the discussion when the team requires it.”\n• “Hard working, has a large range of knowledge areas, very good at putting in to action ideas, very good at Qualtrics, very good at using Jira, very good at developing research plans, presents findings back well”\n• “He is very hardworking and dedicated to doing good work that will yield impactful results. He can both work on the ground and think strategically.”\n• “Commitment to UCD ways of working, persistence in solving problems and finding insights, ability to take very complex information and understand it quickly, ability to get the most from tools such as Qualtrics. Tom’s deep subject knowledge and facility with tech is a significant asset to any team.”\n• “Large amounts of detailed information Identification of issues”"
   },
   {
-    "objectID": "data-sci/datasci.html",
-    "href": "data-sci/datasci.html",
-    "title": "Data stuff",
-    "section": "",
-    "text": "Welcome to my (new) Blog\n\n\n\n\n\n\n\nWeeknotes\n\n\nPersonal\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nThomas Hallam\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my (new) Blog\n\n\n\n\n\n\n\nWeeknotes\n\n\nPersonal\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nThomas Hallam\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "data-sci/updates/2022-10-24-welcome-new-blog/new-blog.html",
-    "href": "data-sci/updates/2022-10-24-welcome-new-blog/new-blog.html",
-    "title": "Welcome to my (new) Blog",
-    "section": "",
-    "text": "Moving my blog\n\nThis is the first post in my new Quarto blog. Welcome!\nI’ve decided to close down my previous projects due to several things: ongoing hack attempts, increasing hosting costs, reduced time to manage servers. Using Wordpress for 10 years I’ve learn so much about websites/cloud/apps/dev/data/security, however for my blog i’ve decided the needs are quite simple so using Quarto is a good way to go.\nI’ll gradually be migrating some of the content over from my old blog and Medium. This will continue to be a space where I share how things are going for me, at work and outside\nAll the comment discussion threads are now powered by the Giscus App which is brilliant!\nDo share what you would like to hear more about :)\nThanks for reading\nTom\n\n\n\n\nIf you found this useful post a thumbs up below"
-  },
-  {
-    "objectID": "data-sci/updates/2022-10-24-welcome-new-blog copy/new-blog.html",
-    "href": "data-sci/updates/2022-10-24-welcome-new-blog copy/new-blog.html",
-    "title": "Welcome to my (new) Blog",
-    "section": "",
-    "text": "Moving my blog\n\nThis is the first post in my new Quarto blog. Welcome!\nI’ve decided to close down my previous projects due to several things: ongoing hack attempts, increasing hosting costs, reduced time to manage servers. Using Wordpress for 10 years I’ve learn so much about websites/cloud/apps/dev/data/security, however for my blog i’ve decided the needs are quite simple so using Quarto is a good way to go.\nI’ll gradually be migrating some of the content over from my old blog and Medium. This will continue to be a space where I share how things are going for me, at work and outside\nAll the comment discussion threads are now powered by the Giscus App which is brilliant!\nDo share what you would like to hear more about :)\nThanks for reading\nTom\n\n\n\n\nIf you found this useful post a thumbs up below"
-  },
-  {
     "objectID": "posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html",
     "href": "posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html",
     "title": "What is a Pre-Discovery?",
@@ -390,6 +369,69 @@
     "title": "Visit to A&E",
     "section": "Let me know what you thought below or on Twitter",
     "text": "Let me know what you thought below or on Twitter"
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Managing a Minecraft server maze\n\n\n\n\n\n\n\nChildcare\n\n\nMinecraft\n\n\n\n\n\n\n\n\n\n\n\nMay 15, 2023\n\n\nThomas Hallam\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my (new) Blog\n\n\n\n\n\n\n\nWeeknotes\n\n\nPersonal\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nThomas Hallam\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html",
+    "title": "Managing a Minecraft server maze",
+    "section": "",
+    "text": "Your friendly local diy fan\n\n\n\n\nI had a very busy weekend with kids. Climbing, swimming, biking, footballing, bbqing, Minecrafting, tidying, cooking. Exhausting! What’s worse I hardly sleeping with so much stress and work and outside work too.\nAnyhow, my kids are now totally immersed in Minecraft (1.19.4 java edition). Most their friends are too, and they all want to play together.\nWe’ve previous used the ‘Join on Lan’ feature but this is reliant on the host always being connected, we’ve explored hosting options, e.g. using old Linux laptop (too slow / 32bit), buying a server (too expensive), or using a third-party tool (Curseforge, MultiMC). Some are ok, but none have been ideal.\nIn the latest attempt to get a reliable server working for the local network, I’ve tried the Windows 11 VM tool. It works for now, as many of their mc friends can join the network. It isn’t reliant on external hosting on a third party server/website, and less problems with online chat.\nThis took quite a bit of reading around various articles, testing the options, but here is a working set-up!\nHope you enjoy it."
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#context",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#context",
+    "title": "Managing a Minecraft server maze",
+    "section": "",
+    "text": "I had a very busy weekend with kids. Climbing, swimming, biking, footballing, bbqing, Minecrafting, tidying, cooking. Exhausting! What’s worse I hardly sleeping with so much stress and work and outside work too.\nAnyhow, my kids are now totally immersed in Minecraft (1.19.4 java edition). Most their friends are too, and they all want to play together.\nWe’ve previous used the ‘Join on Lan’ feature but this is reliant on the host always being connected, we’ve explored hosting options, e.g. using old Linux laptop (too slow / 32bit), buying a server (too expensive), or using a third-party tool (Curseforge, MultiMC). Some are ok, but none have been ideal.\nIn the latest attempt to get a reliable server working for the local network, I’ve tried the Windows 11 VM tool. It works for now, as many of their mc friends can join the network. It isn’t reliant on external hosting on a third party server/website, and less problems with online chat.\nThis took quite a bit of reading around various articles, testing the options, but here is a working set-up!\nHope you enjoy it."
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#system-setup",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#system-setup",
+    "title": "Managing a Minecraft server maze",
+    "section": "System Setup",
+    "text": "System Setup\n\nDependencies\n\n8gb+ RAM\nEnough HDD memory\nInstallation of Windows 10 or 11\nInstall WSL2\nEnable Windows Developer features\nEnable Hyper-V and Hypervisor\n\n\n\n\nUbuntu Live Server\n\nDownload Ubuntu Live Server iso from here\nRecommend LTS version (currently 22.04)\nOpen Hypervisor… Quick Create.. Select .iso file\n\nEnter the VM launch settings:\n\n4-8gb RAM\n10-25gb HDD (depends how many worlds or mods you want)\nEnable network adapter (WIFI for local network IP, Default for internet-facing IP)\nClick start\n\nUbuntu Installation settings:\n\nEnglish/English\nEnable dynamic RAM\nClick remove the ‘CD/DVD Drive’ in Hyper-V, click continue on installer if you get the red error message\nInstall third-party packages\nEventually installing Ubuntu Server is completed, Reboot\n\n\n\n\nInstallation in the Hyper-V\n\n\nAfter installation:\n\nLogin with root user/password\n\nsudo apt install wget net-tools\nsudo apt update\n\n\n\nUbuntu firewall\n\nSetup UFW firewall rules to allow only traffic on SSH (22) and the default Minecraft (25565) ports:\n\n# sudo ufw --version\n# sudo apt-get install ufw\n\nsudo ufw default deny\n\nsudo ufw allow from 192.168.1.0/24 to any port 22 \n#only open to local network\n\nsudo ufw allow from 192.168.1.0/24 to any port 25565    \n#only open to local network\n\nsudo ufw enable\n\n# Command may disrupt existing ssh connections. Proceed with operation (y|n)? yENTER\n\nufw status verbose\nufw reload \n\n\n\nSSH\n\nConnect via SSH with PuTTY with IP and password on port 22\nWhy bother? because using HyperV the copy-and-paste doesn’t work on Ubuntu Live Server VM, even with Guest Service enabled\nAlternatively, generate a new ssh key in the terminal, and export ssh keys and use those to connect\n\nssh-keygen"
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#create-new-root-account",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#create-new-root-account",
+    "title": "Managing a Minecraft server maze",
+    "section": "Create new root account",
+    "text": "Create new root account\nsudo -su root\n\nadduser minecraft\n\nusermod -aG sudo minecraft\n\nsu - minecraft\n\n\nSystem hardening\nEnable SWAP, to allow the system to use more memory/ram if required\nsudo swapon -s\n\nsudo fallocate -l 4g /swap\n\nsudo chmod 0600 /swap\n\nsudo mkswap /swap\n\nsudo swapon /swap\n\nsudo echo '/swap    none swap defaults 0 0' | sudo tee -a /etc/fstab\n\nsudo free -m\nChange the initial root password to a private and strong one, such as r00tyHafs3t334vM%2ka$8E3:\nsudo echo 'root:r00tyHafs3t334vM%2ka$8E3' | sudo chpasswd && history -d -1\nCreate a non-root user account with sudo privileges, such as mcninja, and then also set up a strong password for it, such as sud04QeXaedgad3435gae#6&Cw:\nsudo useradd -ms /bin/bash mcninja\n\nsudo echo 'mcninja:sud04QeXaedgad3435gae#6&Cw' | sudo chpasswd && history -d -1\n\nsudo echo 'mcninja    ALL=(ALL)   NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/designated\n\nsudo chmod 0440 /etc/sudoers.d/designated\nAt this point it is probably safe to delete any other accounts you have set up with less-secure passwords\nUpdate the system, and then reboot:\nsudo apt update\n\nsudo apt upgrade -y\n\nsudo apt autoremove -y\n\nsudo shutdown -r now\n\n\n\nJava\nMinecraft Java Edition server 1.18.2 requires Java 17.\nsudo add-apt-repository ppa:openjdk-r/ppa\n\nsudo apt update\n\nsudo apt install openjdk-17-jre-headless -y\n\njava --version\n\n\n\nMinecraft Server\n\nFind latest minecraft server\n\nsudo mkdir /opt/minecraft\n\nsudo chown mcninja:mcninja /opt/minecraft\n\ncd /opt/minecraft\n\nsudo wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar -O minecraft_server.1.19.4.jar\n\necho \"eula=true\" &gt; /opt/minecraft/eula.txt\n\n\n\n\nSupervisor\nsudo apt install supervisor -y\n\nsupervisord -v\nStart the Supervisor service:\nsudo systemctl daemon-reload\n\nsudo systemctl start supervisor.service\n\nsudo systemctl enable supervisor.service\nCreate a Supervisor configuration file for the Minecraft Java Edition server:\nsudo nano /etc/supervisor/conf.d/minecraft.conf\nPopulate the file with:\n[program:minecraft]\n\ndirectory=/opt/minecraft/\n\ncommand=java -Xms1024M -Xmx4G -jar /opt/minecraft/minecraft_server.1.19.4.jar nogui\n\nuser=mcninja\n\nautostart=true\n\nautorestart=true\n\nstderr_logfile=/var/log/supervisor/error_minecraft.log\n\nstderr_logfile_maxbytes=100MB\n\nstdout_logfile=/var/log/supervisor/out_minecraft.log\n\nstdout_logfile_maxbytes=100MB\n\nLoad the Minecraft Java Edition server configuration file:\nsudo supervisorctl reread\n\nsudo supervisorctl update\nDetermine if the Minecraft Java Edition server is up and running:\ntail -f /var/log/supervisor/out_minecraft.log"
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#screens",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#screens",
+    "title": "Managing a Minecraft server maze",
+    "section": "Screens",
+    "text": "Screens\nUse Screens manage several processes:\nsudo apt install screen\nscreen -S \"Minecraft Server\"\n\nscreen -list\nTo exit the screen session, press CTRL + A then D. To resume the screen session, run:\nscreen -r XXXX  # to resume a screen\n\n\nTest it works!\nDirect connect on the local ip address: 192.168.0.XX\nChange the server settings\nsudo nano /opt/minecraft/server.properties"
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#internet-server",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#internet-server",
+    "title": "Managing a Minecraft server maze",
+    "section": "Internet server",
+    "text": "Internet server\nIt would probably be possible to open the VM to the internet securely, by changing the VM Network to Default, then changing the UFW firewall settings\nsudo ufw allow 22 # open VM SSH to internet traffic\nsudo ufw allow 25565 #open port to internet traffic\nIt is maybe/probably possible to route minecraft traffic maybe open ipv4 port forward on the router settings, or use an ipv6 pin hole port. Even, maybe get a cheap/free domain to point at the server and fix the IP address for the machine.\nAt this point, though, given the additional security effort required and cost it would probably be worth just buying a paid-for and ready-to-use Minecraft server. Or following the above process on AWS using EC2 Small/Medium size Ubuntu server."
+  },
+  {
+    "objectID": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#sources",
+    "href": "projects/updates/2022-05-15-minecraft/minecraft-server-fun.html#sources",
+    "title": "Managing a Minecraft server maze",
+    "section": "Sources",
+    "text": "Sources\n\nhttps://www.vultr.com/docs/how-to-install-a-minecraft-server-on-debian-11/\nhttps://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-22-04\nhttps://www.vultr.com/docs/how-to-install-a-minecraft-server-on-ubuntu-20-04/\n\n\n\n\nIf you found this useful post a thumbs up below"
+  },
+  {
+    "objectID": "projects/updates/2022-10-24-welcome-new-blog/new-blog.html",
+    "href": "projects/updates/2022-10-24-welcome-new-blog/new-blog.html",
+    "title": "Welcome to my (new) Blog",
+    "section": "",
+    "text": "Moving my blog\n\nThis is the first post in my new Quarto blog. Welcome!\nI’ve decided to close down my previous projects due to several things: ongoing hack attempts, increasing hosting costs, reduced time to manage servers. Using Wordpress for 10 years I’ve learn so much about websites/cloud/apps/dev/data/security, however for my blog i’ve decided the needs are quite simple so using Quarto is a good way to go.\nI’ll gradually be migrating some of the content over from my old blog and Medium. This will continue to be a space where I share how things are going for me, at work and outside\nAll the comment discussion threads are now powered by the Giscus App which is brilliant!\nDo share what you would like to hear more about :)\nThanks for reading\nTom\n\n\n\n\nIf you found this useful post a thumbs up below"
   },
   {
     "objectID": "resources/links.html",

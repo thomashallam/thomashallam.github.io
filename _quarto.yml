@@ -18,7 +18,7 @@ website:
       - index.qmd
       - about.qmd
       - resources/links.qmd
-      - data-sci/datasci.qmd
+      - projects/projects.qmd
       - icon: github
         href: https://github.com/thomashallam
       - icon: twitter
@@ -29,6 +29,4 @@ format:
   html:
     theme: cosmos
     css: styles.css
-
-
 

@@ -1,5 +1,5 @@
 ---
-title: "Data stuff"
+title: "Projects"
 listing:
   contents: /updates/**/*.qmd
   sort: "date desc"

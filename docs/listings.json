@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/data-sci/datasci.html",
-    "items": [
-      "/data-sci/updates/2022-10-24-welcome-new-blog copy/new-blog.html",
-      "/data-sci/updates/2022-10-24-welcome-new-blog/new-blog.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/2023-03-26-visit-to-ae/hospital-visit.html",
@@ -45,6 +38,13 @@
       "/posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html",
       "/posts/2017-09-12-pondering-private-beta/pondering-private-beta.html",
       "/posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html"
+    ]
+  },
+  {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/updates/2022-05-15-minecraft/minecraft-server-fun.html",
+      "/projects/updates/2022-10-24-welcome-new-blog/new-blog.html"
     ]
   }
 ]

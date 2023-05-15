@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Thomas Hallam">
-<meta name="dcterms.date" content="2022-10-24">
+<meta name="dcterms.date" content="2023-05-15">
 
-<title>User Research, User-Centred Design, User Experience - Welcome to my (new) Blog</title>
+<title>User Research, User-Centred Design, User Experience - Managing a Minecraft server maze</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,8 +122,8 @@ cookieconsent.run({
  <span class="menu-text">Useful links</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../data-sci/datasci.html" rel="" target="">
- <span class="menu-text">Data stuff</span></a>
+    <a class="nav-link" href="../../../projects/projects.html" rel="" target="">
+ <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/thomashallam" rel="" target=""><i class="bi bi-github" role="img">
@@ -157,10 +157,10 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my (new) Blog</h1>
+<h1 class="title">Managing a Minecraft server maze</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Weeknotes</div>
-    <div class="quarto-category">Personal</div>
+    <div class="quarto-category">Childcare</div>
+    <div class="quarto-category">Minecraft</div>
   </div>
   </div>
 
@@ -178,7 +178,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 24, 2022</p>
+      <p class="date">May 15, 2023</p>
     </div>
   </div>
   
@@ -188,17 +188,299 @@ cookieconsent.run({
 
 </header>
 
-<h3 class="anchored">
-Moving my blog
-</h3>
-<p>This is the first post in my new <a href="https://quarto.org/" target="_blank">Quarto</a> blog. Welcome!</p>
-<p>I’ve decided to close down my previous projects due to several things: ongoing hack attempts, increasing hosting costs, reduced time to manage servers. Using Wordpress for 10 years I’ve learn so much about websites/cloud/apps/dev/data/security, however for my blog i’ve decided the needs are quite simple so using Quarto is a good way to go.</p>
-<p>I’ll gradually be migrating some of the content over from my old blog and Medium. This will continue to be a space where I share how things are going for me, at work and outside</p>
-<p>All the comment discussion threads are now powered by the <a href="https://giscus.app/" class="external" target="_blank">Giscus App</a> which is brilliant!</p>
-<p>Do share what you would like to hear more about :)</p>
-<p>Thanks for reading</p>
-<p>Tom</p>
-<p><img src="thumbnail.jpg" class="quarto-discovered-preview-image img-fluid"></p>
+<section id="being-ok-with-many-hats" class="level1">
+<h1>Being ok with many hats</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bedroom-rotating-saw.png" class="quarto-discovered-preview-image img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Your friendly local diy fan</figcaption><p></p>
+</figure>
+</div>
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>I had a very busy weekend with kids. Climbing, swimming, biking, footballing, bbqing, Minecrafting, tidying, cooking. Exhausting! What’s worse I hardly sleeping with so much stress and work and outside work too.</p>
+<p>Anyhow, my kids are now totally immersed in Minecraft (1.19.4 java edition). Most their friends are too, and they all want to play together.</p>
+<p>We’ve previous used the ‘Join on Lan’ feature but this is reliant on the host always being connected, we’ve explored hosting options, e.g.&nbsp;using old Linux laptop (too slow / 32bit), buying a server (too expensive), or using a third-party tool (Curseforge, MultiMC). Some are ok, but none have been ideal.</p>
+<p>In the latest attempt to get a reliable server working for the local network, I’ve tried the Windows 11 VM tool. It works for now, as many of their mc friends can join the network. It isn’t reliant on external hosting on a third party server/website, and less problems with online chat.</p>
+<p>This took quite a bit of reading around various articles, testing the options, but here is a working set-up!</p>
+<p>Hope you enjoy it.</p>
+<hr>
+</section>
+</section>
+<section id="install-and-run-minecraft-server-1.19.4-on-windows-vm-hypervisor-for-local-network---step-by-step-guide" class="level1">
+<h1>Install and run Minecraft Server 1.19.4 on Windows VM HyperVisor for local network - Step-by-step guide</h1>
+</section>
+<section id="index" class="level1">
+<h1>Index:</h1>
+<ul>
+<li><a href="#dependencies">Dependencies</a></li>
+<li><a href="#ubuntu-live-server">Ubuntu Live Server</a></li>
+<li><a href="#ssh">SSH</a></li>
+<li><a href="#create-new-root-account">Create new root account</a></li>
+<li><a href="#system-hardening">System hardening</a></li>
+<li><a href="#ubuntu-firewall">Ubuntu firewall</a></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#minecraft-server">Minecraft Server</a></li>
+<li><a href="#supervisor">Supervisor</a></li>
+<li><a href="#screens">Screens</a></li>
+<li><a href="#test-it-works">Test it works</a></li>
+<li><a href="#internet-server">Internet server</a></li>
+</ul>
+<hr>
+<section id="system-setup" class="level2">
+<h2 class="anchored" data-anchor-id="system-setup">System Setup</h2>
+<section id="dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="dependencies">Dependencies</h3>
+<ul>
+<li>8gb+ RAM</li>
+<li>Enough HDD memory</li>
+<li>Installation of Windows 10 or 11</li>
+<li>Install WSL2</li>
+<li>Enable Windows Developer features</li>
+<li>Enable Hyper-V and Hypervisor</li>
+</ul>
+<hr>
+</section>
+<section id="ubuntu-live-server" class="level3">
+<h3 class="anchored" data-anchor-id="ubuntu-live-server">Ubuntu Live Server</h3>
+<ul>
+<li><a href="https://ubuntu.com/download/server">Download Ubuntu Live Server iso from here</a></li>
+<li>Recommend LTS version (currently 22.04)</li>
+<li>Open Hypervisor… Quick Create.. Select .iso file</li>
+</ul>
+<p>Enter the VM launch settings:</p>
+<ul>
+<li>4-8gb RAM</li>
+<li>10-25gb HDD (depends how many worlds or mods you want)</li>
+<li>Enable network adapter (WIFI for local network IP, Default for internet-facing IP)</li>
+<li>Click start</li>
+</ul>
+<p>Ubuntu Installation settings:</p>
+<ul>
+<li>English/English</li>
+<li>Enable dynamic RAM</li>
+<li>Click remove the ‘CD/DVD Drive’ in Hyper-V, click continue on installer if you get the red error message</li>
+<li>Install third-party packages</li>
+<li>Eventually installing Ubuntu Server is completed, Reboot</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Install-Ubuntu-Server.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Installation in the Hyper-V</figcaption><p></p>
+</figure>
+</div>
+<p>After installation:</p>
+<ul>
+<li>Login with root user/password</li>
+</ul>
+<pre><code>sudo apt install wget net-tools
+sudo apt update</code></pre>
+<hr>
+</section>
+<section id="ubuntu-firewall" class="level3">
+<h3 class="anchored" data-anchor-id="ubuntu-firewall">Ubuntu firewall</h3>
+<ul>
+<li>Setup UFW firewall rules to allow only traffic on SSH (22) and the default Minecraft (25565) ports:</li>
+</ul>
+<pre><code># sudo ufw --version
+# sudo apt-get install ufw
+
+sudo ufw default deny
+
+sudo ufw allow from 192.168.1.0/24 to any port 22 
+#only open to local network
+
+sudo ufw allow from 192.168.1.0/24 to any port 25565    
+#only open to local network
+
+sudo ufw enable
+
+# Command may disrupt existing ssh connections. Proceed with operation (y|n)? yENTER
+
+ufw status verbose
+ufw reload </code></pre>
+<hr>
+</section>
+<section id="ssh" class="level3">
+<h3 class="anchored" data-anchor-id="ssh">SSH</h3>
+<ul>
+<li><p>Connect via SSH with <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> with IP and password on port 22</p></li>
+<li><p>Why bother? because using HyperV the copy-and-paste doesn’t work on Ubuntu Live Server VM, even with Guest Service enabled</p></li>
+<li><p>Alternatively, generate a new ssh key in the terminal, and export ssh keys and use those to connect</p></li>
+</ul>
+<pre><code>ssh-keygen</code></pre>
+</section>
+</section>
+<section id="create-new-root-account" class="level2">
+<h2 class="anchored" data-anchor-id="create-new-root-account">Create new root account</h2>
+<pre><code>sudo -su root
+
+adduser minecraft
+
+usermod -aG sudo minecraft
+
+su - minecraft</code></pre>
+<hr>
+<section id="system-hardening" class="level3">
+<h3 class="anchored" data-anchor-id="system-hardening">System hardening</h3>
+<p>Enable SWAP, to allow the system to use more memory/ram if required</p>
+<pre><code>sudo swapon -s
+
+sudo fallocate -l 4g /swap
+
+sudo chmod 0600 /swap
+
+sudo mkswap /swap
+
+sudo swapon /swap
+
+sudo echo '/swap    none swap defaults 0 0' | sudo tee -a /etc/fstab
+
+sudo free -m</code></pre>
+<p>Change the initial root password to a private and strong one, such as r00tyHafs3t334vM%2ka$8E3:</p>
+<pre><code>sudo echo 'root:r00tyHafs3t334vM%2ka$8E3' | sudo chpasswd &amp;&amp; history -d -1</code></pre>
+<p>Create a non-root user account with sudo privileges, such as mcninja, and then also set up a strong password for it, such as sud04QeXaedgad3435gae#6&amp;Cw:</p>
+<pre><code>sudo useradd -ms /bin/bash mcninja
+
+sudo echo 'mcninja:sud04QeXaedgad3435gae#6&amp;Cw' | sudo chpasswd &amp;&amp; history -d -1
+
+sudo echo 'mcninja    ALL=(ALL)   NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/designated
+
+sudo chmod 0440 /etc/sudoers.d/designated</code></pre>
+<p>At this point it is <em>probably</em> safe to delete any other accounts you have set up with less-secure passwords</p>
+<p><strong>Update the system, and then reboot:</strong></p>
+<pre><code>sudo apt update
+
+sudo apt upgrade -y
+
+sudo apt autoremove -y
+
+sudo shutdown -r now</code></pre>
+<hr>
+</section>
+<section id="java" class="level3">
+<h3 class="anchored" data-anchor-id="java">Java</h3>
+<p>Minecraft Java Edition server 1.18.2 requires Java 17.</p>
+<pre><code>sudo add-apt-repository ppa:openjdk-r/ppa
+
+sudo apt update
+
+sudo apt install openjdk-17-jre-headless -y
+
+java --version</code></pre>
+<hr>
+</section>
+<section id="minecraft-server" class="level3">
+<h3 class="anchored" data-anchor-id="minecraft-server">Minecraft Server</h3>
+<ul>
+<li><a href="https://www.minecraft.net/en-us/download/server">Find latest minecraft server</a></li>
+</ul>
+<pre><code>sudo mkdir /opt/minecraft
+
+sudo chown mcninja:mcninja /opt/minecraft
+
+cd /opt/minecraft
+
+sudo wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar -O minecraft_server.1.19.4.jar
+
+echo "eula=true" &gt; /opt/minecraft/eula.txt
+</code></pre>
+<hr>
+</section>
+<section id="supervisor" class="level3">
+<h3 class="anchored" data-anchor-id="supervisor">Supervisor</h3>
+<pre><code>sudo apt install supervisor -y
+
+supervisord -v</code></pre>
+<p><strong>Start the Supervisor service:</strong></p>
+<pre><code>sudo systemctl daemon-reload
+
+sudo systemctl start supervisor.service
+
+sudo systemctl enable supervisor.service</code></pre>
+<p>Create a Supervisor configuration file for the Minecraft Java Edition server:</p>
+<pre><code>sudo nano /etc/supervisor/conf.d/minecraft.conf</code></pre>
+<p>Populate the file with:</p>
+<pre><code>[program:minecraft]
+
+directory=/opt/minecraft/
+
+command=java -Xms1024M -Xmx4G -jar /opt/minecraft/minecraft_server.1.19.4.jar nogui
+
+user=mcninja
+
+autostart=true
+
+autorestart=true
+
+stderr_logfile=/var/log/supervisor/error_minecraft.log
+
+stderr_logfile_maxbytes=100MB
+
+stdout_logfile=/var/log/supervisor/out_minecraft.log
+
+stdout_logfile_maxbytes=100MB
+</code></pre>
+<p>Load the Minecraft Java Edition server configuration file:</p>
+<pre><code>sudo supervisorctl reread
+
+sudo supervisorctl update</code></pre>
+<p>Determine if the Minecraft Java Edition server is up and running:</p>
+<pre><code>tail -f /var/log/supervisor/out_minecraft.log</code></pre>
+<hr>
+</section>
+</section>
+<section id="screens" class="level2">
+<h2 class="anchored" data-anchor-id="screens">Screens</h2>
+<p>Use Screens manage several processes:</p>
+<pre><code>sudo apt install screen
+screen -S "Minecraft Server"
+
+screen -list</code></pre>
+<p>To exit the screen session, press CTRL + A then D. To resume the screen session, run:</p>
+<pre><code>screen -r XXXX  # to resume a screen</code></pre>
+<hr>
+<section id="test-it-works" class="level3">
+<h3 class="anchored" data-anchor-id="test-it-works">Test it works!</h3>
+<p>Direct connect on the local ip address: 192.168.0.XX</p>
+<p>Change the server settings</p>
+<pre><code>sudo nano /opt/minecraft/server.properties</code></pre>
+</section>
+</section>
+</section>
+<section id="edit-settings-if-required-before-launch" class="level1">
+<h1>Edit settings if required before launch</h1>
+<p>Let’s take a closer look at some of the most important properties in this list:</p>
+<ul>
+<li>difficulty (default easy) - This sets the difficulty of the game, such as how much damage is dealt and how the elements affect your player. The options are peaceful, easy, normal, and hard.</li>
+<li>gamemode (default survival) - This sets the gameplay mode. The options are survival, creative,adventure, and spectator.</li>
+<li>level-name (default world) - This sets the name of your server that will appear in the client. Special characters such as apostrophes may need to be preceded by a backslash. This is known is escaping characters, and is common practice when special characters may not otherwise be parsed correctly in context.</li>
+<li>motd (default A Minecraft Server) - The message that is displayed in the server list of the Minecraft client.</li>
+<li>pvp (default true) - Enables Player versus Player combat. If set to true, players will be able to engage in combat and damage each other.</li>
+<li>online-mode - True enables non-premium players to log in to your Minecraft server</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="HyperVM.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Start / Stop your Minecraft Server in HyperVisor</figcaption><p></p>
+</figure>
+</div>
+<hr>
+<section id="internet-server" class="level2">
+<h2 class="anchored" data-anchor-id="internet-server">Internet server</h2>
+<p>It would probably be possible to open the VM to the internet securely, by changing the VM Network to Default, then changing the UFW firewall settings</p>
+<pre><code>sudo ufw allow 22 # open VM SSH to internet traffic
+sudo ufw allow 25565 #open port to internet traffic</code></pre>
+<p>It is maybe/probably possible to route minecraft traffic maybe open ipv4 port forward on the router settings, or use an ipv6 pin hole port. Even, maybe get a cheap/free domain to point at the server and fix the IP address for the machine.</p>
+<p>At this point, though, given the additional security effort required and cost it would probably be worth just buying a paid-for and ready-to-use Minecraft server. Or following the above process on AWS using EC2 Small/Medium size Ubuntu server.</p>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.vultr.com/docs/how-to-install-a-minecraft-server-on-debian-11/">https://www.vultr.com/docs/how-to-install-a-minecraft-server-on-debian-11/</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-22-04">https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-22-04</a></li>
+<li><a href="https://www.vultr.com/docs/how-to-install-a-minecraft-server-on-ubuntu-20-04/">https://www.vultr.com/docs/how-to-install-a-minecraft-server-on-ubuntu-20-04/</a></li>
+</ul>
 <p><br></p>
 <hr>
 <section id="if-you-found-this-useful-post-a-thumbs-up-below" class="level3">
@@ -207,6 +489,8 @@ Moving my blog
 </script>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
