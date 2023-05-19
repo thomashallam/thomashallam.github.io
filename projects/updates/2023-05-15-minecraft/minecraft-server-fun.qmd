@@ -26,7 +26,7 @@ Hope you enjoy it.
 
 ---
 
-# Install and run Minecraft Server 1.19.4 on Windows VM HyperVisor for local network - Step-by-step guide
+# Install and run Minecraft Server 1.19.4 for local network access on Windows VM HyperVisor Ubuntu 22.04 - Step-by-step guide
 
 # Index:
 
