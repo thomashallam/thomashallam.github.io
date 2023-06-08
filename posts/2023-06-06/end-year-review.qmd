@@ -1,0 +1,104 @@
+---
+title: "End of year review"
+author: "Tom Hallam"
+date: "2023-06-08"
+categories: [Monthnotes, Research Lab, UCD Maturity]
+image: "tim-marshall-bvuwsIUCksA-unsplash.jpg"
+---
+
+### Things I've achieved during 12 months in UCD Team in the Lead User Researcher / UCD Lead role
+
+The last year has been very challenging both at work and outside of work. I started my current role in June 2022 and this post wraps up some of the things over the last year.
+
+It has been an honour to be able take on such a key role during a time of significant change for our organisations. I feel I have continued to grow and thrive in the role as Lead User Researcher. I particuarly enjoyed the variety of projects that I've been involved with (thrown into) in so far, as well meeting and working closely with many amazing teams and colleagues across the wider business. 
+
+The Central UCD Team are all especially brilliant and helpful colleagues. Excellent onboarding, always open to hear each others perspectives, and help each other to succeed. It has been a real shame also to lose some colleagues during the ongoing merger, however I'm still optimistic about the organisation future generally - maybe things will be more stable in 6-12 months. Things are starting to settle out and we are seeing real positive impact from some of the longer-term projects we have delivered.
+
+
+**UCD Maturity**
+
+I hosted our monthly community of practice during the last year. This has been the most intriguing and challenging workstream. Taking on the reigns of coaching, supporting and enabling teams to review their UCD practices. I arranged and facilitated four workshops, including a face-to-face workshop for 30 staff in London, as well as introducing 25 colleagues to the role of UCD Facilitator.
+
+**UCD Operations in Health community**
+
+I chaired monthly meetings for the UCD Operations in Health Community. These sessions were pivotal in bringing together Re-Ops and design colleagues during a period of uncertainty leading up to organisational merger. Through our shared interests and goals, we started to align around tooling, guidance. We shared our (NHSD) ways of working, encouraged adoption of our guidanced. We championed our expertise across the 'merged' business, ensuring the Central UCD Team continued to lead UCD operations into the new organisation.  
+
+**User Research Lab** 
+
+Working closely with colleagues, I helped finalise the research lab designs, ensured suppliers delivered to the high quality spec, launched the lab, tested all equipment, iterated documentation, demoed the lab experience to over 100+ colleagues, resolved technical issues, trained multiple teams on using the lab. We also improved the accessible of the UR lab by having hearing loops integrated within the research and observation rooms. I supported several lab days with NHS Login and NHS.uk, briefed our CEO (Simon Bolton for NHSD) and the NHSE Directors (Amanda Pritchard and team) on the benefits of User Research and the research lab.
+
+**Software governance**
+
+I worked closely with Tech Services to transition ownership of tools such as Qualtrics, provide operating procedures and guidance to allow self-service, helping to increase the uptake of the tool from 100->300 staff across the business, while also reducing the burden of requests on the Central UCD Team. As Information Asset Owner I conducted a review of data governance and put plans in place to improve our approach to data management across the business.
+
+**Knowledge management** 
+
+I reviewed the information architecture of our internal Sharepoint, Teams and Confluence spaces. I documented the needs of UR professional colleagues, worked collaboratively to iterate current content and co-created new content to better meet the needs of ucd-colleagues. I created policy guidance, reguarly communicated changes to colleagues at profession meet-ups, collected new requirements from colleagues and ran sessions to prioritise issues.
+
+**Participant Recruitment and Panels** 
+
+I hosted a fortnightly community of practice during the year. I completed a brief internal discovery, analysed demographic content patterns, launched the NHS Staff panel (an integrated participant database using the Qualtrics survey CRM tools). This enabled teams to improve the timeliness of their staff recruitment activity, as well as broaden the diversity of participants they recruit fo research.
+
+**Ways of working** 
+
+I always championed working in the open. One change I made included migrating part of our backlog onto the Jira platform. This made the requests visible to colleagues across the UR profession and wider audience, it increased the awareness of the number of requirement, and encouraged collaboration and shared ownership. I continued to blog regularly throughout the year about my work and some challenges outside of work.
+
+**Budget and spending** 
+
+I supported writing business cases with evidence of usage/value, seeking funding for expanding the toolset available to colleagues. I also helped raise a case to reduce risks such as data breaches. I conducted cost-benefit analysis for various tools/services, as well as staff costs for the UR profession, UCD-operations team and whether internal/external participant recruitment is more cost effective.
+
+**Client management** 
+
+I managed supplier engagement: with Userzoom, Qualtrics, Optimal Workshop, etc, to ensure we are getting the best support possible and that our profession are making good use of tools. I was involved in negotiations over account access, features, usage limits, as well as setting up various workshops with our suppliers to understand the changing needs of internal teams.
+
+**Research library** 
+
+I helped put the case to Head of Research that more needed to be done to enable insight sharing across the business, to reduce duplication of work across departments, and to ensure data is not lost as we move into the new organisation. This has lead to budget being approved for a supplier to run an Alpha/Beta workstream in the near future.
+
+**100-day NHS discharge challenge**
+
+I was dropped into at short notice. This was the one of the most stressful but interesting projects of the year. To enable the implementation team to survey ALL hospital trusts on their plans for discharge over the winter period. Gathering quant data and bringing in their baseline data to compare from a previous iteration. It involved working to (a lapsed) ministerial deadline, designing a database system, creating a very complex survey, and data analysis. Within 2 weeks of understanding the requirements and delivering the survey, the data-gathering project was miraculosuly back on track, albeit after a huge effort by colleagues in the implementation team - nearly all the trusts returned data.
+
+**User Research SME** 
+
+I provided ongoing operational subject-matter expertise for the user research profession (120 staff). What the heck is that? It means helping teams to resolve thousands of small, medium and large / complex queries in a timely manner. This goes across all UR topics, from the research lab, guidance, policy, training, tools, surveys, staffing, assurance, IG, recruitment etc, etc. Being visible is important, I am always approachable via many channels (Slack, Teams, email, phone, in the office) as well as via the shared UCD mailbox.
+
+One major takeaway about the role of an UCD operations manager, you need to work really closely with teams, undertand their priorities and be responsive to their needs. Colleagues are less interested in grand visions and multi-year plans, especially when basic needs are not me and it feels like everyone is fire-fighting. Ask yourself, what can support can you do to help resolve their problems today? It is also why non-ucd practictioning staff might struggle in UCD-ops roles, you need to have good experience of subject matter to provide good quality solutions. 
+
+**Professional development** 
+
+I completed the Anti-Racism Allies training for senior managers across the NHSE/HEE/NHSD organisations. This really helped me broaden my appreciation of the problem of institutional racism that colleagues from different backgrounds face, as well as appreciate the unconscious bias white people benefit from every day. On a practical level, this helped me with understanding how to structure workshops to enable everyone to have a voice, as well as find ways to provide opportunities to those who might previously have felt excluded.
+
+**Personal development**
+
+I continued to my learning journey around improving my skills for data analysis and coding outside of work. I have found this an enjoyable hobby that has been something I can also do with my kids current interests in Minecraft, it helps with their school homework activities too. I also continued my various diy home-improvement projects, working with difficult suppliers and agreeing the scope of work, negotiate skills have never been more valuable.
+
+Outside of work: I continue to manage own health and wellbeing... often in less than ideal circumstances. Single parenting two kids alone, having had Covid multiple times, and suffering a recent head injury and hospitalisation. I try to manage my mental health with keeping activate with regular swimming and membership of our local running club. Alongside regularly volunteering activities where possible!
+
+Tom
+
+
+
+
+
+<br>
+---
+
+### Let me know what you thought below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
