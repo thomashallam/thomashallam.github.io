@@ -1,0 +1,62 @@
+---
+title: "Designed to Fail"
+author: "Thomas Hallam"
+date: "2023-08-14"
+categories: [DIY, Electronics, Repairs]
+image: "designed-to-fail.jpg"
+---
+
+# DIY doesn't always work
+ 
+![The missing key?](designed-to-fail.jpg)
+
+You may be wondering, what this photo is all about?
+
+Well I’ll let you know to save you guessing, and also avoiding a Very Frustrating Sticky Mess.
+
+Companies are building failure into their products so customers have to dispose of their purchased goods sooner than needed
+
+Here is a example, the internal cutting component from a document shredder (a well known brand!)
+
+
+## Two missing washers are key!
+
+1. **It is Designed to Fail.** If you put 1 or 2 extra paper sheets in then the gears may buckle. The plastic housing bends over time and the metal cutters jump off the plastic guardrail. When the 6 loose metal cutters lock up, the motor may burn out
+
+2. **The design makes it (nearly) impossible to repair and reassemble**. You would have to take the whole thing apart, get covered in mechanical grease and paper cuttings, yuck! remove all the grease and try to rebuild it. I tried it for say 2 hours, and it still wouldn’t work. Probably needed a special aligner tool as well as other electrical testing devices. Repair is not worth the hassle for a £50 appliance
+
+Any way, designing products to fail like this is really bad for the environment! plastic is not a sustainable choice and the whole product now ends up in landfill or shipped as international ewaste, because what… 2 x little washers (@ ~1p each?)
+
+So next time you go to shred something and it says ‘max 3 sheets’, please save yourself (and the environment) some aggro and just shred 1 sheet at a time!
+
+We need companies to start thinking of the environment when we design, how can we make a things last years? Not just a few months!
+
+
+## Sources 
+
+* [YouTube - Cross-cut Paper Shredder Teardown and Repair](https://www.youtube.com/watch?v=xbWLJB9LFR0)
+* [YouTube - Trying to FIX - Broken REXEL Confetti Cut Paper Shredder](https://www.youtube.com/watch?v=dK5u36sqkO4)
+* [YouTube - How to oil your shredders](https://www.youtube.com/watch?v=hAwWZ4uGVgw)
+
+
+<br>
+---
+
+## Have you seen other product with failure built in? Interested to here your examples below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
