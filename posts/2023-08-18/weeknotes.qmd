@@ -23,7 +23,7 @@ I felt well re-charged and productive on return... colleagues laughed and said T
 
 * Connecting the dots. Colleagues often reach out with random adhoc queries. Inevitably there is someone somewhere in the business who we can point colleagues towards. This week there were teams who are following similar journeys (albeit a few years out of sync), as well connecting teams whose immediate goals are interdependent.
 
-* I generally spent a lot of time shielding other teams from complexity - enabling them to do their jobs without having to navigate internal minefields. Challenging stakeholders, complex approval processes, technically challenging issues, that's Ops are here for. To enable teams across the business to work seamlessly and improve quality.
+* I generally spent a lot of time shielding other teams from complexity - enabling them to do their jobs without having to navigate internal minefields. Challenging stakeholders, complex approval processes, technically challenging issues, that is what ops are here for: to enable teams across the business to work seamlessly and improve quality where we can.
 
 
 ## Things that could go better
