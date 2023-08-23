@@ -1,0 +1,80 @@
+---
+title: "Weeknotes: a week off and productivity"
+author: "Tom Hallam"
+date: "2023-08-18"
+categories: [Weeknotes, Research Lab, UCD Maturity, Staff Panel]
+image: "irina-iriser-2Y4dE8sdhlc-unsplash.jpg"
+---
+
+## Personal development 
+
+When things are challenging or busy at work, it is too easy to forget to take a break and crack on, have another coffee. I know when I'm feeling overcooked as my regular swims and running sessions start to feel really tough.
+
+I was lucky to have a week and half away from the desk and BAU / daily grind, I enjoyed time off with family. We spent time relaxing in the outdoors, walking, biking, climbing, swimming, exercising every day... 
+
+I felt well re-charged and productive on return... colleagues laughed and said Tom it sounds like you need another week off to recover!
+
+
+## Things I did this week
+
+* Research lab - 3 days onsite support. I ran a training session for colleagues as well as being available for technical and practical support. I've noticed teams who have used our lab facilities before are getting much more organised and are (nearly) mostly self-sufficient.
+
+* Knowledge management - with the NHS.net Sharepoint migration completed we're cracking on with updating documentation for UCD colleagues. Ensuring colleagues get a seamless onboarding, can easily access tools, guidance and protocals is helping us to scale good practice more quickly. We're always looking to share more templates across teams. Every two weeks our team host a workshop to share and review new guidance.
+
+* Connecting the dots. Colleagues often reach out with random adhoc queries. Inevitably there is someone somewhere in the business who we can point colleagues towards. This week there were teams who are following similar journeys (albeit a few years out of sync), as well connecting teams whose immediate goals are interdependent.
+
+* I generally spent a lot of time shielding other teams from complexity - enabling them to do their jobs without having to navigate internal minefields. Challenging stakeholders, complex approval processes, technically challenging issues, that's Ops are here for. To enable teams across the business to work seamlessly and improve quality.
+
+
+## Things that could go better
+
+* I've been trying to resolve a complex technical problems involving SaaS tools integration. It seems to be stuck in the log jam. We've been trying to resolve this problem for over a year, with multiple teams and stakeholders involved. It seems still were unclear who can help, what approval processes we need to follow. The technical teams we have reached don't have time to explore the complex issue (or even reply).
+
+* More technology problems. Things at the research lab might be a little more complex than needed, but as the system was installed by a third-party, we had little choice over the equipment that was ultimately selected. The tool does meet all our needs in that it has a lot features, flexibility, security - however usability is also an important factor. Media streaming companies and hardware suppliers could take notice here. Many hardware user interfaces are stuck in the 90s.
+
+
+## What challenged me to think differently this week?
+
+I visited two new pubs, one was 'a bit off the grid' you might say. Socialising with people, wherever they are from, and hearing their stories can really broaden your perspectives.
+
+I had an interesting discussion about impact. While colleagues and stakeholders in the wider business might be interested research and design processes, they rightly question why some research projects take so long, or have no specific end-user value.
+
+It is easy to forget, but the NHS has decades of performance improvement teams trying things out and local services are often finely-tuned in many cases. 
+
+Many teams I see are usability testing content, styling and micro-interactions. Yes design systems are important, but for stakeholders it doesn't really grabs their attention. 
+
+Some of the questions we might consider ourselves: 
+
+* how might we zoom out and see the bigger picture?
+* how can we align ourselves to NHS priorities? or KPIs?
+* how might we be more impactful in our research outcomes? 
+* how can we pilot/experiment more quickly?
+* how might we drive changes forward?
+
+
+Have a great week!
+
+Tom
+
+
+<br>
+---
+
+### Let me know what you thought below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
