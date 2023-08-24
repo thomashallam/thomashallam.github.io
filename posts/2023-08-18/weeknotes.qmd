@@ -41,7 +41,7 @@ I had an interesting discussion about impact. While colleagues and stakeholders 
 
 It is easy to forget, but the NHS has decades of performance improvement teams trying things out and local services are often finely-tuned in many cases. 
 
-Many teams I see are usability testing content, styling and micro-interactions. Yes design systems are important, but for stakeholders it doesn't really grabs their attention. 
+Many teams I see are usability testing content, styling and micro-interactions. Yes 'design systems' are important, but for stakeholders it doesn't really grab their attention. 
 
 Some of the questions we might consider ourselves: 
 
