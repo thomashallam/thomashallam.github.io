@@ -19,7 +19,7 @@ I was in a lot of pain and almost willing to pay Livi for an urgent appointment 
 
 Having a temporary disability (hearing loss and dizziness) reminded me how disruptive and difficult it can be just to do the basics, and also how difficult it must be for people with permanent hearing loss.
 
-![I'm no laryngologist but this is not how otoscopes work. The doctor has to peer right into the otoscope, and for a patient with ear infection this is really really painful! [Image on Unsplash](https://unsplash.com/photos/EiNf4bqogMk){.external fig-alt="Image of doctor testing smiling patient with otoscope." target="_blank"}](cdc-EiNf4bqogMk-unsplash.jpg)
+![I'm no laryngologist but this is not how otoscopes work. The doctor has to put it far into your ear, then peer right into the otoscope. For a patient with ear infection this is really really painful! [Image on Unsplash](https://unsplash.com/photos/EiNf4bqogMk){.external fig-alt="Image of doctor testing smiling patient with otoscope." target="_blank"}](cdc-EiNf4bqogMk-unsplash.jpg)
 
 Ear drops kicked in two days later, dizziness went away, and I was able to recover quickly.
 
@@ -40,20 +40,20 @@ A few highlights:
 
 * Ethics working group – planning for UR away day and upcoming training events. Always relevant to ask the question ‘what problem/risks are we trying to solve for?’ and ‘how can we make it more relatable to the work our NHS colleagues are doing?’
 
-* UCD Maturity Model - kick off calls and resource sharing with four teams. Some interested from x-gov community. My takeout here is that awareness of the UCD Maturity resources is low, but interest in the benefits the framework can drive is fairly high.
+* UCD Maturity Model - kick off calls and resource sharing with four teams. Some interest from the x-gov community. My takeout here is that awareness of the UCD Maturity resources is low, but interest in the benefits the framework can drive is fairly high.
 
 * New starters – several contractors arrived this week, which is great after many months of staff hiring freeze / battling through approvals. 
 
 * Onboarding - we had the usual fun with onboarding staff, digging out historical policies , sorting access to technology, initial kickoff chats
 
 * Supplier onboarding:      
-    + great to meet Dan from NexerDigital who is working with Ellen and Leigh to rollout the Accessibility Lab, had quick tour around the UR Lab   
-    + great to chat with Raoul from NetCompany – always interesting to hear about how suppliers previous work with different departments and their areas of expertise. the opportunity here is around how can contractors/suppliers play a role in capacity building / training for our permanent members of staff? 
+    + great to meet Dan from NexerDigital who is working with Ellen and Leigh to rollout the Accessibility Lab, a quick tour around the UR Lab   
+    + great to chat with Raoul from NetCompany – always interesting to hear about how suppliers previous work with different departments and their areas of expertise. The opportunity here is around how can contractors/suppliers play a role in capacity building / training our permanent members of staff? 
 
 
 ## Ongoing challenges:
 
-* Bureaucracy – well we shouldn’t be surprised here… it is public sector… and spend controls? 
+Bureaucracy – well we shouldn’t be surprised here… it is public sector… and spend controls? 
 
 * Procurement – things that teams started procuring in January 2023 are ongoing just getting through the commercial and financial approval process, this is for small amounts of spend too
  
@@ -63,14 +63,14 @@ A few highlights:
 
 * Tech suppliers – fixing outages and issues in a timely manner, coordinating fixes across multiple suppliers has been problematic. But we need to complete this work to enable our colleagues to do work effectively and safely.
 
-I found time to reflect on some of these challenges, they seem to be linked to how our professions communicate insights or problems with our leadership team and directors. What could we do to close the gap and ensure senior backing for our ways of working?
+I found time to reflect on some of these challenges, they seem to be linked to how our professions communicate insights or problems with our leadership team and directors. What could we do to close this insight gap and ensure senior backing for our ways of working?
 
 There was a great podcast on 'Awkward Silences' this week about how we can better meet our Stakeholder needs. First 20 mins definitely worth a listen! [How to Influence Stakeholders with Strategic Research with Andrea Amorós, Associate Principal Researcher at ADP](https://open.spotify.com/episode/407rrK6GPptIMKnLQ1rauf?si=990d052a938b4e36){.external target="_blank"}
 
 
 ## Plans for next week:
 
-* Progressing our knowledge management workstream with Caroline Jarrett @cjforms (new starter) – review some of the information architecture, current content, start on new guidelines
+* Progressing our knowledge management workstream with (new starter) Caroline Jarrett [@cjforms](https://twitter.com/cjforms){.external target="_blank"} – review some of the information architecture, current content, start on new guidelines
 
 * Knowledge management working group (Mon 3pm)
 
