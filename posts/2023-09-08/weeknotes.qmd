@@ -34,7 +34,7 @@ Many of these could be resolved quickly over slack or email, but a few queries a
 
 The biggest challenge for our team is balancing urgent adhoc issues alongside our longer-term initiatives. 
 
-As they say in running… “you have to slow down to go run faster/further.”
+As they say in running… “you have to slow down to go/run faster/further.”
 
 A few highlights:
 
@@ -48,7 +48,9 @@ A few highlights:
 
 * Supplier onboarding:      
     + great to meet Dan from NexerDigital who is working with Ellen and Leigh to rollout the Accessibility Lab, a quick tour around the UR Lab   
-    + great to chat with Raoul from NetCompany – always interesting to hear about how suppliers previous work with different departments and their areas of expertise. The opportunity here is around how can contractors/suppliers play a role in capacity building / training our permanent members of staff? 
+    + great to chat with Raoul from NetCompany – always interesting to hear about how suppliers previous work with different departments and their areas of expertise. 
+    
+The opportunity here is around how can contractors/suppliers play a role in capacity building / training our permanent members of staff? 
 
 
 ## Ongoing challenges:
@@ -57,7 +59,7 @@ Bureaucracy – well we shouldn’t be surprised here… it is public sector… 
 
 * Procurement – things that teams started procuring in January 2023 are ongoing just getting through the commercial and financial approval process, this is for small amounts of spend too
  
-* Recruitemnt - to recruit 1 contractor required 70+ email and 15+ documents,
+* Recruitment - to recruit 1 contractor required 70+ email and 15+ documents,
 
 * Incentives policy. Finance team are pushing us to towards using BACS/payroll solution for all inhouse user research participant recruitment incentives. The Central UCD Ops team are very sceptical this will work out, knowing the needs of participants and how UR teams operate. Not only is this an administrative nightmare but there is also a big risk of reducing inclusivity. We’ve put our evidence forward and escalated to management the risks to research, service design, the business and the wider public.
 
