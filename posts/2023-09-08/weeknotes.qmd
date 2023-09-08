@@ -1,0 +1,113 @@
+---
+title: "Weeknotes: Ear infection and end of holidays rush"
+author: "Tom Hallam"
+date: "2023-09-08"
+categories: [Weeknotes, Research Lab, UCD Maturity, Staff Panel]
+image: "cdc-EiNf4bqogMk-unsplash.jpg"
+---
+
+
+No weeknotes last week due to a few days absent recovering from an ear infection ‘swimmers ear'; why do they have lane swimming right after kids swimming lessons... so gross!
+
+Between midnight to 5am on Tuesday I bounced around [nhs.uk](https://www.nhs.uk/conditions/ear-infections/){.external target="_blank"}, 111 online, Dr Google, before finally being told by 111 to call GP at 8am and book an urgent same-day appointment (grrr).
+
+Interestingly, 111 said that the entire booking calendar for appointments in Leeds was unavailable - though I could drive to Bradford (while dizzy and with 2 hours sleep) if I wanted. Also interestingly, and ironically as I had 6 calls with 111, a colleague mentioned that 111 recently removed ear ache infection from their service (that week!) as part of the ['Pharmacy First' initiative](https://www.england.nhs.uk/long-read/delivery-plan-for-recovering-access-to-primary-care-2/#:~:text=Pharmacy%20First%20will,pharmacy.%5B41%5D){.external target="_blank"}.
+
+> "Pharmacy First will launch before the end of 2023, learning from areas that have implemented similar models, subject to a DHSC-led consultation with the Pharmaceutical Services Negotiating Committee.[39] This service will enable pharmacists to supply prescription-only medicines,[40] including antibiotics and antivirals where clinically appropriate, to treat seven common health conditions (sinusitis, sore throat, earache, infected insect bite, impetigo, shingles, and uncomplicated urinary tract infections in women) without the need to visit a GP. NHS England will also support research to ensure a consistent approach to antibiotic and antiviral use between general practice and community pharmacy.[41]"
+
+I was in a lot of pain and almost willing to pay Livi for an urgent appointment if things fell through. Luckily I did get through at 8.01am, attended GP at 9.15 and picked up eardrops by 9.30am - Great!
+
+Having a temporary disability (hearing loss and dizziness) reminded me how disruptive and difficult it can be just to do the basics, and also how difficult it must be for people with permanent hearing loss.
+
+![I'm no laryngologist but this is not how otoscopes work. The doctor has to peer right into the otoscope, and for a patient with ear infection this is really really painful! [Image on Unsplash](https://unsplash.com/photos/EiNf4bqogMk){.external fig-alt="Image of doctor testing smiling patient with otoscope." target="_blank"}](cdc-EiNf4bqogMk-unsplash.jpg)
+
+Ear drops kicked in two days later, dizziness went away, and I was able to recover quickly.
+
+On Sunday I [ran in a 12-mile cross-country relay race, “The Leeds Country Way”](https://www.strava.com/activities/9773775180){.external target="_blank"}. Our pair ran the batten round in 1 hour 38 minutes, 22 minutes under the cut-off time! We were well chuffed with this considered we both had recent ankle injuries. Don’t mention what happened to our relay team after that!
+
+
+## Work this week:
+
+A really busy week back, 2 days in the office. I received over 30 adhoc requests.This is not un-typical for our Central Ops Team. 
+
+Many of these could be resolved quickly over slack or email, but a few queries are complex and will take a while to unpick/explore/discuss with colleagues. 
+
+The biggest challenge for our team is balancing urgent adhoc issues alongside our longer-term initiatives. 
+
+As they say in running… “you have to slow down to go run faster/further.”
+
+A few highlights:
+
+* Ethics working group – planning for UR away day and upcoming training events. Always relevant to ask the question ‘what problem/risks are we trying to solve for?’ and ‘how can we make it more relatable to the work our NHS colleagues are doing?’
+
+* UCD Maturity Model - kick off calls and resource sharing with four teams. Some interested from x-gov community. My takeout here is that awareness of the UCD Maturity resources is low, but interest in the benefits the framework can drive is fairly high.
+
+* New starters – several contractors arrived this week, which is great after many months of staff hiring freeze / battling through approvals. 
+
+* Onboarding - we had the usual fun with onboarding staff, digging out historical policies , sorting access to technology, initial kickoff chats
+
+* Supplier onboarding:      
+    + great to meet Dan from NexerDigital who is working with Ellen and Leigh to rollout the Accessibility Lab, had quick tour around the UR Lab   
+    + great to chat with Raoul from NetCompany – always interesting to hear about how suppliers previous work with different departments and their areas of expertise. the opportunity here is around how can contractors/suppliers play a role in capacity building / training for our permanent members of staff? 
+
+
+## Ongoing challenges:
+
+* Bureaucracy – well we shouldn’t be surprised here… it is public sector… and spend controls? 
+
+* Procurement – things that teams started procuring in January 2023 are ongoing just getting through the commercial and financial approval process, this is for small amounts of spend too
+ 
+* Recruitemnt - to recruit 1 contractor required 70+ email and 15+ documents,
+
+* Incentives policy. Finance team are pushing us to towards using BACS/payroll solution for all inhouse user research participant recruitment incentives. The Central UCD Ops team are very sceptical this will work out, knowing the needs of participants and how UR teams operate. Not only is this an administrative nightmare but there is also a big risk of reducing inclusivity. We’ve put our evidence forward and escalated to management the risks to research, service design, the business and the wider public.
+
+* Tech suppliers – fixing outages and issues in a timely manner, coordinating fixes across multiple suppliers has been problematic. But we need to complete this work to enable our colleagues to do work effectively and safely.
+
+I found time to reflect on some of these challenges, they seem to be linked to how our professions communicate insights or problems with our leadership team and directors. What could we do to close the gap and ensure senior backing for our ways of working?
+
+There was a great podcast on 'Awkward Silences' this week about how we can better meet our Stakeholder needs. First 20 mins definitely worth a listen! [How to Influence Stakeholders with Strategic Research with Andrea Amorós, Associate Principal Researcher at ADP](https://open.spotify.com/episode/407rrK6GPptIMKnLQ1rauf?si=990d052a938b4e36){.external target="_blank"}
+
+
+## Plans for next week:
+
+* Progressing our knowledge management workstream with Caroline Jarrett @cjforms (new starter) – review some of the information architecture, current content, start on new guidelines
+
+* Knowledge management working group (Mon 3pm)
+
+* Finishing the ‘NHS Staff Panel’ rollout, testing this works, sharing the work in a blog post (Tue)
+
+* UR lab training day in Leeds for NHS App team and a dozen researchers (Thurs)
+
+* 3 x intro chats
+
+* Book in the UCD Maturity CoP meetings for Sep/Oct/Nov
+
+* More bau/adhoc unknown
+
+
+Have a good one,
+
+Tom
+
+
+<br>
+---
+
+### Let me know what you thought below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
