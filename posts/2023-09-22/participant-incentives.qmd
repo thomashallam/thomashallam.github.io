@@ -221,17 +221,17 @@ Things can quickly spiral out of control.
 
 ## Slow incentives are cited in many research studies as a major blocker to research participation. 
 
-Sending incentives on the day of the research is industry practice best practice. 
+Sending incentives on the day of the research is industry standard / best practice. 
 
 Up to 1 week-wait for an incentive is ok. 
 
 2 weeks can be annoying, but an acceptable delay. 
 
-3, 4, 5, 6+ weeks is reputationally damaging. 
+3, 4, 5, 6+ weeks is reputationally and operationally damaging. 
 
 Any delay creates more admin burden around managing participant queries: ‘Where is my incentive?’
 
-For what? Someone has received a £60 gift voucher, and so they might need to pay £15 tax on this? 
+For what? Someone has received a £40-60 gift voucher, and so they might (but are very unlikely to) need to pay £10-£15 tax on this? 
 
 We do not view our research participants as “casual labour”; we only speak to them once and or twice per project per year. Typically 0.5-2 hours time in total.
 
@@ -242,31 +242,32 @@ Participants who have taken part more than twice are flagged (or removed) from t
 [HMRC guidance states individuals can receive up to £1000 per year Tax-free Trading Allowance](https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income#:~:text=The%20trading%20allowance%20is%20a,equipment%2C%20for%20example%2C%20power%20tools
 ){.external target="_blank"} 
 
-A risk here occurs only if a participant is taking part in lots of adhoc research or casual work and not reporting it as earnings. 
+A risk here occurs only if a participant is taking part in lots of adhoc research or casual work and not reporting it as earnings.
 
 All vouchers are sent with a message highlighting that participants "are responsible for their own tax situation". 
 
 
-## What about bringing expert citizens onto payroll? 
+## What about bringing expert citizens onto payroll for regular engagement? 
 
 Bringing citizens in-house (e.g. community reps, those lived experience, or experts) does have many benefits for organisations:
 
 * getting rapid feedback or expert advice,
 * ongoing engagement with communities, 
 * reducing public criticism,
-* supporting co-creation. 
+* supporting co-creation,
+* and more.
 
 However over the longer-time conflicts of interest could arise when considering power-relationship dynamics. 
 
 The uneasy questions here are:
 
 * are they employees? or representatives? what are their terms and conditions?
-* do citizens remain the best representative of the communities they speak for - over the longer term? 
+* do citizens remain the best representative of the communities they speak for... over the longer term? 
 * does receiving a regular income impact their views or behaviour about the organisation?
 
 "Escalation of commitment bias" and the "sunk cost fallacy" are where we are unwilling to let go, because we already spent a long time on something. So we spend more even time on it!
 
-Organisations put a lot of effort into finding and recruiting citizen reps. They may not have resource or appetite to go out and find fresh voices.
+Organisations put a lot of effort into finding and recruiting citizen reps. They may not have resource or appetite to regularly go out and find fresh voices.
 
 
 ## Have we looked at other incentives options?
