@@ -221,7 +221,7 @@ Things can quickly spiral out of control.
 
 ## Slow incentives are cited in many research studies as a major blocker to research participation. 
 
-On the day of the research is industry practice best practice. 
+Sending incentives on the day of the research is industry practice best practice. 
 
 Up to 1 week-wait for an incentive is ok. 
 
@@ -244,7 +244,7 @@ Participants who have taken part more than twice are flagged (or removed) from t
 
 A risk here occurs only if a participant is taking part in lots of adhoc research or casual work and not reporting it as earnings. 
 
-To discourage this, sent all vouchers is a warning highlighting that participants "are responsible for their own tax situation". 
+All vouchers are sent with a message highlighting that participants "are responsible for their own tax situation". 
 
 
 ## What about bringing expert citizens onto payroll? 
@@ -258,15 +258,15 @@ Bringing citizens in-house (e.g. community reps, those lived experience, or expe
 
 However over the longer-time conflicts of interest could arise when considering power-relationship dynamics. 
 
-The uneasy question here are:
+The uneasy questions here are:
 
 * are they employees? or representatives? what are their terms and conditions?
-* do citizens remain representative of the communities they speak for - over the longer term? 
+* do citizens remain the best representative of the communities they speak for - over the longer term? 
 * does receiving a regular income impact their views or behaviour about the organisation?
 
 "Escalation of commitment bias" and the "sunk cost fallacy" are where we are unwilling to let go, because we already spent a long time on something. So we spend more even time on it!
 
-Organisation put a lot of effort into finding and recruiting citizen reps. They may not have resource or appetite to go out and find fresh voices.
+Organisations put a lot of effort into finding and recruiting citizen reps. They may not have resource or appetite to go out and find fresh voices.
 
 
 ## Have we looked at other incentives options?
@@ -277,11 +277,11 @@ If we could arrange bank transfer as an option, alongside the physical and digit
 
 Assuming it was accessible and easy for citizens. It did not create any burden for researchers, our internal teams or support functions.
 
-However, if BACS was the only option that would definitely exclude participants.
+However, **if BACS was the only option that would definitely exclude participants**.
 
 We have other departments outsource all recruitment (everything, at great cost) to agency suppliers. Often this is to avoid internal bureaucracy and restrictions on types and amounts of incentive payments.
 
-The cost and time effort of using external recruiters is huge! Between 100%-500% higher than using your own contact list and vouchers payments. You can see these procurement activities on procurement portals, or the bidstats website, searching for research recruitment.
+The cost and time effort of using external recruiters is huge! Between 100%-500% higher than using your own contact list and vouchers payments. You can see these procurement activities on procurement portals, or the [bidstats.uk website](https://bidstats.uk/){.external target="_blank"}, searching for research participant recruitment.
 
 There is much more admin burden with agency recruitment whether for individual pieces of work or long-term annual contracts. 
 
@@ -298,13 +298,11 @@ A lack of incentives options can be a major blocker for research teams speaking 
 
 This impacts whether transformation teams can do their jobs (properly, to an acceptable quality standard). 
 
-It impacts on designing the right solution, or if they have to rebuild it again
+It impacts on designing the right solution, or if they have to rebuild it again!
 
-It impacts on value for money for project teams and taxpayers
+It impacts on value for money for project teams and taxpayers.
 
-In summary, incentives and vouchers incentives particularly are a big deal
-
-
+In summary, incentives and vouchers incentives particularly are a big deal that should be discussed more.
 
 
 <br>
