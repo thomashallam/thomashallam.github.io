@@ -1,0 +1,330 @@
+---
+title: "Research incentives and inclusion"
+author: "Tom Hallam"
+date: "2023-09-22"
+categories: [Research Operations, Research incentives, Seldom-heard, Research Panels, User-Centred Design, Inclusivity, Culture Change, Community, Capability]
+image: "claire-abdo-0gICDd3mAp4-unsplash.jpg"
+---
+
+
+
+# Research incentives is a complex topic 
+
+We've heard lots of X-Gov Re-Ops collegues are having similar discussions about incentives 
+
+Organisational policies around incentives can really enable or prohibit teams from working. 
+
+We're going through the challenge of trying to align policy for three organisations with different cultures and that historically delivered different types of research (NHSE, NHSD, HEE). 
+
+Lots of policies, processes, use cases and opinions to consider!
+
+We currently have digital incentive vouchers provided by EdenRed and Giftpay, which was put in place by NHSD.
+
+Love2shop high-street vouchers were also used regularly pre-Covid for community-based and pop-up research and teams are now starting to use these again.
+
+Vouchers have met the majority of our researchers and participant needs over the last eight years. 
+
+Our typical incentive amounts are £40 per hour, with increase allowance for recruiting seldom-heard user groups, citizens with access needs, or for time-critical projects where £40 was not enough previously.
+
+These amounts are well below typical user-research industry levels. See [analysis of 25,000 studies by userinterviews.com](https://www.userinterviews.com/blog/the-ultimate-guide-to-user-research-incentives){.external target="_blank"}. They have not been adjusted for inflation in last five years (i.e. increases in cost of living and travel expenses). 
+
+Another challenge we’ve had is when participants prefer us to make a charity payment instead. Options are quite limited.
+
+No one is saying research activities shouldn't be incentivised. The questions raised are commonly:
+
+* what types of incentives can we use? 
+* are cash or vouchers acceptable?
+* how much can we incentivise?
+* is there any tax risk?
+* can we pay incentives to charity?
+* who should process or handle incentives?
+
+
+I'm no tax expert, but the biggest challenge we've had recently is around vouchers and tax. Should they be stopped due to a (negible) tax-risk around interpretation of "reasonable costs" and "excessive expenses" by HMRC?
+
+[HMRC guidance on research participation which includes the vague language around reasonable reimbursement and excessive expense](https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim71105){.external target="_blank"}
+
+"There will be no tax or NIC liability arising on the individual if the sums received do no more than reimburse the individual’s reasonable costs of participating in the trial or research, including costs of travel and subsistence. However should the sums paid exceed those reasonable expenses then the excess may fall to be chargeable to tax as Miscellaneous Income, potentially giving rise to personal tax liabilities of the individuals which should be notified to the HMRC under Self Assessment."
+
+
+--- 
+
+## What happens if we remove gift vouchers?
+
+The risk of removing gift voucher incentives is that it creates unnecessary barriers. It excludes citizens from taking part in research. 
+
+The organisation would be likely to see very biased and unrepresentative research results.
+
+The result of biased research (bad practice) is that teams design and build services that are neither inclusive or usable. 
+
+By ‘usable’ I mean ‘usable by the end user in their context of use’ – ISO Design Standard 9241-11.
+
+Exclusion from design can result in clinical harm to citizens and members of the public.
+
+Health organisations (such as NHS Digital and UKHSA) have been lobbied and threatened with legal action in the past. 
+
+Usually when this happens a product, service or feature needs to be completed redesigned and rebuild from scratch; it is very expensive.
+
+Inclusion was a theme in the Covid Public Inquiry as well as highlighted the [Test and Trace Public Advisory Group report](https://www.gov.uk/government/groups/nhs-test-and-trace-public-advisory-group){.external target="_blank"}
+
+Designing services without equality in mind, introduces health, legal, financial and reputational risks (significantly more risk than the small tax risk around vague wording).
+
+
+## When are gift vouchers appropriate for health research?
+
+Always! Research teams gather data on sensitive clinical topics such as medical conditions, treatments and medicines. 
+
+Researchers explore citizens' needs and collect demographic data about protected characteristics. For example their age, disability, gender, maternity, race, ethnicity, sexual orientation. 
+
+It is quite likely that some research participants had bad experiences in the past. They may have (potentially or actually) been discriminated against.
+
+Participants may feel uneasy or unable to share their story. Do they feel there is a risk of speaking to the NHS about it? Or disclosing personal data? What if they are receiving an ongoing health treatment? or are in a legal dispute with a service provider?
+
+Ensuring participants can trust our researchers is vital. We must gain their informed consent to take part; an essential part of every research project.
+
+If a participant is concerned and prefers to take part anonymously, we should accept this. 
+
+We need to hear their voices and feedback.
+
+Hearing these stories and learning from bad experiences does make services better for future users.
+
+If needed, teams should be able to incentivise participants anonymously. Thanking them for their participation is important, as it can be stressful for them to share their story.
+
+
+## Demographic data
+
+There may be over [1 million people in the UK without banking (source: FCA)](https://www.fca.org.uk/publications/financial-lives/financial-lives-2020-survey-impact-coronavirus){.external target="_blank"}
+
+There are millions of vulnerable people across the country. They might be unable or unwilling (for all sorts of reasons) to share banking details and address with our organisation.
+
+This should not prevent users from taking part in research.
+
+Health researchers need to be able to conduct research with 100% of the population, unlike many other organisations. We need to maintain ways of incentivising research in a way that doesn't exclude people.
+
+
+## Why is inclusive design important?
+
+Designing services that are inclusive is core to the [NHS Constitution](https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england#:~:text=You%20have%20the%20right%20not,marital%20or%20civil%20partnership%20status.){.external target="_blank"}, as well [gov.uk (GDS) Standards](https://www.gov.uk/service-manual/design/making-your-service-more-inclusive){.external target="_blank"}, as well as our [NHS Design Principles](https://service-manual.nhs.uk/design-system/design-principles){.external target="_blank"}
+
+Several teams have written more about inclusive design on the Design Matters blog...
+
+* [What is inclusive design and why is it important?](https://digital.nhs.uk/blog/design-matters/2023/what-is-inclusive-design){.external target="_blank"}
+* [Why accessible design is good design](https://digital.nhs.uk/blog/design-matters/2023/why-accessible-design-is-good-design){.external target="_blank"}
+* [How a 20-year-old standard is still relevant today](https://digital.nhs.uk/blog/design-matters/2022/how-a-20-year-old-standard-is-still-relevant-today){.external target="_blank"}
+
+
+## In the NHS, whose responsibility is inclusive design?
+
+The [NHS Constitution](https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england#:~:text=You%20have%20the%20right%20not,marital%20or%20civil%20partnership%20status.){.external target="_blank"} includes a section on **“Staff: your responsibilities”.**
+
+“All staff have responsibilities to the public, their patients and colleagues.”
+
+“Important legal duties are summarised below.”
+
+“You have a duty to accept professional accountability and maintain the standards of professional practice as set by the appropriate regulatory body applicable to your profession or role.”
+
+“You have a duty not to discriminate against patients or staff and to adhere to equal opportunities and equality and human rights legislation.”
+
+“You have a duty to protect the confidentiality of personal information that you hold.”
+
+“You should aim to:”
+
+* “maintain the highest standards of care and service, treating every individual with compassion, dignity and respect, taking responsibility not only for the care you personally provide, but also for your wider contribution to the aims of your team and the NHS as a whole…”
+* “play your part in sustainably improving services by working in partnership with patients, the public and communities…”
+* “contribute to a climate where the truth can be heard, the reporting of, and learning from, errors is encouraged and colleagues are supported where errors are made…”
+* “view the services you provide from the standpoint of a patient, and involve patients, their families and carers in the services you provide, working with them, their communities and other organisations, and making it clear who is responsible for their care…”
+* “take every appropriate opportunity to encourage and support patients and colleagues to improve their health and wellbeing…”
+* “contribute towards providing fair and equitable services for all and play your part, wherever possible, in helping to reduce inequalities in experience, access or outcomes between differing groups or sections of society requiring health care…”
+
+
+So a major emphasis here is on our NHS staff and teams, to move things forward in terms of engagement/collaboration with citizens/patients. 
+
+Providing gift voucher incentives is a major enabler for that.
+
+
+## What do industry standards say about research voucher incentives? 
+
+The [National Institute of Health Research (NIHR)](https://www.nihr.ac.uk/documents/Payment-for-Public-Involvement-in-Health-and-Care-Research-A-guide-for-organisations-on-determining-the-most-appropriate-payment-approach/30838){.external target="_blank"} have said vouchers and gifts are necessary for engaging public on research projects.
+  
+[HRA guidance on incentives](https://www.hra.nhs.uk/about-us/news-updates/new-guidance-easier-payment-public-research-contributors/){.external target="_blank"} says [vouchers or cash are acceptable](https://s3.eu-west-2.amazonaws.com/www.hra.nhs.uk/media/documents/hra-guidance-payments-incentives-research.pdf){.external target="_blank"}
+ 
+
+The [Market Research Society (MRS)](https://www.mrs.org.uk/pdf/Regulations%2520for%2520Incentives%2520and%2520Prize%2520Draws%2520July%25202015.pdf){.external target="_blank"} endorse use of money, vouchers or gifts (except where it is a company’s own product):
+
+[See MRS infographic](https://www.mrs.org.uk/standards/incentives-infographic){.external target="_blank"}
+ 
+[British Psycological Society](https://explore.bps.org.uk/content/report-guideline/bpsrep.2021.inf180/back-matter/bpsrep.2021.inf180.15){.external target="_blank"}
+"8. Recompense to participants. Give details of any recompense which will be offered to research participants or volunteers, e.g. a small payment or gift voucher. Participants should not be disadvantaged so it is acceptable to compensate them for their time, although it should not be considered a benefit or inducement." 
+
+The [Scottish Human Right report](https://www.scottishhumanrights.com/media/2251/paid-participation-report-vfinal.pdf){.external target="_blank"} around Paying people with Lived Experience, cites many case studies where vouchers were necessary to enable participation from vulnerable groups. As well the report recommends that organisations offer a range of incentives options. 
+
+
+Everyone’s individual circumstances are different and we (NHS researchers) can’t offer them financial, legal or ethical advice. 
+
+A useful principle would be: individual taking part should have a say in how they receive the incentive, or whether to decline incentives. 
+
+
+
+
+## Vouchers are commonly used for incentives across government departments:
+
+[Gov.uk (GDS) support the use of vouchers](https://www.gov.uk/service-manual/user-research/find-user-research-participants){.external target="_blank"}
+
+[Department for Education guidance does too](https://user-research.education.gov.uk/-recruiting-participants/using-incentives.html#key-things-to-take-away-from-this-guidance){.external target="_blank"}
+
+[Ministry of Justice - foi request about vouchers](https://www.whatdotheyknow.com/request/598037/response/1431220/attach/html/3/User%20Research%20Remuneration%20Guidance.pdf.html){.external target="_blank"}
+
+If you work in a government or health organisation and would like to share your incentives policies please reach out!
+
+
+# The benefits of gift vouchers
+
+We see vouchers (both physical and digital) as an essential tool for user researcher. 
+
+Gift vouchers and high-street vouchers enable digital teams to:
+
+* ensure equitable access to feedback opportunities, 
+* learn about the lived user experience of all citizens and potential service users,
+* collaborate flexibly with communities,
+* support inclusive research recruitment,
+* enable anonymous research participation,
+* design the right solutions, that meets user needs.
+* Vouchers can be used at many locations,
+* Voucher can be sent to some charities,
+* Safer than using cash,
+* Can be cancelled if not needed,
+* Traceable - we know if they were sent and whether they have been used.
+
+Voucher payments should be considered a business critical service.
+
+![Gift card mockup [image on Unsplash](https://unsplash.com/photos/0gICDd3mAp4){.external fig-alt="Drawing of a gift card" target="_blank"}](claire-abdo-0gICDd3mAp4-unsplash.jpg){.external target="_blank"}
+
+
+## Why would we not offer voucher incentives?
+
+The business argument against incentives for research is that they should always be taxed as income. 
+
+Those receiving incentives should be paid directly as employees either on payroll, or via Bank Transfer (BACS). 
+
+It is important we respect adhoc research participants as independent citizens, they are not "part of the business" - we’ll cover this later.
+
+When organisations try to put participants on payroll, it creates a significant burden on internal teams, costing many thousands per year to process and assure.
+
+For example, finance would need to collect (from every participant) their bank account details, home address, NI numbers, tax codes - this would really exclude some vulnerable members of the public. Some organisations even have HR ask for mandatory training to be completed before they send their 'research payment’. 
+
+For a large organisation like NHSE, introducing processes like this would negatively impact hundreds of citizens per week.
+
+It would increase complexity and governance requirements for processing more sensitive confidential data. More individuals would need to have security checks to handle the data. 
+
+Things can quickly spiral out of control.
+
+
+## Slow incentives are cited in many research studies as a major blocker to research participation. 
+
+On the day of the research is industry practice best practice. 
+
+Up to 1 week-wait for an incentive is ok. 
+
+2 weeks can be annoying, but an acceptable delay. 
+
+3, 4, 5, 6+ weeks is reputationally damaging. 
+
+Any delay creates more admin burden around managing participant queries: ‘Where is my incentive?’
+
+For what? Someone has received a £60 gift voucher, and so they might need to pay £15 tax on this? 
+
+We do not view our research participants as “casual labour”; we only speak to them once and or twice per project per year. Typically 0.5-2 hours time in total.
+
+To mitigate tax-related risks, our voucher incentives are internally audited every six months. 
+
+Participants who have taken part more than twice are flagged (or removed) from the research database
+
+[HMRC guidance states individuals can receive up to £1000 per year Tax-free Trading Allowance](https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income#:~:text=The%20trading%20allowance%20is%20a,equipment%2C%20for%20example%2C%20power%20tools
+){.external target="_blank"} 
+
+A risk here occurs only if a participant is taking part in lots of adhoc research or casual work and not reporting it as earnings. 
+
+To discourage this, sent all vouchers is a warning highlighting that participants "are responsible for their own tax situation". 
+
+
+## What about bringing expert citizens onto payroll? 
+
+Bringing citizens in-house (e.g. community reps, those lived experience, or experts) does have many benefits for organisations:
+
+* getting rapid feedback or expert advice,
+* ongoing engagement with communities, 
+* reducing public criticism,
+* supporting co-creation. 
+
+However over the longer-time conflicts of interest could arise when considering power-relationship dynamics. 
+
+The uneasy question here are:
+
+* are they employees? or representatives? what are their terms and conditions?
+* do citizens remain representative of the communities they speak for - over the longer term? 
+* does receiving a regular income impact their views or behaviour about the organisation?
+
+"Escalation of commitment bias" and the "sunk cost fallacy" are where we are unwilling to let go, because we already spent a long time on something. So we spend more even time on it!
+
+Organisation put a lot of effort into finding and recruiting citizen reps. They may not have resource or appetite to go out and find fresh voices.
+
+
+## Have we looked at other incentives options?
+
+Broadening incentives options further may be useful. We have considered if paying by direct payment/BACS is appropriate. 
+
+If we could arrange bank transfer as an option, alongside the physical and digital incentives, great. 
+
+Assuming it was accessible and easy for citizens. It did not create any burden for researchers, our internal teams or support functions.
+
+However, if BACS was the only option that would definitely exclude participants.
+
+We have other departments outsource all recruitment (everything, at great cost) to agency suppliers. Often this is to avoid internal bureaucracy and restrictions on types and amounts of incentive payments.
+
+The cost and time effort of using external recruiters is huge! Between 100%-500% higher than using your own contact list and vouchers payments. You can see these procurement activities on procurement portals, or the bidstats website, searching for research recruitment.
+
+There is much more admin burden with agency recruitment whether for individual pieces of work or long-term annual contracts. 
+
+Requesting quotes, commercial arrangements, contract management, supplier briefings, negotiating terms, quarterly reviews, back and forth communications about scheduling/attendance, participant quality, etc..
+
+All this means it can also be slow for teams to recruit and also for participants to receive their incentive.
+
+Whereas with your own research panel and vouchers, you could book research on the next day (or same day) and send the incentive on the day.
+
+
+## Summary:
+
+A lack of incentives options can be a major blocker for research teams speaking to a diverse range of participants. 
+
+This impacts whether transformation teams can do their jobs (properly, to an acceptable quality standard). 
+
+It impacts on designing the right solution, or if they have to rebuild it again
+
+It impacts on value for money for project teams and taxpayers
+
+In summary, incentives and vouchers incentives particularly are a big deal
+
+
+
+
+<br>
+---
+
+### Let me know what you thought below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

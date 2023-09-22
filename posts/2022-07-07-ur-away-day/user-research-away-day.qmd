@@ -4,7 +4,7 @@ format:
   html
 author: "Tom Hallam"
 date: "2022-07-07"
-categories: [User Research, Community, Research Panel]
+categories: [User Research, Community, Research Panels]
 image: "henny-kasa-LaCTAUJ2wug-unsplash.jpg"
 ---
 
