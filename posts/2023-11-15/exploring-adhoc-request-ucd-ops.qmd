@@ -150,7 +150,7 @@ Somethings to think about:
 
 * Ops teams can iterate their processes; yet doing more with less is rarely sustainable
 
-* Teams need to have the right tooling, skill/straining (and resources/funding) to scale up their impact!
+* Teams need to have the right tooling, skills/training (and resources/funding) to scale up their impact!
 
 <br>
 ---
