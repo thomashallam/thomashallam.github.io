@@ -9,7 +9,7 @@ image: "bing-five-kettles.jpg"
 
 This post follows on [from my recent monthnotes.](../2023-11-04/monthnotes.qmd)
 
-Our team were really overwhelmed with a whole variety of requests from colleagues and this needed to be explored...
+Our team were overwhelmed with a whole variety of requests from colleagues and this needed to be explored...
 
 !["Five kettles" - via Bing Image Creator](bing-five-kettles.jpg){.external fig-alt="Five kettles about to boil over" height="275"}
 
