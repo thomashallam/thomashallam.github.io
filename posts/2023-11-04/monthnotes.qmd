@@ -85,24 +85,30 @@ Send hope and wishes that things get better for family, friends and colleagues w
 ![Colourful balloons rise about the house of Cappadocia Turkey [image on Unsplash](https://unsplash.com/photos/thirteen-air-balloons-0kEvX-9hJyQ){.external fig-alt="Drawing balloons above Cappadocia" target="_blank"}](darren-lee-0kEvX-9hJyQ-unsplash.jpg){.external target="_blank"}
 
 
-**Knowledge management**
+</br>
 
-*GP and clinical recruitment*
+**GP and clinical recruitment:**
+
 We’ve been trying to grow our NHS Staff Panel, but it is a Strategic issue impacting multiple teams. There isn’t a simple way to incentivise clinical staff who work in GP surgeries – separately I could write a whole blog on this issue alone…
 
-*Citizen Panel*
+**Citizen Panel:**
+
 I started work on plans to migrate large number of panel contats to a new place. 
 It was a good reminder for colleagues that cleaning up database regularly makes it much easier to find participants for research
 
-*Sharepoint*
+**Sharepoint:**
+
 Great work with Caroline Jarrett on refactoring some areas of our internal sharepoint, there really is a lot to consider. Information archicture, content desing best practice, backlog of new areas, archiving historic areas, aligning sharpeoint across disciplines..
 
-*UR Lab* 
+**UR Lab:**
+
 Several more teams booked sessions – enabling important work for NHS App team
 Tour/demo for 20~ colleagues at UR away day
 
-*UR Away day*
+**UR Away Day:**
+
 Great to see many colleagues from across the business, and we had some great speakers too. Sadly I didn't have time to properly catch up, had to bail early due to feeling unwell.
+
 
 # Upcoming – Nov/Dec
 

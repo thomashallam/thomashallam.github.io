@@ -142,7 +142,7 @@ create automated responders
 
 Somethings to think about:
 
-* A large of time is spend on adhoc requests and 'hidden work'; this rarely gets acknowledged
+* A large amount of time is spend on adhoc requests and 'hidden work'; this rarely gets acknowledged
 
 * Teams need to plan for time spent dealing with adhoc requests/ BAU/ incidents
 
