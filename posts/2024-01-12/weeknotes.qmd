@@ -55,7 +55,7 @@ The research lab is getting busy, at 60% capacity over next 4 weeks. We’ve had
 
 It was great to observe a session and learn about how a participants mental model of healthcare compared to other services such as banking. This started some intersting discussions about how we document and share findings about more universal usability behaviours and heuristics, beyond product/feature level findings.
 
-This week also the research user repository project has entered Beta stage. The "Find User Research" tool is being tested with teams starting to upload documents and the UCD ops quality checking the outputs. There is a small task ahead to migrate the tool to NHS infrastructure... which as well has an amazing number of hoops needed to be jumped through. 
+This week also the user research repository project has entered Beta stage. The "Find User Research" tool is being tested with teams starting to upload documents and for the UCD Ops quality check content. There is another small task ahead to migrate the tool into NHS infrastructure... which as well has an amazing number of hoops needed to be jumped through. 
 
 ## Next week:
 
