@@ -34,28 +34,28 @@ If I had some new personal goals for 2024 it would:
 * fitness - hit 1 mile swim and 20km run per week (average)... more hikes, climbs,
 * accountability - setting some smarter goals and tracking progress, 
 
-Now sustainability... let's be realistic - I do drive a diesel car and won’t be e-friendly any time soon, but in 2023 I did get the bus or train to work every time and never once drove/parked in Leeds. Considered my commute is horrendously slow, this is some feat. The reflection time was useful satisfying too. 
+Now sustainability... let's be realistic - I do drive a diesel car and probably won’t be e-friendly any time soon, but in 2023 I did get the bus or train to work every time and never once drove/parked in Leeds. Considered my commute is horrendously slow, this is some feat. The reflection time, satisfying and 1 mile walk to the bus plus 1 mile walk from bus station was a helpful step-boost too. 
 
-It is notable noone on buses speaks to each other these days - that could be a good side-mission - how get people talking to each other again ? what is a good opening line?
+It is annoying to me that no one on buses speaks to each other these days - that could be a good side-mission - how get people talking to each other again ? what is a good opening line?
 
 
 ## What a first week back in...
 
-It was a real shock to the system, huge email backlog, urgent data to anaylse and reports to prepare. 
+It was a real shock to the system, huge email backlog, urgent data to anaylse and reports to prepare, in person training and research.
 
-An incident right off the bat Monday morning then disrupted my whole week. I’m proud of how our colleagues leant in to understand what happened, stop an issue, put in place better safeguards to stop this happening again. 
+An incident right off the bat Monday morning disrupted my whole week. I’m proud of how our colleagues leant in to understand what happened, stop an issue, put in place better safeguards to hopefully stop this happening again. 
 
-It was a reminder that while many are required to work at pace, we need the confidence to push back if speed is compromising quality is introducing risks. It also highlighted the need for clearer governance, roles and responsibilities, and UCD leadership where multiple teams working in the same domain. 
+It was a reminder that while many teams are required to continually work at pace, we need the confidence to push back if speed is starting to compromise quality and introduce risks. It also highlighted the need for clearer governance, roles and responsibilities, and UCD leadership where multiple teams are working in an overlapping domain. 
 
-Ethical practices, information governance have always been principle that we subscribe too. However working too fast is unethical. It creates holes in processes, onboarding, offboarding, documentation, training, quality assurance... it only takes once little thing to cause...
+Ethical practices, such as information governance have always been principle that reseachers subscribe too. However working too fast continually is unethical. It creates holes in processes, onboarding, offboarding, documentation, training, quality assurance... it only takes a little stone to cause big ripples...
 
-On the positive side of things, we had the NHS App team in the research lab, exploring offline health journey experiences. 10/10 participants turned up. From an UCD Ops perspective things went pretty smoothly. Minor issues regarding tv remotes, printing, camera controls.. but everything else seemed fine - uneventful - brilliant work by the team. 
+On the positive side of things, we had the NHS App team in the research lab, exploring offline health journeys and experiences. 10/10 participants turned up - yay! From an UCD Ops perspective things went pretty smoothly too. Minor issues with tv remotes, printing, camera controls... but everything else fine and uneventful - brilliant work by the App team. 
 
-The research lab is getting busy, at 60% capacity over next 4 weeks. We’ve had requests from other health departments to visit and book our lab - which we're always happy to accommodate!
+The research lab is getting busy now too. We're at 60% utilisation over next 4 weeks. We’ve had requests from other health departments to visit too and book/borrow our lab - we're always happy to accommodate!
 
-It was great to observe a session and learn about how a participants mental model of healthcare compared to other services such as banking. This started some intersting discussions about how we document and share findings about more universal usability behaviours and heuristics, beyond product/feature level findings.
+It was great to observe some live research and learn about how a participants mental model of healthcare compared to other services such as banking. This started some interesting discussions about how we document findings about more universal usability behaviours and heuristics, beyond the typical product-feature level findings.
 
-This week also the user research repository project has entered Beta stage. The "Find User Research" tool is being tested with teams starting to upload documents and for the UCD Ops quality check content. There is another small task ahead to migrate the tool into NHS infrastructure... which as well has an amazing number of hoops needed to be jumped through. 
+This week also the user research repository project has entered Beta stage. The "Find User Research" tool is being tested with teams starting to upload their documents and for the UCD Ops team to quality check the content. There is another (not) small task ahead to migrate the tool into NHS infrastructure... which as you imagine... has an amazing number of hoops that need to be jumped through. 
 
 ## Next week:
 
