@@ -1,0 +1,92 @@
+---
+title: "Weeknotes: sprinting through January"
+author: "Tom Hallam"
+date: "2024-01-12"
+categories: [Research Operations, User-Centred Design, Culture Change, Knowledge Management, Leadership, Reporting, Ways of Working, Information Governance, Surveys]
+image: "544d9604-7333-4c53-bdc1-29a0721fccf3.jpeg"
+---
+
+## Onto the coal face
+
+Some hangovers from last year, it feels like unfinished business… or reopening a can of worms.
+
+January is always peek health guilt surge, the gym is busy with new members on a come down from their seasonal glut. I knew this was coming, so foresight lead me to book a tough 10 mile offroad race for this weekend. 
+
+I’m not feeling well prepared yet. The weather may well be frosty/wet, puddles of mud will be deep..  but I did hit a 5k PB at a flat park run over the holiday, so I've got some base to start from.
+
+![Runner sprinting through mud drinking coffee - via Bing Image Creator](544d9604-7333-4c53-bdc1-29a0721fccf3.jpeg){.external fig-alt="Male runner sprinting through a mud pit while drinking coffee" height="475"}
+
+As humans we always tend to overcompensate, I’ll cut out all this, and that too, and go vegan, and and... and book a marathon.. A chance to heal? or chance to distract from regrets... 
+
+My plan A was to cut back on caffeine, it’s been nearly two weeks (12 days) without any. I’m not sleeping better, feeling healthier, happier or as  productive. Probably my sugar and chocolate intake has doubled... after scoffing the whole packet, I found out the dried Blueberries and Cranberries were 70% sugar!
+
+We tend to find new solutions to age old problems... for our underlying need... energy to keep going!
+
+So it’s Jan 12th and here’s to giving up, giving up. It's 2024 and the plan is to do change in moderation, changing gradually. Going cold turkey sucks and is too extreme  - so it rarely stick. 
+
+![12 days without Caffeine is no joke!](coffee.jpg){.external fig-alt="Costa coffee at its finest" height="475"}
+
+If I had some new personal goals for 2024 it would:
+
+* sustainability - do more for the environment, 
+* community - continue to be involved in important local groups,
+* accountability - standing up for what is right,
+* wellbeing  - more time for contemplation, less caffeine, holidays, and good times with friends and family,
+* fitness - hit 1 mile swim and 20km run per week (average)... more hikes, climbs. 
+
+Now sustainability... let's be realistic - I do drive a diesel car and won’t be e-friendly any time soon, but in 2023 I did get the bus or train to work every time and never once drove/parked in Leeds. Considered my commute is horrendously slow, this is some feat. The reflection time was useful satisfying too. 
+
+It is notable noone on buses speaks to each other these days - that could be a good side-mission - how get people talking to each other again ? what is a good opening line?
+
+
+## What a first week back in...
+
+It was a real shock to the system, huge email backlog, urgent data to anaylse and reports to prepare. 
+
+An incident right off the bat Monday morning then disrupted my whole week. I’m proud of how our colleagues leant in to understand what happened, stop an issue, put in place better safeguards to stop this happening again. 
+
+It was a reminder that while many teams that work at pace, we need the confidence to push back if speed is compromising quality and introducing risks. It also highlighted the need for clearer governance, roles and responsibilities, and UCD leadership where multiple teams working in the same domain. 
+
+Ethical practices, information governance have always been principle that we subscribe too. However working too fast is unethical. It creates holes in processes, onboarding, offboarding, documentation, training, quality assurance... it only takes once little thing to cause...
+
+On the positive side of things, we had the NHS App team in the research lab, exploring offline health journey experiences. 10/10 participants turned up. From an UCD Ops perspective things went pretty smoothly. Minor issues regarding tv remotes, printing, camera controls.. but everything else seemed fine - uneventful - brilliant work by the team. 
+
+The research lab is getting busy, at 60% capacity over next 4 weeks. We’ve had requests from other health departments to visit and book our lab - which we're always happy to accommodate!
+
+It was great to observe a session and learn about how a participants mental model of healthcare compared to other services such as banking. This started some intersting discussions about how we document and share findings about more universal usability behaviours and heuristics, beyond product/feature level findings.
+
+This week also the research user repository project has entered Beta stage. The "Find User Research" tool is being tested with teams starting to upload documents and the UCD ops quality checking the outputs. There is a small task ahead to migrate the tool to NHS infrastructure... which as well has an amazing number of hoops needed to be jumped through. 
+
+## Next week:
+
+* Recovery after offroad running
+* Knowledge Management Working Group - focus on quality controls
+* Onboarding contractors
+* Roadmap plan and backlog review
+* UR Lab - 2 or 3 days in office
+
+
+
+
+
+<br>
+---
+
+### Let me know what you thought below
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
