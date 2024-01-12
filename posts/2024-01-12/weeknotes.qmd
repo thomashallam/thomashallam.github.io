@@ -2,7 +2,7 @@
 title: "Weeknotes: sprinting through January"
 author: "Tom Hallam"
 date: "2024-01-12"
-categories: [Research Operations, User-Centred Design, Culture Change, Knowledge Management, Leadership, Reporting, Ways of Working, Information Governance, Surveys]
+categories: [Research Operations, User-Centred Design, Culture Change, Knowledge Management, Leadership, Reporting, Ways of Working, Information Governance, Surveys, Weeknotes]
 image: "544d9604-7333-4c53-bdc1-29a0721fccf3.jpeg"
 ---
 
@@ -45,7 +45,7 @@ It was a real shock to the system, huge email backlog, urgent data to anaylse an
 
 An incident right off the bat Monday morning then disrupted my whole week. I’m proud of how our colleagues leant in to understand what happened, stop an issue, put in place better safeguards to stop this happening again. 
 
-It was a reminder that while many teams that work at pace, we need the confidence to push back if speed is compromising quality and introducing risks. It also highlighted the need for clearer governance, roles and responsibilities, and UCD leadership where multiple teams working in the same domain. 
+It was a reminder that while many are required to work at pace, we need the confidence to push back if speed is compromising quality is introducing risks. It also highlighted the need for clearer governance, roles and responsibilities, and UCD leadership where multiple teams working in the same domain. 
 
 Ethical practices, information governance have always been principle that we subscribe too. However working too fast is unethical. It creates holes in processes, onboarding, offboarding, documentation, training, quality assurance... it only takes once little thing to cause...
 
