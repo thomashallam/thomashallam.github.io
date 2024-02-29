@@ -1,5 +1,5 @@
 ---
-title: "Weeknotes"
+title: "Weeknotes: Recruitment and onboarding"
 author: "Tom Hallam"
 date: "2024-02-23"
 categories: [Weeknotes, Research Operations, Hiring, Ways of Working, Information Governance, Research Repo]
@@ -56,7 +56,7 @@ One line project updates:
 
 * User Research Finder – ongoing testing, assurance meetings, some blurred lines between beta and alpha…
 
-![Sceenshot of the NHS User research finder tool](URfinder.png){.external fig-alt="Homepage of user research finder, shows there are two journeys, upload and share your research, as well as search for past research projects" height="475"}
+![Sceenshot of NHS User research finder tool](urfinder.png){.external fig-alt="Homepage of user research finder, shows there are two journeys, upload and share your research, as well as search for past research projects" height="475"}
 
 
 
