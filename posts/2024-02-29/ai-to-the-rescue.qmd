@@ -63,19 +63,19 @@ Many staff roles during the ai tech revolution will need to retrain and pivot ar
 * how do we calculate the cost/benefit value of ai workers vs. human workers? 
 * how do we keep staff engaged/motivated in the face of systematic changes?
 
-Maybe funding will shift will be from frontline staff/revenue to consultancy and more tech projects?
+Maybe funding will shift from staffing to even more outsourced consultancy and capital tech projects?
 
-Maybe teams who don’t keep up withLLM/ai/automation trends will be outmoded by more efficient teams who do?
+Maybe teams who don’t keep up with LLM/ai/automation trends will be outmoded by more efficient teams who do?
 
 Maybe building and investing in in-house systems will increase too? As using third party tools for everything will probably be cost prohibitive.
 
 Maybe building in-house large language models will become more important? Organisations can't rely on limited visibility and understanding how commercial systems algos may process their data.
 
-Maybe open sourcing culture will likely increase too? As well maybe more transparency around approvals and assurance?
+Maybe open sourcing culture will increase too? As well maybe more transparency around approvals and assurance?
 
-How do we show that our in-house language models, particularly any that support automated decision making systems, are unbiased/fair at processing?
+How do we show that our in-house language models, particularly any that support automated decision making tools, are unbiased and fair at processing data?
 
-Maybe we want to diverisfy tech? And avoid organisations being totally constrained, handing over all our knowledge to a few large tech suppliers? who then dominate every aspect of an our organisation processes and workforce?
+Maybe we want to diverisfy tech? And avoid organisations being totally constrained, handing over all our knowledge to a few large tech suppliers? who then dominate every aspect of an our organisation processes, decisions and workforce?
 
 
 ## What does it mean for UCD... 
@@ -85,7 +85,7 @@ Then blindly following the ai-analysis recommendations. This is sure to lead to 
 
 We also hear about organisations who are running evaluations, human vs. ai. To see which performs better analysis. Ai is viewed sceptically and our hypotheses are that AI lacks understanding of nuance, context, and can't provide deep analysis.
 
-In the space of user-centred design, the role of researchers will change for sure, we will need to become the champions of empathy, and understanding human preferences. 
+In the space of user-centred design, the role of researchers will change for sure, we will need to become the champions of empathy, and experts at understanding human preferences. 
 
 Importantly, to ensure that when data scientists build their ai models, training data are inclusive, and equity is baked in and represent our diverse and nuisanced preferences of customers.
 
