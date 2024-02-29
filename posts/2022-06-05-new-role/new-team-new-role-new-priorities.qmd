@@ -4,7 +4,7 @@ format:
   html
 author: "Tom Hallam"
 date: "2022-06-05"
-categories: [User Research, Research Operations, UCD Maturity, Knowledge Management, UCD]
+categories: [User Research, Research Operations, UCD Maturity, Knowledge Management, User-Centred Design]
 image: "randy-tarampi-U2eUlPEKIgU-unsplash.jpg"
 ---
 

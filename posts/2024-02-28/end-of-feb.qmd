@@ -2,7 +2,7 @@
 title: "Monthnotes: Spring Cleaning and BAU"
 author: "Tom Hallam"
 date: "2024-02-28"
-categories: [Monthnotes, Personal, Wellbeing, Hospital, Research Operations, Community, Data, Culture Change, Knowledge Management, Leadership, Ways of Working, Information Governance, ]
+categories: [Monthnotes, Personal, Wellbeing, Hospital, Research Operations, Community, Data, Culture Change, Knowledge Management, Leadership, Ways of Working, Information Governance, AI]
 image: "pharm-first.jpg"
 ---
 
