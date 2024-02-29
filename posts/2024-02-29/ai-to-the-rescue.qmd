@@ -1,7 +1,7 @@
 ---
 title: "AI to the rescue"
 author: "Tom Hallam"
-date: "2024-29-02"
+date: "2024-03-01"
 categories: [Research Operations, User-Centred Design, Culture Change, Tools, AI, UR Repo]
 image: "ai-eye-bing.png"
 ---
