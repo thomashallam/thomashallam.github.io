@@ -101,13 +101,13 @@ The dependencies and blockers are many:
 
 * technology
 * incentive/motivation to do this
-* funding/cost alignment
-* skills/staff
-* information governance
-* suppliers/frameworks
-* sustainability/environemental trade offs
-* assurance
-* group think 
+* funding+product cost alignment
+* skills/staff shortages
+* information governance / security reviews 
+* suppliers/frameworks - central government and organisational
+* sustainability/environmental trade offs - e.g. water consumption, electricity
+* assurance / quality
+* group think / diversity / inclusion
 * political and econonomic - to put bluntly, are we willing that a large percent of firstline operational and support staff are replaced by automation and ai?
 
 
@@ -132,7 +132,7 @@ We are still early in the new product lifecycle, somewhere between the peak of s
 
 ## TL;DR
 
-In summary, AI and LLMs are going to significantly change how we work. It might be in fice years, or ten years. 
+In summary, AI and LLMs are going to significantly change how we work. It might be in five years, or ten years. 
 
 This allows plenty of time for colleagues to learn about these technologies and align themselves within new work environments. 
 
