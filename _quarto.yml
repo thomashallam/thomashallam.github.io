@@ -27,6 +27,10 @@ website:
         href: https://linkedin.com/in/thomashallam        
 format:
   html:
-    theme: cosmos
+    theme: lux
     css: styles.css
+    grid:
+      margin-width: 450px
+      body-width: 700px
+      gutter-width: 1.5rem
 

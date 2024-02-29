@@ -1,7 +1,18 @@
 [
   {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/updates/2023-08-14-shredders/designed-to-fail.html",
+      "/projects/updates/2023-05-15-minecraft/minecraft-server-fun.html",
+      "/projects/updates/2022-10-24-welcome-new-blog/new-blog.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-02-29/ai-to-the-rescue.html",
+      "/posts/2024-02-28/end-of-feb.html",
+      "/posts/2024-02-23/weeknote-return.html",
       "/posts/2024-01-12/weeknotes.html",
       "/posts/2023-11-15/exploring-adhoc-request-ucd-ops.html",
       "/posts/2023-11-04/monthnotes.html",
@@ -45,14 +56,6 @@
       "/posts/2017-09-18-we-dont-need-user-research/we-dont-need-user-research.html",
       "/posts/2017-09-12-pondering-private-beta/pondering-private-beta.html",
       "/posts/2017-09-11-what-is-pre-discovery/what-is-pre-discovery.html"
-    ]
-  },
-  {
-    "listing": "/projects/projects.html",
-    "items": [
-      "/projects/updates/2023-08-14-shredders/designed-to-fail.html",
-      "/projects/updates/2023-05-15-minecraft/minecraft-server-fun.html",
-      "/projects/updates/2022-10-24-welcome-new-blog/new-blog.html"
     ]
   }
 ]

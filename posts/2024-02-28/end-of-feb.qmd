@@ -1,0 +1,157 @@
+---
+title: "Monthnotes: Spring Cleaning and BAU"
+author: "Tom Hallam"
+date: "2024-02-28"
+categories: [Monthnotes, Personal, Wellbeing, Hospital, Research Operations, Community, Data, Culture Change, Knowledge Management, Leadership, Ways of Working, Information Governance, ]
+image: "pharm-first.jpg"
+---
+
+## Outside of work
+
+I had the opportunity to conduct some unplanned fieldwork this week, and made a few observations around frontline services...
+
+Late on Sunday I felt unwell, I tried the new NHS App->111-> Patches triage journey.
+
+This resulted in me leaving a short message. To my massive surprise, there was a reply in the morning saying to book an urgent appointment!
+
+Monday 8am, 35 callers were on hold for GP, I gave up and went to work.
+
+Tuesday, 42 callers were on hold for GP at 8am. I stayed on and it took 30 minutes to get through.
+
+Had a same day appt. 
+
+Also had a few tests, queues are 10 deep at the bloods service daily (before they even open)
+
+Will need a follow up, and no GP bookable appointments for next 3 weeks. 
+
+In a separate but more urgent incidient, my child had a head injury at school, got was sent home vomitting...
+
+I called 999 for the first time in my life. 
+
+I was very surprised to learn 999 only provide ambulances, not clinical advice... I could have an ambulance or nothing. The dispatcher couldn't advise on what to do. I felt it better to drive to A&E as precaution anyway.
+
+(Note I skipped calling 111 becuase on previous calls the clinical callback took multiple hours)
+
+Also learned the local walk-in clinic is still not dealing with head injuries. After my head injury last year.
+
+A&E well... as anticipated yes they were busy... but yet their staff were very empathetic and patient in their ways of working.
+
+This week was a bleak reminder, how things are mostly always stretched in the NHS. And this was before the strike started. I imagine the cadence rarely drops for our frontline colleagues.  
+
+Also doctors don't have giant thumbs as depicted in the pharm first campaign!
+
+![Sceenshot of the NHSE Pharmacy First Campaign](pharm-first.jpg){.external fig-alt="Patient with giant iPad and giant thumb is triaged by an unhappy doctor or pharmacist. Presumbably ai generated, perhaps not?!" height="475"}
+
+
+
+
+## Back at work...
+
+There is a similar story and patterns mirrored in digital teams workloads. 
+
+We have the regular deluges of urgent and high priority transformation projects/change requests. These sit atop multiple-years worth of work, for each team. 
+
+Constant reprioritisation and backlog churn.
+
+Due to the pressures, many of the less-exciting bits of work are put off, and off, and off. 
+
+It is not because they are unimportant, or boring to work on, but business-as-usual (BAU) lacks priority in the minds of sponsors. 
+
+
+## Why more focus is needed around BAU?
+
+It is a tough to sell the message 'we will deliver the same, or some better BAU' to stakeholders.
+
+BAU only grabs attention when things go wrong, which they did recently on one project... 
+
+I jumped into leading solving the problem "a crisis is a terribly thing to waste..."
+
+Lack of BAU causes incidents, and contagious disruption across teams... to fix incidents many loose ends... often scabs... painfully need unpicking. 
+
+Root cause analysis, a bit of detective work... who, what, where, why, when, how... did this XYZ happen?
+
+
+## Some farewells
+
+This week, the Covid Testing Team have shut their doors after nearly 4 years. 
+
+I said another bye to great colleagues who have delivered what could easily be describe as "the worlds longest design sprint / alpha". 
+
+These services were constantly being reimagined over three long years, until in late 2023 things finally went into 'bau' awaiting the end of the pandemic (or reemergence where everything might need unboxing...)
+
+This ending was a chance to innvoate, and try out a third-party API to support archiving a very large block of data. A day of [writing and testing code](https://github.com/thomashallam/Qualtrics-api), it worked well enough and saved myself and colleagues many weeks of manual effort extracting data and archiving data.
+
+
+
+## The problem with offboarding as BAU
+
+One chronic neglected BAU area is "offboarding". When people leave or teams shut down, things need archiving... 
+
+Every time someone who has been here more than six months leaves we need to ensure we have wrapped up things appropriately. 
+
+For example, have they updated, saved, archived or handed over all their:
+
+* Projects, artefacts, documentation, reports, templates, etc.
+
+* Surveys, usability tests, etc, etc.
+
+* User panels, panel network contacts, stakeholder maps,
+
+* Research data (videos, transcripts, etc),
+
+* Software licenses, user accounts, returned equipment, etc
+
+Central resources such as staff lists to be refreshed every time someone leaves!
+
+And if someone was the key contact for anything... well guidelines / policies and operating procedures may need refreshing, as well delegating to new owners.
+
+My favourite quote about this topic, which relates back to knowledge management workstream:
+
+*"There is no content fairy that comes out at night and cleans up all your mess" Caroline Jarrett*
+
+And this is the problem, we need more 'content fairies' and bau/ops capacity. 
+
+Ironically, ops and project staff are the roles that are not in our new operating model... we do have our hopes pinned on future tech / ai however.
+
+Much more on AI in a follow-up post soon, but in short we are many, many years off even basic automation of processes for the NHS workforce, let alone anything with the signs of "intelligence". 
+
+
+## Who is who, BAU?
+
+After the merger, we are now a much bigger organisation, with hundreds of researchers and designers, with contractors and suppliers are joining and leaving on a regular basis. 
+
+It has got to a point where it is really difficult to say definitely, who *actually* works here? And what are they working on?
+
+Knowing who works for us, onboarding and offboarding successfully, underpins almost everything our teams do. Capacity, planning, quality, delivery. 
+
+It is huge amount of side-of-desk bau work for multiple functions (HR, Tech, Ops, PMO, Finance, Professions, etc.) 
+
+My assumption is this is a classic *fallacy of the commons* - everyone thinks everyone else is responsible for it, or everyone is just about happy enough with how it is to not complain becuase, they don't want responsibility for it, aka "you touched it last".
+
+We really need to tackle structural operating issues. Hospitals don't have consultant staff floating around for months? Staff have defined roles, reporting lines and responsibilities, right?
+
+And there really is nothing more embarrassing than when colleagues come asking for support, or to approve something, and you have no way to check if they are curren staff, permanent or contractor.
+
+It appears no one owns onboarding and offboarding at a strategic level. We have exciting visions and strategies based on outcomes, such as the "UCD + Product + Engineering Centres of Expertise", but where is the operational plan?
+
+We have teams delivering great UCD work in siloes, but connecting, collaborating and upskilling horizontally is an enormous challenge too. There is a huge friction/debate about how we work and hybrid/office working - lets not get into that.
+
+We really must get much better at operational planning, BAU and horizontal change. 
+
+One might say we need more staff, or to distribute ownership of all BAU work around the business, or even ask AI to do it for us (hint: ai is not going to solve many of our problems)!
+
+
+Have a good weekend!
+
+Tom
+
+
+TL;DR
+
+January and February have been exceptionally busy, at work, outside... the weather... diy.. health.. everything. I should have stuck to writing shorter things and running more reguarly. But in first week of January week, events happened and most of my plans went out the window. 
+
+It has been so busy with requests it feels like there has been constant popcorn popping going off in my head. I haven't slept well recently, and I've disabled my slack and email notifications. If you need something urgently, please read the docs first, I'm requesting people book a short call in for the next day - not same day calls.
+
+I know lots of colleagues have been struggling with the re-org too, lots of additional work to pick-up. Hopefully this picture will get better as new joiners from the recent recruitment campaigns join.
+
+While I'm writing this update, it did make sense to me, hopefully it made sense to any readers too!

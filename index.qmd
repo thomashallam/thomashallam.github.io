@@ -11,5 +11,5 @@ page-layout: full
 title-block-banner: true
 ---
 
-# Weeknotes and reflections
+# Monthnotes and reflections
 ##  

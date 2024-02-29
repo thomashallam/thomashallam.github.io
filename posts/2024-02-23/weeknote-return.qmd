@@ -1,0 +1,82 @@
+---
+title: "Weeknotes"
+author: "Tom Hallam"
+date: "2024-02-23"
+categories: [Weeknotes, Research Operations, Hiring, Ways of Working, Information Governance, Research Repo]
+image: "urfinder.png"
+---
+
+
+## Recruitment
+
+We still have a huge number of open positions for permanent vacancies across all UCD, this week focus on Senior Researchers, and Lead Service designers.
+
+I did 2 days full time interviewing – when you are bouncing from adhoc issue you forget how tiring it can be to join these calls, actively listen, take quality, notes for 60 minutes, and make a judgement. Both days of interviewing 
+
+I was knackered by the end
+
+It also made me think – we have put huge efforts into building the recruitment pipelines and process, it is a rigorous process, and I hope some candidates do make it through the as we really need these roles filling.. there is a likelihood not all the open roles get filled…
+
+When staff are just on the borderline of getting through a Technical Interview to next stage, do we give the benefit of the doubt, or make a firm decision and say no at this stage. If we put those on the margin through we are doubling the workload for colleagues, Recruitment is challenging and time consuming work which is impacting colleagues morale and day jobs.
+
+A fine balance between rigour and efficiency, aware multiple candidates with good potential pulled out due to offers of other roles being confirmed sooner
+
+## Onboarding
+
+Ongoing is a bit of mystery around who is responsible… responsibility generally sits with line managers and hiring managers, don’t hire staff If you can onboard them effectively!
+
+It is a recurring trend - colleagues popping-up in teams, and the Ops team find out three months later when a problem occurs
+
+* How might we improve onboarding across the org?
+
+* How do we track who works where?
+
+* How might we ensure new starters are:
+    * welcomed,
+    * set up with the right tools,
+    * have the right guidelines to follow.
+
+The answer can’t be – ‘ask Tom, or the UCD ops team’ as we are already running very fast across many projects - with a huge (and growing) backlog
+
+## Ops bau
+
+One line project updates:
+
+* Citizen panel – great work by Tony G and Claudia H. More progress on consolidating demographics, a step towards rebuilding and refreshing our internal panel
+
+* Training events – worked with supplier to arrange events around using survey tool advanced features
+
+* User Research Lab – very busy, two teams completing 4 days of user research
+
+* Software – Discussions of licenses renewals and BCs for next year
+
+* Knowledge management – seeing some fantastic collaborative work by colleagues to create and iterate guidance… in the areas of Designing Surveys, AI Tools, Safeguarding and Ethics, and more.
+
+* User Research Finder – ongoing testing, assurance meetings, some blurred lines between beta and alpha…
+![Sceenshot of the NHS User research finder tool](URFinder.png){.external fig-alt="Homepage of user research finder, shows there are two journeys, upload and share your research, as well as search for past research projects" height="475"}
+
+
+
+
+## Quality assurance
+
+* Reviewing multiple teams plans for using the UR Lab in Leeds
+
+* Advising two teams on their plans for upcoming surveys
+
+* Guidance for an NHS Trusts  - where to get started with UCD
+
+* Missed opportunities. Again I didn't lean in for the DHSC service assessments last minute request. This is another side-desk project for leads and seniors. Being a service assessor is great, really rewarding to be involved in reviewing and sharing recommendations for other teams. It takes a lot of skill, to tactfully suggest changes to a project you haven't been involve with. It would be great to do more here but really we have many other priority projects.
+
+## Innovation/ Tech
+
+* Attended more talks about AI and LLMs, copilots, bots and other things that promise to revolutionise our world
+* Started some interesting API integration and automation work around archiving [survey data](https://github.com/thomashallam/Qualtrics-api)
+
+## Managing upwards
+
+Spent a bit more time trying to get key message upstairs. We are way too stretched. Quality is suffering. Risks are being introduced. Incidents are occurring.
+
+## Health
+
+Met my running target of 20k per week for the first week since 2023. Went indoor climbing which was refreshing too!

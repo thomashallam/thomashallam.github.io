@@ -1,0 +1,155 @@
+---
+title: "AI to the rescue"
+author: "Tom Hallam"
+date: "2024-29-02"
+categories: [Research Operations, User-Centred Design, Culture Change, Tools, AI, UR Repo]
+image: "ai-eye-bing.png"
+---
+
+## AI opportunities or despair?
+
+‘Artificial intelligence’ isn’t really a good description for how these tools are being deployed. ‘Automation, supported by natural language processing’ is a better albeit less ‘exciting’ description.
+
+Many third-party large-language models (LLMs) (whether open or closed) are being tested across the NHS. Teams have tangible evidence that they are not (currently) robust solutions to the business problems at hand. 
+
+To summarise our problems here:
+
+* There are limited developers and funding available for AI/LLM exploratory work
+
+* In our test cases, ai struggles to perform: if we cant solve small problems with AI? How can we solve bigger problems?
+
+* Pinning hope on a one-size fits-all general-purpose-ai coming forward to fit all the local solution needs.
+
+* Group think - lack of representation, accountability, diversity and customer involvement in the thinking about, design and deployment of AI tools. Assumption if we use a third-party tools / LLMs then we get safe, quality and ethical results.
+
+* Tech assurance model is a bit broken. [See Public Digital blog post on linkedin](https://www.linkedin.com/posts/chris-fleming-pd_developing-digital-services-in-health-requires-activity-7165982816579620864-0ieg){.external target="_blank"}. In summmary, assurance often happens way too late, lacks empathy towards the local and technical challenges teams face in building or deploying tools. 
+
+
+## If we do deploy ai successfully...
+
+Some AI patterns are starting to unlock corporate knowledge that was previously buried, but slowly these emerging technologies appear to become more robust.
+
+Take the case of document summarisation and information retrieval… this may be resolved soon… (or may be only in a far away distance future)
+
+* Crawl and build index of files
+* Catalogue / tagging of files
+* Analyse and summation of tagged / files
+* NLP / verbose search complementing traditional search
+* Chat-bot and email responders
+
+To get a good working model requires a lot of fine tuning of the dataset and parameters. Garbage in garbage out, etc. 
+
+There are important information governance points to consider - do we have consent and legal basis for dropping all this data in an automated tool for processing?
+
+
+## Reality for workforces...
+
+If you work in customer service or customer research role, and you respond to first line queries, or do analysis of first line queries, your role is likely to be fully or partly automated soon (if it hasn’t already).
+
+Don't worry yet, there will still be lots of work to do. Much of this will be 2nd and 3rd line support and technical issues, edge cases that fall outside of standard operations.
+
+Also there will be a much greater need for human involvement in complex projects and strategic work, like commission and design of new ai tools... 
+
+It was said, nearly 20 years ago, that every business is a software business. Now the shift is, every new business is an AI business. 
+
+In 2023-2024, of the tech startups nearly 70% were AI-verticals, plus 70% of UK companies are experimenting with AI, and the GDP benefit is massive (though mostly in London and south east UK).
+
+Many staff roles during the ai tech revolution will need to retrain and pivot around... 
+
+* how do we deploy ai/automation in our use cases?
+* which ai/llm platforms and systems do we use? 
+* how do we evaluate performance and safety of these platforms?
+* how to we integrate with our local systems?
+* how do we calculate the cost/benefit value of ai workers vs. human workers? 
+* how do we keep staff engaged/motivated in the face of systematic changes?
+
+Maybe funding will shift will be from frontline staff/revenue to consultancy and more tech projects?
+
+Maybe teams who don’t keep up withLLM/ai/automation trends will be outmoded by more efficient teams who do?
+
+Maybe building and investing in in-house systems will increase too? As using third party tools for everything will probably be cost prohibitive.
+
+Maybe building in-house large language models will become more important? Organisations can't rely on limited visibility and understanding how commercial systems algos may process their data.
+
+Maybe open sourcing culture will likely increase too? As well maybe more transparency around approvals and assurance?
+
+How do we show that our in-house language models, particularly any that support automated decision making systems, are unbiased/fair at processing?
+
+Maybe we want to diverisfy tech? And avoid organisations being totally constrained, handing over all our knowledge to a few large tech suppliers? who then dominate every aspect of an our organisation processes and workforce?
+
+
+## What does it mean for UCD... 
+
+We hear about research departments adopting SaaS tools with ai-analysis baked in. 
+Then blindly following the ai-analysis recommendations. This is sure to lead to poor quality insights and decision making.
+
+We also hear about organisations who are running evaluations, human vs. ai. To see which performs better analysis. Ai is viewed sceptically and our hypotheses are that AI lacks understanding of nuance, context, and can't provide deep analysis.
+
+In the space of user-centred design, the role of researchers will change for sure, we will need to become the champions of empathy, and understanding human preferences. 
+
+Importantly, to ensure that when data scientists build their ai models, training data are inclusive, and equity is baked in and represent our diverse and nuisanced preferences of customers.
+
+Evaluating ai systems will be a new role. And ai tool testing with a wide variety of demographics, cultures, languages and regional voices, for example. Teams are already starting to experiment in this space, and no doubt every team will need to think about this in the longer term.
+
+
+
+## It will take years
+
+AI adoption isn't going to happen over night, it will take years. Or maybe it won't even happen at all.
+
+The dependencies and blockers are many:
+
+* technology
+* incentive/motivation to do this
+* funding/cost alignment
+* skills/staff
+* information governance
+* suppliers/frameworks
+* sustainability/environemental trade offs
+* assurance
+* group think 
+* political and econonomic - to put bluntly, are we willing that a large percent of firstline operational and support staff are replaced by automation and ai?
+
+
+## What we are doing in the NHS
+
+Reading industry guidelines such as MRS and Gov.uk and new regulations - linked below
+
+Trying out some AI/LLM tools, around specific needs and use cases.
+
+Creating internal AI guidance for colleagues - how to use AI safely, what tools are available.
+
+Talking to suppliers, to understand where UCD tools are adopting AI in commercial space, how might this align to our ways of working (or not).
+
+Working with suppliers to deploy inhouse tools on specific automation/llm use cases
+
+Collaborating across government on sharing our learnings, case studies and working contributing towards. standards for using AI in the public sector.
+
+Listening to our collegaues. What do they think about these changes? What do they want to know? How do they see things panning out? What does it mean for our profession and roles?
+
+We are still early in the new product lifecycle, somewhere between the peak of stupid and lower slopes of enlightenment.
+
+
+## TL;DR
+
+In summary, AI and LLMs are going to significantly change how we work. It might be in fice years, or ten years. 
+
+This allows plenty of time for colleagues to learn about these technologies and align themselves within new work environments. 
+
+A space which will need to grow to be comfortable sharing with many physical and virtual agents / assistants. 
+
+Keep learning, keep curious.
+
+Tom
+
+
+
+---
+
+## References:
+
+* [https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html](https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html){.external target="_blank"}
+* [https://www.mrs.org.uk/standards/ai-regulation](https://www.mrs.org.uk/standards/ai-regulation){.external target="_blank"}
+* [https://assets.publishing.service.gov.uk/media/641d71e732a8e0000cfa9389/artifical_intelligence_sector_study.pdf](https://assets.publishing.service.gov.uk/media/641d71e732a8e0000cfa9389/artifical_intelligence_sector_study.pdf){.external target="_blank"}
+* [https://venturebeat.com/ai/more-than-70-of-companies-are-experimenting-with-generative-ai-but-few-are-willing-to-commit-more-spending/](https://venturebeat.com/ai/more-than-70-of-companies-are-experimenting-with-generative-ai-but-few-are-willing-to-commit-more-spending/){.external target="_blank"}
+* [https://economictimes.indiatimes.com/tech/technology/70-of-229-startups-in-y-combinators-2023-summer-batch-are-b2b-saas-companies/articleshow/103450888.cms](https://economictimes.indiatimes.com/tech/technology/70-of-229-startups-in-y-combinators-2023-summer-batch-are-b2b-saas-companies/articleshow/103450888.cms){.external target="_blank"}
