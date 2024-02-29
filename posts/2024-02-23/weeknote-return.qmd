@@ -11,15 +11,17 @@ image: "urfinder.png"
 
 We still have a huge number of open positions for permanent vacancies across all UCD, this week focus on Senior Researchers, and Lead Service designers.
 
-I did 2 days full time interviewing – when you are bouncing from adhoc issue you forget how tiring it can be to join these calls, actively listen, take quality, notes for 60 minutes, and make a judgement. Both days of interviewing 
+I did two days full time interviewing – when you are bouncing from adhoc issue you forget how tiring it can be to join these calls, actively listen, take quality, notes for 60 minutes, and make a judgement. 
 
-I was knackered by the end
+After both days of interviewing I was knackered by the end and fell asleep on the sofa.
 
 It also made me think – we have put huge efforts into building the recruitment pipelines and process, it is a rigorous process, and I hope some candidates do make it through the as we really need these roles filling.. there is a likelihood not all the open roles get filled…
 
-When staff are just on the borderline of getting through a Technical Interview to next stage, do we give the benefit of the doubt, or make a firm decision and say no at this stage. If we put those on the margin through we are doubling the workload for colleagues, Recruitment is challenging and time consuming work which is impacting colleagues morale and day jobs.
+When staff are just on the borderline of getting through a Technical Interview to next stage, do we give the benefit of the doubt, or make a firm decision and say no at this stage. 
 
-A fine balance between rigour and efficiency, aware multiple candidates with good potential pulled out due to offers of other roles being confirmed sooner
+If we put candidates on the margin through we are doubling the workload for colleagues. Recruitment is really challenging and time consuming work which is impacting colleagues morale and day jobs.
+
+We need to find a good balance between rigour and efficiency. For example,  multiple candidates with good potential pulled out due to offers for other roles being confirmed sooner. And so recruitment continues!
 
 ## Onboarding
 
@@ -53,7 +55,8 @@ One line project updates:
 * Knowledge management – seeing some fantastic collaborative work by colleagues to create and iterate guidance… in the areas of Designing Surveys, AI Tools, Safeguarding and Ethics, and more.
 
 * User Research Finder – ongoing testing, assurance meetings, some blurred lines between beta and alpha…
-![Sceenshot of the NHS User research finder tool](URFinder.png){.external fig-alt="Homepage of user research finder, shows there are two journeys, upload and share your research, as well as search for past research projects" height="475"}
+
+![Sceenshot of the NHS User research finder tool](URfinder.png){.external fig-alt="Homepage of user research finder, shows there are two journeys, upload and share your research, as well as search for past research projects" height="475"}
 
 
 
