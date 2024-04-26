@@ -1,0 +1,101 @@
+---
+title: "Weeknotes: Breathtaking, AI and Recruitment"
+author: "Tom Hallam"
+date: "2024-04-26"
+categories: [Weeknotes, Research Operations, Hiring, AI, Service Design, Information Governance, Research Repo]
+image: "stephanie-martin-xyLBKw8XDtc-unsplash.jpg"
+---
+
+## AI tools and strategies
+
+* Many colleagues are thinking about (and fascinated by) AI. The excitement is fading away… the reality is... AI isn’t a super-simple solution… cost, time, brainpower.. complexity is holding back adoptio
+
+* To buy or to build? Finding developers to build is a nightmare
+
+* Trying to ‘hack the thing’ to make it perform better…
+
+* Creating workarounds to support new AI processes. Where is this all-singing dancing unicorn AGI we were promised! :D
+
+* Had a few really good X-gov engagement meeting with GDS, sharing and learning about their plans to explore AI. 
+
+* A few more AI meetings and presentations in the pipeline… feels like it needs some NHS strategy or governance group to align teams direction 
+
+
+## Hiring reflections
+
+* Our recruitment continues around building up the permanent capability. This week I've been supporting invites for Senior Service Designers. 
+
+* Great to see the interview process shortened to one round. We interviewed some brilliant candidates… and you can often tell in the first 15 minutes if they have the experience for the role. 
+
+* Great to see a diverse mix of candidates. Internal applications and applicants from public sector departments, consultancies and contractors.
+
+* Reminder staff are completing recruitment activities on top of daily commitments. It is a real challenge, but hopefully we’ll be in a much more stable position after this process completes.
+
+* [Multiple openings still available](https://jobs.digital.nhs.uk/vacancies/vacancy-search-results.aspx){.external target="_blank"} - Senior Service Designers, Interaction Desginers, Lead User Researchers (readvertised) 
+ 
+
+## Restructures... morale
+
+* Still feels a bit up in the air, mixed messages? Are there more budget cuts, or are there more commitments and more urgent things to deliver? Big planning long-term roadmaps, and focus on quick wins… 
+
+* It has been a long haul already for many staff... who are often running on empty… I’m sure frustrations will be raised in the annual staff survey.
+
+ 
+
+
+
+---
+
+
+## Breathtaking
+
+![Rainbow with capiton "Thank you keyworkers"! [Image on Unsplash](https://unsplash.com/photos/rainbow-color-heart-on-white-paper-xyLBKw8XDtc){.external fig-alt="Rainbow with caption Thank you keyworkers." target="_blank"}](stephanie-martin-xyLBKw8XDtc-unsplash.jpg)
+
+
+Yes, I watched the [mini-series on ITVX back-to-back](https://www.itv.com/watch/breathtaking/10a4089/10a4089a0001){.external target="_blank"}
+
+For many colleagues who worked for the NHS during Covid, these stories are will be a bit much. Watching the real news stories combined with TV drama really hits home hard. The journey of the NHS nurses and doctors, experiencing terrible challenges, tragedgy and trauma... Tears shed. Multiple times.
+
+It reminded me of the early days of working on the Covid testing programme. 
+
+In the first week I made a mistake (comical in hindsight, please don’t copy and paste surveys without checking!) of including my work phone number on the national covid feedback survey. As there was no Covid telephone helpdesk setup.
+
+Over the first weekend of the ‘pilot launch’ I received 30 or more calls and voicemails from confused and panicked keyworkers. They were all trying to get support, doing tests, attending test sites, panic. I had to apologise profusely that as a researcher, I couldn't advise them what to do, or who to speak with. 
+
+We weren't able to visit the test sites due to lockdown. By Happenstance found a way to get feedback..
+
+It was really challenging to hear keyworkers distress in real time. However, their insights were pivotal for the research and design team… 
+
+Feedback to stakeholders: evidence to influence, informed decisions… quick, positive iterations, helping end users.
+
+Secondary trauma is a real problem. Many of our researchers interviewed keyworkers and citizens during the biggest pandemic / most complex health challenge of the last 100 years.
+
+Even years later, NHS staff need to find the time to reflect and heal
+
+Both on the frontline and back offices, we need to share (not forget) our experiences. It is healthy for ourselves and gives the opportunity to take forward lessons learned
+
+
+## Next week… 
+
+* UR lab training with colleagues from data team
+
+* UR lab days x 2 with data team
+
+* Film crews on site…
+
+* Finalise contracts with UR tools supplier
+
+* Saying bye to colleagues rolling off :(
+
+* Continue recruitment for several open positions
+
+* Finish Senior Service Designer interviews
+
+* Think about the IG process changes and plan ahead
+
+* Review UCD community backlog… include more requirements from design colleagues
+
+* Follow up with CDDO and GDS and ATRS about AI tools / UR Finder
+
+
+
