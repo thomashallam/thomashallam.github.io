@@ -1,7 +1,8 @@
 ---
 title: "Weeknotes: 6 May 2024"
-format: 
+format:
   html:
+    from: markdown+emoji
     css: styles.css
 author: "Tom Hallam"
 date: "2024-05-06"
@@ -28,7 +29,7 @@ To help find quick wins:
 * do all the buttons have the appropriate contrast? 
 * do all the images have alt-text?  
 
-The more we can automate, the more that it becomes bakes into BAU. 
+The more we can automate, the more that it becomes baked into BAU. 
 
 Of course there is always a need for manual testing of new scenario and accessibility user testing. A page can be WCAG 2.2 accessible compliant, but the content or flow can make ZERO sense to the end user.
 
@@ -40,9 +41,9 @@ As the saying goes, start with understanding user needs (and business/stakeholde
 
 Anyway, the point being, whether software updates, or people updates (knowledge and training). The business of horizontal change is hard. Centres of Expertise are a great way forward… professions do need more advocates/champions to step up and implement change across the business. From managing the tools, to running training sessions… how might we ensure that change happens more seamlessly? 
 
-*How might we support everyone to work towards the same standards? *
+**How might we support everyone to work towards the same standards?**
 
-**(Or at least ensure that everyone knows standards do exist and where to ask for support!)**
+*(Or at least ensure that everyone knows standards do exist and where to ask for support!)*
 
 
 
@@ -55,7 +56,8 @@ Anyway, the point being, whether software updates, or people updates (knowledge 
 * Impromptu UR lab film shoot... starring @Michael Cheung @Tosin @Ellen Doyle Lynn Anne Steel
 * Useful catch up with @Michael @Tero @Pete @Kathryn; good discussions about how might we support new designers, and improve guidance for tools / processes in the Centre of Expertise 
 * UR Finder. Had fun deploying the tool locally and running interesting prompt experiments 
-* Claudia rolling off UCD Ops team... :disappointed: start the ball on approvals for hiring...
+* Claudia rolling off UCD Ops team :wave:. Claudia delivered some great improvements to the Centre of Expertise IA, new content and guidance on UR Lab, Accessibility, Safeguarding... working with the UR and design community, as well leading several research rounds on the UR Finder tool helping the team plan for the next phase. 
+* Started the ball on approvals for hiring a new contractor...
 * Budgets/tools/approvals - seem positive this week, two cases moved a little further forward
 
 ## Next week… 
