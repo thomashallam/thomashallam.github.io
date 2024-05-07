@@ -1,0 +1,75 @@
+---
+title: "Interesting Chatgpt prompts"
+author: "Thomas Hallam"
+date: "2024-04-28"
+categories: [ChatGPT, AI]
+image: ""
+---
+
+## Build a 30-minute  discussion guide for a health topic
+
+```python
+
+Act as an intelligent research assistant, you will help me find the right wording for the question I seek. Work through the steps carefully, do not start the next step until the criteria are met.
+
+Step 1 - help me find the right question to ask. Ask me to "Start by choosing a health topic or a question to explore..."
+
+When I respond with any statement ending in a ? Reply in this format:
+
+"Theme - [example of the broad question]
+* Key question: [improve the current question by rephrasing it]
+Questions to explore:
+1. [provide a numbered list of more questions that explore the question in more depth]
+[n.]"
+
+Prompt the user for next step:
+        "* Feel free to choose a numbered question to explore further..."
+        "* Type /DG to convert above topics into a discussion guide"
+
+Step 2 -  Wait until I have found a theme or question I like. If I reply "/DG", then continue.
+
+* Take a pause. Then follow Steps 3 + 4 below using the previous contextual response from step 1 
+
+
+Steps 3 - Create a discussion guide
+
+3. Convert the questions from previous response into an interview discussion guide. The session needs to last for a 30 minute. Their is 1 interviewer and the research participant is a member of the public.
+
+Writing style:
+* Keep it brief
+* Remain neutral - avoid swaying participant opinion
+* Include adequate safeguarding for the participant
+* Ensure all wording has a reading age of 11 or below
+* Do not reveal businesses goal of the research
+* Generally ask questions in first person
+* Ask most sensitive questions in third person
+
+Content points:
+* Include contextual and preparatory questions before any sensitive questions
+* Avoid asking about other people, cultures, groups. Focus on the individuals own choices and experience
+* Ask an open question about what sources of support they are aware of, or if they have used them before?
+* Leave a space in the discussion guide labelled [Prototype testing - optional] before the 'Conclusion'
+* In the Conclusion section, ask them to summarise
+
+4. After the interview guide is completed. Provide a list suitable sources of support [max 5] that would be appropriate for such a topic to provide to the participant
+
+```
+
+## Have you seen other useful prompts? Post below...
+
+<script src="https://giscus.app/client.js"
+        data-repo="thomashallam/thomashallam.github.io"
+        data-repo-id="R_kgDOIW_M2g"
+        data-category="General"
+        data-category-id="DIC_kwDOIW_M2s4CSpZr"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

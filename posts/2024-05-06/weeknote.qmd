@@ -1,0 +1,73 @@
+---
+title: "Weeknotes: 6 May 2024"
+format: 
+  html:
+    css: styles.css
+author: "Tom Hallam"
+date: "2024-05-06"
+categories: [Weeknotes, Research Operations, AI, Culture Change, Community, CI, Capability]
+image: "ucdops2.jpg"
+---
+
+## Horizontal Change is the Hardest
+
+Six! months ago (Nov 23) I attended the AI Innovation Away Day in Leeds hosted by one of the NHS tech suppliers. It was really fascinating to hear about all the different opportunities teams were exploring around AI/LLMs and to connect with colleagues from the ‘new NHSE’.
+
+One particular highlight was the presentation from the Meta (Facebook) Developer team. It was clear that despite operating in a totally different context to the NHS, some of the challenges were aligned to what we regularly see. 
+For example, if Meta has hundreds of apps, making systemic changes / improvements across “all the things”, may be very challenging. 
+
+We heard how Meta has oncall rotas and owners for processes, and basically everything they do. From managing upgrades, deprecating components, quality improvements, things are routinely delegated to owners and planned in advance. Senior and Leads manage multiple oncalls and this is seen as a badge of status, to be the person charged with delivering an urgent or difficult outcome.
+
+The problem is adjacent to what we see in the NHS. Making horizontal change across the whole estate is hard. Whether staff training, replatforming code to be more accessible, it is difficult to ensure everyone gets a message… and has a need or desire to adapt to the new way.
+
+We are not necessarily talking about software code and Apps, sometimes we are. Accessibility is a great example, why cant all the teams test for accessibility in the same way? This is an great opportunity to bring consistency to teams. 
+
+To help find quick wins:
+
+* can you identify which fields are not working for keyboard only users?
+* do all the buttons have the appropriate contrast? 
+* do all the images have alt-text?  
+
+The more we can automate, the more that it becomes bakes into BAU. 
+
+Of course there is always a need for manual testing of new scenario and accessibility user testing. A page can be WCAG 2.2 accessible compliant, but the content or flow can make ZERO sense to the end user.
+
+Great to hear about the launch of the Engineering Technical Authority, and the accessibility testing group... exciting to hear where this initiative is headed… however top-down approaches and BIG BOARDS often get criticised.. Ivory towers, group think, representation, etc, etc
+
+One thing we’ve learnt in UCD Centre of Expertise, initiatives should be (mostly) community-centric. Otherwise colleagues feel coerced and that change is being forced… no voice at the table… 
+
+As the saying goes, start with understanding user needs (and business/stakeholder needs…) then ask what is possible (tech constraints)
+
+Anyway, the point being, whether software updates, or people updates (knowledge and training). The business of horizontal change is hard. Centres of Expertise are a great way forward… professions do need more advocates/champions to step up and implement change across the business. From managing the tools, to running training sessions… how might we ensure that change happens more seamlessly? 
+
+*How might we support everyone to work towards the same standards? *
+
+**(Or at least ensure that everyone knows standards do exist and where to ask for support!)**
+
+
+
+
+## This week:
+
+* Roundup of interviews with SDs/IXDs
+* UR lab training refresh with FDP team
+* UR lab hosting sessions with FDP team - loads of stakeholders and colleagues from supplier attended. Great!
+* Impromptu UR lab film shoot... starring @Michael Cheung @Tosin @Ellen Doyle Lynn Anne Steel
+* Useful catch up with @Michael @Tero @Pete @Kathryn; good discussions about how might we support new designers, and improve guidance for tools / processes in the Centre of Expertise 
+* UR Finder. Had fun deploying the tool locally and running interesting prompt experiments 
+* Claudia rolling off UCD Ops team... :disappointed: start the ball on approvals for hiring...
+* Budgets/tools/approvals - seem positive this week, two cases moved a little further forward
+
+## Next week… 
+
+* Annual objective setting
+* (Remote) Team away sessions / workshop
+* Training on new IG systems / processes
+* UR leadership meeting
+* Meetings with suppliers and new starters
+* Prep for UR Lab training following week
+* Working on plan for UR Finder tool next phase
+* Try to hit my running and swim goals… and catch the sun too!
+
+
+**Pondering thoughts on the attached photo for next time**
