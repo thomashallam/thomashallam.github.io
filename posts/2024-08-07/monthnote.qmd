@@ -6,7 +6,7 @@ format:
     css: styles.css
 author: "Tom Hallam"
 date: "2024-08-08"
-categories: [Monthnotes, Research Operations, AI, Inclusivity, Research Panels, Research Repo, Tools, User Needs, Ways of Working, Culture Change]
+categories: [Monthnotes, Research Operations, AI, Inclusivity, Research Panels, Research Repo, Tools, User Needs, Ways of Working, Culture Change, Research lab]
 image: "armands-brants-g1WoGCQ5v28-unsplash.jpg"
 ---
 
@@ -30,6 +30,7 @@ Training, we had a great in-person safeguarding away day in Leeds. Lots of new g
 
 Training - attended a great Microsoft Powerapps/Power Automate/Dataverse in a day course. Lots of potential for UCD ops to automate some of our workflows and/or utilise some interesting new integrations for our research repository.
 
+Research lab - completed two more training sessions // another 10 colleagues attended; things pretty much BAU now and we just need to keep success sharing stories so more teams use the facility and see the benefits of in-person research and collaboration! 
 
 We completed the renewals for Userzoom and also launched Usertesting.com for NHSE user research colleagues. It is great to have access to both platforms as they ofter different ways of gathering feedback and testing designs. Only a few weeks in already teams are making good use of the new tool.
 
