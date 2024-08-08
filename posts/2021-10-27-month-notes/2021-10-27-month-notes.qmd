@@ -1,10 +1,10 @@
 ---
-title: "Month notes 27 October"
+title: "Monthnotes 27 October"
 format:
   html
 author: "Tom Hallam"
 date: "2021-10-27"
-categories: [Month notes, Personal, Covid Testing, Healthcare, Wellbeing]
+categories: [Monthnotes, Personal, Covid Testing, Healthcare, Wellbeing]
 ---
 
 ![COP26 starts soon](cop_115544106.jpg)

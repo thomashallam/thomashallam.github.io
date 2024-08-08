@@ -1,0 +1,73 @@
+---
+title: "Monthnotes: End of July 2024"
+format:
+  html:
+    from: markdown+emoji
+    css: styles.css
+author: "Tom Hallam"
+date: "2024-08-08"
+categories: [Monthnotes, Research Operations, AI, Inclusivity, Research Panels, Research Repo, Tools, User Needs, Ways of Working, Culture Change]
+image: "armands-brants-g1WoGCQ5v28-unsplash.jpg"
+---
+
+## Where to start...
+
+So I fell off the weeknote bandwagon and have been struggling to find time and the headspace to jump back on… reflecting, like running, needs to be a routine. Commit. Little and often. Three months without putting pen down is too long. The problem then is it becomes impossible to know where to start…? 
+
+Personally it feels like the last few months have been quite unbalanced. The election and massive swing in political direction. Then the World Cup, Tour de France, Wimbledon, now the excitement and pomp of the Olympics in Paris, with the jubilant success of Team GB. This all has contrasted sharply with the news, tragedy, chaos and racism seen in our local communities in the last two weeks - it is a new world and an anxious time for many.
+
+The bystander effect is a worrying trend too, particularly around comments and behaviours not being challenged… not everyone is confident to speak up.. it is important we all find our own way to help… even the small acts of support for a friend, colleague and people in our communities, it can and will make a huge positive difference.
+
+
+## Work highlights through July/Aug
+
+A mammoth effort on the [NHS Staff Panel](https://feedback.digital.nhs.uk/jfe/form/SV_6tfF7f0hYg4pEIC){.external target="_blank"} which was fully relaunched in July. 3000+ NHS colleagues, suppliers and stakeholders have consented to take part in user research. 
+The journey to get to this point was quite challenging and deserves a longer blog post some time. Thanks Tony Green for leaning in to support the technical design and supporting the pilot testing too.
+
+
+Training, we had a great in-person safeguarding away day in Leeds. Lots of new guidelines to discuss with colleagues, really crucial to ensure safety of all our colleagues and participants. Great work Simon, Amy, Meera and colleagues in the working group. There were so many new researchers in attendance - it was a bit overwhelming - I wish we could have spent more time meeting people.
+
+
+Training - attended a great Microsoft Powerapps/Power Automate/Dataverse in a day course. Lots of potential for UCD ops to automate some of our workflows and/or utilise some interesting new integrations for our research repository.
+
+
+We completed the renewals for Userzoom and also launched Usertesting.com for NHSE user research colleagues. It is great to have access to both platforms as they ofter different ways of gathering feedback and testing designs. Only a few weeks in already teams are making good use of the new tool.
+
+
+Figma: we continued pushing forward the renewal of the prototyping tool which is used by around half our design teams. 
+
+
+I worked with Tech Service and Head of Design to gather feedback about MacBooks usage across NHSE. 
+
+
+Knowledge management - I supported the Ethics working group to publish their recent guidelines and training documents 
+
+
+Also had a great workshop in Leeds with Central Ucd team colleagues. We agreed some solid actions to protect our team wellbeing with ever-increasing workload and capacity constraints, this seemed to be helping over the last few weeks.
+
+## Challenges
+
+Pre-election period - this was a challenging time for teams… pushing back lots of research and recruitment campaigns, also lots of uncertainty around which projects are being prioritised and budgets. There was quite an information void with limited comms and weeknotes unavailable. Felt quite disconnected, but a good chance to catch up and tidy up a few things. 
+
+Battling a lot of internal paperwork approvals / bureaucracy - simple procurement activities shouldn’t be a 6-9 month journey requiring 300-500 emails. Many aspects of our internal processes are grossly inefficient and really need some UCD focus!
+
+Our organisational policies are impacting delivery and our inclusive design efforts - we need to resolve some long standing problems, e.g. around physical voucher incentives that can be used for in-person research and at community events
+
+I've worked on some slightly contentious pieces of work over time. 
+
+I know NHS budgets are often constrained... but having key staff been told NOT to use industry standard tools they have used for years (without any consultation) obviously has not been received well. It is really important for teams making those decisions to hear feedback… listen and understand how colleagues' motivation and team delivery output has been impacted. It feels like the requirement should be to demonstrate that a ‘basic/free’ alternative can meet end user needs, before making critical decisions and discontinuing tools of choice. Internal services can be user-centred too!
+
+Capacity - lots of decision delays due to the holiday season. Feels bad but it was necessary for our friendly, supportive and impactful team to add a 3-day SLA on all mailbox requests. We agreed also as a team to reduce the quality of work, to get through a greater number of requests/issues - neither feel good, but unsurprising as the team are stretched so thinly providing Ops and domain expertise for 300+ UCD colleagues :(  
+
+Every time I have a difficult week, I muse about how AI tools continue to promise all the answers. They still dominate the debates with the lure of the shiny shiny. However, 22 months on since ChatGPT launched, it still seems like there is a massive gap between the vision provided by AI tools and the complex reality of deployment. There are so many barriers to overcome, not least: budgets, information governance, environments, and access to developers!
+
+## Forward look
+
+I’m excited about the alignment / merger between the UCD Ops and NHS Service Manual team. Lots of synergies here and it is important to ensure the guidance we create is available across the right channels
+
+Lots of possibilities around AI integration with our current tools stack. This could really help teams self-service and reduce the number of repeated queries we have to deal with
+
+Several new starters recently - permie researchers and designers have joined in last month, as well as Max our new Inclusive design lead.  It should be a great opportunity for driving the key initiatives forward by splitting this up across the UCD profession - so less dependence on ucd team to solve many problems.
+
+Taking some time off from work to recover from a few whirlwind weeks. Less screen time, more time with family, some running and maybe swimming. Yes!
+

@@ -4,7 +4,7 @@ format:
   html
 author: "Tom Hallam"
 date: "2022-02-28"
-categories: [Month notes, Personal]
+categories: [Monthnotes, Personal]
 image: "tim-johnson-ywIZ8ZYxzWU-unsplash.jpg"
 ---
 

@@ -4,7 +4,7 @@ format:
   html
 author: "Tom Hallam"
 date: "2021-09-26"
-categories: [Month notes, Personal, Covid Testing, Healthcare]
+categories: [Monthnotes, Personal, Covid Testing, Healthcare]
 image: "fusion-medical-animation-npjP0dCtoxo-unsplash.jpg"
 ---
 
