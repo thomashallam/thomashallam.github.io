@@ -1,0 +1,52 @@
+---
+title: "Weeknotes 12/09/24"
+format:
+  html:
+    from: markdown+emoji
+    css: styles.css
+author: "Tom Hallam"
+date: "2024-09-24"
+categories: [Weeknotes, Research Operations, Inclusivity, Research Panels, Research Repo, Tools, User Needs, UR Finder, Research lab]
+---
+
+## Many big wins to count
+
+Looking back over the last week or so, quite a lot has progressed – even more than expected... always a nice surprise after picking up the back to school / freshers flu last week yuck last week, and overcoming post-holiday season lull.
+
+-   [NHS Staff and Suppliers Panel](https://feedback.digital.nhs.uk/jfe/form/SV_6tfF7f0hYg4pEIC){.external target="_blank"} which was fully relaunched in July/August, was already being adopted and frequently used by teams. Multiple campaigns have been sent already, including surveys and research projects looking for nurses, GP managers, hospital trusts, and much more. Great news! We finalised all the paperwork (DPIAs and guidance for colleagues) - this is a major step forward for teams who need to regularly engage with NHS colleagues.
+
+-   [NHS Citizen and Patient Panel](https://feedback.digital.nhs.uk/jfe/form/SV_9ST3sUy1EAz1wIm) - our initial pilot project to re-opt-in and re-consent users to take part in user research studies is going well. Of an initial 10,000 sample who were invited to sign-up again, over 800 signed-up again within 24 hours.
+
+    -   With the panel refreshed (hopefully by October) our teams should feel way more confident in recruiting participants quickly, as well finding participants from a diverse range of demographics. We have spend a lot of time iterating the questions and aligning with best-practices from across team and the wider government
+
+-   UR Finder - had a great presentation by Microsoft; the PoC exploring how we can integrate our existing data sources with Copilot and Powerapps, and OpenAI to improve how we surface research findings is going well. This raises the old chestnut of a question - where do we stand assurance of third-party tools vs. coded solutions (e.g. design patterns, accessibility, and more)
+
+-   Knowledge management group - we had a really good session with colleagues looking at if/when/why teams use foreign language and British Sign Language (BSL) translators to support user research sessions.
+
+    -   It seems that current processes are so long-winded that they are rarely used. In the rare occasions that teams speak to participants who, for example, are deaf or where English is their second language, our teams rely on participants friends/family and community network, rather than having professional translation services. We need to think more holistically about how we find participants - if we are only seeking participants online, and only advertising in English, this could lead to bias or exclusion and negative risk outcomes.
+
+-   Incentives - a little more progress on physical incentives vouchers (see post from September 2023). Our policy team are keenly focused on inclusivity and increasing public engagement... the practical process around how we handle incentives are in place and ready to be tested... next we just need to resolve a few more questions/blockers before we can (finally) order them?
+
+-   Tooling - major progress on prototyping... I helped with finding a solution to using NHS Prototype Kit on corporate PCs and swiftly communicated this out to colleagues with the necessary guidance
+
+-   Great meeting with colleagues from Digital Academy to hear about their plans for two new major projects, who doesn't love a survey with say up to 1.4 million NHS staff ?!
+
+-   Excited that the UR lab wall art is inching closer to delivery - this will really help with awareness and engagement!
+
+## Challenges
+
+UR Lab - analysis shows a drop off in usage over the last few months. This is understandable given the pre-election period and following team restructures. We've set up a network of Lab Champions to meet regularly and drive forward usage of the facility.
+
+DPIAs - loads of paperwork for teams to complete: Is it important for every project to have it's own document? or is this burdensome?
+
+Planning - still too many plates spinning and balancing BAU with delivery....
+
+Basic data - everywhere it is just not good enough quality. Causing risks to delivery and more.
+
+## Forward look
+
+Excited to attend a development away day in London next week
+
+Planning a talk with designer at NICE to share learnings around user research at NHSE
+
+Weekend in the lakes with running club - potential for a Parkrun PB :D
