@@ -1,0 +1,65 @@
+---
+title: "Monthnotes Sept/Oct"
+format:
+  html:
+    from: markdown+emoji
+    css: styles.css
+author: "Tom Hallam"
+date: "2024-10-04"
+categories: [Monthnotes, Research Operations, Incentives, Tools, User Needs, Participant Recruitment]
+image: "jonny-gios-NF01vrs5O8o-unsplash.jpg"
+---
+
+My highlight of the month outside of work was a weekend away with our running club in the lakes, getting an 5km Parkun PB at Keswick, ascending Catbells for the first time. 
+
+On the final day a brief dip/swim in Derwentwater, followed by being part our impromptu mountain rescue team to help a fallen rambler. 
+
+My take away was this... the best teams are full of people with diverse experiences, skillsets and opinions. They are committed to a shared purpose, they don't need telling what to do - they are the experts and they just deliver.
+
+![](jonny-gios-NF01vrs5O8o-unsplash.jpg)
+
+
+## Positives
+
+**At work a few positive updates too:**
+
+[NHS Citizen and Patient Panel](https://feedback.digital.nhs.uk/jfe/form/SV_9ST3sUy1EAz1wIm){.external target="_blank"} - we've hit 33,000 responses which is great and there are still a few days to go!
+
+Physical vouchers incentives - small progress... jumping through internal approvals... baffling how tiny tasks can take so long... 
+
+SUR & LUR meet up: 
+
+* Great to see colleagues in London - lots of areas where could have talked much longer. 1 day isn't nearly enough!
+* Great discussions around policy space - the who/what/why/how - 
+
+Policy often feels like a thing that happens to delivery teams, however there are many similarities to consider. Being evidence based, understanding the problem, drawing up design options, experminting and evaluating. It seems there are alot of the areas of interest overlap. Would be great to connect with more policymakers.
+
+NICE - it was really great to be invited to speak with NICE Content Publishers profession and share how we approach UCD and UR at NHSE. When you are extremely busy, it is always great to find a chance to reflect (and update some slide decks). Has some positive feedback during and after the session which is always appreciated too.
+
+Consent forms - Great kick off workshop with Naomi and colleagues... hopefully our teams choose to ascend the same mountain (this time round).
+
+Assurance - Great to meet the training team for ISFE2, who part of a huge programme with some big challenges. Always useful to discuss accessibility of professional-facing systems... not only legal obligations, but why making things accessible can improve satisfaction and usage. Training needs can inform user needs too! The double diamond appears as relevant design approach today as when it was created (like decades ago?). 
+
+
+## Challenges
+
+Onboarding and offboarding - we have 350 UCD staff now... it is really messy, bitty, disruptive and not at all coordinated... happening and not happening everywhere. We had proposed months ago to corale teams into doing a discovery around this, but its still someone far down the backlog
+
+Choice of tools - central way or the highway? Feels like 'Start with User Needs' only applies in some parts of the business... pressures to rationalise services, save budgets (without consideration and discussion of the impact on teams, workflows, ways of working), maybe seems to be impacting delivery and staff morale...? 
+
+Every second we spend justifying our existance, is a second a we could have spent doing something more impactful.
+
+Several conversations this week have highlighted a gap we have in terms of assuring third-party systems and services (compared to services that are 'designed and managed in house'). How might we ensure suppliers follow our industry standards?
+
+I received only limit feedback from collaegues in my (anonymous) [360 feedback form](https://forms.office.com/Pages/ResponsePage.aspx?id=Hwf2UP67GkCIA2c3SOYp4naq8XdgxIpAhgp8HevefSVUMjBYTDRENzRBT1lFSFE0T0xIM01VVUxIWi4u){.external target="_blank"}. The form is still open and all words are kindly appreciated :)
+
+## Forward look
+
+Relaxing weekend after a few busy ones....
+
+UR Lab Training next week
+
+Brown bin week and bonfire night on the way - any excuse to chop up firewood
+
+
+
