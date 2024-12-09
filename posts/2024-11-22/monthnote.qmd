@@ -108,6 +108,7 @@ There are still some challenges to keep things up to date (without any admin col
 ### User Research (UR) Lab
 
 * The lab is now fully self-serviced, with support provided primarily from the UR Lab champions group. 
+* Lab usage has been very good, with hundreds of participants attending teams' sessions during the last 6 months.
 * I hosted three UR Lab Champions network, to agree priorities and how to manage teams bookings
 * I delivered monthly training sessions, with over 50 colleagues attending, as the majority of staff are trained to use the lab, we've opened up access so anyone in the research profession can book the lab
 * I supported the UR Lab artwork, research and design, supplier engagement and installation. Mainly by getting out the way and letting the designers lead the process
