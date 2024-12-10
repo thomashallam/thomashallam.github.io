@@ -6,7 +6,7 @@ format:
     css: styles.css
 author: "Tom Hallam"
 date: "2024-12-09"
-categories: [Monthnotes, Research Operations, Incentives, Tools, User Needs, Participant Recruitment]
+categories: [Monthnotes, Research Operations, Incentives, Tools, Participant Recruitment, Personal, Research Lab, UCD Maturity, Ways of Working, Stakeholders]
 image: "sigmund-B-x4VaIriRc-unsplash.jpg"
 ---
 
@@ -105,6 +105,9 @@ There are still challenges to keep things up to date (without any admin colleagu
 * Whiteboarding tool – agreed commercial next steps, supported business case
 * Laptops – completed survey review of need for wider range of specialist devices  
 * Survey tool – supported Enterprise Apps team to take over contract and account management
+* Participant panels - coordinated 10 teams to updated/migrated/remove 900,000 contacts out of a shared database to improve management
+* Physical incentive vouchers - supported a pilot with a new voucher provider
+
 
 ### User Research (UR) Lab
 
@@ -157,7 +160,7 @@ Not much has changed since 6 months ago. The Ops team has shrunk again, and look
 
 * Teams are spending vast time creating business cases / getting budgets for critical tools
 * Typically, dozens of meetings are required, hundreds of emails back and forth - even for basic as-is contract renewals
-* It seems there is limited appetite to discuss how much internal timeis wasted on approvals
+* It seems there is limited appetite to discuss how much internal time is wasted on approvals
 
 ### Tech / Devices
 
