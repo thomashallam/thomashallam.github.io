@@ -1,0 +1,42 @@
+---
+title: "Weeknotes 17 Jan"
+format:
+  html:
+    from: markdown+emoji
+    css: styles.css
+author: "Tom Hallam"
+date: "2025-01-17"
+categories: [Personal, Weeknotes, Research Operations, Participant Recruitment, Running]
+image: "EBORsnow.png"
+---
+
+## Updates this week
+
+* The Consent Working group launched a new suite of consent forms - well done all
+* Meeting with audit team around voucher handling went well (we think) 
+* Travelled to London for User Research Leadership Away Day - great to meet new starter Efi, as well as catch up with colleagues and some workshopping around Researcher Comptencies and Development Plans
+* Submitted a UCD Capital Funding Request for 2025. Hastily pulled together in three days with support of colleagues. This was well received by our Tech Partner Eric - so fingers crossed! 
+* We launched the new Identity Card scheme pilot for user researchers - great work Josie! This will genuinely improve the participant research experience as well as improving the safety of staff when conducting in-person research
+
+## Running highlight 
+
+This Sunday I completed an 18 mile cross-country jog/hike from Tadcaster to Harewood House. 
+
+A pleasant route along the EBOR way, not too hilly, though very poor underfoot especially with snow and ice covering all the footpaths. At Wetherby Ings children were ice skating. And the back of Linton woods... treacherous. 
+My knees were feeling it by Tuesday. The race is on to recover for a 5-mile cross-country Winter League race on Sunday.
+
+![EBOR Way](EBORsnow.png){.external fig-alt="Picturesque scenes from EBOR Way" width=300px fig-align=left}
+
+
+## Best use of technology
+
+The [Check for Flooding service](https://check-for-flooding.service.gov.uk/){.external target="_blank"}. 
+
+York and Tadcaster are notorious for flooding, and to walk the EBOR way you are often approaching the floodzone and ings around the Ouse. The map enables people to check local levels, for me this was important to know they were low and weren't rising due to ice and snow melt. 
+
+I met a seasoned walker on the bus to Tadcaster, who told me of all his adventures walking around Leeds and York. He was concerned about flooding in York too and impressed by the amount of equipment I had, as well as the Check for Flooding app too. 
+
+I suspect he didn't believe the app, as he said "we'll check the levels when we cross Tadcaster bridge". What do you know, the app was correct no flooding... walking and jogging good to go!
+
+![Flood checker app](riverlevels.png){.external fig-alt="Picturesque scenes from EBOR Way" width=200px fig-align=left}
+![River Ouse at Tadcaster, recently very low due to weeks of below freezing temperatures](Ouse.png){.external fig-alt="Picturesque scenes from EBOR Way" width=300px fig-align=left}
