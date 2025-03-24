@@ -10,7 +10,7 @@ categories: [Personal, Monthnotes, Research Operations, Healthcare, Hospital, Pa
 image: "hospital.jpg"
 ---
 
-# Looking after number uno
+# Look after number uno
 
 The thing is, it creeps up on your slowly.. like over the months and years.
 
