@@ -49,13 +49,13 @@ image: "recharge.jpg"
 
 **Driving Progress on UCD Tools:**
 
-* Supported business cases, supplier selection, contract renewals (secured discounts) for Userzoom and Usertesting.com, Optimal, Figma, Heroku, etc
+* Supported business cases, supplier selection, contract renewals for Userzoom and Usertesting.com, Optimal, Figma, Heroku, etc
 * I coordinated SSO migration for multiple tools, improving security.
-* I helped enable NHS Prototype Kit on Corporate devices 
+* I helped enable NHS Prototype Kit on Corporate Devices 
 * Adminstered the Figma Prototyping tool, saving the NHS many £ thousands.
-* Assisted with the Qualtrics tool contract renweal and account management.
-* I completed NHSD panel migration, improving data quality and information governance.
-* Delivered a pilot of the new voucher scheme, and secured additional funding to continue the scheme.
+* Assisted with the Qualtrics tool contract renewal and account management.
+* I completed NHS Digital panel migration, improving data quality and information governance.
+* Delivered a pilot of a new voucher scheme, secured additional funding to continue the scheme.
 * Helped launch an Identity Card scheme for user researchers, improving safety.
 
 **User Research (UR) Lab:**
