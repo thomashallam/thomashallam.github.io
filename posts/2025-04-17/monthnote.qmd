@@ -7,7 +7,7 @@ format:
 author: "Tom Hallam"
 date: "2025-04-17"
 categories: [Monthnotes, Research Operations]
-image: ""
+image: "recharge.jpg"
 ---
 
 ## Key achievements 
