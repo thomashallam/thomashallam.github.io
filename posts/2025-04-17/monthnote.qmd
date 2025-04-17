@@ -1,0 +1,128 @@
+---
+title: "Monthnotes April - End of year review"
+format:
+  html:
+    from: markdown+emoji
+    css: styles.css
+author: "Tom Hallam"
+date: "2025-04-17"
+categories: [Monthnotes, Research Operations]
+image: ""
+---
+
+## Key achievements 
+
+*What are your key successes or achievements? What are you proud of?*
+
+## How I’ve Helped the NHS:
+
+**Improved Culture of User-Centred Design:**
+
+* I increased collaboration between teams and end-users.
+* Built empathy and championed end-users' needs.
+* I supported teams to deliver the right thing, first time.
+* Ensured joined-up approaches across teams.
+
+**Reduced Wastage / Cost Saving:**
+
+* I helped teams share their research findings and templates, improving quality and efficiency.
+* Reduced duplication, through coordinating projects across teams.
+* Drove efficient ways of working, improved productivity.
+* I achieved direct savings on tools licenses, working with suppliers to agree the best possible deal.
+* Automated processes many processes, reducing manual workarounds.
+
+**Leading the UCD Centre of Expertise (COE):**
+
+* I chaired weekly Knowledge Management Working Group meetings.
+* I assigned key work and projects to Leads/Seniors.
+* Distributed tasks across teams, empowering colleagues to lead projects.
+* Created (and improved) over 100 pages of UCD policy, guidance, resources, and templates.
+* Completed a discovery to understand and support broader design community needs.
+
+**Joining Up Teams on Strategic Challenges:**
+
+* I helped improve visibility of work across teams by expanding UCD database usage.
+* Supported the business case and approvals for User Research Finder.
+* I explored other suppliers and tools, encouraging adoption among the UR and design community.
+* Worked with Microsoft, to replatform the User Research Finder tool onto Microsoft Azure / PowerApps / OpenAI.
+* Presented the UR Finder project to other departments, wrote a case study for the Government’s AI Playbook published to all Ministers.
+
+**Driving Progress on UCD Tools:**
+
+* Supported business cases, supplier selection, contract renewals (secured discounts) for Userzoom and Usertesting.com, Optimal, Figma, Heroku, etc
+* I coordinated SSO migration for multiple tools, improving security.
+* I helped enable NHS Prototype Kit on Corporate devices 
+* Adminstered the Figma Prototyping tool, saving the NHS many £ thousands.
+* Assisted with the Qualtrics tool contract renweal and account management.
+* I completed NHSD panel migration, improving data quality and information governance.
+* Delivered a pilot of the new voucher scheme, and secured additional funding to continue the scheme.
+* Helped launch an Identity Card scheme for user researchers, improving safety.
+
+**User Research (UR) Lab:**
+
+* Transitioned the lab to a self-service model with support from the UR Lab Champions group.
+* Hosted hundreds of participants, including blind citizens and a guide dog, in various sessions over the past 12 months.
+* Organised five UR Lab Champions network meetings to set priorities, increase awareness, and support teams without Leeds-based staff.
+* Delivered monthly training sessions attended by over 75 colleagues, leading to widespread lab access and self-run training by teams like NHS App.
+* Supported the design, supplier engagement, and installation of UR Lab artwork, empowering designers and facilitating approvals. The artwork prominently highlights NHS England’s commitment to user research at the Leeds Hub.
+ 
+### How did you achieve these successes?
+
+**Making the Work of the Team More Visible:**
+
+* I adopted inclusive user-centred design approaches
+* Good stakeholder relations and communication, breaking down silos
+* Influencing and shaping strategy, getting decision makers onboard
+* Finding mutual interests, between delivery teams and Central UCD 
+* Coordination and management of multiple workstreams, reducing duplication, aligning colleagues
+* Empowering colleagues to take on delivery for shared initiatives, getting out the way
+* Completed Objective Key Results and Values and Principles sessions to prioritise work
+* Presented UCD Ops approaches to several external and internal departments to build awareness
+* Migrated the team onto Jira platform, improved data on requests we receive.
+* Resilience and determination, in the face of constraints and blockers
+
+
+## How or why did you struggle?
+
+With limited positive news on the horizon around strategic direction… budgets… our empowered multidisciplinary teams, particularly those with a UCD-focus, are working through the uncertainty, together leading transformation big (and small) across the NHS.
+
+**Workload / roles and responsibilities**
+
+* Increased workload, with Ops team reduced to 1.5 FTE from 5 FTE. 
+* Removal of admin staff from delivery and supporting teams.
+* Challenges in recruiting permanent UCD Ops staff due to budget constraints linked to programmes of work.
+* Need to clarify responsibilities for UCD Leads, Head of UCD, and SLT.
+
+**Strategic priorities**
+
+* Difficulty understanding priorities of key stakeholders and leadership due to team restructures and budget changes, impacting delivery and morale.
+* Uncertainty with many teams pausing work or focusing on cost-cutting, awaiting direction of the 10-year plan.
+* Escalated concerns to SLT for strategic backing and sponsorship to deliver effectively. 
+ 
+**Amount of plates spinning**
+
+* Perception that UCD team is taking on too many projects, affecting staff wellbeing and delivery.
+
+## Set goals
+
+1 - Increase engagement with Senior Leadership Team (SLT) and decision makers, improving visibility of UCD Team and supporting professional development.
+
+2 - Ensure continuity of UCD toolset and BAU services over the next 12 months. Simplify, automate, outsource, or reduce UCD Ops processes.
+
+3 - Focus on leading strategic workstreams outside of UCD Ops / BAU work
+
+4 - Relaunch the UCD Maturity Framework to support teams in fully self-servicing
+
+5 - Better management of team and self wellness. Improve at “saying no” to projects/requests.
+
+## Final reflection
+
+In May 2025, I will have worked in the Central UCD Team for 3 years. The team is supportive, but recent understaffing and delivery pressures have made the role very challenging. Our team have escalated the need for more admin support and delivery staff to SLT for over a year, despite resource constraints and hiring freezes, we have managed to reprioritise work and deliver positive outcomes.
+
+I have achieved all objectives set by my line manager and exceeded expectations by identifying new initiatives, implementing delivery plans, and rolling out changes across the profession. 
+
+I have driven forward the UCD Centre of Expertise, improved work quality, managed complex projects, written new policies, and regularly escalated risks and advised colleagues.
+
+NHS England aims to deliver better care through digital, and our research and design teams are making a significant impact. Despite the challenging period of change, I am hopeful that Digital, Data and Tech (DDAT) colleagues will be prioritised and user needs will remain central to the transformation strategy in the new org (more on a future post).  
+
+I have demonstrated proactivity and adaptability through previous changes. I am keen to work with SLT to agree on achievable priorities within the available resources during the upcoming restructure.
