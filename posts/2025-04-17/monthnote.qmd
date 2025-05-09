@@ -1,5 +1,5 @@
 ---
-title: "Monthnotes April - End of year review"
+title: "End of year review"
 format:
   html:
     from: markdown+emoji
