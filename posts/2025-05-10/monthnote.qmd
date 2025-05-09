@@ -7,10 +7,17 @@ format:
 author: "Tom Hallam"
 date: "2025-05-10"
 categories: [Weeknotes, ]
-image: "transform.png"
+image: "Transform.png"
 ---
 
 ## Events this month 
+
+Overall, April was a great month. I've made lots of significant progress. My health is improving again, after a very few difficult months, I've been on a few hikes and some short runs.
+
+At work I've explored innovative technologies, strengthened collaborations, and identified some big improvements for our Ops processes and ways of working. 
+
+While the organisational restructure continues, it seems there are few safe spaces for discussions, and very little clarity about when new information will be available. Staff still would like to feed into the process, but there isn't any process to feed into. In my opinion, focusing on fixing foundational issues, empowering digital teams, and improving health outcomes should be the priority. 
+
 
 **AI participants instead of fieldwork? 22/4**
 
@@ -138,14 +145,4 @@ When we do build brilliant services, we will have many more patient and NHS succ
 * Use performance metrics and benefits analysis to support service accountability
 * Share best practices, case studies, and components widely across NHS/Gov
 
-
-## In summary
-
-Overall, April was a great month. I've made lots of significant progress. My health is improving again, after a very few difficult months, I've been on a few hikes and some short runs.
-
-At work I've explored innovative technologies, strengthened collaborations, and identified some big improvements in our Ops processes. 
-
-While the organisational restructure continues, it seems there are few safe spaces for discussions, and very little clarity about when new information will be available. Staff still would like to feed into the process, but there isn't any process to feed into.
-
-In my opinion, focusing on fixing foundational issues, empowering digital teams, and improving health outcomes should be the priority. 
-
+.
