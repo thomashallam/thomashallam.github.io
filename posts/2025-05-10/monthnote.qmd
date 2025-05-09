@@ -56,9 +56,9 @@ It would be best for a large-scale ongoing consultation with a wide range of del
 So here are my thoughts, it is my opinion only.
 
 
-**What are the challenges to address?**
+### What are the challenges to address?
 
-As a basis for improvement into the future org design, we should consider what didn't Work over last two-few years...
+As a basis for improvement in the future org design, we should consider what didn't Work over last few years...
 
 Working from the central team, some of the common challenges I've seen teams struggling with include:
 
