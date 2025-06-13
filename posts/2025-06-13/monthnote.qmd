@@ -17,11 +17,11 @@ image: "accuray-MhM8LiIzmZw-unsplash.jpg"
 ![Hospital MRI scanner](accuray-MhM8LiIzmZw-unsplash.jpg)
 
 It was only last week, that I layed in the MRI scanner in hospital. Listening to Vernon Kay on Radio 2, wondering the big questions of life. Why me? How did I end up here?
-With some sickly irony, the radio piece was about things that may you itch and cause anxiety. Something, that someone inside and MRI scanner, has full awareness of. A wry smile only, as I cannot move, I cannot panic. 
-Sweaty palms.  Breathing deeply. Chest pains.
-Maybe I'm ok, not panicking. As a child we often played hide and seek, hide under the bed for an hour no problem?
-Also having to imagine being surrounded by midgeys and mosquitos, or being tickled, that really wasn't part of the deal, Vernon.
-Emotional highs and lows, as the radio flows through some George Ezra, home-grown happiness.. see you later.
+With some sickly irony, the radio piece was about things that make you itch and cause anxiety. Something, that someone inside and MRI scanner, already has full awareness of. A wry smile only, as I cannot move, I cannot panic. 
+Sweaty palms. Breathing deeply. Chest pains.
+Maybe I'm ok, I'm not panicking yet. As a child we often played hide and seek, close your eyes and pretend you are hiding under the bed for an hour... no problem?
+But having to imagine being surrounded by midgeys and mosquitos, or being tickled, that really wasn't part of the deal, Vernon.
+Emotional are highs and lows, as the radio flows through Sam Fender, Hypersonic Missles and some MJ. 
 As the minutes tick along, I have no sense of time. The MRI machine whirls and rages in the background, CLANK ZAP CLANK. BLEEP BUZZ BLEEP. 
 An unknown, quiet, but reassuring male voice, chirps in amidst the chaos: breathe in, and breath out. HOLD. breathe in, and breath out. HOLD. breathe in, and breath out. HOLD. And relax.
 Then nothing. 
@@ -59,9 +59,9 @@ Finally, that voice.
 "We're finished Thomas, bringing you out."
 As the machine returns me to the freezer room, I'm greeted with well dones. I see the clock on the wall. 11.05: really, it was only 1 hour?
 I bolt upright and off the bed tracks, in a hurry to escape this strange cold place.
-Blood shunting, causes my to dizzy. I stumble but catch myself. 
-The nurses look disapprovingly, "you didn't need to get up that fast". 
-Yes I'm outta here as quick as possible. I grab some biscuits for the suger and settle the leg and arm cramps.
+Blood shunting, causes dizziness as I ris. I stumble but catch myself. 
+The doctors and nurses look disapprovingly, "you didn't need to get up that fast". 
+Yes I'm outta here as quick as possible. I grab some biscuits for the suger and to settle leg and arm cramps.
 Greeted in the reception by my girlfriend.
 'All ok?' what a wonderful feeling to hear the words of someone who cares for you. 
 'Coffee shop?' I guess mines a decaf and half a slice of cake till I get the all-clear. 
@@ -73,11 +73,11 @@ While this is all still going, I'm yet to have the results back. I'm hoping for 
 
 I've been very diligent, eating well, sleeping well, living the clean life (no booze, no protein shakes, no gym, no swimming, no running - walking and jogging only, super salads). Living out of spreadsheets, documenting whatever I'm doing, to understand, for me whether I feel I'm improving and also what else might be causing triggers/flare ups in my condition.
 
-It has been a terrible time for my social life, I haven't been able to attend running club most weeks, and every time I attend the chat circles around: are you better? should you be running? I honestly don't know, and I've had no advice (medically) about changing my lifestyle.
+It has been a terrible time for my social life though; I haven't been able to attend running club most weeks, and every time I attend the chat circles around: Tom are you better? Tom should you be running? I honestly don't know, and I've had no advice (medically) about changing my lifestyle.
 
-In an endless search for answers, I've joined all the online groups for my condition. It seems across countries, the treatment pathways, clinical advice, and pharmaceutical options are very different. It is highly frustrating and demoralising to hear about people whose problems have been going on for years with no resolution, whereas in some places newer drugs are helping chronic patients achieve full recovery.
+In an endless search for answers, I've joined all the online groups for my condition. It seems across countries, the treatment pathways, clinical advice, and pharmaceutical options are very different. It is highly frustrating and demoralising to hear about people whose problems have been going on for years with no resolution, whereas in some places newer drugs are helping chronic patients achieve full recovery. Everyone in the group is supportive of each other which is reassuring though.
 
-Also there is widely differing views on whether lifestyle changes are necessary/required to avoid things becoming chronic. A lot of people are talking about reducing heart rate, and limiting all exercise. However, for many people this is simply not achievable, with their busy lifestyles, work or other commitments. Then there is the risk of deconditionality and frailty, doing literally nothing while taking the prescribed medicine causes bone loss, muscle loss, dizziness and a whole other load of risks. So it seems, many struggle if you rest or if you don't.
+Also there is widely differing views on whether lifestyle changes are necessary/required to avoid pericarditis becoming chronic. A lot of people are talking about reducing heart rate (under 100bpm), and limiting all types of exercise. However, for most people this is simply not achievable, with their busy lifestyles, work and other commitments. Then there is the risk of deconditionality and frailty, doing literally nothing while taking the prescribed medicine causes bone loss, muscle loss, dizziness and a whole other load of risks. So it seems, many struggle if you rest or if you don't.
 All this aligns to the question, is this condition well understood medically? And are the pathways optimised to support full recovery, or to keep people chronically unwell but in reduced pain? I don't know but I'm trying to understand more.
 
 ## What about digital?
@@ -86,7 +86,7 @@ In between the many tests and checkups, it has become almost a second job chasin
 
 I struggled to document what has being gone on. As I've passed through every part of the healthcare system. Referrals leading to more referrals. Tests leading to more tests.
 
-![NHS Care Pathways are complex](carepathway.png){.external fig-alt="A diagram showing a complex care pathway with a number of NHS services, split down by what comunications were received as well as what happened at each stage." width=400px fig-align=left}
+![NHS Care Pathways are complex](carepathway.png){.external fig-alt="A diagram showing a complex care pathway with a number of NHS services, split down by what comunications were received as well as what happened at each stage." fig-align=left}
 
 During this journey, I've received a pile of communications across all different channels. Text/SMS, email, NHS app, letters, telephone and verbal. However, at times there was no communication. Not knowing if your health is going backwards or forwards, or what is happening next, is a really terrible place for any patient to be left hanging.
 
@@ -104,8 +104,8 @@ Moving between hospital providers, GP, testing and community services... transfe
 The app needs to help connect the dots and show the wider picture for patients. 
 
 
-![NHS Care and digital experience Gap](NHSApp.png){.external fig-alt="A ven diagram showing how expectations for digital should aling with what is happening in the real world context." width=400px fig-align=left}
+![NHS Care and digital experience Gap](NHSApp.png){.external fig-alt="A ven diagram showing how expectations for digital should aling with what is happening in the real world context." fig-align=left}
 
-The communications information architecture needs a total overhaul, centred around making patient journeys easier to navigate and engage with their care plan as a whole. Converting physical letters to PDF is neither inclusive nor a helpful solution if patients can't find them (or annotate them). 
+The communications and messaging information architecture needs a total overhaul, centred around making patient journeys being easier to navigate and engage with across a whole treatment plan. Converting physical letters to PDF is neither inclusive nor a helpful solution if patients can't find them (or annotate them), though for sure it saves some money.
 
-In a world of endlessly bleeping computers... as researchers and designers we should regularly zoom out and ask ourselves... not what can we tweak or optimise... but if we started again what would a good experience actually look like?
+In a world of endlessly bleeping computers... we researchers and designers need to regularly zoom out and ask... not what can we tweak or optimise... but knowing all these problems, if we started again what would a good solution and user experience actually look like?
