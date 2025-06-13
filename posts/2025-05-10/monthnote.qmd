@@ -6,7 +6,7 @@ format:
     css: styles.css
 author: "Tom Hallam"
 date: "2025-05-10"
-categories: [Weeknotes, ]
+categories: [Monthnotes, Strategy, Analytics, Culture Change, Leadership, Stakeholders, User-Centred Design, Wellbeing]
 image: "Transform.png"
 ---
 
