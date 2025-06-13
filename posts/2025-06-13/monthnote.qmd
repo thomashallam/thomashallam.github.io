@@ -98,12 +98,14 @@ There is a lot of excitement about the new and bold plans for more messaging in 
 * Prescriptions I have are not shown or collectable
 * Hospital notes appear as PDFs in the GP messaging
 
-There is a gigantic user experience gulf in between what happens in care pathway and what patients are told, compared to what information is available, accessible and understandable on the app. 
-Moving between hospital providers, GP, testing and community services... transfer of care is super clunky. The app doesn't help connect the dots or show a wider picture at all for patients. 
+There is a gigantic user experience gulf in between what happens in the care pathway and what patients are told, compared to what limited information is available on the app, and how inaccessible it is. 
+Moving between hospital providers, GP, testing and community services... transfer of care is also super clunky. 
+
+The app needs to help connect the dots and show the wider picture for patients. 
 
 
 ![NHS Care and digital experience Gap](NHSApp.png){.external fig-alt="A ven diagram showing how expectations for digital should aling with what is happening in the real world context." width=400px fig-align=left}
 
-The communications information architecture needs a total overhaul, centred around making patient journeys making it easier to navigate care as a whole. Converting physical letters to PDF is neither inclusive nor a helpful solution. 
+The communications information architecture needs a total overhaul, centred around making patient journeys easier to navigate and engage with their care plan as a whole. Converting physical letters to PDF is neither inclusive nor a helpful solution if patients can't find them (or annotate them). 
 
-In a world of endlessly bleeping computers... as reserachers and designers we should regularly zoom out and ask ourselves... not what can we tweak or optimise... but if we started again what would a good experience actually look like?
+In a world of endlessly bleeping computers... as researchers and designers we should regularly zoom out and ask ourselves... not what can we tweak or optimise... but if we started again what would a good experience actually look like?
