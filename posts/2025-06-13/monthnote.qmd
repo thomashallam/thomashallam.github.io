@@ -81,6 +81,7 @@ It has been a terrible time for my social life though; I haven't been able to at
 In an endless search for answers, I've joined all the online groups for my condition. It seems across countries, the treatment pathways, clinical advice, and pharmaceutical options are very different. It is highly frustrating and demoralising to hear about people whose problems have been going on for years with no resolution, whereas in some places newer drugs are helping chronic patients achieve full recovery. Everyone in the group is supportive of each other which is reassuring though.
 
 Also there is widely differing views on whether lifestyle changes are necessary/required to avoid pericarditis becoming chronic. A lot of people are talking about reducing heart rate (under 100bpm), and limiting all types of exercise. However, for most people this is simply not achievable, with their busy lifestyles, work and other commitments. Then there is the risk of deconditionality and frailty, doing literally nothing while taking the prescribed medicine causes bone loss, muscle loss, dizziness and a whole other load of risks. So it seems, many struggle if you rest or if you don't.
+
 All this aligns to the question, is this condition well understood medically? And are the pathways optimised to support full recovery, or to keep people chronically unwell but in reduced pain? I don't know but I'm trying to understand more.
 
 ## What about digital?
@@ -96,7 +97,7 @@ During this journey, I've received a pile of communications across all different
 There is a lot of excitement about the new and bold plans for more messaging in the NHS App. Reducing the cost of letters, yippee. But lets be blunt, the NHS App is not working well at all in secondary care and messaging particularly. 
 
 * Referrals I had don't exist at all
-* Tests I had, not visible, there are no results 
+* Tests I had, are not visible, there are no results 
 * Tests I think I need aren't shown or bookable
 * Prescriptions I have are not shown or collectable
 * Hospital notes appear as PDFs in the GP messaging
@@ -109,6 +110,6 @@ The app needs to help connect the dots and show the wider picture for patients.
 
 ![NHS Care and digital experience Gap](NHSApp.png){.external fig-alt="A ven diagram showing how expectations for digital should aling with what is happening in the real world context." fig-align=left}
 
-The communications and messaging information architecture needs a total overhaul, centred around making patient journeys being easier to navigate and engage with across a whole treatment plan. Converting physical letters to PDF is neither inclusive nor a helpful solution if patients can't find them (or annotate them), though for sure it saves some money.
+The communications and messaging information architecture needs a total overhaul, centred around making patient journeys easier to navigate across a whole treatment plan. Converting physical letters to PDF is neither inclusive nor a helpful solution if patients can't find them (or annotate them), though for sure it saves some money.
 
 In a world of endlessly bleeping computers... we researchers and designers need to regularly zoom out and ask... not what can we tweak or optimise... but knowing all these problems, if we started again what would a good solution and user experience actually look like?
