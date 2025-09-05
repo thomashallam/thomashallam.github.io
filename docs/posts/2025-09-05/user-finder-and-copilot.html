@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.543">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tom Hallam">
+<meta name="dcterms.date" content="2025-09-05">
+
+<title>User Research, User-Centred Design, User Experience - User Research Finder, Copilot and AI tools at NHSE</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EMB22EEKPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EMB22EEKPF', { 'anonymize_ip': false});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">User Research, User-Centred Design, User Experience</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Tom’s blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Hello</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources/links.html"> 
+<span class="menu-text">Useful links</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thomashallam"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/thomashallam"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">User Research Finder, Copilot and AI tools at NHSE</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Monthnotes</div>
+    <div class="quarto-category">Research Operations</div>
+    <div class="quarto-category">Research Repo</div>
+    <div class="quarto-category">Tools</div>
+    <div class="quarto-category">AI</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tom Hallam </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 5, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This monthnote is focussed on AI usage at NHS England, with a deep-dive into the User Research Finder and Copilot projects.</p>
+<p>I’ll try to break down how we approached the project and highlight the main challenges that needed to be tackled to get to where we are.</p>
+<p>Hopefully this will help departments or teams who are trying to deploy something similar… (it has really not been easy!)</p>
+<p><br></p>
+<section id="ai-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="ai-landscape">AI Landscape</h2>
+<p>Things have been changing, really fast. The <a href="https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government" class="external" target="_blank">Gov.uk AI Playbook</a> was published February this year, it is due to be refreshed (again) soon. Our project was featured in the Playbook!</p>
+<p>The National Copilot Evaluation Programme started a few months ago, Copilot chat and Microsoft apps with Copilot started rolling out to thousands of NHS colleagues and teams. Then there are the new Copilot Cafes and Ambassador Network - pushing AI as concept, and upskilling teams.</p>
+<p>Everyone has suddenly acquired new superpowers, whether writing and proof reading, reviewing data, presenting in song, vibe coding, or whatever they want they can do it. There has been a mix of excitement and horror.</p>
+<p>Many departments have also been toying with AI tools for research, design and data processing. Though everyone is questioning everyone else… “can we use these tools or not?”. New guidance has been drawn up based on fears, dividing opinions, pushing AI usage into the shadow realms.</p>
+<p>Then there has been the “Copilot Studio” Pilot project. Multiple teams across the business pitched various ideas and tools, including Compliance Checkers, HR chatbots, data workflows tools, document reviewers, email responders. One team pitched a fully-automated research interview analysis tool. We pitched our ideas too: they were well received and we had approval to start building two agents.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="PilotKickOff.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Getting buy-in for our Pilot to run" width="800"></p>
+<figcaption>Our pitch to for the Copilot Pilot</figcaption>
+</figure>
+</div>
+<p>Recently, Google also launched their AI-Mode, while OpenAI launched GPT-5. All these new models (5, 4.1, 4o) and even their ‘mini’ counterparts significantly outperform the previous version GPT-3.5 that we were developing with last year.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Meet-AI-Mode.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Google Launches Meet AI Mode" width="350"></p>
+<figcaption>Meet Ai Mode - Seems like everything is becoming chat?</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="research-finder-an-unsolvable-problem" class="level2">
+<h2 class="anchored" data-anchor-id="research-finder-an-unsolvable-problem">Research Finder: An Unsolvable Problem</h2>
+<p>Those who have followed my <a href="https://thomashallam.github.io/#category=Research%20Repo">blog posts about UR Finder</a> will know this project has been a persistent challenge. Dating back to 2018 NHS teams started looking into research repositories… after much discovery… a basic spreadsheet was deemed sufficient. Since then, teams have tried everything and more, but nothing sticks: SharePoint, Confluence, Jira, Optimal, Dovetail, etc.</p>
+<p>In the last three years alone, we’ve had three more attempts at a cracking the research repository.</p>
+<p>“Prototypes” were created by:</p>
+<ol type="1">
+<li>Normally, a specialist agency, built a bespoke website (integrated with OpenAI),</li>
+<li>Microsoft, built a PowerApps service (integrated with AzureAI), and</li>
+<li>NHSE UCD Team, we are now building a prototype with Microsoft Copilot Studio.</li>
+</ol>
+<p>Why so many iterations you ask? Well the tech/environment keep changing, usually before we can rollout a thing that works.</p>
+<p>In the last two version we aimed for a like-for-like migration:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="UserResearchFinder.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Screenshots of last two User Research finder projects" width="700"></p>
+<figcaption>Previous iterations of User Research Finder</figcaption>
+</figure>
+</div>
+<p>We’ve already had PowerPlatform in the NHS for years, but usage never took off. As you can see, the frontend was very similar (albeit slightly clunky in PowerApps).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ShareUserResearch.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Share user research - looks suspiciously similar" width="700"></p>
+<figcaption>Website vs.&nbsp;PowerApps</figcaption>
+</figure>
+</div>
+<p>The PowerPlatform learning curve is pretty steep, licenses are often out of reach too. With new possibilities around Copilot and AI Builder using the latest GPT models, teams may well reconsider if it is worth the effort.</p>
+<p>For example, teams with a service desk or a shared inbox, might instead use chat agents to understand queries and automate smarter responses, or even to supercharge their workflows and processes.</p>
+<p><br></p>
+</section>
+<section id="what-problem-are-we-trying-to-solve" class="level2">
+<h2 class="anchored" data-anchor-id="what-problem-are-we-trying-to-solve">What problem are we trying to solve?</h2>
+<p>There is a significant number of Services, Products and teams across the NHS. Many of these teams have researchers, deisgners and product managers who require research insights to inform their Strategy and Roadmaps.</p>
+<p>Conducting primary (new) research is often seen as risk, we often hear:</p>
+<ul>
+<li>Research takes too long / We won’t meet “deadlines”</li>
+<li>We’ve done that research before / We already know that</li>
+<li>The cost is too high</li>
+</ul>
+<p>Teams may then deprioritise research and try to learn from speaking to other teams in this space. However finding those relevant teams, finding research is time consuming. It often falls to emailing, or Slack posting and hoping someone replies. Teams often just give up and work with increased risks, planning and designing around assumptions.</p>
+<p>On many occassions, teams loose key insights and organisation memory when people leave. Some teams try to avoid this by creating a local ‘repository’, but other teams cannot browse the info. These firewalls between teams leads to duplicated research, design and delivery. The risk is shipping services, products and features that we know don’t work.</p>
+<p>A good research repository reduces risks and can save the NHS millions every year.</p>
+<p><br></p>
+</section>
+<section id="learning" class="level2">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<p>Before jumping eagerly into the PowerPlatform environment you need to learn about it…</p>
+<p>I completed weeks of training and reading: <a href="https://learn.microsoft.com/en-us/credentials/applied-skills/create-agents-in-microsoft-copilot-studio/" class="external" target="_blank">the whole Micorsoft Learn course for Copilot Studio</a>. A year earlier I had also completed the PowerApps in a Day course, Dataverse and PowerBI online courses.</p>
+<p>Of all these, the best course was the Fastlane course <a href="https://www.readynez.com/en/training/courses/vendors/microsoft/create-agents-in-microsoft-copilot-studio-pl-7008/" class="external" target="_blank">PL-7008: Create agents in Microsoft Copilot Studio-2115246</a> which included the Copilot sandpit / guided project. The course was really comprehensive, helpful topic building and managing dataverse. Luckily as part of the Copilot Pilot we joied for free.</p>
+<p><br></p>
+</section>
+<section id="pre-requisits" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisits">Pre-requisits</h2>
+<p>In our latest attempt to solve this problem is to use Copilot Studio to create a User Research Finder Agent, integrating with SharePoint and Azure AI Builder.</p>
+<p>To do this you need to get the right licenses and environment setup (see detailed notes at the end).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Licenses.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Screenshot of various licenses required to build AI tools and workflows in PowerPlatform" width="200"></p>
+<figcaption>Get the Power Automate Premium, AI Builder Credits, and Premium Connectors licenses</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="go-build-the-thing" class="level2">
+<h2 class="anchored" data-anchor-id="go-build-the-thing">Go Build the Thing</h2>
+<p>I started by following this YouTube tutorial: <a href="https://www.youtube.com/watch?v=I0TPj62Dhsc" class="external" target="_blank">Automate File Review in Copilot Studio with Power Automate and SharePoint – Tutorial</a></p>
+<p>The goal was to allow users to upload a file, save it somewhere, return a response from Copilot which has a summary of the file.</p>
+<p>As a fairly new PowerPlatform user, the short video took several days to get working. It seemed great and I was quite hopeful this was a good solution. Then endless problems started happening.</p>
+<p><br></p>
+</section>
+<section id="challenge-1---data-storage" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-1---data-storage">Challenge 1 - Data storage</h2>
+<p>This was a big one. Where to store data? Is it a flat file structure? Or folders e.g.&nbsp;for each team or project?</p>
+<p>Microsoft have three options:</p>
+<ul>
+<li>Sharepoint Document Library,</li>
+<li>Sharepoint Lists,</li>
+<li>Dataverse.</li>
+</ul>
+<p>There was no guidance or any technical consultant to ask for which datastore would best meet our needs. I needed to learn about and experiment with all three and decide.</p>
+<p>Solution: Eventually, after testing all three options, I decided Sharepoint Document Library was the best option (for now). All our research reports are saved in a flat file structure.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="SharepointDataTable.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Sharepoint data tables, Lists... modern or classic which is the best?"></p>
+<figcaption>Sharepoint Datatable</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="challenge-2---bugs" class="level1">
+<h1>Challenge 2 - Bugs</h1>
+<p>Only a few days into the build there was a bug, which Microsoft didn’t fix, so it was broken. Apparently a new file processing capabilities would be landing soon, but for our pilot we had to look for more reliable options than Copilot as we had a limited time window to build something.</p>
+<p><em>Side-note the new file management feature is available in Copilot (maybe US-Region?)</em></p>
+<ol type="1">
+<li><em>In the agent flow add input parameter as type of File (was not supported before)</em></li>
+<li><em>Get the file from Copilot Studio as a record: First(System.Activity.Attachments)</em></li>
+<li><em>File content is usable in the Agent Flow</em></li>
+</ol>
+<p><br></p>
+</section>
+<section id="challenge-3---pivoting" class="level1">
+<h1>Challenge 3 - Pivoting</h1>
+<p>We had to review the scope of our MVP, shrinking it down to something very basic. Just upload the file to a Form, or directly on SharePoint… then try to process it with PowerAutomate.</p>
+<p>We also scaled back using Copilot Studio: we found there were many blockers (settings and permissions - see technical annex) to getting it to work correctly, so we started using the ‘out of the box’ Sharepoint Agent instead.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="MVP.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Defining the scope and features of the MVP"></p>
+<figcaption>MVP</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="challenge-4---it-just-doesnt-work" class="level1">
+<h1>Challenge 4 - It just doesn’t work</h1>
+<p>Everything I tried on PowerAutomate involved experimenting and failure. It was great getting quick feedback, but disheartening to get Failure after Failure message.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AutomateFlowFailed.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Testing different settings in PowerAutomate, Flow failed" width="300"></p>
+<figcaption>Automate Flow Failed</figcaption>
+</figure>
+</div>
+<p>The solution here is to check why each flow failed. Read the error messages as well as search for errors on Copilot. It may take hours but eventually your flow will started running again. Don’t give up!</p>
+<p>Once the basic upload process worked, we made lots of small adjustments in Prompt builder, to account for some edge cases and improve output quality.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="PromptBuilder.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Testing custom Prompts to improve data recall and generative response structures"></p>
+<figcaption>Prompt engineering in PowerAutomate</figcaption>
+</figure>
+</div>
+<p><br></p>
+<section id="challenge-5---things-start-to-get-rather-messy" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-5---things-start-to-get-rather-messy">Challenge 5 - Things start to get rather messy</h2>
+<p>PowerAutomate can do some great things, but it can really move away from being a low-code drag and drop, into being full-code with PowerFX and lots of variables, identifiers, scopes, condtions and settings.</p>
+<p>Eventually, after much persistence, I got the workflow to process two file types, Word and PDF docs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AutomateArchitecture.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="A complex PowerAutomate workflow showing how the tool processes multiple different file types and sends them for analysis." width="700"></p>
+<figcaption>PowerAutomate Workflow Madness</figcaption>
+</figure>
+</div>
+<p>It took patience and exploration to understand what was happening across the whole PowerAutomate solution. To see the bigger picture, I documented our workflow on Mural. This help with adding notes, feedback and identifying opportunities to improve the structures of the workflow.</p>
+<p><br></p>
+</section>
+<section id="challenge-6---file-type-not-supported" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-6---file-type-not-supported">Challenge 6 - File type not supported</h2>
+<p>PowerAutomate can’t convert PowerPoint files into PDF, or directly extract the content for the AI Builder:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AutomateConvertFile.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="PowerAutomate can't convert PowerPoint to PDF" width="400"></p>
+<figcaption>Convert a PowerPoint to PDF</figcaption>
+</figure>
+</div>
+<p>The messy workaround is using your OneDrive for Business workflow to convert the PPT to PDF, then delete the PowerPoint file and restart the workflow. Thanks to Rob on the X-gov Slack #PowerPlatform channel for help with this.</p>
+<p><br></p>
+</section>
+</section>
+<section id="success-it-actually-works" class="level1">
+<h1>Success, it actually works!</h1>
+<p>After what seemed like days of trial and error, the solution worked extracting data from PDF, Word and PowerPoint reports.</p>
+<p>At this point, I uploaded our data test pack and what I saw was quite amazing.</p>
+<p>Hundreds of documents were being processed in batches, simultaneously, the AI summarised 160 research reports in just 5 minutes (quicker than making a decent brew!)</p>
+<p>With the upload now working, we started testing all this with colleagues. Many thanks to Laura who organised and facilitated the research sessions, we got some really useful feedback which will help iterate on the solution.</p>
+<p><br></p>
+<section id="challenge-7---finding-insights" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-7---finding-insights">Challenge 7 - Finding insights</h2>
+<p>Then we moved to testing the quality of Copilot’s responses to typical queries, for example:</p>
+<p>“What do you know about NHS appointment booking?” “Find me the last three reports uploaded” “Return a list of documents about the NHS App”</p>
+<p>Once we started reviewing Copilot’s responses, often the answers just didn’t make sense.</p>
+<ul>
+<li>It returned data that didn’t exist - hallucinations</li>
+<li>It generated links to documents that didn’t exist</li>
+<li>It provided health advice on queries about conditions</li>
+<li>Sometimes the agent take many minutes to reply, other time it would be instant</li>
+<li>Sometimes it would get confused, ‘crash’, or refuse to answer the question</li>
+<li>On other times, it would answer then suddenly delete the response</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="CopilotIsBroken.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Copilot Search" width="700"></p>
+<figcaption>Copilot has crashed</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="challenge-8---pin-down-the-search-results" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-8---pin-down-the-search-results">Challenge 8 - Pin down the search results</h2>
+<p>We tested both the out of the box SharePoint Agent, as well as the Copilot version. Both provided different answers to the same question, which was curious. The Sharepoint Agent worked ok - it could find a relevant document and extract and summarise findings.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="CopilotSearchAndRetrieval.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Sharepoint Agent vs. Copilot for searching"></p>
+<figcaption>Sharepoint Agent vs.&nbsp;Copilot for searching</figcaption>
+</figure>
+</div>
+<p>Changes were needed in the Agent Description and Instructions (response rules) to improve how the Copilot generally ‘behaved’.</p>
+<p>Also within the Topic interface, I made many changes to data sources and settings (see technical annex), so our generative responses would return only data from the specified Library.</p>
+<p><br></p>
+</section>
+<section id="challenge-9---improving-the-structure-of-results" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-9---improving-the-structure-of-results">Challenge 9 - Improving the structure of results</h2>
+<p>Copilot struggled to create targetted research summaries in a helpful format.</p>
+<p>I created a custom Topic to retrieve insights such as Pain Points and User Needs in a structured way, with supporting evidence from documents.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="CopilotTopicBuilder.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Creating custom Topics to return results in a specific format."></p>
+<figcaption>Copilot Topic BuilderI</figcaption>
+</figure>
+</div>
+<p>There is another challenge we are looking into is data summarisation across the whole dataset.</p>
+<p>Copilot prefers to select the most relevant document and pulls 90% of the findings from that. We need a better way to combine insights in the whole dataset, drawing up and validating themes and insights from multiple documents.</p>
+<p><br></p>
+</section>
+<section id="challenge-10---exploring-the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-10---exploring-the-dataset">Challenge 10 - Exploring the dataset</h2>
+<p>As mentioned earlier, Copilot was not good at evaluating the dataset or providing statistical answers - how many reports do you have on this?</p>
+<p>To support colleagues to navigate the repository, alongside Copilot I created and shared a PowerBI summary dashboard. We are looking to gather more feedback on whether this is useful feature.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="PowerBI.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Using PowerBI to evaluate the dataset and improve the data quality"></p>
+<figcaption>Searching the dataset with PowerBI</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="challenge-11---what-does-this-cost" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-11---what-does-this-cost">Challenge 11 - What does this cost?</h2>
+<p>We know the platform license costs, and see a list of AI Builder transactions and Credit usage. It looks to be around 250 credits per report processed on average.</p>
+<p>However, it is not clear what the actual costs are?? Or if we need to optimise tokens and credits usage further.</p>
+<p>By comparison, the OpenAI API platform provides precise token count (split by model), and precise costs.</p>
+<p>If teams are going to use these tools over longer term, we need to much better understand of the costs…</p>
+<p><br></p>
+</section>
+</section>
+<section id="positive-feedback" class="level1">
+<h1>Positive Feedback</h1>
+<p>In our research, collegaues have been really suprised to see that AI can produce really quick and accurate summaries of their research reports. The solution is quicker to use and more flexible than previous versions. There has been some caution about whether enough safeguards and data checks have been put in place, for example checking documents don’t include personal data.</p>
+<p>Senior stakeholders at NHSE have fed back that they ‘chatted to the research Copilot’ finding it really useful, it was especially for new joiners who wanted information about services and past research projects.</p>
+<p>We also presented to GDS (DSIT) team, who were really excited and had great feedback and questions. What are the KPIs? For us it is improve findability of research, as well as reduced duplication of projects. Their team are keen to experiment with Copilot Studio too, with a particuar interest in summarising findings into themes (presumably done manually).</p>
+<p>Our UR finder link has also been shared with a colleague in policy who needed to access evidence, their feedback was encouraging too: ’This is an amazing resource, I’ve just spent a few mins using the finder and it has come up with some really great docs.”</p>
+<p><br></p>
+</section>
+<section id="what-next" class="level1">
+<h1>What next?</h1>
+<p>There is much more to do around AI usage at NHS England, particularly improving policies, guidance and adoption levels. It feels like some colleagues are on the fence about AI, with many AI sceptics / ethicists (rightly) raising concerns too.</p>
+<p>My view is that we don’t have nearly enough data scientists, AI practictioners (or technical experts) inhouse. Personally, I’m trying not to get left behind. Things are changing so fast - learning about all these new tools and how they work is important. Teams risk ending up depedendent on suppliers where no one knows how their AI process works, or how your data is being processed.</p>
+<p>Copilot and AI Builder are pretty awesome. Our team we could use these tools to innovate and automating processes might plug a few resource gaps too.</p>
+<p>For UR Finder, we need to learn more about whether the search features are working and meeting colleagues needs. Colleagues are optimistic and suspcious… sometimes Copilot has a great answer, other times it hallucinates like crazy.</p>
+<p>This has been an interesting a especially challenging project. I’m really very thankful for the regular and kind feedback from colleagues about my work. It has really helped me keep going!</p>
+<p>This was my favourite piece of feedback at our last team away day:</p>
+<p><em>“If Tom went missing: Innovation and management of tools for hundreds of colleagues across the digital arm of the NHS would experience and outage.</em> <em>Coordination of guidelines and the Centre of Expertise which is a tool used across the NHS would stagnate.</em></p>
+<p><em>The User Research profession would lose a key support not only in the form of key knowledge and expertise, but also in projects like the UR Lab, Champions network and UR Finder which has the potential to change the landscape of user research across the organisation benefitting every service area.”</em></p>
+<p>Hope this post is helpful for some team, would love to hear any feedback!!!</p>
+<p>Tom</p>
+<p><br></p>
+<hr>
+<p><br></p>
+</section>
+<section id="technical-annex" class="level1">
+<h1>Technical annex</h1>
+<section id="tips-for-building-products-or-tools-that-integrate-with-aillms" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-building-products-or-tools-that-integrate-with-aillms">Tips for building products or tools that integrate with AI/LLMs</h2>
+<ul>
+<li><p>Be Agile: Reduce your scope, the MVP you can actually build, maybe not the Most Useful Thing for your end users. As your team learn more, and get more buy in, then increase the scope.</p></li>
+<li><p>Listen: Do regular research. Share early and often with your team and stakeholders. Getting feedback is critical for improving the service.</p></li>
+<li><p>Data Data: Think like a data scientist and work like a data engineer:</p>
+<ul>
+<li>Plan out the system architecture and data flows</li>
+<li>Build in the information governance processes</li>
+<li>Consider security - what type of data, where is data stored, who has access to it</li>
+<li>Use some version control and create backups</li>
+<li>Test and learn, avoid making too many changes at once.</li>
+<li>Test your prompts with lots of different inputs.</li>
+<li>Create a test pack covering happy paths and edge cases. Check things work every day.</li>
+<li>Expect things to break, have a recovery plan.</li>
+</ul></li>
+<li><p>Don’t forget, Copilot is also your handy assistant!</p>
+<ul>
+<li>Can you help me plan a new workflow?</li>
+<li>Can you create some test data?</li>
+<li>Can you add this new feature, or review this PowerFX code?</li>
+</ul></li>
+<li><p>Have fun - while this is a challenging space to work in, when the solution works it is really rewarding to hear positive feedback.</p></li>
+</ul>
+<p><br></p>
+</section>
+<section id="summary-of-powerplatform-environment-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-powerplatform-environment-challenges">Summary of PowerPlatform environment challenges</h2>
+<ul>
+<li>PowerPlatform - kind of works, can be slow and clunky at times</li>
+<li>PowerFX - steep learning curve - not low code, actual code!</li>
+<li>Where to ask for technical support, or advise on best architecture</li>
+<li>Licenses requests for PowerApps/Power Automate, typically take weeks / months</li>
+<li>Environment management is painful - raise a ticket for each issue</li>
+<li>Many features are not enabled by default (so many)</li>
+<li>Features may break without warning</li>
+<li>New features may deprecated without warning</li>
+<li>Inaccessible (non-WCAG compliant) frontends (PowerApps and PowerBI)</li>
+<li>Unclear billing models (what is a Builder Credit?)</li>
+</ul>
+<p><br></p>
+</section>
+<section id="set-up-the-environment-dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="set-up-the-environment-dependencies">Set up the environment (Dependencies)</h2>
+<ul>
+<li>SharePoint Site (including full admin access) and a document library (or List) in Sharepoint (for storing data)
+<ul>
+<li>Note, within Sharepoint there is ‘Modern’ and ‘Classic’ experience, depending on the site settings things might look (and function) differently</li>
+</ul></li>
+<li>PowerApps / PowerAutomate Premium licenses (for building Premium Workflows)</li>
+<li>OneDrive for Business Premium Connector (if processing PowerPoint files)</li>
+<li>Copilot Studio licenses (if creating chat bot)</li>
+<li>PowerPlatform Environment admin/config:
+<ul>
+<li>Must be Dataverse-enabled so that AI Builder works</li>
+<li>AI Builder Credits enabled / Credits Allocated in ‘Capacity’ admin page</li>
+<li>“CopilotStudioEarlyAccessPolicy” should be enabled to allow Copilot to connect to PowerAutomate</li>
+<li>Request admin change the Publishing setting, so Copilot can be deployed into Teams and Sharepoint</li>
+<li>Change Data-Loss Prevention settings:
+<ul>
+<li>(DLP) Allow Copilot can connect to your Sharepoint and/or Dataverse</li>
+<li>(DLP) Sharing of “Copilot Tools” needs to be enabled</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Optionally:</p>
+<ul>
+<li>Request the Shared_Sendmail API is enabled, if you want to send email confirmation messages</li>
+<li>Dataverse Premium Connectors (if workflow checks for changes)</li>
+<li>If you use Dataverse for storage and want to create custom pages in a ModelApp, request “Code” tab is enabled with the “Power Apps Component Framework (PCF)”</li>
+<li>PowerBI Premium licenses (if creating dashboards and you want colleagues to be able to view it)</li>
+<li>If your workflow triggers after an MS Form submission: (DLP) ‘Shared_microsoftforms’ and ‘shared_uiflow’ need enabling</li>
+<li>If you are using PowerAutomate Desktop Flows for anything, (DLP) ‘Shared_uiflow’ needs enabling</li>
+</ul>
+<p><br></p>
+</section>
+<section id="copilot-settings-generative-response-settings" class="level2">
+<h2 class="anchored" data-anchor-id="copilot-settings-generative-response-settings">Copilot Settings / Generative response settings</h2>
+<p>Some settings needed to be adjusted for our UR Finder Copilot to return appropriate responses:</p>
+<ul>
+<li>Use 4.1 GPT model. The (mini) fast and cheap, but less accurate</li>
+<li>Disable internet Search</li>
+<li>Source: Set document library as source</li>
+<li>Disable Tenant Graph - stops Copilot searching for related (and often random) documents people shared</li>
+<li>Content moderation settings ‘High’ - less hallucination</li>
+<li>Disable Code - saving credits, the agent doesn’t need that feature</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
