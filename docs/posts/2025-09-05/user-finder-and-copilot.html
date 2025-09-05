@@ -211,7 +211,7 @@ cookieconsent.run({
 <section id="ai-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="ai-landscape">AI Landscape</h2>
 <p>Things have been changing, really fast. The <a href="https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government" class="external" target="_blank">Gov.uk AI Playbook</a> was published February this year, it is due to be refreshed (again) soon. Our project was featured in the Playbook!</p>
-<p>The National Copilot Evaluation Programme started a few months ago, Copilot chat and Microsoft apps with Copilot started rolling out to thousands of NHS colleagues and teams. Then there are the new Copilot Cafes and Ambassador Network - pushing AI as concept, and upskilling teams.</p>
+<p>The National Copilot Evaluation Programme started a few months ago, Copilot chat and Microsoft apps with Copilot started rolling out to thousands of NHS colleagues and teams. Then there are the new Copilot Cafes and Ambassador Network - pushing AI as a concept, and upskilling teams.</p>
 <p>Everyone has suddenly acquired new superpowers, whether writing and proof reading, reviewing data, presenting in song, vibe coding, or whatever they want they can do it. There has been a mix of excitement and horror.</p>
 <p>Many departments have also been toying with AI tools for research, design and data processing. Though everyone is questioning everyone else… “can we use these tools or not?”. New guidance has been drawn up based on fears, dividing opinions, pushing AI usage into the shadow realms.</p>
 <p>Then there has been the “Copilot Studio” Pilot project. Multiple teams across the business pitched various ideas and tools, including Compliance Checkers, HR chatbots, data workflows tools, document reviewers, email responders. One team pitched a fully-automated research interview analysis tool. We pitched our ideas too: they were well received and we had approval to start building two agents.</p>
@@ -361,7 +361,7 @@ cookieconsent.run({
 <p><br></p>
 <section id="challenge-5---things-start-to-get-rather-messy" class="level2">
 <h2 class="anchored" data-anchor-id="challenge-5---things-start-to-get-rather-messy">Challenge 5 - Things start to get rather messy</h2>
-<p>PowerAutomate can do some great things, but it can really move away from being a low-code drag and drop, into being full-code with PowerFX and lots of variables, identifiers, scopes, condtions and settings.</p>
+<p>PowerAutomate can do some great things, but it can really move away from being a low-code drag and drop, into being full-code with PowerFX and lots of variables, identifiers, scopes, conditions and settings.</p>
 <p>Eventually, after much persistence, I got the workflow to process two file types, Word and PDF docs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -369,7 +369,7 @@ cookieconsent.run({
 <figcaption>PowerAutomate Workflow Madness</figcaption>
 </figure>
 </div>
-<p>It took patience and exploration to understand what was happening across the whole PowerAutomate solution. To see the bigger picture, I documented our workflow on Mural. This help with adding notes, feedback and identifying opportunities to improve the structures of the workflow.</p>
+<p>It took patience and exploration to understand what was happening across the whole PowerAutomate solution. To see the bigger picture, I documented our workflow on Mural. This helped with adding notes, feedback and identifying opportunities to simplify the workflow structure.</p>
 <p><br></p>
 </section>
 <section id="challenge-6---file-type-not-supported" class="level2">
@@ -381,21 +381,25 @@ cookieconsent.run({
 <figcaption>Convert a PowerPoint to PDF</figcaption>
 </figure>
 </div>
-<p>The messy workaround is using your OneDrive for Business workflow to convert the PPT to PDF, then delete the PowerPoint file and restart the workflow. Thanks to Rob on the X-gov Slack #PowerPlatform channel for help with this.</p>
+<p>The messy workaround is using your OneDrive for Business workflow to convert the PPT to PDF in a temporary folder, then delete the PowerPoint file and restart the workflow. Thanks to Rob on the X-gov Slack #PowerPlatform channel for help with this.</p>
 <p><br></p>
 </section>
 </section>
 <section id="success-it-actually-works" class="level1">
 <h1>Success, it actually works!</h1>
-<p>After what seemed like days of trial and error, the solution worked extracting data from PDF, Word and PowerPoint reports.</p>
+<p>After what seemed like days of trial and error, the solution worked extracting data from PDF, Word and PowerPoint reports!</p>
 <p>At this point, I uploaded our data test pack and what I saw was quite amazing.</p>
 <p>Hundreds of documents were being processed in batches, simultaneously, the AI summarised 160 research reports in just 5 minutes (quicker than making a decent brew!)</p>
-<p>With the upload now working, we started testing all this with colleagues. Many thanks to Laura who organised and facilitated the research sessions, we got some really useful feedback which will help iterate on the solution.</p>
+<p>With the upload now working, we started testing this with colleagues. Many thanks to Laura who organised and facilitated the research sessions, we got some really useful feedback which will help iterate on the solution.</p>
 <p><br></p>
 <section id="challenge-7---finding-insights" class="level2">
 <h2 class="anchored" data-anchor-id="challenge-7---finding-insights">Challenge 7 - Finding insights</h2>
 <p>Then we moved to testing the quality of Copilot’s responses to typical queries, for example:</p>
-<p>“What do you know about NHS appointment booking?” “Find me the last three reports uploaded” “Return a list of documents about the NHS App”</p>
+<ul>
+<li>“What do you know about NHS appointment booking?”</li>
+<li>“Find me the last three reports uploaded”</li>
+<li>“Return a list of documents about the NHS App”</li>
+</ul>
 <p>Once we started reviewing Copilot’s responses, often the answers just didn’t make sense.</p>
 <ul>
 <li>It returned data that didn’t exist - hallucinations</li>
@@ -415,14 +419,14 @@ cookieconsent.run({
 </section>
 <section id="challenge-8---pin-down-the-search-results" class="level2">
 <h2 class="anchored" data-anchor-id="challenge-8---pin-down-the-search-results">Challenge 8 - Pin down the search results</h2>
-<p>We tested both the out of the box SharePoint Agent, as well as the Copilot version. Both provided different answers to the same question, which was curious. The Sharepoint Agent worked ok - it could find a relevant document and extract and summarise findings.</p>
+<p>We tested both the out of the box SharePoint Agent, as well as the Copilot version. Both provided different answers to the same question, which was curious. The Sharepoint Agent worked ok - it could find a relevant documents and extract and summarise findings.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="CopilotSearchAndRetrieval.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="Sharepoint Agent vs. Copilot for searching"></p>
 <figcaption>Sharepoint Agent vs.&nbsp;Copilot for searching</figcaption>
 </figure>
 </div>
-<p>Changes were needed in the Agent Description and Instructions (response rules) to improve how the Copilot generally ‘behaved’.</p>
+<p>Changes were needed in Copilot’s Description and Instructions (response rules) to improve how it generally ‘behaved’.</p>
 <p>Also within the Topic interface, I made many changes to data sources and settings (see technical annex), so our generative responses would return only data from the specified Library.</p>
 <p><br></p>
 </section>

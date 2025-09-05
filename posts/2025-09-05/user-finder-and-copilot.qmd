@@ -22,7 +22,7 @@ Hopefully this will help departments or teams who are trying to deploy something
 
 Things have been changing, really fast. The [Gov.uk AI Playbook](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government){.external target="_blank"} was published February this year, it is due to be refreshed (again) soon. Our project was featured in the Playbook!
 
-The National Copilot Evaluation Programme started a few months ago, Copilot chat and Microsoft apps with Copilot started rolling out to thousands of NHS colleagues and teams. Then there are the new Copilot Cafes and Ambassador Network - pushing AI as concept, and upskilling teams. 
+The National Copilot Evaluation Programme started a few months ago, Copilot chat and Microsoft apps with Copilot started rolling out to thousands of NHS colleagues and teams. Then there are the new Copilot Cafes and Ambassador Network - pushing AI as a concept, and upskilling teams. 
 
 Everyone has suddenly acquired new superpowers, whether writing and proof reading, reviewing data, presenting in song, vibe coding, or whatever they want they can do it. There has been a mix of excitement and horror.
 
@@ -175,13 +175,13 @@ Once the basic upload process worked, we made lots of small adjustments in Promp
 
 ## Challenge 5 - Things start to get rather messy
 
-PowerAutomate can do some great things, but it can really move away from being a low-code drag and drop, into being full-code with PowerFX and lots of variables, identifiers, scopes, condtions and settings.
+PowerAutomate can do some great things, but it can really move away from being a low-code drag and drop, into being full-code with PowerFX and lots of variables, identifiers, scopes, conditions and settings.
 
 Eventually, after much persistence, I got the workflow to process two file types, Word and PDF docs.
 
 ![PowerAutomate Workflow Madness](AutomateArchitecture.png){.external fig-alt="A complex PowerAutomate workflow showing how the tool processes multiple different file types and sends them for analysis." fig-align=center width=700px}
 
-It took patience and exploration to understand what was happening across the whole PowerAutomate solution. To see the bigger picture, I documented our workflow on Mural. This help with adding notes, feedback and identifying opportunities to improve the structures of the workflow.
+It took patience and exploration to understand what was happening across the whole PowerAutomate solution. To see the bigger picture, I documented our workflow on Mural. This helped with adding notes, feedback and identifying opportunities to simplify the workflow structure.
 
 <br>
 
@@ -191,19 +191,19 @@ PowerAutomate can't convert PowerPoint files into PDF, or directly extract the c
 
 ![Convert a PowerPoint to PDF](AutomateConvertFile.png){.external fig-alt="PowerAutomate can't convert PowerPoint to PDF" fig-align=center width=400px}
 
-The messy workaround is using your OneDrive for Business workflow to convert the PPT to PDF, then delete the PowerPoint file and restart the workflow. Thanks to Rob on the X-gov Slack #PowerPlatform channel for help with this.
+The messy workaround is using your OneDrive for Business workflow to convert the PPT to PDF in a temporary folder, then delete the PowerPoint file and restart the workflow. Thanks to Rob on the X-gov Slack #PowerPlatform channel for help with this.
 
 <br>
 
 # Success, it actually works!
 
-After what seemed like days of trial and error, the solution worked extracting data from PDF, Word and PowerPoint reports.
+After what seemed like days of trial and error, the solution worked extracting data from PDF, Word and PowerPoint reports!
 
 At this point, I uploaded our data test pack and what I saw was quite amazing. 
 
 Hundreds of documents were being processed in batches, simultaneously, the AI summarised 160 research reports in just 5 minutes (quicker than making a decent brew!) 
 
-With the upload now working, we started testing all this with colleagues. Many thanks to Laura who organised and facilitated the research sessions, we got some really useful feedback which will help iterate on the solution.
+With the upload now working, we started testing this with colleagues. Many thanks to Laura who organised and facilitated the research sessions, we got some really useful feedback which will help iterate on the solution.
 
 <br>
 
@@ -211,9 +211,9 @@ With the upload now working, we started testing all this with colleagues. Many t
 
 Then we moved to testing the quality of Copilot's responses to typical queries, for example: 
 
-"What do you know about NHS appointment booking?" 
-"Find me the last three reports uploaded"
-"Return a list of documents about the NHS App"
+* "What do you know about NHS appointment booking?" 
+* "Find me the last three reports uploaded"
+* "Return a list of documents about the NHS App"
 
 Once we started reviewing Copilot's responses, often the answers just didn't make sense. 
 
@@ -230,11 +230,11 @@ Once we started reviewing Copilot's responses, often the answers just didn't mak
 
 ## Challenge 8 - Pin down the search results
 
-We tested both the out of the box SharePoint Agent, as well as the Copilot version. Both provided different answers to the same question, which was curious. The Sharepoint Agent worked ok - it could find a relevant document and extract and summarise findings.
+We tested both the out of the box SharePoint Agent, as well as the Copilot version. Both provided different answers to the same question, which was curious. The Sharepoint Agent worked ok - it could find a relevant documents and extract and summarise findings.
 
 ![Sharepoint Agent vs. Copilot for searching](CopilotSearchAndRetrieval.png){.external fig-alt="Sharepoint Agent vs. Copilot for searching" fig-align=center}
 
-Changes were needed in the Agent Description and Instructions (response rules) to improve how the Copilot generally 'behaved'.
+Changes were needed in Copilot's Description and Instructions (response rules) to improve how it generally 'behaved'.
 
 Also within the Topic interface, I made many changes to data sources and settings (see technical annex), so our generative responses would return only data from the specified Library.
 
