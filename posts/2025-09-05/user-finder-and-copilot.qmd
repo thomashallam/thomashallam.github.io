@@ -43,21 +43,21 @@ Recently, Google also launched their AI-Mode, while OpenAI launched GPT-5. All t
 
 Those who have followed my [blog posts about UR Finder](https://thomashallam.github.io/#category=Research%20Repo) will know this project has been a persistent challenge. Dating back to 2018 NHS teams started looking into research repositories... after much discovery... a basic spreadsheet was deemed sufficient. Since then, teams have tried everything and more, but nothing sticks: SharePoint, Confluence, Jira, Optimal, Dovetail, etc. 
 
-In the last three years alone, we've had three more attempts at a cracking the research repository. 
+In the last three years alone, we've had three more attempts at cracking the research repository. 
 
 "Prototypes" were created by:
 
-1. Normally, a specialist agency, built a bespoke website (integrated with OpenAI), 
-2. Microsoft, built a PowerApps service (integrated with AzureAI), and 
-3. NHSE UCD Team, we are now building a prototype with Microsoft Copilot Studio. 
+1. Normally, a specialist agency, who built a bespoke website (integrated with OpenAI), 
+2. Microsoft, who built a PowerApps service (integrated with AzureAI), and 
+3. NHSE UCD Team - we are now building a prototype with Microsoft Copilot Studio. 
 
-Why so many iterations you ask? Well the tech/environment keep changing, usually before we can rollout a thing that works.
+Why so many iterations you ask? Well the tech/environment keeps changing, usually before we can rollout a thing that works.
 
 In the last two version we aimed for a like-for-like migration: 
 
 ![Previous iterations of User Research Finder](UserResearchFinder.png){.external fig-alt="Screenshots of last two User Research finder projects" fig-align=center width=700px}
 
-We've already had PowerPlatform in the NHS for years, but usage never took off. As you can see, the frontend was very similar (albeit slightly clunky in PowerApps).
+We've had PowerPlatforms in the NHS for years, but usage never took off. As you can see, the frontend was very similar (albeit slightly clunky in PowerApps).
 
 ![Website vs. PowerApps](ShareUserResearch.png){.external fig-alt="Share user research - looks suspiciously similar" fig-align=center width=700px}
 
@@ -70,7 +70,7 @@ For example, teams with a service desk or a shared inbox, might instead use chat
 
 ## What problem are we trying to solve?
 
-There is a significant number of Services, Products and teams across the NHS. Many of these teams have researchers, deisgners and product managers who require research insights to inform their Strategy and Roadmaps.
+There are a significant number of Services, Products and teams across the NHS. Many of these teams have researchers, designers and product managers who require research insights to inform their Strategy and Roadmaps.
 
 Conducting primary (new) research is often seen as risk, we often hear: 
 
@@ -80,7 +80,7 @@ Conducting primary (new) research is often seen as risk, we often hear:
 
 Teams may then deprioritise research and try to learn from speaking to other teams in this space. However finding those relevant teams, finding research is time consuming. It often falls to emailing, or Slack posting and hoping someone replies. Teams often just give up and work with increased risks, planning and designing around assumptions.
 
-On many occassions, teams loose key insights and organisation memory when people leave. Some teams try to avoid this by creating a local 'repository', but other teams cannot browse the info. These firewalls between teams leads to duplicated research, design and delivery. The risk is shipping services, products and features that we know don't work. 
+On many occassions, teams lose key insights and organisation memory when people leave. Some teams try to avoid this by creating a local 'repository', but other teams cannot browse the info. These firewalls between teams leads to duplicated research, design and delivery. The risk is shipping services, products and features that we know don't work. 
 
 A good research repository reduces risks and can save the NHS millions every year.
 
@@ -137,7 +137,7 @@ Solution: Eventually, after testing all three options, I decided Sharepoint Docu
 
 # Challenge 2 - Bugs
 
-Only a few days into the build there was a bug, which Microsoft didn't fix, so it was broken. Apparently a new file processing capabilities would be landing soon, but for our pilot we had to look for more reliable options than Copilot as we had a limited time window to build something.
+Only a few days into the build there was a bug, which Microsoft didn't fix, so it was broken. Apparently a new file processing capability would be landing soon, but for our pilot we had to look for more reliable options than Copilot as we had a limited time window to build something.
 
 *Side-note the new file management feature is available in Copilot (maybe US-Region?)*
 
@@ -220,7 +220,7 @@ Once we started reviewing Copilot's responses, often the answers just didn't mak
 * It returned data that didn't exist - hallucinations
 * It generated links to documents that didn't exist
 * It provided health advice on queries about conditions
-* Sometimes the agent take many minutes to reply, other time it would be instant
+* Sometimes the agent would take many minutes to reply, other times it would be instant
 * Sometimes it would get confused, 'crash', or refuse to answer the question
 * On other times, it would answer then suddenly delete the response
 
@@ -288,14 +288,14 @@ Senior stakeholders at NHSE have fed back that they 'chatted to the research Cop
 
 We also presented to GDS (DSIT) team, who were really excited and had great feedback and questions. What are the KPIs? For us it is improve findability of research, as well as reduced duplication of projects. Their team are keen to experiment with Copilot Studio too, with a particuar interest in summarising findings into themes (presumably done manually). 
 
-Our UR finder link has also been shared with a colleague in policy who needed to access evidence, their feedback was encouraging too: 'This is an amazing resource, I've just spent a few mins using the finder and it has come up with some really great docs."
+Our UR finder link has also been shared with a colleague in policy who needed to access evidence, their feedback was encouraging too: "This is an amazing resource, I've just spent a few mins using the finder and it has come up with some really great docs."
 
 
 <br>
 
 # What next? 
 
-There is much more to do around AI usage at NHS England, particularly improving policies, guidance and adoption levels. It feels like some colleagues are on the fence about AI, with many AI sceptics / ethicists (rightly) raising concerns too. 
+There is much more to do around AI usage at NHS England, particularly improving policies, guidance and adoption levels. It feels like some colleagues are on the fence about AI, with many AI sceptics,ethicists and environmentalists (rightly) raising concerns too. 
 
 My view is that we don't have nearly enough data scientists, AI practictioners (or technical experts) inhouse. Personally, I'm trying not to get left behind. Things are changing so fast - learning about all these new tools and how they work is important. Teams risk ending up depedendent on suppliers where no one knows how their AI process works, or how your data is being processed.
 
