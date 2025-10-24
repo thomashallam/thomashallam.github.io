@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.543">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tom Hallam">
+<meta name="dcterms.date" content="2025-10-24">
+
+<title>User Research, User-Centred Design, User Experience - LauraBot: AI-Analysis Experiment</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EMB22EEKPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EMB22EEKPF', { 'anonymize_ip': false});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">User Research, User-Centred Design, User Experience</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Tom’s blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Hello</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources/links.html"> 
+<span class="menu-text">Useful links</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thomashallam"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/thomashallam"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">LauraBot: AI-Analysis Experiment</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Research Operations</div>
+    <div class="quarto-category">Research Repo</div>
+    <div class="quarto-category">Tools</div>
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">Capability</div>
+    <div class="quarto-category">Data</div>
+    <div class="quarto-category">User Research</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tom Hallam </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 24, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-problem-to-solve" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-to-solve"><strong>The problem to solve</strong></h2>
+<p>User Researcher is a team sport. Currently our UCD teams manually analyse every interview, workshop, focus group, site visit, etc.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="muralnotes.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="How we capture research insights manually using a tool called mural" width="1200"></p>
+<figcaption>Here is a typical User Research note taking board</figcaption>
+</figure>
+</div>
+<p>It can take multiple staff, multiple days of notetaking and analysis to get to a finished insight product (slide deck, research report, etc.)</p>
+<p>In the 2025 operating context, many teams are reporting that it is unsustainable and they need to find ways to reduce the time spent on research, time analysing and re-analysing interview data.</p>
+<p>There are several well-known bespoke platforms that can support with these tasks… we’ve seen more teams requesting access to these.</p>
+<p>However these tools often have blockers like:</p>
+<ul>
+<li>steep learning curves,</li>
+<li>taking a long time to implement,</li>
+<li>not meeting our standards (IG, Accessibility, Security),</li>
+<li>or just costing way to much.</li>
+</ul>
+<p><br></p>
+<section id="the-opportunity" class="level3">
+<h3 class="anchored" data-anchor-id="the-opportunity">The opportunity</h3>
+<p>This month I’ve been experimenting further with the AI tools we have in house. To see how far we can push along the process of ‘automating’ researcher notes and transcription analysis.</p>
+<p>Many colleague are skeptical. Rightly so. This is a time consuming and complex task doing it manually.</p>
+<p>With all the quality checks we conduct, how can an AI tool possibly to this?</p>
+<p>Here are some of the user needs that were identified:</p>
+<ul>
+<li>As a researcher, I need to anonymise and store transcripts, so these can be used for analysis and reporting</li>
+<li>As a researcher, I need to tag quotes within transcripts, so that these can be included in the final report</li>
+<li>As a researcher, I need to manage and search tags across all projects, so that I can see trends and track changes over time</li>
+<li>As a researcher, I need to link quotes and tags to video clips, so that I can shows video of usability issues or insights to our team</li>
+<li>As a research ops team, I need to store participant records, so these can be tracked for auditing purposes</li>
+</ul>
+<p><br></p>
+<hr>
+</section>
+</section>
+<section id="lets-build-the-thing" class="level2">
+<h2 class="anchored" data-anchor-id="lets-build-the-thing"><strong>Lets build the thing</strong></h2>
+<p>For this experiment, we used the secure MS Environments (Azure AI Builder, PowerAutomate and Dataverse). We descoped video and audio editing for now and focus on text-based transcripts.</p>
+<p>The goal was to test summarisation of multiple research interviews (transcripts) and understand:</p>
+<ul>
+<li>Whether out of the box tools work?</li>
+<li>How much customisation is required?</li>
+<li>Is it a 1-step proces, or does it need multiple stages?</li>
+<li>Can we store the structured data for reference? (e.g.&nbsp;a quotes library?)</li>
+<li>How is this better than Copilot chat?</li>
+<li>Is it a scalable solution?</li>
+</ul>
+<p><br></p>
+<section id="note-on-information-governance-and-environment-dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="note-on-information-governance-and-environment-dependencies">Note on information governance and environment dependencies</h3>
+<p>Before we talk about the implementation, a concern that our researchers have is, can we use this tool? We’ve been told not to upload Personal Data or any transcripts into any AI tools yet!</p>
+<p>I spent hours looking into the Microsoft Term &amp; Conditions for Copilot, Power Platform and other MS AI Tools. The data is being processed inside the NHS tenant. It doesn’t get stored by MS for training their LLMs.</p>
+<p>So whether you are using Copilot in Word/Excel, ClipChamp or Copilot Studio - it all work in the same way. If you ask data to be summarised, or if data is automatically summarised (MS Word, MS Teams, ClipChamp), our data is secure and not being stored by Microsoft for training purposes.</p>
+<p>With Dataverse &amp; PowerAutomate a third-party team manage environments: we have to assume permissions are set correctly by admins, and only necessary staff have the Role-Based-Access enabled to our research data.</p>
+<hr>
+<p><br></p>
+</section>
+<section id="summary-of-end-to-end-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="summary-of-end-to-end-workflow">Summary of end-to-end Workflow</h3>
+<ol type="1">
+<li><a href="#upload-folder-with-transcripts">Upload folder with transcripts</a></li>
+<li><a href="#categorise-participant-data">Categorise participant data</a></li>
+<li><a href="#anonymise-transcipt">Anonymise transcipt</a></li>
+<li><a href="#summarise-transcript">Summarise transcript</a></li>
+<li><a href="#extract-quotes-and-tag">Extract quotes and tag</a></li>
+<li><a href="#build-report">Build report</a></li>
+</ol>
+<hr>
+<section id="upload-folder-with-transcripts" class="level4">
+<h4 class="anchored" data-anchor-id="upload-folder-with-transcripts">1. Upload folder with transcripts</h4>
+<p>As most of the researchers won’t (currently) have premium Automate or Copilot, during the experiment, this is run through Sharepoint folder.</p>
+<ul>
+<li>A researcher uploads a folder with completed transcripts for analysis,</li>
+<li>A project is then created in Dataverse,</li>
+<li>Each transcript is converted from docs into data.</li>
+</ul>
+<p>The main challenge here was identifying the folder, then looping through all the files, and saving it into Dataverse, linking our Project to multiple Interviews, using nested tables.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="1FolderAndTranscriptstoDV.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Workflow 1</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="categorise-participant-data" class="level4">
+<h4 class="anchored" data-anchor-id="categorise-participant-data">2. Categorise participant data</h4>
+<p>Next I created a workflow and new prompt to summarise the transcript, as well as categories a collection of data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="2ReviewTranscriptAddParticipant.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Review transcript workflow</figcaption>
+</figure>
+</div>
+<p>This included:</p>
+<ul>
+<li>a summary of the research session - date, time, moderator names</li>
+<li>details for each participant, including: protected characteristics, personal identifiable data</li>
+<li>creation of unique participant numbers</li>
+</ul>
+<p>The biggest challenges were:</p>
+<ul>
+<li>it took many many iterations to find a way to tag the wide varierty of data within a single prompt. It took a lot of research and persistence to get this to work.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="FailureFlows.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Screenshot of"></p>
+<figcaption>It just takes persistence</figcaption>
+</figure>
+</div>
+<ul>
+<li>adding a status column to detect new transcripts, then change status after the workflow is completed</li>
+<li>returning outputs in a suitable json format</li>
+<li>categorising data correctly in json results, so they could be stored in category datatype fields</li>
+</ul>
+<p>A useful trick was calculating from the Dataverse participant table the highest participant number, then generating new participant numbers based to ensure no duplications</p>
+<p>In summary, it was possible to catalogue all the Personal Identifiable Data in the transcript and store this directly within the Dataverse environment.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="PIDCheck.jpg" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Detect and remove personal data</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="2AddParticipantRow.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Add participant to dataverse rows</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="anonymise-transcipt" class="level4">
+<h4 class="anchored" data-anchor-id="anonymise-transcipt">3. Anonymise transcipt</h4>
+<p>Additional to identifying PID data, we wanted to ensure all of this was removed ahead of creating any tags or report summaries.</p>
+<p>I updated the previous workflow to include a fully-anonymised transcript appended within the json data result</p>
+<p>Then within Dataverse, the original transcript (with PID) is removed, and the anonymous transcript added to a new field</p>
+<p>The status tag is also updated again to reflect that it is done.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="3UpdateTranscriptRedact.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Update Transcript with redacted data</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="summarise-transcript" class="level4">
+<h4 class="anchored" data-anchor-id="summarise-transcript">4. Summarise transcript</h4>
+<p>After anonymising the transcript, a separate Prompt was uses to create a summary for each transcript. This included, high level findigns, usability issues, demographic insights, recommendations.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="TranscriptSummary.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Evaluate and summarise</figcaption>
+</figure>
+</div>
+<p>This step may or may not be required, but I wanted to experiment whether the final report was more accurate with or without previously summarised individual transcipts.</p>
+<p>Another question that keeps coming up… is how much does this AI cost to use? By splitting the activity into many prompts and steps, we have more control of how AI processes data, but are using a lot of “AI Builder Credits”.</p>
+<p>We’ll need to experiment further with how does this compare to running the same activity within Copilot? and who picks up the cost for using either of these solutions?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AIBuilderCredits.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Screenshot of Azure AI Builder credits - what does this mean? costs?"></p>
+<figcaption>AI Builder Credits</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="extract-quotes-and-tag" class="level4">
+<h4 class="anchored" data-anchor-id="extract-quotes-and-tag">5. Extract quotes and tag</h4>
+<p>I did test sending the Summarised results directly to a final prompt and asking for a summary. The results were quite good, but there wasn’t any way to tell how the AI had decided to categories the data in doing this. It also meant that one of the key requirements a ‘tag library’ would be missing.</p>
+<p>To address this, I added an additional stag into the workflow to look through each anonymised transcript, consider each sentence from the participant, whether it was sufficient to be classed as a ‘quote’. Then to categories it.</p>
+<p>This inclduded a sentiment score / whether it was a Positive comment, Pain Point, Idea, or User need. The workflow would loop through every quote and add them to the dataverse table, linked back to the participant ID and also the Interview.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="5ExtractTags.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Flow to extract tags"></p>
+<figcaption>Extract Tags workflow</figcaption>
+</figure>
+</div>
+<p>This took much trial and error, but in principle it worked.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="5ExtractTagPrompt.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Prompt to extract tags"></p>
+<figcaption>Extract Tags prompt</figcaption>
+</figure>
+</div>
+<p>As this was only an experiment, I didn’t spent too long reviewing the accuracy of the tagging process, it does need some iteration and feedback.</p>
+<p>There are lots of opportunities here.</p>
+<p>It would be possible to build a front end for the tag library, or to export all the tags to a spreadsheet, or upload all the tags to a Sharepoint List, instead of having them just within the Dataverse backend.</p>
+<p>If the tagging was refined and super-accurate… dare I say you could automate the final report as well when all the tags have been created.</p>
+<p><br></p>
+</section>
+<section id="build-report" class="level4">
+<h4 class="anchored" data-anchor-id="build-report">6. Build report</h4>
+<p>Finally (and this was by far the most challenging bit),</p>
+<p>I created a workflow that checks when all a ‘CreateReport’ status (is added) in the dataverse project column.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="6BuildReport.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Build report, using participants tags and summary data</figcaption>
+</figure>
+</div>
+<p>This workflow then aggregates all the thematic quotes, sentiment scores, participant numbers, participant demographics, anonymised inteview summaries for all inteviews in the project.</p>
+<p>This is sent as a single text blob into the prompt:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="6Prompt.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Bring all the data that has been categorised back as a single prompt</figcaption>
+</figure>
+</div>
+<p>This prompt returns:</p>
+<ul>
+<li>categorised headings which are output in a branded Word templates</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AIReporting.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Screenshot of completed report"></p>
+<figcaption>Research findings report compiled by AI</figcaption>
+</figure>
+</div>
+<p>The final report, <em>seemed</em> both accurate and comprehensive. The report included:</p>
+<ul>
+<li>Executive summary</li>
+<li>Themes</li>
+<li>Notable quotes</li>
+<li>Demographic insights</li>
+<li>Usability issues</li>
+<li>Recommendations</li>
+</ul>
+<p><br></p>
+</section>
+</section>
+</section>
+<section id="succcess" class="level2">
+<h2 class="anchored" data-anchor-id="succcess">Succcess</h2>
+<p>The experiment shows it is possible to conduct research analysis in PowerPlatform in a secure and consistent way.</p>
+<p>It needs testing with a wider variety of projects and transcripts, but initially it seems quite promising?</p>
+<p>There are many bigger questions like: is dataverse worth the effort? vs.&nbsp;uploading docs diretly ot Copilot chat and asking for summary.</p>
+<p>For now yes, it creates a standard workflow. But maybe not in the future if Copilot improves?</p>
+<p><br></p>
+<section id="questions-to-explore" class="level3">
+<h3 class="anchored" data-anchor-id="questions-to-explore">Questions to explore</h3>
+<p><strong>Research</strong></p>
+<ul>
+<li>Is the output good enough that it is actually useful? Or are teams best analysing and reporting manually?</li>
+<li>Is the Report output better quality with a step-by-step analysis process, vs.&nbsp;uploading transcripts directly and letting GPT create its own output?</li>
+<li>How do we evaluate if the output is accurate or biased?</li>
+</ul>
+<p><strong>UX</strong></p>
+<ul>
+<li>How do people access the Tag library? Do we need a frontend? Or everything done in Dataverse?</li>
+<li>Will a PowerApps frontend be possible? Or licensing subs required?</li>
+</ul>
+<p><strong>AI</strong></p>
+<ul>
+<li>Human-in the loops: how do we know when participant data and tagged data has been checked before it gets sent to produce a finished report?</li>
+<li>Is the Report output better quality when using Tagged data or Transcript Summaries?</li>
+<li>Benefits of centralising processes, vs.&nbsp;teams manage their own AI/data processing pipelines?</li>
+</ul>
+<p><strong>Technical</strong></p>
+<ul>
+<li>Obviously, creating a full end-to-end UR analysis workflow in Automate was very technical. This requires: training, qualifications, practice and access to all the right licenses and environments.</li>
+<li>Where can we get more technical / expert support?</li>
+<li>What are the storage limits on Dataverse? How quickly will that be reached? Then what?</li>
+<li>How can we manage costs? Charges in Messages / but no clear pricing model.</li>
+<li>Can we keep PID data in Dataverse. Is our Dataverse environment secure?</li>
+<li>Overcoming many technical blockers while developing new tools on Dataverse.</li>
+<li>Resilience. Some of these challenges took days of thinking through to resolve. <a href="https://www.youtube.com/watch?v=TLqDGUQ2uh4" class="external" target="_blank">This video really helped</a></li>
+</ul>
+<p><br></p>
+</section>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Overall, the LauraBot (AI analysis tool) is in early stages. pre-alpha.</p>
+<p>It was a challenging project, and it is encouraging that this is even possible to do this with these tools.</p>
+<p>Maybe with more iteration, we can create reusable templates or processes that enable teams to genuinely transform their approach to automating research insights?</p>
+<p>We are keen to test this with more transcripts… if teams have necessary consents and are happy to collaborate and provide quality input documents. There is still quite a bit of manual orchestration required to proces the workflow, it isn’t a simple drag-drop like UR-Finder (just yet).</p>
+<p>We’d love to hear your feedback on the LauraBot User Research analysis experiment!!</p>
+<p>Tom</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
