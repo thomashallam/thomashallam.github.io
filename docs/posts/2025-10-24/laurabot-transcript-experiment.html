@@ -211,7 +211,7 @@ cookieconsent.run({
 <p>User Researcher is a team sport. Currently our UCD teams manually analyse every interview, workshop, focus group, site visit, etc.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="muralnotes.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="How we capture research insights manually using a tool called mural" width="1200"></p>
+<p><img src="0muralnotes.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" alt="How we capture research insights manually using a tool called mural" width="1200"></p>
 <figcaption>Here is a typical User Research note taking board</figcaption>
 </figure>
 </div>
@@ -245,6 +245,7 @@ cookieconsent.run({
 </section>
 <section id="lets-build-the-thing" class="level2">
 <h2 class="anchored" data-anchor-id="lets-build-the-thing"><strong>Lets build the thing</strong></h2>
+<p>LauraBot, nicknamed after Laura in our team. Laura conducts top quality research and has been helping to evaluate our AI tools.</p>
 <p>For this experiment, we used the secure MS Environments (Azure AI Builder, PowerAutomate and Dataverse). We descoped video and audio editing for now and focus on text-based transcripts.</p>
 <p>The goal was to test summarisation of multiple research interviews (transcripts) and understand:</p>
 <ul>
@@ -288,7 +289,7 @@ cookieconsent.run({
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="1FolderAndTranscriptstoDV.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
-<figcaption>Workflow 1</figcaption>
+<figcaption>Experimental workflow to find new folders and convert transcripts into Dataverse rows</figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -305,7 +306,7 @@ cookieconsent.run({
 <p>This included:</p>
 <ul>
 <li>a summary of the research session - date, time, moderator names</li>
-<li>details for each participant, including: protected characteristics, personal identifiable data</li>
+<li>details for each participant, including categorising: protected characteristics, personal identifiable data</li>
 <li>creation of unique participant numbers</li>
 </ul>
 <p>The biggest challenges were:</p>
@@ -314,7 +315,7 @@ cookieconsent.run({
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="FailureFlows.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Screenshot of"></p>
+<p><img src="2FailureFlows.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Screenshot of"></p>
 <figcaption>It just takes persistence</figcaption>
 </figure>
 </div>
@@ -323,11 +324,17 @@ cookieconsent.run({
 <li>returning outputs in a suitable json format</li>
 <li>categorising data correctly in json results, so they could be stored in category datatype fields</li>
 </ul>
-<p>A useful trick was calculating from the Dataverse participant table the highest participant number, then generating new participant numbers based to ensure no duplications</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="2RemovePidPrompt.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<figcaption>Remove PID Prompt workflow</figcaption>
+</figure>
+</div>
+<p>Another useful tip is to calculate the highest participant number, using the Dataverse participant table, then generating new participant numbers ensuring there is no duplications.</p>
 <p>In summary, it was possible to catalogue all the Personal Identifiable Data in the transcript and store this directly within the Dataverse environment.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="PIDCheck.jpg" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<p><img src="2PIDCheck.jpg" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
 <figcaption>Detect and remove personal data</figcaption>
 </figure>
 </div>
@@ -337,28 +344,35 @@ cookieconsent.run({
 <figcaption>Add participant to dataverse rows</figcaption>
 </figure>
 </div>
+<p>Note: need to be careful linking interviews to the correct project record using the Logical Name &amp; Schema Name (not to be confused!)</p>
 <p><br></p>
 </section>
 <section id="anonymise-transcipt" class="level4">
 <h4 class="anchored" data-anchor-id="anonymise-transcipt">3. Anonymise transcipt</h4>
-<p>Additional to identifying PID data, we wanted to ensure all of this was removed ahead of creating any tags or report summaries.</p>
+<p>After identifying PID data, I wanted to ensure all of this was removed ahead of creating any tags or report summaries.</p>
 <p>I updated the previous workflow to include a fully-anonymised transcript appended within the json data result</p>
-<p>Then within Dataverse, the original transcript (with PID) is removed, and the anonymous transcript added to a new field</p>
-<p>The status tag is also updated again to reflect that it is done.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="3UpdateTranscriptRedact.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
 <figcaption>Update Transcript with redacted data</figcaption>
 </figure>
 </div>
+<p>Then within Dataverse, the original transcript (with PID) is removed, and the anonymous transcript added to a new field</p>
+<p>The Processed status also updated to reflect that it is done and was ready for next stage.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="3TranscriptSummaries.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Dataverse table showing all the transcript summaries after processing"></p>
+<figcaption>Dataverse table showing all the transcript summaries after processing</figcaption>
+</figure>
+</div>
 <p><br></p>
 </section>
 <section id="summarise-transcript" class="level4">
 <h4 class="anchored" data-anchor-id="summarise-transcript">4. Summarise transcript</h4>
-<p>After anonymising the transcript, a separate Prompt was uses to create a summary for each transcript. This included, high level findigns, usability issues, demographic insights, recommendations.</p>
+<p>After anonymising the transcript, a separate Prompt was uses to create a summary for each transcript. This included: high level findings, usability issues, demographic insights, recommendations.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="TranscriptSummary.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+<p><img src="4TranscriptSummary.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
 <figcaption>Evaluate and summarise</figcaption>
 </figure>
 </div>
@@ -367,7 +381,7 @@ cookieconsent.run({
 <p>We’ll need to experiment further with how does this compare to running the same activity within Copilot? and who picks up the cost for using either of these solutions?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="AIBuilderCredits.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Screenshot of Azure AI Builder credits - what does this mean? costs?"></p>
+<p><img src="4AIBuilderCredits.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Screenshot of Azure AI Builder credits - what does this mean? costs?"></p>
 <figcaption>AI Builder Credits</figcaption>
 </figure>
 </div>
@@ -375,7 +389,7 @@ cookieconsent.run({
 </section>
 <section id="extract-quotes-and-tag" class="level4">
 <h4 class="anchored" data-anchor-id="extract-quotes-and-tag">5. Extract quotes and tag</h4>
-<p>I did test sending the Summarised results directly to a final prompt and asking for a summary. The results were quite good, but there wasn’t any way to tell how the AI had decided to categories the data in doing this. It also meant that one of the key requirements a ‘tag library’ would be missing.</p>
+<p>I did test sending the Summarised results directly to a final prompt and asking for a Final Report summary. The results were quite good, but there wasn’t any way to tell how the AI had decided to categories the data in doing this. It also meant that one of the key requirements a ‘tag library’ would be missing.</p>
 <p>To address this, I added an additional stag into the workflow to look through each anonymised transcript, consider each sentence from the participant, whether it was sufficient to be classed as a ‘quote’. Then to categories it.</p>
 <p>This inclduded a sentiment score / whether it was a Positive comment, Pain Point, Idea, or User need. The workflow would loop through every quote and add them to the dataverse table, linked back to the participant ID and also the Interview.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -407,7 +421,7 @@ cookieconsent.run({
 <figcaption>Build report, using participants tags and summary data</figcaption>
 </figure>
 </div>
-<p>This workflow then aggregates all the thematic quotes, sentiment scores, participant numbers, participant demographics, anonymised inteview summaries for all inteviews in the project.</p>
+<p>This workflow then aggregates all the thematic quotes, sentiment scores, participant numbers, participant demographics, anonymised interview summaries for all interviews in the project.</p>
 <p>This is sent as a single text blob into the prompt:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -421,7 +435,7 @@ cookieconsent.run({
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="AIReporting.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Screenshot of completed report"></p>
+<p><img src="6AIReporting.png" class="external img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Screenshot of completed report"></p>
 <figcaption>Research findings report compiled by AI</figcaption>
 </figure>
 </div>
@@ -442,7 +456,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="succcess">Succcess</h2>
 <p>The experiment shows it is possible to conduct research analysis in PowerPlatform in a secure and consistent way.</p>
 <p>It needs testing with a wider variety of projects and transcripts, but initially it seems quite promising?</p>
-<p>There are many bigger questions like: is dataverse worth the effort? vs.&nbsp;uploading docs diretly ot Copilot chat and asking for summary.</p>
+<p>There are many bigger questions like: is dataverse worth the effort? vs.&nbsp;uploading docs directly to Copilot chat and asking for summary.</p>
 <p>For now yes, it creates a standard workflow. But maybe not in the future if Copilot improves?</p>
 <p><br></p>
 <section id="questions-to-explore" class="level3">
@@ -479,10 +493,10 @@ cookieconsent.run({
 </section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>Overall, the LauraBot (AI analysis tool) is in early stages. pre-alpha.</p>
+<p>Overall, the LauraBot (our in-house AI analysis tool) is in early stages, pre-alpha you might say.</p>
 <p>It was a challenging project, and it is encouraging that this is even possible to do this with these tools.</p>
 <p>Maybe with more iteration, we can create reusable templates or processes that enable teams to genuinely transform their approach to automating research insights?</p>
-<p>We are keen to test this with more transcripts… if teams have necessary consents and are happy to collaborate and provide quality input documents. There is still quite a bit of manual orchestration required to proces the workflow, it isn’t a simple drag-drop like UR-Finder (just yet).</p>
+<p>We are keen to test this with more transcripts… if teams have necessary consents and are happy to collaborate and provide quality input documents. There is still quite a bit of manual orchestration to process the workflow, it isn’t a simple drag-drop like User Research Finder (just yet).</p>
 <p>We’d love to hear your feedback on the LauraBot User Research analysis experiment!!</p>
 <p>Tom</p>
 

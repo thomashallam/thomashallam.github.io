@@ -2,19 +2,19 @@
 title: "LauraBot: AI-Analysis Experiment"
 format:
   html:
-    from: markdown+emoji
+    from: markdown
     css: styles.css
 author: "Tom Hallam"
 date: "2025-10-24"
 categories: [Research Operations, Research Repo, Tools, AI, Capability, Data, User Research]
-image: "muralnotes.png"
+image: "0muralnotes.png"
 ---
 
 ## **The problem to solve**
 
 User Researcher is a team sport. Currently our UCD teams manually analyse every interview, workshop, focus group, site visit, etc. 
 
-![Here is a typical User Research note taking board](muralnotes.png){.external fig-alt="How we capture research insights manually using a tool called mural" fig-align=center width=1200px}
+![Here is a typical User Research note taking board](0muralnotes.png){.external fig-alt="How we capture research insights manually using a tool called mural" fig-align=center width=1200px}
 
 It can take multiple staff, multiple days of notetaking and analysis to get to a finished insight product (slide deck, research report, etc.)
 
@@ -52,6 +52,8 @@ Here are some of the user needs that were identified:
 ---
 
 ## **Lets build the thing**
+
+LauraBot, nicknamed after Laura in our team. Laura conducts top quality research and has been helping to evaluate our AI tools.
 
 For this experiment, we used the secure MS Environments (Azure AI Builder, PowerAutomate and Dataverse). We descoped video and audio editing for now and focus on text-based transcripts.
 
@@ -102,7 +104,7 @@ As most of the researchers won't (currently) have premium Automate or Copilot, d
 
 The main challenge here was identifying the folder, then looping through all the files, and saving it into Dataverse, linking our Project to multiple Interviews, using nested tables.
 
-![Workflow 1](1FolderAndTranscriptstoDV.png){.external fig-alt="" fig-align=center width=100%}
+![Experimental workflow to find new folders and convert transcripts into Dataverse rows](1FolderAndTranscriptstoDV.png){.external fig-alt="" fig-align=center width=100%}
 
 
 <br>
@@ -116,51 +118,55 @@ Next I created a workflow and new prompt to summarise the transcript, as well as
 This included:
 
 * a summary of the research session - date, time, moderator names
-* details for each participant, including: protected characteristics, personal identifiable data
+* details for each participant, including categorising: protected characteristics, personal identifiable data
 * creation of unique participant numbers
 
 The biggest challenges were:
 
 * it took many many iterations to find a way to tag the wide varierty of data within a single prompt. It took a lot of research and persistence to get this to work.
 
-![It just takes persistence](FailureFlows.png){.external fig-alt="Screenshot of" fig-align=center width=60%}
+![It just takes persistence](2FailureFlows.png){.external fig-alt="Screenshot of" fig-align=center width=60%}
 
 * adding a status column to detect new transcripts, then change status after the workflow is completed
 * returning outputs in a suitable json format
 * categorising data correctly in json results, so they could be stored in category datatype fields
 
-A useful trick was calculating from the Dataverse participant table the highest participant number, then generating new participant numbers based to ensure no duplications
+![Remove PID Prompt workflow](2RemovePidPrompt.png){.external fig-alt="" fig-align=center width=100%}
+
+Another useful tip is to calculate the highest participant number, using the Dataverse participant table, then generating new participant numbers ensuring there is no duplications.
 
 In summary, it was possible to catalogue all the Personal Identifiable Data in the transcript and store this directly within the Dataverse environment.
 
-![Detect and remove personal data](PIDCheck.jpg){.external fig-alt="" fig-align=center width=100%}
+![Detect and remove personal data](2PIDCheck.jpg){.external fig-alt="" fig-align=center width=100%}
 
 ![Add participant to dataverse rows](2AddParticipantRow.png){.external fig-alt="" fig-align=center width=100%}
 
+Note: need to be careful linking interviews to the correct project record using the Logical Name & Schema Name (not to be confused!) 
 
 <br> 
 
 #### 3. Anonymise transcipt
 
-Additional to identifying PID data, we wanted to ensure all of this was removed ahead of creating any tags or report summaries.
+After identifying PID data, I wanted to ensure all of this was removed ahead of creating any tags or report summaries.
 
 I updated the previous workflow to include a fully-anonymised transcript appended within the json data result
 
+![Update Transcript with redacted data](3UpdateTranscriptRedact.png){.external fig-alt="" fig-align=center width=100%}
+
 Then within Dataverse, the original transcript (with PID) is removed, and the anonymous transcript added to a new field
 
-The status tag is also updated again to reflect that it is done.
+The Processed status also updated to reflect that it is done and was ready for next stage.
 
-
-![Update Transcript with redacted data](3UpdateTranscriptRedact.png){.external fig-alt="" fig-align=center width=100%}
+![Dataverse table showing all the transcript summaries after processing](3TranscriptSummaries.png){.external fig-alt="Dataverse table showing all the transcript summaries after processing" fig-align=center width=100%}
 
 
 <br>
 
 #### 4. Summarise transcript
 
-After anonymising the transcript, a separate Prompt was uses to create a summary for each transcript. This included, high level findigns, usability issues, demographic insights, recommendations.
+After anonymising the transcript, a separate Prompt was uses to create a summary for each transcript. This included: high level findings, usability issues, demographic insights, recommendations.
 
-![Evaluate and summarise](TranscriptSummary.png){.external fig-alt="" fig-align=center width=100%}
+![Evaluate and summarise](4TranscriptSummary.png){.external fig-alt="" fig-align=center width=100%}
 
 This step may or may not be required, but I wanted to experiment whether the final report was more accurate with or without previously summarised individual transcipts.
 
@@ -168,13 +174,13 @@ Another question that keeps coming up... is how much does this AI cost to use? B
 
 We'll need to experiment further with how does this compare to running the same activity within Copilot? and who picks up the cost for using either of these solutions?
 
-![AI Builder Credits](AIBuilderCredits.png){.external fig-alt="Screenshot of Azure AI Builder credits - what does this mean? costs?" fig-align=center width=100%}
+![AI Builder Credits](4AIBuilderCredits.png){.external fig-alt="Screenshot of Azure AI Builder credits - what does this mean? costs?" fig-align=center width=100%}
 
 <br>
 
 #### 5. Extract quotes and tag
 
-I did test sending the Summarised results directly to a final prompt and asking for a summary. The results were quite good, but there wasn't any way to tell how the AI had decided to categories the data in doing this. It also meant that one of the key requirements a 'tag library' would be missing.
+I did test sending the Summarised results directly to a final prompt and asking for a Final Report summary. The results were quite good, but there wasn't any way to tell how the AI had decided to categories the data in doing this. It also meant that one of the key requirements a 'tag library' would be missing.
 
 To address this, I added an additional stag into the workflow to look through each anonymised transcript, consider each sentence from the participant, whether it was sufficient to be classed as a 'quote'. Then to categories it.
 
@@ -204,7 +210,7 @@ I created a workflow that checks  when all a 'CreateReport' status (is added) in
 
 ![Build report, using participants tags and summary data](6BuildReport.png){.external fig-alt="" fig-align=center width=100%}
 
-This workflow then aggregates all the thematic quotes, sentiment scores, participant numbers, participant demographics, anonymised inteview summaries for all inteviews in the project.
+This workflow then aggregates all the thematic quotes, sentiment scores, participant numbers, participant demographics, anonymised interview summaries for all interviews in the project.
 
 This is sent as a single text blob into the prompt:
 
@@ -214,7 +220,7 @@ This prompt returns:
 
 * categorised headings which are output in a branded Word templates
 
-![Research findings report compiled by AI](AIReporting.png){.external fig-alt="Screenshot of completed report" fig-align=center width=100%}
+![Research findings report compiled by AI](6AIReporting.png){.external fig-alt="Screenshot of completed report" fig-align=center width=100%}
 
 The final report, *seemed* both accurate and comprehensive. The report included:
 
@@ -233,7 +239,7 @@ The experiment shows it is possible to conduct research analysis in PowerPlatfor
 
 It needs testing with a wider variety of projects and transcripts, but initially it seems quite promising?
 
-There are many bigger questions like: is dataverse worth the effort? vs. uploading docs diretly ot Copilot chat and asking for summary.
+There are many bigger questions like: is dataverse worth the effort? vs. uploading docs directly to Copilot chat and asking for summary.
 
 For now yes, it creates a standard workflow. But maybe not in the future if Copilot improves?
 
@@ -274,13 +280,13 @@ For now yes, it creates a standard workflow. But maybe not in the future if Copi
 
 ## Summary
 
-Overall, the LauraBot (AI analysis tool) is in early stages. pre-alpha. 
+Overall, the LauraBot (our in-house AI analysis tool) is in early stages, pre-alpha you might say. 
 
 It was a challenging project, and it is encouraging that this is even possible to do this with these tools. 
 
 Maybe with more iteration, we can create reusable templates or processes that enable teams to genuinely transform their approach to automating research insights?
 
-We are keen to test this with more transcripts... if teams have necessary consents and are happy to collaborate and provide quality input documents. There is still quite a bit of manual orchestration required to proces the workflow, it isn't a simple drag-drop like UR-Finder (just yet).
+We are keen to test this with more transcripts... if teams have necessary consents and are happy to collaborate and provide quality input documents. There is still quite a bit of manual orchestration to process the workflow, it isn't a simple drag-drop like User Research Finder (just yet).
 
 We'd love to hear your feedback on the LauraBot User Research analysis experiment!!
 
