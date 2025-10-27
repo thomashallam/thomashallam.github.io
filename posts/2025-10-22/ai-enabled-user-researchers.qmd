@@ -115,26 +115,26 @@ Where staff have a deep understanding of quantitative and qualitative research m
 
 AI-enabled researchers, will focus on: 
 
-* Learning - As AI is always evolving, it encourages continuous learning, being flexible and focusing on delivering the best solution with a range of options
+* **Learning** - As AI is always evolving, it encourages continuous learning, being flexible and focusing on delivering the best solution with a range of options
 
-* Relations - AI-enabled researchers, will have more time to focus on building relationships with their stakeholders, customers or product users. 
+* **Relations** - AI-enabled researchers, will have more time to focus on building relationships with their stakeholders, customers or product users. 
 
-* Quality - Standards, templates and operating procedures are needed for most tasks
+* **Quality** - Standards, templates and operating procedures are needed for most tasks
 
-* Scale - once a workflow is deployed (build once), it can be repeated endlessly
+* **Scaling** - once a workflow is deployed (build once), it can be repeated endlessly
 
-* Accuracy - AI/LLMs can analyse and summarise the data accurately, in near-instant fashion
+* **Accuracy** - AI/LLMs can analyse and summarise the data accurately, in near-instant fashion
 
-* Input - the focus of the researcher will be controlling the content quality that goes in, not producing outputs as AI can do that easily
+* **Input** - the focus of the researcher will be controlling the content quality that goes in, not producing outputs as AI can do that easily
 
-* Integration - AI-enabled researchers can connect dots in business processes, find solutions that speed up end-to-end workflows
+* **Integration** - AI-enabled researchers can connect dots in business processes, find solutions that speed up end-to-end workflows
 
-* Automation - Feedback and reports will be automated and flag emerging issues to the right channels
+* **Automation** - Feedback and reports will be automated and flag emerging issues to the right channels
 
 
 <br>
 
-**What does this mean for specialist roles?**
+### What does this mean for specialist roles?
 
 The dust is starting to settle since ChatGPT launched... the rollout of Copilot is only growing. 
 
