@@ -30,7 +30,7 @@ format:
     theme: lux
     css: styles.css
     grid:
-      margin-width: 450px
-      body-width: 700px
+      margin-width: 400px
+      body-width: 800px
       gutter-width: 1.5rem
 

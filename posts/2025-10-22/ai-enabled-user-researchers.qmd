@@ -13,15 +13,15 @@ Following on from last monthnote about building a User Research Finder, this mon
 
 ## What is UCD Ops? 
 
-One of the biggest challenges we have is that outside our immediate colleagues, teams and stakeholders, among the wider organisation User-Centred Design (UCD) Ops (Research + Design Ops) is not that well understood. 
+One of the biggest challenges we have is that outside our immediate colleagues, teams and stakeholders, among the wider organisation User-Centred Design (UCD) Operations (Research Ops & Design Ops) is not that well understood. 
 
-In brief, UCD Ops includes *all* the infrastructure that underpins quality, productivity for the whole User-Centred Design profession and, utlimately, enabling the successful delivery of Digital Data and Tech projects.
+In brief, UCD Ops includes *all* the infrastructure that underpins quality, productivity for the whole User-Centred Design profession and, ultimately, enabling the successful delivery of Digital Data and Tech projects.
 
 ![UCD Ops Scope](UCDOpsScope.png){.external fig-alt="Pyramid of UCD ops scope. From setting UCD strategy down to service delivery. UCD Ops underpins all our digital transformation teams." fig-align=center width=1200px}
 
 We are highly-collaborative team and work closely with our Heads of Profession on the UCD Strategy, this influences and directs how teams across the organisation work.
 
-We work very closely with our community to understand their needs and resolve those. This may be through onboarding, training, coaching, procurement of software, hardware, or building inhouse solutions. 
+We work very closely with our community to understand their needs and resolve those. This may be through onboarding, training, coaching, procurement of software, hardware, or building in-house solutions. 
 
 We connect the dots between all the internal functions: Tech, IG, Finance, Commercial, Procurement, Estates, Cyber, Comms, and more. We navigate all the gateways to bring forward the best solutions for our colleagues.
 
@@ -121,7 +121,7 @@ AI-enabled researchers, will focus on:
 
 * Quality - Standards, templates and operating procedures are needed for most tasks
 
-* Scale - once a workflow is deloyed (build once), it can be repeated endlessly
+* Scale - once a workflow is deployed (build once), it can be repeated endlessly
 
 * Accuracy - AI/LLMs can analyse and summarise the data accurately, in near-instant fashion
 
@@ -144,9 +144,9 @@ Among this rapid upskilling (e.g. infinite access to coding, content creation...
 
 It can be quicker to ask an AI assistants to support (or do the thing), than it is to find someone specialist with capacity to deliver the work.
 
-The bigger question is... are workforce planning teams aware of this? Are they looking into how job descriptions might need to evolve, and be extended to consider multi-disclipinary nature? There is an higher technical complexity for many roles in the age of ai-empowered employees.
+The bigger question is... are workforce planning teams aware of this? Are they looking into how job descriptions might need to evolve, and be extended to consider multi-disciplinary nature? There is an higher technical complexity for many roles in the age of ai-empowered employees.
 
-We know that many colleagus are now doing much more than their core role. Maybe "T-shaped people" will be a thing of the past?
+We know that many colleagues are now doing much more than their core role. Maybe "T-shaped people" will be a thing of the past?
 
 JDs doesn't represent half the new scope of the role and skills required to be successful and may be need to consider "Tree" shaped people the new thing. 
 
@@ -156,7 +156,7 @@ A thick trunk representing their deep specialist area or areas of knowledge.
 
 Underpinned by strong roots... understanding of AI and tech... with knowledge and confidence to collaborate with AIs, and constant desire to grow (retrain) on the job. 
 
-The next AI-gen emplowers will be like a toolkit full of Swiss-army-knives. The challenge for leaders and managers will be agreeing who does what work, in an environment where everyone can do almost everything.
+The next AI-gen empowers will be like a toolkit full of Swiss-army-knives. The challenge for leaders and managers will be agreeing who does what work, in an environment where everyone can do almost everything.
 
 
 <br>
