@@ -7,7 +7,7 @@ format:
 author: "Tom Hallam"
 date: "2026-01-20"
 categories: [Monthnotes, Wellbeing]
-image: ""
+image: "maxim-berg-nazL_0vWZ0Y-unsplash.jpg"
 ---
 
 Not going to lie, last year was pretty tough. Though I survived... making it through a terrible sickness (pericarditis) which dragged on for many months.

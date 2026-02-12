@@ -68,11 +68,15 @@ And monitor... this policy guidance will need to continue to evolve as teams con
 
 Sending a big thank you to colleagues across multiple teams and services who provided multiple rounds of feedback. 
 
-The new policy is really critical in clarifying the direction and what teams can and can't use AI for in NHSE. Test and Learn, within organisaitonal safeguards.
+The new policy is really critical in clarifying the direction and what teams can and can't use AI for in NHSE. Test and learn... within organisational policy and safeguards.
 
-Alongside this, it has also been a big-month for other projects. 
+Alongside this, it has also been a big-month for other projects:
 
 * UR Finder hit 450 reports - nearly double from two months ago
-* CPS (MS) expert team are starting next week to support development of our Copilot agent
-* UR Lab training sessions completed, with great feedback from colleagues
-* And lots of BAU, including new joiners. 
+* UCD Capital Bid was approved - unlocking upgrades to UR Lab, Accessibility lab, and much more
+* Copilot Studio access reinstated, unblocking further Copilot Agent development 
+* CPS (MS) expert team are starting next week to support development of Copilot agents 
+* UR Lab training completed, with great feedback from colleagues
+* Lots of BAU, including new contractors joining and needing onboarding to all the things.
+
+It looks like February and March will be either very busy or very quiet -- most are taking their leave before year end!!
