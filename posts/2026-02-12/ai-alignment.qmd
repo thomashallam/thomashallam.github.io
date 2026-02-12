@@ -6,7 +6,7 @@ format:
     css: styles.css
 author: "Tom Hallam"
 date: "2026-02-12"
-categories: [Monthnotes, AI, UCD]
+categories: [Monthnotes, AI, User-Centred Design, Community, Service Design, Stakeholders, Tools]
 image: "AIPromptLibrary.png"
 ---
 

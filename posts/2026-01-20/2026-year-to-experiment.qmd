@@ -6,7 +6,7 @@ format:
     css: styles.css
 author: "Tom Hallam"
 date: "2026-01-20"
-categories: [Monthnotes, Wellbeing]
+categories: [Monthnotes, Wellbeing, Personal, Running, Hospital]
 image: "maxim-berg-nazL_0vWZ0Y-unsplash.jpg"
 ---
 
@@ -14,7 +14,7 @@ Not going to lie, last year was pretty tough. Though I survived... making it thr
 
 Recovery was tough... I made a plan and stuck to it. I gained the benefits of improved health, compared to before I was ill. Colleagues joked, Tom are you Benjamin Button? you look younger than ever... Well approaching a big age milestone, I'll take that complement any day.
 
-Fresh off the back ofmy recovery... I stuck to my training plans and performed... I ran my first marathon in York (3 hours 24 mins). This year I also achieved a 10 mile PB of 64 mins, and half-marathon PB of 1:30. There have been minor injuries and setbacks along the way, typically after racing, but overall I am feeling much better now and aware of my body's needs.
+Fresh off the back of my recovery... I stuck to my training plans and performed... I ran my first marathon in York (3 hours 24 mins). This year I also achieved a 10 mile PB of 64 mins, and half-marathon PB of 1:30. There have been minor injuries and setbacks along the way, typically after racing, but overall I am feeling much better now and aware of my body's needs.
 
 I'm a big advocate of bring your whole self to work. 
 
@@ -83,7 +83,7 @@ My, it has been so painful chasing the NHS this year. I'm sure there are dozens 
 
 I do wonder if my experience of services in Leeds are the norm or is different elsewhere in the country?
 
-The NHS App has become a dumping group for links to third-party services, the user experience is very far from reaching the goal of empowering people to proactively and preventatively manage their health. We have a lot to learn.
+The NHS App has feels like a dumping group for links to third-party services, the user experience is very far from reaching the goal of empowering people to proactively, preventatively manage their health. We have a lot to learn.
 
 This year, what we really need is for teams to move beyond usability testing and reacting to stakeholder feedback. 
 
@@ -94,6 +94,6 @@ Don't be afraid to build something new, start again from user needs, ignore lega
 
 ## TL;DR
 
-The 10 Year Plan will struggle to achieve the lofty goals without a radical rethink in our decision-making, design, delivery and governance processes. 
+The 10-Year Plan will struggle to achieve the lofty goals without a radical rethink in our decision-making, design, delivery and governance processes. 
 
 Understanding the root causes of strategic blockers, putting in place better processes for collaborating across teams on strategic issues, will lead to more inclusion and equity, better user experiences and better outcomes for patients.
