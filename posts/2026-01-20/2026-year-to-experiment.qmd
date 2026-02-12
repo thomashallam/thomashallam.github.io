@@ -10,7 +10,9 @@ categories: [Monthnotes, Wellbeing, Personal, Running, Hospital]
 image: "maxim-berg-nazL_0vWZ0Y-unsplash.jpg"
 ---
 
-Not going to lie, last year was pretty tough. Though I survived... making it through a terrible sickness (pericarditis) which dragged on for many months.
+### Not going to lie, last year was pretty tough. 
+
+Though I survived... making it through a terrible sickness (pericarditis) which dragged on for many months.
 
 Recovery was tough... I made a plan and stuck to it. I gained the benefits of improved health, compared to before I was ill. Colleagues joked, Tom are you Benjamin Button? you look younger than ever... Well approaching a big age milestone, I'll take that complement any day.
 
@@ -28,7 +30,9 @@ All the chaos and uncertainty of organisational change, the challenging context 
 
 I prioritised my own well-being, but still came up with innovative ways to continue to deliver with less.
 
-AI to the rescue? 
+<br> 
+
+### AI to the rescue? 
 
 2025 was the year that Microsoft tooling came into the foreground having spent years being overlooked. 
 
@@ -79,21 +83,26 @@ These are just a few health UX problems that my family experienced in the last t
 * Why are none of my health apps data (Strava, Apple health) connected to my NHS data?
 
 
-My, it has been so painful chasing the NHS this year. I'm sure there are dozens of problems you have experienced too?
+Oh my, yes it has been so painful chasing the NHS this year. I'm sure there are dozens of problems you have experienced too?
 
-I do wonder if my experience of services in Leeds are the norm or is different elsewhere in the country?
+I do wonder if my experience of services in Leeds are the norm, or is it different elsewhere in the country?
 
-The NHS App has feels like a dumping group for links to third-party services, the user experience is very far from reaching the goal of empowering people to proactively, preventatively manage their health. We have a lot to learn.
+The NHS App has feels like a dumping group for links to third-party services. The user experience is very far from reaching the goal of empowering people to proactively, preventatively manage their health. We have a lot to learn.
 
-This year, what we really need is for teams to move beyond usability testing and reacting to stakeholder feedback. 
+This year, what I really hope for, is teams move beyond usability testing and reacting to stakeholder feedback. 
 
-Shift focus onto understanding root causes, user experience blockers, collaborating across teams strategically. 
+Shift focus towards strategic research, understanding root causes, user experience blockers, collaborating across teams. 
 
-Don't be afraid to build something new, start again from user needs, ignore legacy tech and constraints. Be optimistic.
+Don't be afraid to build something new, start again from user needs, ignore legacy tech and constraints. 
 
+<br>
 
 ## TL;DR
+
+Had a tough year. Ended up using far more NHS services that I would have hoped for.
 
 The 10-Year Plan will struggle to achieve the lofty goals without a radical rethink in our decision-making, design, delivery and governance processes. 
 
 Understanding the root causes of strategic blockers, putting in place better processes for collaborating across teams on strategic issues, will lead to more inclusion and equity, better user experiences and better outcomes for patients.
+
+Be optimistic.

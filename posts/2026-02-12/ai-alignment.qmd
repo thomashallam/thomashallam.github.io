@@ -10,23 +10,23 @@ categories: [Monthnotes, AI, User-Centred Design, Community, Service Design, Sta
 image: "AIPromptLibrary.png"
 ---
 
-This month I've mainly been focussing on the UCD AI policy and guidance - below is the process I followed to create and launch the UCD AI Hub.
+This month I've mainly been focussing on relaunching our UCD AI policy and guidance.
 
 ## Problems to address
 
-* Different professions working on overlapping guidance; we need consistent principles and guidnce for research and design.
-* Different professions are moving at different speeds with regards to learning about and adopting AI
+* Different professions are working on overlapping guidance; we need consistent principles and guidance for research and design
+* Different professions are moving at different speeds around learning and adopting AI
 * There is a lot of shadow-ai usage happening, we need safe spaces and processes to help bring forward discussions
 * We need to confirm what are the red-lines that cannot be crossed with use of AI tools
 
 
 ## How I managed the project
 
-Here is how I approached of redesigning the AI policy and guidance, working from the central team and inclusively facilitating the process with colleagues from across the wider profession.
+Here is how I approached of redesigning the AI policy and guidance, leading from the central team, inclusively facilitating the process with colleagues from across the wider profession.
 
 ### Week 1
 
-- I host our Knowledge Management Group, every fortnight we review proposed changes to the UCD Centre of Expertise. This week we reviewed the "Prototyping with AI" guidance and provided feedback on Mural
+- Every fortnight I host our Knowledge Management Group where we review proposed changes to the UCD Centre of Expertise. This week we reviewed the "Prototyping with AI" guidance and provided feedback on Mural
 - The next priority was getting stakeholder agreement, to the principle that we need to align two pieces of conflicting / overlapping guidance. 
 - I proposed a new high-level information architecture and sought feedback from stakeholders, including the Head of Design and the UR for AI Working Group. Both were supportive of aligning.
 
@@ -37,7 +37,7 @@ Here is how I approached of redesigning the AI policy and guidance, working from
 
 - Next I drafted structure and content for UCD AI Hub, incorporating guidance for UR AI and Design for AI, 
 - Align to recently released corporate standards on AI
-- Use allowed AI tools (Copilot) to quality assure the drafted guidance (spelling, grammar, conisistency, tone, duplication)
+- Use allowed AI tools (Copilot) to quality assure the drafted guidance (spelling, grammar, consistency, tone, duplication)
 - Set up a new 'Prompt Library' within the Centre of Expertise
 - Sought a 2nd round of feedback from AI for UR working group, as well key stakeholders including Heads of Research, Design and Content.
 
@@ -45,38 +45,39 @@ Here is how I approached of redesigning the AI policy and guidance, working from
 
 ## Week 3:
 
-- Finalise content, adding training events, checking all links, adding more documents and resources
-- Populated the AI Prompt Library with 10 prompts as a starting point.
+- Finalise content, add training events, check all links, add more documents and resources
+- Populated the AI Prompt Library with 10 prompts as a starting point
 - Published the new policy guidance on Sharepoint
 - Shared on Slack for further feedback from Content Design community - currently placeholder page that is blocked until workshop in March
 - Presented to User Research community
-- Drafted comms for rollout, with support of Copilot.
+- Drafted more comms for rollout, with support of Copilot.
 
 ![Here is the AI Prompt Library](AIPromptLibrary.png){.external fig-alt="Sharepoint List with various research and design prompts shared" fig-align=center width=800px}
 
 
 ## Week 4:
 
-- Final changes / content additions on the site based on UR Community feedback.
-- Send out email to all 400+ UCD Staff confirming the policy and guidance in now Live. 
+- More changes / content additions on the hub based on UR Community feedback
+- Send out email to all 400+ UCD Staff confirming that the policy and guidance in now Live
 
 ![AI Hub Beta](AIHubBeta.png){.external fig-alt="Overview of the UCD AI Hub on the UCD Centre of Expertise" fig-align=center width=800px}
 
+## And monitor
 
-
-And monitor... this policy guidance will need to continue to evolve as teams conduct AI experiments and learn about more what works and what doesn't within the NHS. 
-
-Sending a big thank you to colleagues across multiple teams and services who provided multiple rounds of feedback. 
+This policy and guidance will need to continue to evolve as teams conduct AI experiments and we learn about more what works and what doesn't within the NHS. 
 
 The new policy is really critical in clarifying the direction and what teams can and can't use AI for in NHSE. Test and learn... within organisational policy and safeguards.
 
-Alongside this, it has also been a big-month for other projects:
+Sending a big thank you to colleagues across multiple teams and services who provided multiple rounds of feedback. 
+
+
+### It has been a big-month for other projects too:
 
 * UR Finder hit 450 reports - nearly double from two months ago
-* UCD Capital Bid was approved - unlocking upgrades to UR Lab, Accessibility lab, and much more
+* UCD Capital Bid was approved - unlocking upgrades to UR Lab, Accessibility lab, London Lab, and much more
 * Copilot Studio access reinstated, unblocking further Copilot Agent development 
 * CPS (MS) expert team are starting next week to support development of Copilot agents 
 * UR Lab training completed, with great feedback from colleagues
 * Lots of BAU, including new contractors joining and needing onboarding to all the things.
 
-It looks like February and March will be either very busy or very quiet -- most are taking their leave before year end!!
+It looks like February and March will be either very busy or very quiet -- most colleagues are cramming in annual leave before year end!!
