@@ -1475,5 +1475,82 @@
     "title": "Interesting Chatgpt prompts",
     "section": "Have you seen other useful prompts? Post below…",
     "text": "Have you seen other useful prompts? Post below…"
+  },
+  {
+    "objectID": "posts/2026-01-20/monthnote.html",
+    "href": "posts/2026-01-20/monthnote.html",
+    "title": "2026: a year to experiment?",
+    "section": "",
+    "text": "Not going to lie, last year was pretty tough. Though I survived… making it through a terrible sickness (pericarditis) which dragged on for many months.\nRecovery was tough… I made a plan and stuck to it. I gained the benefits of improved health, compared to before I was ill. Colleagues joked, Tom are you Benjamin Button? you look younger than ever… Well approaching a big age milestone, I’ll take that complement any day.\nFresh off the back ofmy recovery… I stuck to my training plans and performed… I ran my first marathon in York (3 hours 24 mins). This year I also achieved a 10 mile PB of 64 mins, and half-marathon PB of 1:30. There have been minor injuries and setbacks along the way, typically after racing, but overall I am feeling much better now and aware of my body’s needs.\nI’m a big advocate of bring your whole self to work.\nI’m usually the first person to share if I’m having a difficult day/week/etc.\nI was straight-up with my team when I needed to take time off, multiple bereavements in the family and / health emergencies. Our team are very understanding and we have collectively been supporting each other through lots of personal challenges in the last year.\nWork has been pretty tough too.\nAll the chaos and uncertainty of organisational change, the challenging context of operating in a team reduced to the bones, I needed to resist the pressure to say ‘Yes’ all the time.\nI prioritised my own well-being, but still came up with innovative ways to continue to deliver with less.\nAI to the rescue?\n2025 was the year that Microsoft tooling came into the foreground having spent years being overlooked.\nCopilot M365, PowerAutomate/Azure AI and Copilot studio have started to super-charge our work.\nSome bigger achievements include, re-platforming the UR Finder (again for the third time), enabling colleagues to refresh our AI guidance for researchers, conducted many experiments (success and failures) with AI various tools, being featured in the Government AI Playbook.\nFinding ways to grow professionally, hasn’t been easy.\nThere has been a real lack of organisational strategy, objectives and feedback culture… what is worse, many roles, teams, structures and budgets are locked down.\nDue to reorgs, it feels like everyone is stuck, ambitions for personal growth and professional development feel like they are on hold. It seems many are just hoping to survive until tomorrow. Heads down, continue to deliver, fingers-crossed.\nHaving completed 3.5 years in my role of Lead User Researcher the Central UCD Team, it feels like already I’ve seen much before. Training and coaching colleague, assuring, leading and managing other teams’ work. Teams coming and going, old ideas for transformation coming back around.\nSadly, many of our teams have no ‘approved’ plans for the next year. No one is seriously planning beyond the NHS England expiry-date of Spring 2027. Colleagues have described the woeful situation as ‘a holding pattern’, maybe we’ll do some proper planning when we know who is left after April?"
+  },
+  {
+    "objectID": "posts/2026-01-20/monthnote.html#goodbye-2025",
+    "href": "posts/2026-01-20/monthnote.html#goodbye-2025",
+    "title": "End of 2025",
+    "section": "",
+    "text": "Not going to lie, last year was pretty tough. Though I survived… making it through a terrible sickness (Pericarditis) which dragged on for four months.\nRecovery was tough… I made a plan and stuck to it. I gained the benefits of improved health, compared to before I was ill. People asked are you Benjamin Button? you look younger than ever Tom. Well approaching a big milestone, I’ll take that complement any day.\nFresh off the back of recovery… I stuck to my training plans and performed… I ran my first marathon in York (3 hours 24 mins), I a achieved 10 mile PB of 64 mins, and a half-marathon PB of 1:30. There have been setback and niggles along the way, but overall I am feeling much better now.\nWork has been pretty tough too. Despite all the change, the challenging context of operating in a team reduced to the core, I resisted the pressure to say ‘Yes’. I prioritised my own well-being and came up with innovative ways to do much more with much less.\n2025 was certainly the year that Copilot M365, PowerAutomate/Azure AI and Copilot studio came into the foreground. We re-platformed the UR Finder (again for the third time), worked with colleagues to refresh our AI guidance, conducted lots of experiments (success and failures) with AI various tools.\nI’m a big advocate of bring your whole self to work, and I be the first person to share if I’m having a difficult day/week/etc. I was very transparent with my team when I needed to take time off for a recent family emergency.\nFinding ways to improve professionally, hasn’t been easy. There is a real lack of organisational objectives and feedback culture… what is worse is most roles, team structures and budgets are pretty much locked in. Due to reorgs, it feels like everyone is stuck, putting any ambitions for personal growth and professional development on hold. It seems we (those who are staying) are just hoping to survive until tomorrow. There are no plans beyond the NHS England Expiry date of March 2027.\nHaving completely three point five years in my role of Lead User Researcher the Central UCD Team, it feels like already I’ve seen it all. Teams coming and going, ideas for transformation going around again. The latest version of the NHS plan looks much like the old plan - more App, more of digital everything else."
+  },
+  {
+    "objectID": "posts/2026-01-20/monthnote.html#can-we-just-fix-it-yet",
+    "href": "posts/2026-01-20/monthnote.html#can-we-just-fix-it-yet",
+    "title": "2026: a year to experiment?",
+    "section": "Can we just fix it yet?",
+    "text": "Can we just fix it yet?\nAmid the chaos and gloom, a few colleagues are talking a bit more upbeat, “a year of experimentation… do what you want now because no one will care if it goes wrong. NHS England wont be here next year either way.”\n“If it succeeds, great!”\nSo how might we lean in more and make 2026/2027 a year of experiments, can we try to tackle some of the bigger health challenges..?\nThese are just a few health UX problems that my family experienced in the last twelve months.\n\nWhy were there never ever any bookable GP appointments when we needed one?\nWhy is the primary care experience health record integration so limited?\nWhy are they so many secondary care patient portals?\nWhy does NHS Login make me login twice (if using a patient portal after logging into the App)\nWhy are GP surgeries still encouraging offline forms for GP registration?\nWhy do medical records and appointment history disappear (from the App) when you transfer GP surgery?\nWhy are we embedding inaccessible PDF docs inside the App?\nWhy are services still reliant on posters, letters, leaflets, printed forms?\nWhy have I rarely been given links / digital information about any of the conditions I had or services I have used?\nWhy did one A&E department I visited have a poster with 100+ QR codes to scan back to NHS.uk?\nWhy can’t I see the status of my MRI test results for nearly 16 weeks?\nWhy do I have to chase up results over and over again?\nWhy can’t I see my results over time?\nWhy is the nominated prescribing process so clunky, why can’t I just get it near to where I am now that has stock?\nWhy do parents have to transfer to same GP practice as their ex to get proxy? what if they don’t live locally?\nWhy doesn’t proxy access transfer / get enabled automatically when you join a different practice?\nHow come parents with Proxy-enabled still can’t access kids medical records, or book inside the NHS app?\nWhy do booking notifications and outcomes only get sent to one parent, not all Parents/Proxies?\nWhy are none of my health apps data (Strava, Apple health) connected to my NHS data?\n\nMy, it has been so painful chasing the NHS this year. I’m sure there are dozens of problems you have experienced too?\nI do wonder if my experience of services in Leeds are the norm or is different elsewhere in the country?\nThe NHS App has become a dumping group for links to third-party services, the user experience is very far from reaching the goal of empowering people to proactively and preventatively manage their health. We have a lot to learn.\nThis year, what we really need is for teams to move beyond usability testing and reacting to stakeholder feedback.\nShift focus onto understanding root causes, user experience blockers, collaborating across teams strategically.\nDon’t be afraid to build something new, start again from user needs, ignore legacy tech and constraints. Be optimistic."
+  },
+  {
+    "objectID": "posts/2026-01-20/monthnote.html#tldr",
+    "href": "posts/2026-01-20/monthnote.html#tldr",
+    "title": "2026: a year to experiment?",
+    "section": "TL;DR",
+    "text": "TL;DR\nThe 10 Year Plan will struggle to achieve the lofty goals without a radical rethink in our decision-making, design, delivery and governance processes.\nUnderstanding the root causes of strategic blockers, putting in place better processes for collaborating across teams on strategic issues, will lead to more inclusion and equity, better user experiences and better outcomes for patients."
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html",
+    "href": "posts/2026-02-12/monthnote.html",
+    "title": "AI Alignment",
+    "section": "",
+    "text": "This month I’ve mainly been focussing on the UCD AI policy and guidance - below is the process I followed to create and launch the UCD AI Hub."
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html#week-1",
+    "href": "posts/2026-02-12/monthnote.html#week-1",
+    "title": "AI Alignment",
+    "section": "Week 1:",
+    "text": "Week 1:\n\nI Host our Knowledge Management Group, every fortnight we review proposed changes to the UCD Centre of Expertise. This week we reviewed the “Prototyping with AI” guidance and provided feedback on Mural\nThe next priority was getting stakeholder agreement, to the principle that we need to align two pieces of conflicting / overlapping guidance.\nI proposed a new high-level information architecture and sought feedback from stakeholders, including the Head of Design and the UR for AI Working Group. Both were supportive of aligning.\n\n\n\n\nAI for Prototyping guidance reviewed by working group"
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html#week-2",
+    "href": "posts/2026-02-12/monthnote.html#week-2",
+    "title": "AI Alignment",
+    "section": "Week 2:",
+    "text": "Week 2:\n\nNext I drafted structure and content for UCD AI Hub, incorporating guidance for UR AI and Design for AI,\nAlign to recently released corporate standards on AI\nUse allowed AI tools (Copilot) to quality assure the drafted guidance (spelling, grammar, conisistency, tone, duplication)\nSet up a new ‘Prompt Library’ within the Centre of Expertise\nSought a 2nd round of feedback from AI for UR working group, as well key stakeholders including Heads of Research, Design and Content.\n\n\n\n\nInitial information architecture for AI Hub"
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html#week-3",
+    "href": "posts/2026-02-12/monthnote.html#week-3",
+    "title": "AI Alignment",
+    "section": "Week 3:",
+    "text": "Week 3:\n\nFinalise content, adding training events, checking all links, adding more documents and resources\nPopulated the AI Prompt Library with 10 prompts as a starting point.\nPublished the new policy guidance on Sharepoint\nShared on Slack for further feedback from Content Design community - currently placeholder page that is blocked until workshop in March\nPresented to User Research community\nDrafted comms for rollout, with support of Copilot.\n\n\n\n\nHere is the AI Prompt Library"
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html#week-4",
+    "href": "posts/2026-02-12/monthnote.html#week-4",
+    "title": "AI Alignment",
+    "section": "Week 4:",
+    "text": "Week 4:\n\nFinal changes / content additions on the site based on UR Community feedback.\nSend out email to all 400+ UCD Staff confirming the policy and guidance in now Live.\n\n\n\n\nAI Hub Beta\n\n\nAnd monitor… this policy guidance will need to continue to evolve as teams conduct AI experiments and learn about more what works and what doesn’t within the NHS.\nSending a big thank you to colleagues across multiple teams and services who provided multiple rounds of feedback.\nThe new policy is really critical in clarifying the direction and what teams can and can’t use AI for in NHSE. Test and Learn, within organisaitonal safeguards.\nAlongside this, it has also been a big-month for other projects.\n\nUR Finder hit 450 reports - nearly double from two months ago\nCPS (MS) expert team are starting next week to support development of our Copilot agent\nUR Lab training sessions completed, with great feedback from colleagues\nAnd lots of BAU, including new joiners."
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html#problems-to-address",
+    "href": "posts/2026-02-12/monthnote.html#problems-to-address",
+    "title": "AI Alignment",
+    "section": "Problems to address",
+    "text": "Problems to address\n\nDifferent professions working on overlapping guidance; we need consistent principles and guidnce for research and design.\nDifferent professions are moving at different speeds with regards to learning about and adopting AI\nThere is a lot of shadow-ai usage happening, we need safe spaces and processes to help bring forward discussions\nWe need to confirm what are the red-lines that cannot be crossed with use of AI tools"
+  },
+  {
+    "objectID": "posts/2026-02-12/monthnote.html#how-i-managed-the-project",
+    "href": "posts/2026-02-12/monthnote.html#how-i-managed-the-project",
+    "title": "AI Alignment",
+    "section": "How I managed the project",
+    "text": "How I managed the project\nHere is how I approached of redesigning the AI policy and guidance, working from the central team and inclusively facilitating the process with colleagues from across the wider profession.\n\nWeek 1\n\nI host our Knowledge Management Group, every fortnight we review proposed changes to the UCD Centre of Expertise. This week we reviewed the “Prototyping with AI” guidance and provided feedback on Mural\nThe next priority was getting stakeholder agreement, to the principle that we need to align two pieces of conflicting / overlapping guidance.\nI proposed a new high-level information architecture and sought feedback from stakeholders, including the Head of Design and the UR for AI Working Group. Both were supportive of aligning.\n\n\n\n\nAI for Prototyping guidance reviewed by working group"
   }
 ]
