@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.543">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tom Hallam">
+<meta name="dcterms.date" content="2026-06-26">
+
+<title>User Research, User-Centred Design, User Experience - Prompts to Prototypes: Part 2</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EMB22EEKPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EMB22EEKPF', { 'anonymize_ip': false});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">User Research, User-Centred Design, User Experience</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Tom’s blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Hello</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources/links.html"> 
+<span class="menu-text">Useful links</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thomashallam"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/thomashallam"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/thomashallam"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Prompts to Prototypes: Part 2</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">User-Centred Design</div>
+    <div class="quarto-category">Tools</div>
+    <div class="quarto-category">Healthcare</div>
+    <div class="quarto-category">Strategy</div>
+    <div class="quarto-category">Personal</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tom Hallam </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The main “problem” of the month, was not the changes happening around us, but the general overwhelm / risk of burnout. Too many requests, too few people. Scope expansions, uncertainties…</p>
+<p>I’ve tried many times in the past to solve this problem, to stop the tide of busy-ness. I say no to more requests. But the problem always repeats itself. Now I’m trying to find my own solution.</p>
+<p>Nay-sayers will say, the experiment is pointless, also. The topic of personal note taking and task prioritisation has been solved millions of times before… it could be solved with Text File, Word Files, MS ToDo, Planner or OneNote, Jira, Trello, or many other ways…</p>
+<p>For me, however, none of those tools provide a sensible structure, or insights to help me understand where things are at. It also provides some level of escapism from the ridiculousness of the ongoing merger situation at NHSE (i’m sure most would agree). And, moving away from out of the box tools provides an opportunity to experiment and grow, I wanted to learn:</p>
+<ul>
+<li>What it’s really like to create a working tool using the NHS Front End Design System, assisted with AI.</li>
+<li>What it’s like to use your own teams product</li>
+</ul>
+<p>Here’s how I got on.</p>
+<p><br></p>
+<section id="dogfooding" class="level2">
+<h2 class="anchored" data-anchor-id="dogfooding">Dogfooding</h2>
+<p>When you use your own product, every day, in anger. You quickly realise where the problems are.</p>
+<p><br></p>
+<section id="adding-notes" class="level3">
+<h3 class="anchored" data-anchor-id="adding-notes">Adding notes</h3>
+<p>Building on the <a href="../2026-06-02/prompts-to-prototypes.html">previous post</a> I used Claude CLI to completely rebuild the Cardiac App into something more practical.</p>
+<p>I started with an add notes feature, this was initially just a basic form with limited options.</p>
+<p>There was lots of errors initially, such as the form not saving the data, pages reloading and losing data, duplicated entries.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="Addnotes.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Add notes form created in Claude CLI" width="800"></p>
+<figcaption>Add notes form created in Claude CLI</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="notes-list" class="level3">
+<h3 class="anchored" data-anchor-id="notes-list">Notes list</h3>
+<p>After adding the notes, I realised I wanted to be able to view my notes. Starting with a very basic table (react component) I then migrated to the NHS Table component.</p>
+<p>It was quite evident the table was far too rigid for the idea I had…</p>
+<p>Some of the features I found difficult with the standard NHS table included:</p>
+<ul>
+<li>overly large fonts,</li>
+<li>padding and margins,</li>
+<li>row highlights,</li>
+<li>not sortable,</li>
+<li>no sort direction,</li>
+<li>alignment,</li>
+<li>link underlines - they are really annoying in a big table when every text link is underlined, felt easier to use by adding link icons and override font colours,</li>
+<li>heading sizes and styling,</li>
+<li>limited examples of buttons within tables,</li>
+<li>visually unappealing.</li>
+</ul>
+<p>I asking Claude to work through all the layout issues was new ideas, it’s not perfect by any means, but in the table, the table was working as hoped.</p>
+<p>Adding the Series filter and the Attendees filter, both clickable in the table, really enhanced the experience.</p>
+<p>Changes are shown immediately no page reloads which makes it really usable. I imagine this might be an issue for accessibility, but the accessibility audit did say that labels are adding correctly to all components.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="MyNotes.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Notes table, created with Claude CLI" width="800"></p>
+<figcaption>Notes table, created with Claude CLI</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="edit-note-page" class="level3">
+<h3 class="anchored" data-anchor-id="edit-note-page">Edit note page</h3>
+<p>After a week or two of using this, and made some little tweaks to various pages components, improving the styling and form validation, I think it works now (just about).</p>
+<p>I started with being able to add one link to a Jira ticket, then quickly realised this wasn’t enough and expanded it to 12 links. So if I complete a desk review, I can save all the links in the note.</p>
+<p>For public websites, I can use these directly in Claude for data mining (more on that later).</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="NoteExample.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Edit note page with example data" width="800"></p>
+<figcaption>Edit note page with example data</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="worklists-page" class="level3">
+<h3 class="anchored" data-anchor-id="worklists-page">Worklists page</h3>
+<p>After a few days of adding notes, I wanted to have somewhere to see all the actions. Again initially a basic list, but the styling and functions were added slowly.</p>
+<p>Interesting Claude implement Search fields for two options and a drop down on the third. Unclear why, but I like it!</p>
+<p>It was really annoying trying to get Claude to line up custom and NHS components, as the padding and margins are vastly differnet and Claude cannot see what is going on. In a few cases it was necessary to override NHS or custom styles with +- px. Which is never a good sign… those little misalignments are really frustrating when you use a tool all day. The combined components approach definitely made it more difficult to get the end thing looking acceptable.</p>
+<p>Other issues on this page included the Card Components by default spacing, alignment and font sizing needing to be updated to look ‘sensible’.</p>
+<p>The filter buttons were custom components, as well the user avatars, and the search fields.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="NotesDone.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Worklists page with Cards to show key stats and actions table. The completed actions are ticked and crossed out. There are search fields." width="800"></p>
+<figcaption>Worklists page with Cards to show key stats and actions table</figcaption>
+</figure>
+</div>
+<p>The page was also excessively long, and Claude does not know that, nor does it add pagination on tables by default. But when asked, Pagination could be implemented very quickly with the correct NHS Component.</p>
+<p><br></p>
+</section>
+<section id="reports-page" class="level3">
+<h3 class="anchored" data-anchor-id="reports-page">Reports page</h3>
+<p>The reports page was really the reason this whole app was created, being able to visual the number of meetings, notes, actions being added and completed daily. It gives great insight, and with the data stored in .json locally, there would be many other interesting bits of analysis that could be conducted.</p>
+<p>The components are from open source react libraries, they would need to be reviewed for accessibility and styling could be better, but overall really easy to implement in Claude CLI without writing any code.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="NoteReports.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Copilot generated 3d renders for multiple watch pages" width="800"></p>
+<figcaption>Copilot generated 3d renders for multiple watch pages</figcaption>
+</figure>
+</div>
+<p><br></p>
+</section>
+<section id="drinks-page---just-for-fun" class="level3">
+<h3 class="anchored" data-anchor-id="drinks-page---just-for-fun">Drinks page - just for fun</h3>
+<p>This page was just added as an experiment, could Claude CLI create a new feature, from scratch, with just the Copilot Guidance and NHS Front-end system?</p>
+<p>Claude did implement it first time working perfectly, but there was some custom components which could have been NHS components.</p>
+<p>The lesson was the LLM needs better hand-holding to prioritise those components, and when it does need to make component change, it should document what it did, rather than jumping straight to custom fixes.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="DrinksLogging.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Just for fun - track your drinks during the day, stay hydrated!" width="800"></p>
+<figcaption>Just for fun - track your drinks during the day, stay hydrated!</figcaption>
+</figure>
+</div>
+<p>Arguably with the recent 30 degrees heat daily, this was the MOST IMPORTANT FEATURE.</p>
+<p><br></p>
+</section>
+<section id="components-in-react" class="level3">
+<h3 class="anchored" data-anchor-id="components-in-react">Components in React</h3>
+<p>I was unsure if the NHS React Components were loading correctly and also the correct version…</p>
+<p>I then asked Claude CLI to implement an admin page to show how each component and label where they came from:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="NHSComponents.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Admin page showing list of all the NHS Components working" width="800"></p>
+<figcaption>Admin page with all the NHS Components</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="CustomComponents.png" class="external img-fluid quarto-figure quarto-figure-left figure-img" alt="Admin page with Custom Components" width="800"></p>
+<figcaption>Admin page with Custom Components</figcaption>
+</figure>
+</div>
+<p>I asked Claude to check the components were the latest versions. There was indeed a few discrepencies between the nhs-react-front-end and the Front End V10. I asked Claude CLI to check all the components are up to date and get the latest components it did a pretty good job.</p>
+<p><br></p>
+</section>
+<section id="data-mining" class="level3">
+<h3 class="anchored" data-anchor-id="data-mining">Data mining</h3>
+<p>As well as the reports, I create an MS Copilot prompt to summarise my notes and priorities with a scheduled daily report. It was excellent for looking first thing each day to decide what to focus on. <img src="CopilotToDo.png" class="external img-fluid quarto-figure quarto-figure-left" alt="Darian's priorities reviewed by Copilot" width="800"></p>
+<p><br></p>
+</section>
+<section id="learnings-along-the-way" class="level3">
+<h3 class="anchored" data-anchor-id="learnings-along-the-way">Learnings along the way</h3>
+<p>Using our own design system every day for a week was quite revealing.</p>
+<p>Using NHS Components “as-is”, all day, made for a very frustrating experience… too much space, scrolling, huge buttons, buttons misalinged and overflowing boxes everywhere, layout issues.</p>
+<p>Using Claude CLI and VsCODE was a really great experience. Building a whole app via Claude CLI only, trying different models (Haiku 4.5 / Sonnet 4.6, 4.7/ OpenAI-5.3-codex), really helped me learn differences in performance and nuances in the behaviour of the models.</p>
+<p>Github Copilot / Claude CLI seem to reguarly add little icons and buttons to help the usability. While these might be considered non-standard, they really help with the mouse navigation when you are racing around a screen that you might use for an hour non-stop. Your brain gets used to where they are and targets them more quickly. e.g.&nbsp;NHS buttons don’t typically have an arrow or icon inside them, but I kind of like it.</p>
+<p>I learn about how to improve the Copilot Instructions to ground the models in the behaviours that would ensure better aligned to NHS Standards. There were still lots of areas that Claude/Copilot can improve on.</p>
+<p>Claude helped me with the Accessibility Review, it helped identify and solve Security issues, it helped with complex refactors and package updates.</p>
+<p>React is an excellent tool for building services, it has great modular/ extensions.</p>
+<p><br></p>
+</section>
+</section>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The NHS Front End (and Prototype Kit) and React port need more work support design of systems for “professionals”.</p>
+<p>Also using LLMs to deploy NHS Components is tricky, they need better quality guidance around Custom NHS Components documenting the UI decisions/changes.</p>
+<p>There were a few custom NHS components we (Claude+1) ended up creating… if anyone is interested testing the app, or collaborating on this project - happy to share this work!</p>
+<p>Hope you enjoyed this!!</p>
+<p><br></p>
+<p><br></p>
+<hr>
+<p><br></p>
+</section>
+<section id="claudes-own-review-of-building-the-react-nhs-notes-app" class="level2">
+<h2 class="anchored" data-anchor-id="claudes-own-review-of-building-the-react-nhs-notes-app">Claude’s own review of building the React NHS Notes App</h2>
+<section id="building-an-nhs-meeting-notes-tool-a-developers-honest-account" class="level3">
+<h3 class="anchored" data-anchor-id="building-an-nhs-meeting-notes-tool-a-developers-honest-account">Building an NHS Meeting Notes Tool: A Developer’s Honest Account</h3>
+<p>What Is It?</p>
+<p>This is a personal productivity tool built specifically for NHS work — a note-taking app for meetings that actually does something useful with what you write down.</p>
+<p>At its core, the app lets you:</p>
+<ul>
+<li>Write meeting notes with a date, title, and freeform text area</li>
+<li>Log action items per meeting, assign them to attendees, and track completion</li>
+<li>Group meetings into series (recurring meetings like weekly standups or MDTs) so you can filter and review across a whole run of them</li>
+<li>Manage attendees — build up a reusable people list so you can quickly tag who was in the room</li>
+<li>Add links — up to 12 per note, for things like Jira tickets, SharePoint documents, or any relevant URL</li>
+<li>Browse your notes archive — a sortable, filterable table showing every saved meeting, with action completion counts at a glance</li>
+<li>Manage a cross-meeting worklist — a flat view of every action across all notes, filterable by who it’s assigned to, with the ability to edit actions inline and tick them off without going back into the original note</li>
+<li>View reports — Recharts-powered dashboards showing meeting activity over time, action completion rates by series, actions per person, and meeting cadence breakdowns</li>
+<li>Log drinks — a side feature for tracking personal hydration, with its own charts and NHS-styled UI</li>
+<li>Inspect design system components — an admin area containing a live showcase of both NHS Design System components and custom ones, useful for rapid UI reference</li>
+</ul>
+<p>All data lives in JSON files on your local machine (or wherever you point the NOTES_DIR environment variable — useful if you want it synced via OneDrive).</p>
+<p>The earliest commit is figma make react app local version — the app originated from a Figma Make export. That’s a clue: this wasn’t designed from scratch in a code editor, it was visually composed and then landed in the repository as a working React/Vite app. The initial scaffolding was already there; the real work was shaping it into something fit for daily NHS use.</p>
+<p>Within the same session, a locally working prototype commit followed, then immediately a Configure Heroku deployment with serve package — so there was an early attempt to put this somewhere hosted. That idea appears to have been quietly shelved; the project eventually pivoted to running entirely locally, which makes much more sense given that the data is personal clinical notes.</p>
+<hr>
+</section>
+<section id="the-notes-feature-built-in-a-crunch" class="level3">
+<h3 class="anchored" data-anchor-id="the-notes-feature-built-in-a-crunch">The Notes Feature: Built in a Crunch</h3>
+<p>The notes work arrived in a cluster of commits on 4 June 2026: add notes and notes worklist, add previous notes page and tick off notes, add notes edit tick, add attendees, and add autosave fix worklist add reports — all in a single day. That’s the kind of commit history that says “I had a clear vision and just needed to build it fast.”</p>
+<p>Autosave was added almost immediately — likely because losing a note mid-meeting is exactly the kind of thing that would make a tool like this useless in practice. The implementation uses a signature-based dirty check: it serialises the form state to a JSON string, compares it against the last-saved signature, and only writes if something actually changed. It also carries a loadedNoteIdRef to prevent a race condition where loading an existing note could inadvertently trigger a duplicate save on mount — a bug that did eventually slip through and needed a dedicated fix (Fix autosave duplicate note bug on Add notes page, June 2026).</p>
+<hr>
+</section>
+<section id="the-styling-wars" class="level3">
+<h3 class="anchored" data-anchor-id="the-styling-wars">The Styling Wars</h3>
+<p>The commit history between 8–15 June reads like a genuine struggle with CSS:</p>
+<ul>
+<li>fix styling to nhs pages</li>
+<li>fix previous notes table</li>
+<li>get back on style system</li>
+<li>fix nhs styling on header footer and buttons</li>
+<li>fix header to nhs styling, wider drinks page</li>
+<li>fix styling of Previous notes worklist</li>
+<li>fix warning popup and styling</li>
+</ul>
+<p>The NHS Design System is specific. There’s an official component library (nhsuk-react-components), official colour tokens, official typography rules. The challenge is that this app is built on Tailwind CSS with shadcn/Radix UI primitives — a completely different paradigm. Mixing the two systems without them stepping on each other is genuinely fiddly.</p>
+<p>The solution the codebase settled on: inline styles for NHS-specific colours and layout, Tailwind for responsive utilities. It’s pragmatic rather than elegant — the inline styles ensure pixel-accurate NHS compliance while Tailwind handles things like hidden md:flex breakpoints. There’s even a note in the Copilot instructions acknowledging this is intentional, not a mistake.</p>
+<p>The admin section at /notes/admin/components exists partly as a sanity check — a live reference page showing NHS Design System components rendered correctly, alongside a custom components page. If something looks wrong, you can compare it directly against the reference.</p>
+<hr>
+</section>
+<section id="accessibility-caught-late-fixed-properly" class="level3">
+<h3 class="anchored" data-anchor-id="accessibility-caught-late-fixed-properly">Accessibility: Caught Late, Fixed Properly</h3>
+<p>Two commits on 8 June: fix accessibility errors and accessibility fixes, followed later by a security review on 18 June.</p>
+<p>The accessibility fixes cover real issues — aria-sort on sortable table headers, aria-live=“polite” on the results count so screen readers announce filter changes, aria-label and aria-pressed on the attendee avatar buttons, visually hidden labels with .sr-only, and proper scope=“col” on table headers. These aren’t superficial changes; they suggest the app was reviewed against actual WCAG criteria, not just eyeballed.</p>
+<hr>
+</section>
+<section id="growing-the-feature-set" class="level3">
+<h3 class="anchored" data-anchor-id="growing-the-feature-set">Growing the Feature Set</h3>
+<p>Series linking (9 June) — the ability to tag notes as belonging to a recurring meeting series — turned out to be more impactful than it sounds. Once you have it, the filter-by-series chip on the notes table lets you instantly pull up every MDT from the last three months. The series tag is clickable in the table to instantly filter, which is a nice small touch.</p>
+<p>Jira links went through a few iterations. The original model was a single jiraTicketLink field per note; that field still exists in the data schema as a legacy field. It was superseded by a links[] array, capped initially at some lower number, then raised to 12 (allow up to 12 links per note, June 2026). The cap exists to keep the UI manageable rather than for any technical reason.</p>
+<p>Reports grew incrementally — add autosave fix worklist add reports introduced the first charts, then add more reports extended them. The final reports page covers: daily meeting and action activity (line chart), open actions over time, completion rate by meeting series, a completion-time histogram, actions per person, and meeting cadence by day of week. Each chart has a “copy as TSV” button so you can paste directly into Excel.</p>
+<p>Drinks (add drinks feature with nhs style system, 12 June) is the unexpected one. It’s a hydration tracker — log a drink (water, tea, coffee, and a surprisingly long list of other options), mark whether it’s decaf, and see a bar chart of daily intake. It’s built in the same NHS style as everything else and runs against its own /api/drinks endpoint. Whether it was a quick experiment or a genuine daily-use feature, it’s fully functional and properly styled.</p>
+<hr>
+</section>
+<section id="the-data-model" class="level3">
+<h3 class="anchored" data-anchor-id="the-data-model">The Data Model</h3>
+<p>The data architecture is straightforward but thoughtfully layered:</p>
+<ul>
+<li>notes.json — array of ConsultantActionNote objects, each containing meeting metadata, freeform notes text, an array of ConsultantActionItem objects, and an array of attendee IDs</li>
+<li>notes-people.json — the people registry, giving each attendee a stable ID, name, and optional colour</li>
+<li>notes-tracker.json — a daily snapshot of open action count, used to plot the “open actions over time” chart accurately even on days when no changes were made</li>
+<li>drinks.json — separate drinks log</li>
+</ul>
+<p>The storage path is configurable at three levels: NOTES_FILE_PATH environment variable, NOTES_DIR environment variable (pointing to a folder), or a legacy notes.config.json. This makes it easy to point the data at a OneDrive folder without changing any code — important if you want your notes backed up and accessible from multiple machines.</p>
+<hr>
+</section>
+<section id="what-its-built-on" class="level3">
+<h3 class="anchored" data-anchor-id="what-its-built-on">What It’s Built On</h3>
+<ul>
+<li>React + TypeScript + Vite — standard modern stack</li>
+<li>Tailwind CSS — utility classes for layout and responsive behaviour</li>
+<li>shadcn/Radix UI — accessible component primitives (Dialog, AlertDialog, Table, etc.)</li>
+<li>nhsuk-react-components — official NHS Design System React components</li>
+<li>Recharts — the reporting charts</li>
+<li>React Router — client-side routing</li>
+<li>A custom Node.js HTTP server — no Express, no framework; just node:http handling the API routes and serving the built Vite output</li>
+</ul>
+<p>The Vite config also has two custom plugins: one that strips <span class="citation" data-cites="x.y.z">@x.y.z</span> version specifiers from imports (for Figma Make compatibility, a remnant of the origin story), and one that resolves figma:asset/ import paths to the local assets folder.</p>
+<hr>
+</section>
+<section id="the-honest-summary" class="level3">
+<h3 class="anchored" data-anchor-id="the-honest-summary">The Honest Summary</h3>
+<p>This is a tool built to solve a real problem: taking structured meeting notes in an NHS context, tracking the actions that come out of them, and not losing that information to a sprawling email thread or a forgotten notebook. It’s not a product, it’s personal infrastructure — built quickly, iterated on rapidly, and designed to fit one specific workflow.</p>
+<p>The NHS styling isn’t decorative. Working in an NHS environment means the tool needs to feel familiar and trustworthy alongside the other systems people use every day. Getting that right took more commits than expected, but the result is a UI that would pass as an internal NHS tool rather than something knocked up at home.</p>
+<p>The code is clean, the data stays local, and the accessibility is taken seriously. For a prototype that started from a Figma export, it’s come a long way.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
