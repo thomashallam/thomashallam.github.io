@@ -1,0 +1,70 @@
+---
+title: "The interconnectedness of all the things"
+author: "Tom Hallam"
+date: "2026-07-02"
+categories: [AI, Healthcare, Strategy, Personal, Running, Culture, Digital]
+image: "the network effect.png"
+---
+
+### **Starting at the Starting Line**
+
+The week started with as sigh... I realised I would be doing zero running for 6 days. I then smiled as I would be doing ALL THE RUNNING, ALL WEEKEND. I'm in my final preparations before my attempt at a 24-hour ultra marathon - Endure 24 at Bramham Park.
+
+It’s a race I’ve been preparing for nearly two years – a journey that started when I struggled just to walk around the block after a bout of pericarditis. Now I’m two weeks into a taper, physically rested and mentally buzzing with anxious excitement. I’ve experienced first-hand how our bodies recover and adapt, pushing through boundaries with patience and perseverance.
+
+This week’s work had me reflecting on boundaries too – both the ones out in front of us, and the ones we carry in our heads. As I lace up for the biggest run of my life, I’ve been chewing on themes from this week. A common thread: “How do we push forward – in life, in tech, in teams – while navigating our connections and boundaries?”
+
+### **Scaling AI, safely and together**
+
+One highlight to share this week, our User Research Finder (UR Finder) continues to grow, recently surpassing 630 uploaded research reports. This internal tool uses an AI assistant to help colleagues discover insights from past research. Its rapid expansion is exciting – a year ago we had ~150 reports, and now we’re at over four times that. But scaling an AI tool inside a big organisation hasn’t been easy. There are plenty of guardrails and gotchas along the way.
+
+We met some colleagues from our HR department this week, they are building a similar AI agent to answer HR policy questions. We both had war stories about our experiments hitting organisational guardrails – those built-in limits like strict policies (hello DLP!) and locked-down environments that can slow things to a crawl. Their agent’s progress was delayed by a seemingly small change in system permissions, which unexpectedly broke the  thing. The work they are doing has already transformed HR services, even before launching the next phase. The conversation was a great knowledge exchange, though: we compared notes on quick fixes, creative workarounds, and the need for small safe sandboxes to fail fast without causing any harm.
+
+It struck me that to innovate in such an environment, you need more than technical skills – you need a network of allies across the organisation. A helpful contact in IT or IG who can make the difference between a month-long delay and a five-minute fix (like re-enabling a setting or clarifying a policy). These connections, and the willingness to share lessons learned, are the only way to push tech forward responsibly here. When our tools ultimately succeed, it’s because a community of practitioners persisted together through the roadblocks.
+
+The last priority this week was to document AI Risks, there is growing chorus of people raising concerns about AI roll-outs, both strategic, local and ethical issues. Risks need logging and raising somewhere... that is a mystery for next week. 
+
+### **The Service is Bigger than the Website**
+
+I also joined a Government Digital Service (GDS) call about the Future of the Service Standard, great to see some familiar faces on the call and the discussion again challenged my thinking on boundaries. A user researcher from GDS, spoke about how they’re expanding what counts as a “service.” It’s not just a single website transaction any more – it might include mobile apps, AI-driven tools, and multi-agency journeys that don’t fit neatly in one department’s box. They’re even creating a new advisory council to involve more diverse voices in how those standards evolve and are applied.
+
+Hearing this, I realised how much my own idea of a “service” has been tied to certain boundaries. In health and care, so much value (and pain) arises between silos – where a GP system meets a hospital system, where digital interfaces meet human services, where one team’s remit ends and another’s begins. This conversation left me asking: Where exactly are our boundaries? Are they real, or just convenient mental lines? Healthcare doesn’t happen in tidy boxes; can our service thinking catch up?
+
+### **Ops Balancing Act: Central vs Local**
+
+In our planning call week, we zoomed out to consider our User Centred Design Operations (UCD Ops) model. We’re a small central team that supports dozens of product teams, many of which have their own local Ops group. There’s always a bit of tussle in these scenarios: do we centralise more (for consistency and efficiency), or let flowers bloom at the edges? If we got more resources, could we centralise tasks like participant recruitment and research tools, freeing up local teams? Probably. But we don’t want to stifle the local innovation that’s been bubbling up, colleagues create great solutions that we may never would’ve thought of centrally.
+
+### **The “Network Effect” and Looking Outward**
+
+This blog has a recurring theme: networks, connections, and boundaries. If my running taught me anything, it’s that no ultramarathon is truly a solo effort. It takes a support network – training partners, volunteers at aid stations, friends urging you on. 
+
+Likewise, in our professional environment, progress often comes from embracing connectedness. To visualise this, I even used a simple notes app I built (in last week’s blog) to map the web of relationships across my notes and colleagues. The network effect diagrams I sketched got me thinking deeply about all these questions around connectedness:
+
+I even sketched some of this out visually:
+
+![Visualising my relationships, through meeting notes and thought bubbles](the%20network%20effect.png){.external fig-alt="Visualising relationships and groups" fig-align=left width=800px}
+
+When we look into the network effect, we can understand how far away are the boundaries 
+
+![Chart shows dummy data drilling down into connections around a meeting series](the%20interconnectedness%20of%20all%20things.png){.external fig-alt="Chart showing some dummy data for meeting series" fig-align=left width=800px}
+
+
+Understanding my wider networks helped me question:
+
+* Where are the boundaries? Are they real or perceived?
+* What stops us from expanding our boundaries?
+* How many people do we really connect with at work? And how deep are those connections?
+* Where does the work come from? Where does work get done?
+
+The act of mapping these connections (and disconnections) forces a bit of introspection: maybe some “boundaries” exist only in our heads. We all like to talk about collaboration in theory, but maybe I could know more of the people and projects just beyond my usual orbit. It’s both an exciting and daunting thought – not unlike standing on the start line of that 24-hour run, wondering if I’m prepared to reach beyond what I’ve done before.
+
+### **Opportunities to explore:**
+
+* **Find (or create) “sandboxes”** – How can we find spaces to experiment with new tech without risking core systems? Our AI work shows a hunger for faster learning, but we need safe ways to try, fail, and iterate.
+* **Strengthen connections** – How many colleagues and teams do I actively collaborate with outside my usual bubble? Can I deepen a few of those distant relationships further?
+
+Heading into the race weekend, I’m grateful for everyone who’s helped me get this far. 
+
+Just as I’m about to test my personal boundaries, I’m thinking about how we understand workplace boundaries. If there’s one lesson this week, it’s that pushing beyond – physical or organisational – takes both determination and connection. 
+
+By Monday (ultra finish line crossed, I hope!), I’ll be hobbling back into work Tuesday with a fresh perspective and a question: **What other boundaries can we push together?**
