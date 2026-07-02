@@ -29,6 +29,7 @@ format:
   html:
     theme: lux
     css: styles.css
+    math: false
     grid:
       margin-width: 400px
       body-width: 800px

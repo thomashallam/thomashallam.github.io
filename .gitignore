@@ -3,3 +3,4 @@ thomashallamgithubio.code-workspace
 
 /venv/
 blog-post-eval.md
+**/*.quarto_ipynb
